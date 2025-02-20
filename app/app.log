@@ -1,0 +1,1395 @@
+2025-02-11 14:13:50,503 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:14:02,643 - INFO - [14:14:02] Wind-Speed: 2.2, Direction: 42.0
+2025-02-11 14:14:13,847 - INFO - [14:14:13] Wind-Speed: 3.2, Direction: 7.0
+2025-02-11 14:15:38,141 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:15:38,141 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:15:48,944 - INFO - [14:15:48] Wind-Speed: 3.2, Direction: 7.0
+2025-02-11 14:15:48,944 - INFO - [14:15:48] Wind-Speed: 3.2, Direction: 7.0
+2025-02-11 14:15:59,400 - INFO - [14:15:59] Wind-Speed: 3.2, Direction: 7.0
+2025-02-11 14:15:59,400 - INFO - [14:15:59] Wind-Speed: 3.2, Direction: 7.0
+2025-02-11 14:16:09,881 - INFO - [14:16:09] Wind-Speed: 4.3, Direction: 7.0
+2025-02-11 14:16:09,881 - INFO - [14:16:09] Wind-Speed: 4.3, Direction: 7.0
+2025-02-11 14:16:20,387 - INFO - [14:16:20] Wind-Speed: 4.3, Direction: 7.0
+2025-02-11 14:16:20,387 - INFO - [14:16:20] Wind-Speed: 4.3, Direction: 7.0
+2025-02-11 14:16:32,151 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:16:32,151 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:16:32,151 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:40,531 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:40,531 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:40,531 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:40,531 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:40,533 - INFO - Starting scheduler...
+2025-02-11 14:18:40,533 - INFO - Starting scheduler...
+2025-02-11 14:18:40,533 - INFO - Starting scheduler...
+2025-02-11 14:18:40,533 - INFO - Starting scheduler...
+2025-02-11 14:18:40,536 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:40,536 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:40,536 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:40,536 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:52,857 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:52,857 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:52,857 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:52,857 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:52,857 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:18:52,859 - INFO - Starting scheduler...
+2025-02-11 14:18:52,859 - INFO - Starting scheduler...
+2025-02-11 14:18:52,859 - INFO - Starting scheduler...
+2025-02-11 14:18:52,859 - INFO - Starting scheduler...
+2025-02-11 14:18:52,859 - INFO - Starting scheduler...
+2025-02-11 14:18:52,862 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:52,862 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:52,862 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:52,862 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:18:52,862 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,846 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,848 - INFO - Starting scheduler...
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:13,851 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,125 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,132 - INFO - Starting scheduler...
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:34,138 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:44,334 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:19:54,683 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:23:50,053 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,882 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,887 - INFO - Starting scheduler...
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:33,891 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:44,164 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:24:54,557 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: 'int' object is not callable
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,947 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,954 - INFO - Starting scheduler...
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:39,963 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:25:50,281 - INFO - [14:25:50] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:26:00,555 - INFO - [14:26:00] Wind-Speed: 3.2, Direction: 338.0
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,785 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,798 - INFO - Starting scheduler...
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:19,809 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,858 - INFO - Starting scheduler...
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:33,866 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:45,022 - INFO - [14:27:45] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:27:55,555 - INFO - [14:27:55] Wind-Speed: 2.7, Direction: 347.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:05,712 - INFO - [14:28:05] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:15,857 - INFO - [14:28:15] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,220 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,228 - INFO - Starting scheduler...
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:28:45,235 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,515 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,529 - INFO - Starting scheduler...
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:37,539 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,548 - INFO - Stopping scheduler...
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:47,563 - INFO - All tasks are stopped and exited.
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,116 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,126 - INFO - Starting scheduler...
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:29:49,134 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:00,477 - INFO - [14:30:00] Wind-Speed: 2.7, Direction: 16.0
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,495 - INFO - Stopping scheduler...
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:10,503 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,421 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,435 - INFO - Starting scheduler...
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:16,443 - INFO - Scheduler started. Press CTRL+C to stop.
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,452 - INFO - Stopping scheduler...
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:30:26,460 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,585 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:07,597 - INFO - Scheduler started.
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:17,845 - INFO - [14:31:17] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:28,000 - INFO - [14:31:28] Wind-Speed: 3.8, Direction: 5.0
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,022 - INFO - Stopping scheduler...
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:31:36,038 - INFO - All tasks are stopped and exited.
+2025-02-11 14:32:03,545 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:32:03,548 - INFO - Scheduler started.
+2025-02-11 14:32:14,761 - INFO - [14:32:14] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:32:24,969 - INFO - [14:32:24] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:32:35,239 - INFO - [14:32:35] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:32:45,375 - INFO - [14:32:45] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:32:55,493 - INFO - [14:32:55] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:33:06,375 - INFO - [14:33:06] Wind-Speed: 4.9, Direction: 1.0
+2025-02-11 14:33:16,377 - INFO - Stopping scheduler...
+2025-02-11 14:33:16,379 - INFO - All tasks are stopped and exited.
+2025-02-11 14:34:05,466 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:34:05,468 - INFO - Scheduler started.
+2025-02-11 14:34:15,470 - INFO - Stopping scheduler...
+2025-02-11 14:34:15,472 - INFO - All tasks are stopped and exited.
+2025-02-11 14:35:01,567 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:35:01,567 - INFO - Scheduler started.
+2025-02-11 14:35:11,745 - INFO - [14:35:11] Wind-Speed: 3.8, Direction: 8.0
+2025-02-11 14:35:21,748 - INFO - Stopping scheduler...
+2025-02-11 14:35:21,751 - INFO - All tasks are stopped and exited.
+2025-02-11 14:35:35,933 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:35:35,935 - INFO - Scheduler started.
+2025-02-11 14:35:46,067 - INFO - [14:35:46] Wind-Speed: 3.8, Direction: 8.0
+2025-02-11 14:35:56,070 - INFO - Stopping scheduler...
+2025-02-11 14:35:56,071 - INFO - All tasks are stopped and exited.
+2025-02-11 14:36:10,296 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:36:10,296 - INFO - Scheduler started.
+2025-02-11 14:36:20,627 - INFO - [14:36:20] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:36:30,750 - INFO - [14:36:30] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:36:40,880 - INFO - [14:36:40] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:36:51,328 - INFO - [14:36:51] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:37:01,330 - INFO - Stopping scheduler...
+2025-02-11 14:37:01,331 - INFO - All tasks are stopped and exited.
+2025-02-11 14:37:03,664 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:37:03,665 - INFO - Scheduler started.
+2025-02-11 14:37:13,795 - INFO - [14:37:13] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:37:23,941 - INFO - [14:37:23] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:37:34,080 - INFO - [14:37:34] Wind-Speed: 3.8, Direction: 348.0
+2025-02-11 14:37:44,113 - INFO - Stopping scheduler...
+2025-02-11 14:37:44,116 - INFO - All tasks are stopped and exited.
+2025-02-11 14:51:33,304 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:51:33,307 - INFO - Scheduler started.
+2025-02-11 14:51:43,499 - INFO - [14:51:43] Wind-Speed: 7.6, Direction: 326.0
+2025-02-11 14:51:53,641 - INFO - [14:51:53] Wind-Speed: 7.6, Direction: 326.0
+2025-02-11 14:52:03,766 - INFO - [14:52:03] Wind-Speed: 7.6, Direction: 326.0
+2025-02-11 14:52:13,901 - INFO - [14:52:13] Wind-Speed: 8.1, Direction: 333.0
+2025-02-11 14:52:24,051 - INFO - [14:52:24] Wind-Speed: 8.1, Direction: 333.0
+2025-02-11 14:52:34,186 - INFO - [14:52:34] Wind-Speed: 8.1, Direction: 333.0
+2025-02-11 14:52:44,332 - INFO - [14:52:44] Wind-Speed: 8.1, Direction: 333.0
+2025-02-11 14:52:54,335 - INFO - Stopping scheduler...
+2025-02-11 14:52:54,339 - INFO - All tasks are stopped and exited.
+2025-02-11 14:58:02,986 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 14:58:02,988 - INFO - Scheduler started.
+2025-02-11 14:58:14,139 - INFO - [14:58:14] Wind-Speed: 9.7, Direction: 330.0
+2025-02-11 14:58:24,278 - INFO - [14:58:24] Wind-Speed: 9.7, Direction: 330.0
+2025-02-11 14:58:34,280 - INFO - Stopping scheduler...
+2025-02-11 14:58:34,283 - INFO - All tasks are stopped and exited.
+2025-02-11 15:01:53,175 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:01:53,177 - INFO - Scheduler started.
+2025-02-11 15:02:03,178 - INFO - Stopping scheduler...
+2025-02-11 15:02:03,181 - INFO - All tasks are stopped and exited.
+2025-02-11 15:04:12,579 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:04:12,580 - INFO - Scheduler started.
+2025-02-11 15:04:22,581 - INFO - Stopping scheduler...
+2025-02-11 15:04:22,588 - INFO - All tasks are stopped and exited.
+2025-02-11 15:06:00,804 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:06:00,805 - INFO - Scheduler started.
+2025-02-11 15:06:10,808 - INFO - Stopping scheduler...
+2025-02-11 15:06:10,810 - INFO - All tasks are stopped and exited.
+2025-02-11 15:14:32,547 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:14:32,548 - INFO - Scheduler started.
+2025-02-11 15:14:42,550 - INFO - Stopping scheduler...
+2025-02-11 15:14:42,552 - INFO - All tasks are stopped and exited.
+2025-02-11 15:37:21,267 - ERROR - Failed to send email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-11 15:37:21,275 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:37:21,277 - INFO - Scheduler started.
+2025-02-11 15:37:32,425 - INFO - [15:37:32] Wind-Speed: 7.6, Direction: 341.0
+2025-02-11 15:37:42,428 - INFO - Stopping scheduler...
+2025-02-11 15:37:42,430 - INFO - All tasks are stopped and exited.
+2025-02-11 15:40:30,840 - ERROR - Failed to send email: Connection unexpectedly closed
+2025-02-11 15:40:30,847 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:40:30,849 - INFO - Scheduler started.
+2025-02-11 15:40:40,979 - INFO - [15:40:40] Wind-Speed: 4.9, Direction: 333.0
+2025-02-11 15:40:50,981 - INFO - Stopping scheduler...
+2025-02-11 15:40:50,982 - INFO - All tasks are stopped and exited.
+2025-02-11 15:43:30,082 - ERROR - Failed to send email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-11 15:43:30,090 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:43:30,091 - INFO - Scheduler started.
+2025-02-11 15:46:12,268 - ERROR - Failed to send email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-11 15:46:12,276 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:46:12,278 - INFO - Scheduler started.
+2025-02-11 15:46:22,412 - INFO - [15:46:22] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:46:32,778 - INFO - [15:46:32] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:46:42,912 - INFO - [15:46:42] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:46:53,049 - INFO - [15:46:53] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:47:03,207 - INFO - [15:47:03] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:47:13,346 - INFO - [15:47:13] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:47:23,349 - INFO - Stopping scheduler...
+2025-02-11 15:47:23,352 - INFO - All tasks are stopped and exited.
+2025-02-11 15:47:28,799 - ERROR - Failed to send email: STARTTLS extension not supported by server.
+2025-02-11 15:47:28,806 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:47:28,808 - INFO - Scheduler started.
+2025-02-11 15:47:38,955 - INFO - [15:47:38] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:47:49,089 - INFO - [15:47:49] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:47:59,222 - INFO - [15:47:59] Wind-Speed: 7.0, Direction: 349.0
+2025-02-11 15:48:09,358 - INFO - [15:48:09] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:48:19,489 - INFO - [15:48:19] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:48:29,649 - INFO - [15:48:29] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:48:39,789 - INFO - [15:48:39] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:48:49,923 - INFO - [15:48:49] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:48:59,926 - INFO - Stopping scheduler...
+2025-02-11 15:48:59,930 - INFO - All tasks are stopped and exited.
+2025-02-11 15:49:03,434 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ab772f491c6sm1082422866b.15 - gsmtp')
+2025-02-11 15:49:03,441 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:49:03,444 - INFO - Scheduler started.
+2025-02-11 15:49:13,577 - INFO - [15:49:13] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:49:23,707 - INFO - [15:49:23] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:49:33,710 - INFO - Stopping scheduler...
+2025-02-11 15:49:33,714 - INFO - All tasks are stopped and exited.
+2025-02-11 15:49:35,785 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5de5f3f92ccsm6581815a12.66 - gsmtp')
+2025-02-11 15:49:35,791 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 15:49:35,792 - INFO - Scheduler started.
+2025-02-11 15:49:45,931 - INFO - [15:49:45] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:49:56,081 - INFO - [15:49:56] Wind-Speed: 7.6, Direction: 351.0
+2025-02-11 15:50:06,083 - INFO - Stopping scheduler...
+2025-02-11 15:50:06,085 - INFO - All tasks are stopped and exited.
+2025-02-11 16:51:34,250 - ERROR - Failed to send email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-11 16:51:34,257 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 16:51:34,258 - INFO - Scheduler started.
+2025-02-11 16:51:44,484 - INFO - [16:51:44] Wind-Speed: 0.5, Direction: 347.0
+2025-02-11 16:51:54,620 - INFO - [16:51:54] Wind-Speed: 0.5, Direction: 347.0
+2025-02-11 16:52:04,623 - INFO - Stopping scheduler...
+2025-02-11 16:52:04,626 - INFO - All tasks are stopped and exited.
+2025-02-11 17:25:39,240 - ERROR - Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 4fb4d7f45d1cf-5de6c9a2a98sm5455838a12.14 - gsmtp')
+2025-02-11 17:25:39,247 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:25:39,248 - INFO - Scheduler started.
+2025-02-11 17:25:49,458 - INFO - [17:25:49] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:25:59,460 - INFO - Stopping scheduler...
+2025-02-11 17:25:59,462 - INFO - All tasks are stopped and exited.
+2025-02-11 17:27:11,174 - ERROR - Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a640c23a62f3a-ab7c520a3a2sm401350366b.158 - gsmtp')
+2025-02-11 17:27:11,180 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:27:11,183 - INFO - Scheduler started.
+2025-02-11 17:27:21,324 - INFO - [17:27:21] Wind-Speed: 1.1, Direction: 22.0
+2025-02-11 17:27:31,326 - INFO - Stopping scheduler...
+2025-02-11 17:27:31,328 - INFO - All tasks are stopped and exited.
+2025-02-11 17:29:00,882 - ERROR - Error fetching variable: 'EmailMessage' object has no attribute 'set_context'
+2025-02-11 17:31:47,842 - ERROR - Error fetching variable: 'EmailMessage' object has no attribute 'set_context'
+2025-02-11 17:33:14,277 - ERROR - Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a640c23a62f3a-ab7d6acd8f1sm230079866b.50 - gsmtp')
+2025-02-11 17:33:14,282 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:33:14,288 - INFO - Scheduler started.
+2025-02-11 17:33:24,419 - INFO - [17:33:24] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:33:34,554 - INFO - [17:33:34] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:33:44,684 - INFO - [17:33:44] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:33:54,826 - INFO - [17:33:54] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:34:05,984 - INFO - [17:34:05] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:34:16,125 - INFO - [17:34:16] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:34:26,128 - INFO - Stopping scheduler...
+2025-02-11 17:34:26,130 - INFO - All tasks are stopped and exited.
+2025-02-11 17:34:29,762 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5de4e6d60bbsm7949583a12.15 - gsmtp')
+2025-02-11 17:34:29,765 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:34:29,766 - INFO - Scheduler started.
+2025-02-11 17:34:39,909 - INFO - [17:34:39] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:34:50,050 - INFO - [17:34:50] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:35:00,205 - INFO - [17:35:00] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:35:10,344 - INFO - [17:35:10] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:35:20,347 - INFO - Stopping scheduler...
+2025-02-11 17:35:20,351 - INFO - All tasks are stopped and exited.
+2025-02-11 17:35:24,096 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5de6e1bd66dsm5177770a12.0 - gsmtp')
+2025-02-11 17:35:24,103 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:35:24,105 - INFO - Scheduler started.
+2025-02-11 17:35:34,252 - INFO - [17:35:34] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:35:45,061 - INFO - [17:35:45] Wind-Speed: 0.5, Direction: 22.0
+2025-02-11 17:35:55,063 - INFO - Stopping scheduler...
+2025-02-11 17:35:55,065 - INFO - All tasks are stopped and exited.
+2025-02-11 17:37:10,174 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ab7e2711937sm141277866b.25 - gsmtp')
+2025-02-11 17:37:10,182 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:37:10,183 - INFO - Scheduler started.
+2025-02-11 17:37:20,338 - INFO - [17:37:20] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:37:30,471 - INFO - [17:37:30] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:37:40,610 - INFO - [17:37:40] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:37:50,750 - INFO - [17:37:50] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:38:00,893 - INFO - [17:38:00] Wind-Speed: 0.0, Direction: 22.0
+2025-02-11 17:38:11,065 - INFO - [17:38:11] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:38:21,211 - INFO - [17:38:21] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:38:31,354 - INFO - [17:38:31] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:38:41,501 - INFO - [17:38:41] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:38:51,640 - INFO - [17:38:51] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:01,777 - INFO - [17:39:01] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:11,934 - INFO - [17:39:11] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:22,067 - INFO - [17:39:22] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:32,194 - INFO - [17:39:32] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:42,331 - INFO - [17:39:42] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:39:52,463 - INFO - [17:39:52] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:40:02,602 - INFO - [17:40:02] Wind-Speed: 0.5, Direction: 34.0
+2025-02-11 17:40:12,733 - INFO - [17:40:12] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:40:22,872 - INFO - [17:40:22] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:40:33,013 - INFO - [17:40:33] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:40:43,147 - INFO - [17:40:43] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:40:53,283 - INFO - [17:40:53] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:03,428 - INFO - [17:41:03] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:13,565 - INFO - [17:41:13] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:23,691 - INFO - [17:41:23] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:33,836 - INFO - [17:41:33] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:43,968 - INFO - [17:41:43] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:41:54,098 - INFO - [17:41:54] Wind-Speed: 1.6, Direction: 44.0
+2025-02-11 17:42:04,241 - INFO - [17:42:04] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:42:14,373 - INFO - [17:42:14] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:42:24,523 - INFO - [17:42:24] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:42:34,657 - INFO - [17:42:34] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:42:44,805 - INFO - [17:42:44] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:42:54,960 - INFO - [17:42:54] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:05,089 - INFO - [17:43:05] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:15,223 - INFO - [17:43:15] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:25,355 - INFO - [17:43:25] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:35,487 - INFO - [17:43:35] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:45,620 - INFO - [17:43:45] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:43:55,744 - INFO - [17:43:55] Wind-Speed: 3.8, Direction: 24.0
+2025-02-11 17:44:05,872 - INFO - [17:44:05] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:44:16,006 - INFO - [17:44:16] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:44:26,143 - INFO - [17:44:26] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:44:36,280 - INFO - [17:44:36] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:44:46,421 - INFO - [17:44:46] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:44:56,562 - INFO - [17:44:56] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:08,877 - INFO - [17:45:08] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:19,008 - INFO - [17:45:19] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:29,136 - INFO - [17:45:29] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:39,273 - INFO - [17:45:39] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:49,417 - INFO - [17:45:49] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:45:59,553 - INFO - [17:45:59] Wind-Speed: 3.8, Direction: 30.0
+2025-02-11 17:46:09,685 - INFO - [17:46:09] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:46:19,822 - INFO - [17:46:19] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:46:29,956 - INFO - [17:46:29] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:46:40,092 - INFO - [17:46:40] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:46:50,252 - INFO - [17:46:50] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:00,388 - INFO - [17:47:00] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:10,527 - INFO - [17:47:10] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:20,658 - INFO - [17:47:20] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:30,786 - INFO - [17:47:30] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:40,918 - INFO - [17:47:40] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:47:51,055 - INFO - [17:47:51] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:48:01,205 - INFO - [17:48:01] Wind-Speed: 4.3, Direction: 31.0
+2025-02-11 17:48:11,354 - INFO - [17:48:11] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:48:21,509 - INFO - [17:48:21] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:48:31,668 - INFO - [17:48:31] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:48:42,277 - INFO - [17:48:42] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:48:52,435 - INFO - [17:48:52] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:49:02,588 - INFO - [17:49:02] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:49:12,726 - INFO - [17:49:12] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:49:22,854 - INFO - [17:49:22] Wind-Speed: 5.9, Direction: 43.0
+2025-02-11 17:49:32,855 - INFO - Stopping scheduler...
+2025-02-11 17:49:32,858 - INFO - All tasks are stopped and exited.
+2025-02-11 17:52:14,169 - ERROR - Failed to send email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-11 17:52:14,177 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:52:14,179 - INFO - Scheduler started.
+2025-02-11 17:52:25,334 - INFO - [17:52:25] Wind-Speed: 5.4, Direction: 26.0
+2025-02-11 17:52:35,337 - INFO - Stopping scheduler...
+2025-02-11 17:52:35,341 - INFO - All tasks are stopped and exited.
+2025-02-11 17:53:56,784 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:53:56,785 - INFO - Scheduler started.
+2025-02-11 17:54:06,927 - INFO - [17:54:06] Wind-Speed: 5.4, Direction: 27.0
+2025-02-11 17:54:17,057 - INFO - [17:54:17] Wind-Speed: 5.4, Direction: 27.0
+2025-02-11 17:54:27,193 - INFO - [17:54:27] Wind-Speed: 5.4, Direction: 27.0
+2025-02-11 17:54:37,197 - INFO - Stopping scheduler...
+2025-02-11 17:54:37,201 - INFO - All tasks are stopped and exited.
+2025-02-11 17:54:44,953 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:54:44,954 - INFO - Scheduler started.
+2025-02-11 17:54:56,094 - INFO - [17:54:56] Wind-Speed: 5.4, Direction: 27.0
+2025-02-11 17:55:07,257 - INFO - [17:55:07] Wind-Speed: 5.4, Direction: 27.0
+2025-02-11 17:55:17,259 - INFO - Stopping scheduler...
+2025-02-11 17:55:17,262 - INFO - All tasks are stopped and exited.
+2025-02-11 17:57:04,865 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 17:57:04,867 - INFO - Scheduler started.
+2025-02-11 17:57:15,047 - INFO - [17:57:15] Wind-Speed: 6.5, Direction: 18.0
+2025-02-11 17:57:25,198 - INFO - [17:57:25] Wind-Speed: 6.5, Direction: 18.0
+2025-02-11 17:57:35,334 - INFO - [17:57:35] Wind-Speed: 6.5, Direction: 18.0
+2025-02-11 17:57:45,475 - INFO - [17:57:45] Wind-Speed: 6.5, Direction: 18.0
+2025-02-11 17:57:55,625 - INFO - [17:57:55] Wind-Speed: 6.5, Direction: 18.0
+2025-02-11 17:58:05,763 - INFO - [17:58:05] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:58:16,917 - INFO - [17:58:16] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:58:27,050 - INFO - [17:58:27] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:58:38,197 - INFO - [17:58:38] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:58:48,335 - INFO - [17:58:48] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:58:58,475 - INFO - [17:58:58] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:08,613 - INFO - [17:59:08] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:18,752 - INFO - [17:59:18] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:28,893 - INFO - [17:59:28] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:39,038 - INFO - [17:59:39] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:49,164 - INFO - [17:59:49] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 17:59:59,304 - INFO - [17:59:59] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:00:09,439 - INFO - [18:00:09] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:00:19,624 - INFO - [18:00:19] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:00:29,627 - INFO - Stopping scheduler...
+2025-02-11 18:00:29,630 - INFO - All tasks are stopped and exited.
+2025-02-11 18:00:42,435 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 18:00:42,436 - INFO - Scheduler started.
+2025-02-11 18:00:52,561 - INFO - [18:00:52] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:01:02,695 - INFO - [18:01:02] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:01:12,699 - INFO - Stopping scheduler...
+2025-02-11 18:01:12,702 - INFO - All tasks are stopped and exited.
+2025-02-11 18:01:15,403 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 18:01:15,405 - INFO - Scheduler started.
+2025-02-11 18:01:25,541 - INFO - [18:01:25] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:01:35,708 - INFO - [18:01:35] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:01:45,847 - INFO - [18:01:45] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:01:55,978 - INFO - [18:01:55] Wind-Speed: 4.3, Direction: 21.0
+2025-02-11 18:02:06,131 - INFO - [18:02:06] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:02:16,274 - INFO - [18:02:16] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:02:26,406 - INFO - [18:02:26] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:02:36,554 - INFO - [18:02:36] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:02:46,687 - INFO - [18:02:46] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:02:56,821 - INFO - [18:02:56] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:06,962 - INFO - [18:03:06] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:17,104 - INFO - [18:03:17] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:27,275 - INFO - [18:03:27] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:37,413 - INFO - [18:03:37] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:47,552 - INFO - [18:03:47] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:03:57,714 - INFO - [18:03:57] Wind-Speed: 5.4, Direction: 16.0
+2025-02-11 18:04:07,840 - INFO - [18:04:07] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:04:17,976 - INFO - [18:04:17] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:04:28,539 - INFO - [18:04:28] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:04:38,667 - INFO - [18:04:38] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:04:48,808 - INFO - [18:04:48] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:04:58,949 - INFO - [18:04:58] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:09,086 - INFO - [18:05:09] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:19,220 - INFO - [18:05:19] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:29,354 - INFO - [18:05:29] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:39,491 - INFO - [18:05:39] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:49,626 - INFO - [18:05:49] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:05:59,765 - INFO - [18:05:59] Wind-Speed: 4.9, Direction: 356.0
+2025-02-11 18:06:09,925 - INFO - [18:06:09] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:06:20,066 - INFO - [18:06:20] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:06:30,205 - INFO - [18:06:30] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:06:41,055 - INFO - [18:06:41] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:06:51,196 - INFO - [18:06:51] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:01,335 - INFO - [18:07:01] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:11,468 - INFO - [18:07:11] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:21,630 - INFO - [18:07:21] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:31,764 - INFO - [18:07:31] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:41,927 - INFO - [18:07:41] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:07:52,064 - INFO - [18:07:52] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:08:02,204 - INFO - [18:08:02] Wind-Speed: 3.2, Direction: 358.0
+2025-02-11 18:08:12,345 - INFO - [18:08:12] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:08:22,474 - INFO - [18:08:22] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:08:32,608 - INFO - [18:08:32] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:08:42,747 - INFO - [18:08:42] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:08:52,881 - INFO - [18:08:52] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:03,020 - INFO - [18:09:03] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:13,167 - INFO - [18:09:13] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:23,326 - INFO - [18:09:23] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:33,471 - INFO - [18:09:33] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:43,603 - INFO - [18:09:43] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:09:53,761 - INFO - [18:09:53] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:10:03,917 - INFO - [18:10:03] Wind-Speed: 3.2, Direction: 342.0
+2025-02-11 18:10:14,161 - INFO - [18:10:14] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:10:24,299 - INFO - [18:10:24] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:10:34,432 - INFO - [18:10:34] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:10:44,563 - INFO - [18:10:44] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:10:54,688 - INFO - [18:10:54] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:04,828 - INFO - [18:11:04] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:14,960 - INFO - [18:11:14] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:25,102 - INFO - [18:11:25] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:35,249 - INFO - [18:11:35] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:45,382 - INFO - [18:11:45] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:11:55,516 - INFO - [18:11:55] Wind-Speed: 3.2, Direction: 339.0
+2025-02-11 18:12:05,668 - INFO - [18:12:05] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:12:15,806 - INFO - [18:12:15] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:12:25,954 - INFO - [18:12:25] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:12:36,102 - INFO - [18:12:36] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:12:46,241 - INFO - [18:12:46] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:12:56,376 - INFO - [18:12:56] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:06,540 - INFO - [18:13:06] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:16,675 - INFO - [18:13:16] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:26,803 - INFO - [18:13:26] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:36,942 - INFO - [18:13:36] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:47,088 - INFO - [18:13:47] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:13:57,236 - INFO - [18:13:57] Wind-Speed: 2.7, Direction: 348.0
+2025-02-11 18:14:07,369 - INFO - [18:14:07] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:14:17,507 - INFO - [18:14:17] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:14:27,665 - INFO - [18:14:27] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:14:37,793 - INFO - [18:14:37] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:14:47,939 - INFO - [18:14:47] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:14:58,078 - INFO - [18:14:58] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:08,209 - INFO - [18:15:08] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:18,343 - INFO - [18:15:18] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:28,507 - INFO - [18:15:28] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:38,648 - INFO - [18:15:38] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:48,789 - INFO - [18:15:48] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:15:58,934 - INFO - [18:15:58] Wind-Speed: 3.2, Direction: 323.0
+2025-02-11 18:16:09,074 - INFO - [18:16:09] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:16:19,201 - INFO - [18:16:19] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:16:29,342 - INFO - [18:16:29] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:16:39,513 - INFO - [18:16:39] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:16:49,663 - INFO - [18:16:49] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:16:59,803 - INFO - [18:16:59] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:17:09,947 - INFO - [18:17:09] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:17:20,086 - INFO - [18:17:20] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:17:30,231 - INFO - [18:17:30] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:17:40,368 - INFO - [18:17:40] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:17:50,508 - INFO - [18:17:50] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:18:00,643 - INFO - [18:18:00] Wind-Speed: 3.2, Direction: 345.0
+2025-02-11 18:18:10,903 - INFO - [18:18:10] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:18:21,039 - INFO - [18:18:21] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:18:31,187 - INFO - [18:18:31] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:18:41,320 - INFO - [18:18:41] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:18:51,454 - INFO - [18:18:51] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:19:01,596 - INFO - [18:19:01] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:19:11,598 - INFO - Stopping scheduler...
+2025-02-11 18:19:11,601 - INFO - All tasks are stopped and exited.
+2025-02-11 18:19:15,941 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 18:19:15,942 - INFO - Scheduler started.
+2025-02-11 18:19:26,077 - INFO - [18:19:26] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:19:36,215 - INFO - [18:19:36] Wind-Speed: 4.3, Direction: 341.0
+2025-02-11 18:19:46,220 - INFO - Stopping scheduler...
+2025-02-11 18:19:46,221 - INFO - All tasks are stopped and exited.
+2025-02-11 18:21:58,472 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-11 18:21:58,472 - INFO - Scheduler started.
+2025-02-11 18:22:09,754 - INFO - [18:22:08] Wind-Speed: 2.7, Direction: 351.0
+2025-02-11 18:22:20,939 - INFO - [18:22:19] Wind-Speed: 2.7, Direction: 351.0
+2025-02-11 18:22:32,160 - INFO - [18:22:31] Wind-Speed: 2.7, Direction: 351.0
+2025-02-11 18:22:42,163 - INFO - Stopping scheduler...
+2025-02-11 18:22:42,167 - INFO - All tasks are stopped and exited.
+2025-02-20 11:12:28,786 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 11:12:28,789 - INFO - Scheduler started.
+2025-02-20 11:12:50,846 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B3217F200>: Failed to resolve 'www.windguru.cz' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 11:13:00,858 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B321682C0>: Failed to resolve 'www.windguru.cz' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 11:13:10,871 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B321682C0>: Failed to resolve 'www.windguru.cz' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 11:13:20,882 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B3250E0F0>: Failed to resolve 'www.windguru.cz' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 11:13:42,940 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028B32620F80>: Failed to resolve 'www.windguru.cz' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 11:13:52,947 - INFO - Stopping scheduler...
+2025-02-20 11:13:52,950 - INFO - All tasks are stopped and exited.
+2025-02-20 14:10:43,811 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 14:10:43,818 - INFO - Scheduler started.
+2025-02-20 14:11:06,114 - INFO - [14:11:06] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:06,116 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:11:16,387 - INFO - [14:11:16] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:16,389 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:11:26,721 - INFO - [14:11:26] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:26,723 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:11:36,986 - INFO - [14:11:36] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:36,989 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:11:47,194 - INFO - [14:11:47] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:47,197 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:11:57,391 - INFO - [14:11:57] Wind-Speed: 4.3, Direction: 13.0
+2025-02-20 14:11:57,394 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:07,603 - INFO - [14:12:07] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:07,607 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:17,837 - INFO - [14:12:17] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:17,840 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:28,090 - INFO - [14:12:28] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:28,091 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:38,416 - INFO - [14:12:38] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:38,418 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:48,759 - INFO - [14:12:48] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:48,760 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:12:59,012 - INFO - [14:12:59] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:12:59,015 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:13:09,293 - INFO - [14:13:09] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:13:09,296 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:13:19,611 - INFO - [14:13:19] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:13:19,613 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:13:50,665 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFBF3C3E0>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 14:14:00,930 - INFO - [14:14:00] Wind-Speed: 4.3, Direction: 17.0
+2025-02-20 14:14:00,933 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:14:11,141 - INFO - [14:14:11] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:14:11,143 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:14:21,476 - INFO - [14:14:21] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:14:21,478 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:14:31,678 - INFO - [14:14:31] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:14:31,680 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:14:42,003 - INFO - [14:14:42] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:14:42,005 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:14:52,206 - INFO - [14:14:52] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:14:52,208 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:02,508 - INFO - [14:15:02] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:02,511 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:12,807 - INFO - [14:15:12] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:12,809 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:23,070 - INFO - [14:15:23] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:23,071 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:33,317 - INFO - [14:15:33] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:33,318 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:43,581 - INFO - [14:15:43] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:43,584 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:15:53,807 - INFO - [14:15:53] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:15:53,809 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:04,153 - INFO - [14:16:04] Wind-Speed: 3.8, Direction: 8.0
+2025-02-20 14:16:04,155 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:14,451 - INFO - [14:16:14] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:16:14,454 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:24,686 - INFO - [14:16:24] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:16:24,686 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:34,919 - INFO - [14:16:34] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:16:34,923 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:45,159 - INFO - [14:16:45] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:16:45,160 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:16:55,397 - INFO - [14:16:55] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:16:55,398 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:17:05,641 - INFO - [14:17:05] Wind-Speed: 4.3, Direction: 2.0
+2025-02-20 14:17:05,642 - INFO - Flag-Value: False - Counter-Value: 1
+2025-02-20 14:17:08,645 - INFO - Stopping scheduler...
+2025-02-20 14:17:08,647 - INFO - All tasks are stopped and exited.
+2025-02-20 14:49:20,847 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 14:50:01,734 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 14:50:51,495 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 14:50:51,496 - INFO - Scheduler started.
+2025-02-20 14:51:02,669 - INFO - [14:51:02] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:02,671 - INFO - Counter value: 1
+2025-02-20 14:51:12,810 - INFO - [14:51:12] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:12,812 - INFO - Counter value: 1
+2025-02-20 14:51:23,000 - INFO - [14:51:22] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:23,001 - INFO - Counter value: 1
+2025-02-20 14:51:33,166 - INFO - [14:51:33] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:33,168 - INFO - Counter value: 1
+2025-02-20 14:51:43,357 - INFO - [14:51:43] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:43,359 - INFO - Counter value: 1
+2025-02-20 14:51:53,506 - INFO - [14:51:53] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:51:53,508 - INFO - Counter value: 1
+2025-02-20 14:51:58,511 - INFO - Stopping scheduler...
+2025-02-20 14:51:58,514 - INFO - All tasks are stopped and exited.
+2025-02-20 14:52:00,699 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 14:52:00,700 - INFO - Scheduler started.
+2025-02-20 14:52:13,282 - INFO - [14:52:11] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:52:13,284 - INFO - Counter value: 1
+2025-02-20 14:52:23,441 - INFO - Email message is blocked because counter-Value: 2
+2025-02-20 14:52:23,444 - INFO - [14:52:23] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:52:23,445 - INFO - Counter value: 2
+2025-02-20 14:52:33,775 - INFO - Email message is blocked because counter-Value: 3
+2025-02-20 14:52:33,777 - INFO - [14:52:33] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:52:33,779 - INFO - Counter value: 3
+2025-02-20 14:52:44,275 - INFO - Email message is blocked because counter-Value: 4
+2025-02-20 14:52:44,278 - INFO - [14:52:44] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:52:44,280 - INFO - Counter value: 4
+2025-02-20 14:52:54,423 - INFO - Email message is blocked because counter-Value: 5
+2025-02-20 14:52:54,426 - INFO - [14:52:54] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:52:54,428 - INFO - Counter value: 5
+2025-02-20 14:53:04,563 - INFO - Email message is blocked because counter-Value: 6
+2025-02-20 14:53:04,566 - INFO - [14:53:04] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:04,567 - INFO - Counter value: 6
+2025-02-20 14:53:14,713 - INFO - Email message is blocked because counter-Value: 7
+2025-02-20 14:53:14,715 - INFO - [14:53:14] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:14,716 - INFO - Counter value: 7
+2025-02-20 14:53:24,842 - INFO - Email message is blocked because counter-Value: 8
+2025-02-20 14:53:24,844 - INFO - [14:53:24] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:24,845 - INFO - Counter value: 8
+2025-02-20 14:53:34,994 - INFO - Email message is blocked because counter-Value: 9
+2025-02-20 14:53:34,998 - INFO - [14:53:34] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:35,001 - INFO - Counter value: 9
+2025-02-20 14:53:45,139 - INFO - Email message is blocked because counter-Value: 10
+2025-02-20 14:53:45,142 - INFO - [14:53:45] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:45,145 - INFO - Counter value: 10
+2025-02-20 14:53:56,372 - INFO - [14:53:55] Wind-Speed: 2.2, Direction: 13.0
+2025-02-20 14:53:56,374 - INFO - Counter value: 1
+2025-02-20 14:54:06,511 - INFO - [14:54:06] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:06,513 - INFO - Counter value: 2
+2025-02-20 14:54:16,648 - INFO - [14:54:16] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:16,652 - INFO - Counter value: 1
+2025-02-20 14:54:26,794 - INFO - [14:54:26] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:26,797 - INFO - Counter value: 1
+2025-02-20 14:54:36,948 - INFO - [14:54:36] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:36,951 - INFO - Counter value: 1
+2025-02-20 14:54:47,083 - INFO - [14:54:47] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:47,085 - INFO - Counter value: 1
+2025-02-20 14:54:57,219 - INFO - [14:54:57] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:54:57,221 - INFO - Counter value: 1
+2025-02-20 14:55:07,676 - INFO - [14:55:07] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:07,678 - INFO - Counter value: 1
+2025-02-20 14:55:18,397 - INFO - [14:55:18] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:18,399 - INFO - Counter value: 1
+2025-02-20 14:55:28,529 - INFO - [14:55:28] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:28,530 - INFO - Counter value: 1
+2025-02-20 14:55:38,675 - INFO - [14:55:38] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:38,676 - INFO - Counter value: 1
+2025-02-20 14:55:48,815 - INFO - [14:55:48] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:48,816 - INFO - Counter value: 1
+2025-02-20 14:55:58,951 - INFO - [14:55:58] Wind-Speed: 1.1, Direction: 13.0
+2025-02-20 14:55:58,953 - INFO - Counter value: 1
+2025-02-20 14:56:09,095 - INFO - [14:56:09] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:09,096 - INFO - Counter value: 1
+2025-02-20 14:56:19,239 - INFO - [14:56:19] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:19,241 - INFO - Counter value: 1
+2025-02-20 14:56:29,359 - INFO - [14:56:29] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:29,360 - INFO - Counter value: 1
+2025-02-20 14:56:39,497 - INFO - [14:56:39] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:39,498 - INFO - Counter value: 1
+2025-02-20 14:56:49,638 - INFO - [14:56:49] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:49,640 - INFO - Counter value: 1
+2025-02-20 14:56:59,782 - INFO - [14:56:59] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:56:59,784 - INFO - Counter value: 1
+2025-02-20 14:57:09,941 - INFO - [14:57:09] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:57:09,942 - INFO - Counter value: 1
+2025-02-20 14:57:20,079 - INFO - [14:57:20] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:57:20,082 - INFO - Counter value: 1
+2025-02-20 14:57:30,198 - INFO - [14:57:30] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:57:30,199 - INFO - Counter value: 1
+2025-02-20 14:57:40,340 - INFO - [14:57:40] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:57:40,342 - INFO - Counter value: 1
+2025-02-20 14:57:50,470 - INFO - [14:57:50] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:57:50,472 - INFO - Counter value: 1
+2025-02-20 14:58:00,605 - INFO - [14:58:00] Wind-Speed: 1.6, Direction: 13.0
+2025-02-20 14:58:00,607 - INFO - Counter value: 1
+2025-02-20 14:58:10,750 - INFO - [14:58:10] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:58:10,753 - INFO - Counter value: 1
+2025-02-20 14:58:21,425 - INFO - [14:58:21] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:58:21,426 - INFO - Counter value: 1
+2025-02-20 14:58:31,569 - INFO - [14:58:31] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:58:31,570 - INFO - Counter value: 1
+2025-02-20 14:58:41,725 - INFO - [14:58:41] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:58:41,726 - INFO - Counter value: 1
+2025-02-20 14:58:51,851 - INFO - [14:58:51] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:58:51,853 - INFO - Counter value: 1
+2025-02-20 14:59:02,125 - INFO - [14:59:02] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:02,126 - INFO - Counter value: 1
+2025-02-20 14:59:12,271 - INFO - [14:59:12] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:12,273 - INFO - Counter value: 1
+2025-02-20 14:59:22,423 - INFO - [14:59:22] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:22,424 - INFO - Counter value: 1
+2025-02-20 14:59:32,556 - INFO - [14:59:32] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:32,557 - INFO - Counter value: 1
+2025-02-20 14:59:42,699 - INFO - [14:59:42] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:42,700 - INFO - Counter value: 1
+2025-02-20 14:59:52,834 - INFO - [14:59:52] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 14:59:52,836 - INFO - Counter value: 1
+2025-02-20 15:00:02,982 - INFO - [15:00:02] Wind-Speed: 1.6, Direction: 12.0
+2025-02-20 15:00:02,984 - INFO - Counter value: 1
+2025-02-20 15:00:13,134 - INFO - [15:00:13] Wind-Speed: 1.1, Direction: 12.0
+2025-02-20 15:00:13,136 - INFO - Counter value: 1
+2025-02-20 15:00:23,275 - INFO - [15:00:23] Wind-Speed: 1.1, Direction: 12.0
+2025-02-20 15:00:23,276 - INFO - Counter value: 1
+2025-02-20 15:00:33,428 - INFO - [15:00:33] Wind-Speed: 1.1, Direction: 12.0
+2025-02-20 15:00:33,429 - INFO - Counter value: 1
+2025-02-20 15:00:43,573 - INFO - [15:00:43] Wind-Speed: 1.1, Direction: 12.0
+2025-02-20 15:00:43,575 - INFO - Counter value: 1
+2025-02-20 15:00:52,581 - INFO - Stopping scheduler...
+2025-02-20 15:00:52,584 - INFO - All tasks are stopped and exited.
+2025-02-20 15:01:06,221 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 15:01:06,222 - INFO - Scheduler started.
+2025-02-20 15:01:12,226 - INFO - Stopping scheduler...
+2025-02-20 15:01:12,229 - INFO - All tasks are stopped and exited.
+2025-02-20 15:05:02,818 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 15:05:02,820 - INFO - Scheduler started.
+2025-02-20 15:05:12,964 - INFO - [15:05:12] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:05:12,965 - INFO - Counter value: 1 and -1 times below the min windspeed of 12km/h
+2025-02-20 15:05:23,091 - INFO - [15:05:23] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:05:23,092 - INFO - Counter value: 1 and -2 times below the min windspeed of 12km/h
+2025-02-20 15:05:33,245 - INFO - [15:05:33] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:05:33,247 - INFO - Counter value: 1 and -3 times below the min windspeed of 12km/h
+2025-02-20 15:05:43,394 - INFO - [15:05:43] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:05:43,396 - INFO - Counter value: 1 and -4 times below the min windspeed of 12km/h
+2025-02-20 15:05:53,530 - INFO - [15:05:53] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:05:53,532 - INFO - Counter value: 1 and -5 times below the min windspeed of 12km/h
+2025-02-20 15:06:03,667 - INFO - [15:06:03] Wind-Speed: 0.5, Direction: 12.0
+2025-02-20 15:06:03,669 - INFO - Counter value: 1 and -6 times below the min windspeed of 12km/h
+2025-02-20 15:06:13,796 - INFO - [15:06:13] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:06:13,799 - INFO - Counter value: 1 and -7 times below the min windspeed of 12km/h
+2025-02-20 15:06:16,802 - INFO - Stopping scheduler...
+2025-02-20 15:06:16,804 - INFO - All tasks are stopped and exited.
+2025-02-20 15:06:21,801 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 15:06:21,802 - INFO - Scheduler started.
+2025-02-20 15:06:31,941 - INFO - [15:06:31] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:06:31,943 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:06:42,067 - INFO - [15:06:42] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:06:42,068 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:06:52,211 - INFO - [15:06:52] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:06:52,213 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:02,348 - INFO - [15:07:02] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:07:02,351 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:12,479 - INFO - [15:07:12] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:07:12,480 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:22,638 - INFO - [15:07:22] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:07:22,639 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:32,766 - INFO - [15:07:32] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:07:32,767 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:42,912 - INFO - [15:07:42] Wind-Speed: 1.1, Direction: 6.0
+2025-02-20 15:07:42,914 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:07:50,921 - INFO - Stopping scheduler...
+2025-02-20 15:07:50,924 - INFO - All tasks are stopped and exited.
+2025-02-20 15:27:38,002 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 10s
+2025-02-20 15:27:38,004 - INFO - Scheduler started.
+2025-02-20 15:27:50,084 - INFO - [15:27:49] Wind-Speed: 2.2, Direction: 6.0
+2025-02-20 15:27:50,085 - INFO - Counter value: 1 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:00,214 - INFO - Email message is blocked because counter-Value: 2
+2025-02-20 15:28:00,217 - INFO - [15:28:00] Wind-Speed: 2.2, Direction: 6.0
+2025-02-20 15:28:00,218 - INFO - Counter value: 2 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:10,362 - INFO - Email message is blocked because counter-Value: 3
+2025-02-20 15:28:10,364 - INFO - [15:28:10] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:28:10,366 - INFO - Counter value: 3 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:20,485 - INFO - Email message is blocked because counter-Value: 4
+2025-02-20 15:28:20,486 - INFO - [15:28:20] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:28:20,488 - INFO - Counter value: 4 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:30,603 - INFO - Email message is blocked because counter-Value: 5
+2025-02-20 15:28:30,605 - INFO - [15:28:30] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:28:30,606 - INFO - Counter value: 5 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:40,731 - INFO - Email message is blocked because counter-Value: 6
+2025-02-20 15:28:40,734 - INFO - [15:28:40] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:28:40,735 - INFO - Counter value: 6 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:28:50,877 - INFO - Email message is blocked because counter-Value: 7
+2025-02-20 15:28:50,880 - INFO - [15:28:50] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:28:50,883 - INFO - Counter value: 7 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:29:01,030 - INFO - Email message is blocked because counter-Value: 8
+2025-02-20 15:29:01,033 - INFO - [15:29:01] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:29:01,035 - INFO - Counter value: 8 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:29:11,157 - INFO - Email message is blocked because counter-Value: 9
+2025-02-20 15:29:11,159 - INFO - [15:29:11] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:29:11,160 - INFO - Counter value: 9 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:29:21,290 - INFO - Email message is blocked because counter-Value: 10
+2025-02-20 15:29:21,292 - INFO - [15:29:21] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:29:21,294 - INFO - Counter value: 10 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:29:31,426 - INFO - Email message is blocked because counter-Value: 11
+2025-02-20 15:29:31,429 - INFO - [15:29:31] Wind-Speed: 2.2, Direction: 357.0
+2025-02-20 15:29:31,430 - INFO - Counter value: 11 and 10 times below the min windspeed of 12km/h
+2025-02-20 15:29:35,435 - INFO - Stopping scheduler...
+2025-02-20 15:29:35,438 - INFO - All tasks are stopped and exited.
+2025-02-20 15:29:42,559 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-02-20 15:29:42,561 - INFO - Scheduler started.
+2025-02-20 15:30:23,620 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0866C0>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:31:04,673 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C9760>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:31:45,754 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C8800>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:32:26,828 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C95E0>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:33:07,913 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD088E30>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:33:48,969 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD086390>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:34:30,044 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C9340>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:35:11,121 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C8530>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:35:52,168 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFBAC8080>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:36:33,232 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0CB140>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:37:14,292 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD085D60>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:37:55,358 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFBF3E7B0>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:38:36,422 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD08A900>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:39:17,484 - ERROR - Error fetching data from https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=: HTTPSConnectionPool(host='www.windguru.cz', port=443): Max retries exceeded with url: /int/iapi.php?q=station_data_current&id_station=2736 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022FFD0C8440>, 'Connection to www.windguru.cz timed out. (connect timeout=None)'))
+2025-02-20 15:39:52,722 - INFO - [15:39:52] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:39:52,723 - INFO - Counter value: 15 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:40:12,858 - INFO - [15:40:12] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:40:12,859 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:40:33,001 - INFO - [15:40:33] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:40:33,002 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:40:53,144 - INFO - [15:40:53] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:40:53,146 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:41:13,297 - INFO - [15:41:13] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:41:13,299 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:41:33,448 - INFO - [15:41:33] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:41:33,451 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:41:53,647 - INFO - [15:41:53] Wind-Speed: 0.5, Direction: 357.0
+2025-02-20 15:41:53,649 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:42:14,333 - INFO - [15:42:14] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:42:14,335 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:42:34,517 - INFO - [15:42:34] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:42:34,518 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:42:55,671 - INFO - [15:42:55] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:42:55,671 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:43:16,092 - INFO - [15:43:16] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:43:16,093 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:43:41,642 - INFO - [15:43:41] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:43:41,643 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:44:05,199 - INFO - [15:44:05] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:44:05,201 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:44:25,370 - INFO - [15:44:25] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:44:25,373 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:44:45,936 - INFO - [15:44:45] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:44:45,939 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:45:06,082 - INFO - [15:45:06] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:45:06,083 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:45:26,214 - INFO - [15:45:26] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:45:26,216 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:45:46,346 - INFO - [15:45:46] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:45:46,347 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:46:06,492 - INFO - [15:46:06] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:46:06,493 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:46:26,635 - INFO - [15:46:26] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:46:26,637 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:46:46,768 - INFO - [15:46:46] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:46:46,770 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:47:06,908 - INFO - [15:47:06] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:47:06,911 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:47:27,056 - INFO - [15:47:27] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:47:27,058 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:47:47,497 - INFO - [15:47:47] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:47:47,498 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:48:07,714 - INFO - [15:48:07] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:48:07,715 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-02-20 15:48:27,864 - INFO - [15:48:27] Wind-Speed: 0.0, Direction: 357.0
+2025-02-20 15:48:27,865 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
