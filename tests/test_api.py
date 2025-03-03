@@ -4,8 +4,8 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
-import app.API as api
-import app.Helper as hp
+import api as api
+import helper as hp
 
 def test_call_windguru_api():
     stationId = 2736

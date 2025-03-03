@@ -50,3 +50,51 @@
 2025-03-03 14:25:09,234 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
 2025-03-03 14:25:23,242 - INFO - Stopping scheduler...
 2025-03-03 14:25:23,244 - INFO - All tasks are stopped and exited.
+2025-03-03 14:32:51,850 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:32:51,852 - INFO - Scheduler started.
+2025-03-03 14:33:12,005 - INFO - [14:33:12] Wind-Speed: 0.5, Direction: 207.0
+2025-03-03 14:33:12,006 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:33:32,167 - INFO - [14:33:32] Wind-Speed: 0.5, Direction: 207.0
+2025-03-03 14:33:32,169 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:33:53,564 - INFO - [14:33:53] Wind-Speed: 0.5, Direction: 207.0
+2025-03-03 14:33:53,566 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:33:55,571 - INFO - Stopping scheduler...
+2025-03-03 14:33:55,572 - INFO - All tasks are stopped and exited.
+2025-03-03 14:37:38,864 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:37:38,865 - INFO - Scheduler started.
+2025-03-03 14:37:41,868 - INFO - Stopping scheduler...
+2025-03-03 14:37:41,870 - INFO - All tasks are stopped and exited.
+2025-03-03 14:37:42,843 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:37:42,844 - INFO - Scheduler started.
+2025-03-03 14:38:02,995 - INFO - [14:38:02] Wind-Speed: 0.0, Direction: 203.0
+2025-03-03 14:38:02,998 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:38:23,332 - INFO - [14:38:23] Wind-Speed: 0.0, Direction: 203.0
+2025-03-03 14:38:23,334 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:38:31,342 - INFO - Stopping scheduler...
+2025-03-03 14:38:31,346 - INFO - All tasks are stopped and exited.
+2025-03-03 14:45:45,920 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:45:45,922 - INFO - Scheduler started.
+2025-03-03 14:46:06,067 - INFO - [14:46:06] Wind: 0.0 m/s, 203.0°
+2025-03-03 14:46:06,068 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:46:26,220 - INFO - [14:46:26] Wind: 0.0 m/s, 203.0°
+2025-03-03 14:46:26,222 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:46:39,232 - INFO - Stopping scheduler...
+2025-03-03 14:46:39,235 - INFO - All tasks are stopped and exited.
+2025-03-03 14:46:41,345 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:46:41,345 - INFO - Scheduler started.
+2025-03-03 14:47:01,474 - INFO - [14:47:01]                 @Wind: 0.0 m/s, 203.0°
+2025-03-03 14:47:01,475 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:47:16,483 - INFO - Stopping scheduler...
+2025-03-03 14:47:16,487 - INFO - All tasks are stopped and exited.
+2025-03-03 14:47:21,030 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 14:47:21,031 - INFO - Scheduler started.
+2025-03-03 14:47:41,167 - INFO - [14:47:41]                 Wind: 0.5 m/s, 204.0°
+2025-03-03 14:47:41,168 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:48:01,317 - INFO - [14:48:01]                 Wind: 0.5 m/s, 204.0°
+2025-03-03 14:48:01,318 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:48:21,476 - INFO - [14:48:21]                 Wind: 0.5 m/s, 204.0°
+2025-03-03 14:48:21,477 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:48:41,614 - INFO - [14:48:41]                 Wind: 0.5 m/s, 204.0°
+2025-03-03 14:48:41,615 - INFO - Counter value: 1 and 0 times below the min windspeed of 12km/h
+2025-03-03 14:48:44,621 - INFO - Stopping scheduler...
+2025-03-03 14:48:44,622 - INFO - All tasks are stopped and exited.

@@ -13,7 +13,7 @@ COPY app/WindLogger.py /app/WindLogger.py
 COPY app/config.yaml /app/config.yaml
 
 # Install required Python packages
-RUN pip install --no-cache-dir requests schedule pyyaml pymongo
+RUN pip install --no-cache-dir requests schedule pyyaml pymongo sys os
 
 # Run the Python script
 CMD ["python", "API.py"]
