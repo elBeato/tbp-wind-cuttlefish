@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import yaml
 import os
-import Helper
+import app.Helper as hp
 import schedule
 import time
 
@@ -29,7 +29,7 @@ def run(windguru_api_call, fetch_email_addresses, logger):
         interval = int(get_config_value("interval"))
         timesAboveLimit = int(get_config_value("timesAboveLimit"))
         timesBelowLimit = int(get_config_value("timesBelowLimit"))
-        count_func = Helper.counter()
+        count_func = hp.counter()
         
         logger.info(f"Scheduled task with URL: {url2} and Interval: {interval}s")
     except Exception as e: 

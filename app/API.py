@@ -3,10 +3,10 @@ import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import Database as db
+import app.Database as db
 import threading
-import Scheduler
-import WindLogger as wl
+import app.Scheduler as scheduler
+import app.WindLogger as wl
 import time
 
 
@@ -23,10 +23,11 @@ def windguru_api_call(url1, url2, stationId, count_func, timesBelowLimit, timesA
         counter_value = count_func()  # Increment the counter every time call the function
         try: 
             headers = {'Referer': url1 + str(stationId)}
-            r = requests.get(url2 + str(stationId), headers=headers).json()
+            req = requests.get(url2 + str(stationId), headers=headers)
+            response = req.json()
             
-            speed = r['wind_avg']
-            direction = r['wind_direction']
+            speed = response['wind_avg']
+            direction = response['wind_direction']
             
             text = f"[{time.strftime('%H:%M:%S')}] Wind-Speed: {speed:.1f}, Direction: {direction:.1f}"
             
@@ -35,8 +36,8 @@ def windguru_api_call(url1, url2, stationId, count_func, timesBelowLimit, timesA
                     "station": stationId, 
                     "speed": speed, 
                     "direction": direction, 
-                    "ts": r['datetime'],
-                    "temp": r['temperature']
+                    "ts": response['datetime'],
+                    "temp": response['temperature']
                     })
                 if counter_value <= 1 and below_min_windspeed == 0:
                     send_email(text, "Windguru")
@@ -57,6 +58,7 @@ def windguru_api_call(url1, url2, stationId, count_func, timesBelowLimit, timesA
             wl.logger.error(f"Error fetching data from {url2}: {str(e)}")
         finally:
             wl.logger.debug("Finished \"windguru_api_call\"!")
+            return req
 
 def store_wind_data(data):
     with task_lock:  # Prevent task_2 from running while windguru_api_call is running
@@ -117,6 +119,6 @@ def send_email(subject, body):
 
 
 if __name__ == '__main__':
-    Scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)
+    scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)
     
 
