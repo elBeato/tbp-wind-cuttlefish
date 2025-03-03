@@ -1,4 +1,3 @@
-version: '3'
 services:
   windguru-subscriber:
     build: .
@@ -14,3 +13,26 @@ services:
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
     command: python /app/API.py
     restart: always
+
+  mongo:
+    image: mongo:latest
+    restart: always
+    container_name: mongo-ws
+    command: ["mongod", "--auth"]  # Enforce authentication
+    ports:
+      - 28017:27017
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.runCommand('ping').ok"]
+      interval: 10s    # Check every 10 seconds
+      timeout: 5s      # Fail if no response within 5 seconds
+      retries: 5       # Retry 5 times before marking as unhealthy
+      start_period: 30s  # Give MongoDB 30s to start before health checks begin
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_INITDB_DATABASE: Windseeker  # Creates an empty DB
+    volumes:
+      - /d/Docker/windseeker/mongo-data:/data/db:rw
+
+volumes:
+  mongo-data:
