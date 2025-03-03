@@ -13,7 +13,7 @@ COPY app/windlogger.py /app/windlogger.py
 COPY app/config.yaml /app/config.yaml
 
 # Install required Python packages
-RUN pip install --no-cache-dir requests schedule pyyaml pymongo sys os pytest
+RUN pip install --no-cache-dir requests schedule pyyaml pymongo pytest
 
 # Run the Python script
 CMD ["python", "api.py"]
