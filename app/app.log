@@ -42666,3 +42666,9 @@ Traceback (most recent call last):
 KeyError: 'wind_avg'
 2025-03-03 16:39:25,443 - INFO - Stopping scheduler...
 2025-03-03 16:39:25,446 - INFO - All tasks are stopped and exited.
+2025-03-03 17:04:38,628 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 17:04:38,629 - INFO - Scheduler started.
+2025-03-03 17:04:58,777 - INFO - [17:04:58] Wind: 0.0 m/s, 219.0°
+2025-03-03 17:04:58,780 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 17:05:13,791 - INFO - Stopping scheduler...
+2025-03-03 17:05:13,795 - INFO - All tasks are stopped and exited.

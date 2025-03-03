@@ -68,7 +68,7 @@ def run(windguru_api_call, fetch_email_addresses, logger):
         # Get values from environment variables or config.yaml
         url1 = get_config_value("url1")
         url2 = get_config_value("url2")
-        station_id = str(get_config_value("station_id"))
+        station_id = str(get_config_value("stationId"))
         interval = int(get_config_value("interval"))
         times_above_limit = int(get_config_value("timesAboveLimit"))
         times_below_limit = int(get_config_value("timesBelowLimit"))
