@@ -8,62 +8,20 @@ import yaml
 
 # Load configuration from YAML file
 def load_config():
-    """
-    
-
-    Returns
-    -------
-    config : TYPE
-        DESCRIPTION.
-
-    """
     with open('config.yaml', 'r', encoding="utf-8") as file:
         config = yaml.safe_load(file)
     return config
 
 # Use environment variables if they exist, otherwise fallback to the config file
 def get_config_value(key, default=None):
-    """
-    
-
-    Parameters
-    ----------
-    key : TYPE
-        DESCRIPTION.
-    default : TYPE, optional
-        DESCRIPTION. The default is None.
-
-    Returns
-    -------
-    TYPE
-        DESCRIPTION.
-
-    """
     env_value = os.getenv(key)
     if env_value:
         return env_value
-    else:
-        config = load_config()
+
+    config = load_config()
     return config.get(key, default)
 
 def run(windguru_api_call, fetch_email_addresses, logger):
-    """
-    
-
-    Parameters
-    ----------
-    windguru_api_call : TYPE
-        DESCRIPTION.
-    fetch_email_addresses : TYPE
-        DESCRIPTION.
-    logger : TYPE
-        DESCRIPTION.
-
-    Returns
-    -------
-    None.
-
-    """
     try:
         # Get values from environment variables or config.yaml
         url1 = get_config_value("url1")

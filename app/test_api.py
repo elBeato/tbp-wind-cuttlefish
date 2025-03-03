@@ -8,14 +8,6 @@ import api
 import helper as hp
 
 def test_call_windguru_api():
-    """
-    
-
-    Returns
-    -------
-    None.
-
-    """
     station_id = 2736
     count_func = hp.counter()
     req = api.windguru_api_call(

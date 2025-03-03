@@ -8,13 +8,5 @@ import helper as hp
 
 
 def test_counter():
-    """
-    
-
-    Returns
-    -------
-    None.
-
-    """
     count_func = hp.counter()
     assert count_func() == 1

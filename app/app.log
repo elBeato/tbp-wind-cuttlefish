@@ -42672,3 +42672,21 @@ KeyError: 'wind_avg'
 2025-03-03 17:04:58,780 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
 2025-03-03 17:05:13,791 - INFO - Stopping scheduler...
 2025-03-03 17:05:13,795 - INFO - All tasks are stopped and exited.
+2025-03-03 21:34:40,481 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-03 21:34:40,483 - INFO - Scheduler started.
+2025-03-03 21:35:00,767 - INFO - [21:35:00] Wind: 1.1 m/s, 199.0°
+2025-03-03 21:35:00,783 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:35:21,038 - INFO - [21:35:21] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:35:21,041 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:35:41,280 - INFO - [21:35:41] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:35:41,285 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:36:01,588 - INFO - [21:36:01] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:36:01,596 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:36:21,864 - INFO - [21:36:21] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:36:21,864 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:36:42,744 - INFO - [21:36:42] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:36:42,744 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:37:03,463 - INFO - [21:37:03] Wind: 1.6 m/s, 199.0°
+2025-03-03 21:37:03,463 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-03 21:37:19,483 - INFO - Stopping scheduler...
+2025-03-03 21:37:19,483 - INFO - All tasks are stopped and exited.
