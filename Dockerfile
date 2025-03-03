@@ -9,7 +9,7 @@ COPY app/api.py /app/api.py
 COPY app/database.py /app/database.py
 COPY app/helper.py /app/helper.py
 COPY app/scheduler.py /app/scheduler.py
-COPY app/windLogger.py /app/windLogger.py
+COPY app/windlogger.py /app/windlogger.py
 COPY app/config.yaml /app/config.yaml
 
 # Install required Python packages
