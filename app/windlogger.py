@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Mon Mar  3 11:06:10 2025
+
+@author: fub
+"""
 import logging
 
 # Set up logging with both console and file handlers
@@ -32,4 +37,3 @@ if not logger.hasHandlers():
     # Add both handlers to the logger
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-
