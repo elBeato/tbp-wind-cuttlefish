@@ -1,0 +1,34 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints (Spyder uses Jupyter internally)
+.ipynb_checkpoints/
+
+# Ignore Spyder project files
+.spyproject/
+*.spydata
+*.pkl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+logs/
+*.log
+*.cache/
+
+# Ignore testing and coverage reports
+.coverage
+*.cover
+*.pyc
+*.pyo
+
+# Ignore IDE settings
+.vscode/
+.idea/
