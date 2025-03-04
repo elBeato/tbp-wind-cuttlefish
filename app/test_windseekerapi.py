@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import pytest
 from windseekerapi import app
+import pytest
 
 @pytest.fixture
 def client():
