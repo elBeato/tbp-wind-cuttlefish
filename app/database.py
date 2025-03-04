@@ -7,6 +7,22 @@ Created on Mon Feb 24 10:45:13 2025
 import pymongo
 import configuration as config
 
+def connect_to_db(timeout_ms = 30000):
+    """Connects to MongoDB and checks if the connection is healthy."""
+    try:
+        client = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/",
+                                     timeoutMS=timeout_ms)
+
+        # Ping the database
+        client.admin.command("ping")
+
+        print("✅ MongoDB connection is healthy.")
+        return client  # Return the client if connection is successful
+
+    except pymongo.errors.ConnectionFailure as ex:
+        print(f"❌ MongoDB connection failed: {ex}")
+        return None  # Return None if connection fails
+
 def get_database_name():
     return config.get_config_value('databaseName')
 
@@ -23,15 +39,6 @@ def connect_to_user_collection(client):
 def connect_to_data_collection(client):
     database = client[get_database_name()]
     return database[get_data_collection()]
-
-
-def connect_to_db():
-    myclient = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/")
-    dblist = myclient.list_database_names()
-    db_name = get_database_name()
-    if db_name in dblist:
-        print("Database exists.")
-    return myclient
 
 def insert_user(client, user):
     connect_to_user_collection(client).insert_one(user)
