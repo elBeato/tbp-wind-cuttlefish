@@ -1,35 +1,19 @@
 # -*- coding: utf-8 -*-
-import os
 import time
 import sys
 import schedule
 import helper as hp
-import yaml
-
-# Load configuration from YAML file
-def load_config():
-    with open('config.yaml', 'r', encoding="utf-8") as file:
-        config = yaml.safe_load(file)
-    return config
-
-# Use environment variables if they exist, otherwise fallback to the config file
-def get_config_value(key, default=None):
-    env_value = os.getenv(key)
-    if env_value:
-        return env_value
-
-    config = load_config()
-    return config.get(key, default)
+import configuration as config
 
 def run(windguru_api_call, fetch_email_addresses, logger):
     try:
         # Get values from environment variables or config.yaml
-        url1 = get_config_value("url1")
-        url2 = get_config_value("url2")
-        station_id = str(get_config_value("stationId"))
-        interval = int(get_config_value("interval"))
-        times_above_limit = int(get_config_value("timesAboveLimit"))
-        times_below_limit = int(get_config_value("timesBelowLimit"))
+        url1 = config.get_config_value("url1")
+        url2 = config.get_config_value("url2")
+        station_id = str(config.get_config_value("stationId"))
+        interval = int(config.get_config_value("interval"))
+        times_above_limit = int(config.get_config_value("timesAboveLimit"))
+        times_below_limit = int(config.get_config_value("timesBelowLimit"))
         count_func = hp.counter()
 
         logger.info(f"Scheduled task with URL: {url2} and Interval: {interval}s")

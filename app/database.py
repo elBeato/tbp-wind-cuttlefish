@@ -5,37 +5,62 @@ Created on Mon Feb 24 10:45:13 2025
 @author: fub
 """
 import pymongo
+import configuration as config
 
-def connect_to_collection(client, db_name, coll_name):
-    db = client[db_name]
-    return db[coll_name]
+def connect_to_db(timeout_ms = 30000):
+    """Connects to MongoDB and checks if the connection is healthy."""
+    try:
+        client = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/",
+                                     timeoutMS=timeout_ms)
 
+        # Ping the database
+        client.admin.command("ping")
 
-def connect_to_db(db_name, coll_name):
-    myclient = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/")
-    dblist = myclient.list_database_names()
-    if db_name in dblist:
-        print("Database exists.")
+        print("✅ MongoDB connection is healthy.")
+        return client  # Return the client if connection is successful
 
-    collist = myclient["Windseeker"].list_collection_names()
-    if coll_name in collist:
-        print("Collection exists.")
+    except pymongo.errors.ConnectionFailure as ex:
+        print(f"❌ MongoDB connection failed: {ex}")
+        return None  # Return None if connection fails
 
-    return myclient
+def get_database_name():
+    return config.get_config_value('databaseName')
 
+def get_user_collection():
+    return config.get_config_value('userCollection')
 
-def insert_user(user_collection):
-    my_user = { "name": "John",
-              "address": "Highway 37", 
-              "email": "john@bluewin.ch", 
-              "mobile": "+41 79 123 45 99" 
-              }
-    user_collection.insert_one(my_user)
+def get_data_collection():
+    return config.get_config_value('dataCollection')
 
+def connect_to_user_collection(client):
+    database = client[get_database_name()]
+    return database[get_user_collection()]
 
-def insert_data(user_collection, data):
-    user_collection.insert_one(data)
+def connect_to_data_collection(client):
+    database = client[get_database_name()]
+    return database[get_data_collection()]
 
+def insert_user(client, user):
+    connect_to_user_collection(client).insert_one(user)
 
-def find_all(user_collection):
-    return user_collection.find()
+def insert_data(client, data):
+    connect_to_data_collection(client).insert_one(data)
+
+def find_all_users(client):
+    return connect_to_user_collection(client).find()
+
+def find_all_data(client):
+    return connect_to_data_collection(client).find()
+
+def clear_user_collection(client):
+    x = connect_to_user_collection(client).delete_many({})
+    return x.deleted_count
+
+def clear_data_collection(client):
+    x = connect_to_data_collection(client).delete_many({})
+    return x.deleted_count
+
+def clear_all_collections(client):
+    count = clear_user_collection(client)
+    count += clear_data_collection(client)
+    return count

@@ -42690,3 +42690,319 @@ KeyError: 'wind_avg'
 2025-03-03 21:37:03,463 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
 2025-03-03 21:37:19,483 - INFO - Stopping scheduler...
 2025-03-03 21:37:19,483 - INFO - All tasks are stopped and exited.
+2025-03-04 10:48:21,417 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-04 10:48:21,419 - INFO - Scheduler started.
+2025-03-04 10:48:41,771 - INFO - [10:48:41] Wind: 4.9 m/s, 345.0°
+2025-03-04 10:51:00,698 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-04 10:51:00,701 - INFO - Scheduler started.
+2025-03-04 10:51:20,842 - INFO - [10:51:20] Wind: 3.2 m/s, 347.0°
+2025-03-04 10:53:16,396 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-04 10:53:16,398 - INFO - Scheduler started.
+2025-03-04 10:53:36,592 - INFO - [10:53:36] Wind: 4.3 m/s, 341.0°
+2025-03-04 10:54:08,672 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 20s
+2025-03-04 10:54:08,674 - INFO - Scheduler started.
+2025-03-04 10:54:28,847 - INFO - [10:54:28] Wind: 4.3 m/s, 341.0°
+2025-03-04 10:55:29,829 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 10:55:29,831 - INFO - Scheduler started.
+2025-03-04 10:55:35,002 - INFO - [10:55:35] Wind: 3.8 m/s, 355.0°
+2025-03-04 10:56:10,874 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 10:56:10,875 - INFO - Scheduler started.
+2025-03-04 10:57:25,677 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 10:57:25,678 - INFO - Scheduler started.
+2025-03-04 10:57:30,849 - INFO - [10:57:30] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:30,982 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:57:33,832 - INFO - Counter: 1, Below Min Wind Speed Remaining: 30
+2025-03-04 10:57:38,985 - INFO - [10:57:38] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:39,036 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:57:39,040 - INFO - Email blocked - Counter: 2
+2025-03-04 10:57:39,042 - INFO - Counter: 2, Below Min Wind Speed Remaining: 30
+2025-03-04 10:57:44,300 - INFO - [10:57:44] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:44,347 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:57:44,351 - INFO - Email blocked - Counter: 3
+2025-03-04 10:57:44,353 - INFO - Counter: 3, Below Min Wind Speed Remaining: 30
+2025-03-04 10:57:49,505 - INFO - [10:57:49] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:49,543 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:57:49,546 - INFO - Email blocked - Counter: 4
+2025-03-04 10:57:49,546 - INFO - Counter: 4, Below Min Wind Speed Remaining: 30
+2025-03-04 10:57:54,677 - INFO - [10:57:54] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:54,729 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:57:54,734 - INFO - Email blocked - Counter: 5
+2025-03-04 10:57:54,735 - INFO - Counter: 5, Below Min Wind Speed Remaining: 30
+2025-03-04 10:57:59,895 - INFO - [10:57:59] Wind: 4.3 m/s, 353.0°
+2025-03-04 10:57:59,997 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 10:58:00,003 - INFO - Email blocked - Counter: 6
+2025-03-04 10:58:00,008 - INFO - Counter: 6, Below Min Wind Speed Remaining: 30
+2025-03-04 10:58:04,016 - INFO - Stopping scheduler...
+2025-03-04 10:58:04,019 - INFO - All tasks are stopped and exited.
+2025-03-04 11:00:11,415 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 11:00:11,416 - INFO - Scheduler started.
+2025-03-04 11:00:17,565 - INFO - [11:00:17] Wind: 4.3 m/s, 349.0°
+2025-03-04 11:00:17,618 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 11:00:18,786 - INFO - Counter: 1, Below Min Wind Speed Remaining: 30
+2025-03-04 11:00:23,924 - INFO - [11:00:23] Wind: 4.3 m/s, 349.0°
+2025-03-04 11:00:23,993 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 11:00:23,997 - INFO - Email blocked - Counter: 2
+2025-03-04 11:00:23,998 - INFO - Counter: 2, Below Min Wind Speed Remaining: 30
+2025-03-04 11:00:29,423 - INFO - [11:00:29] Wind: 4.3 m/s, 349.0°
+2025-03-04 11:00:29,500 - ERROR - Error storing data in MongoDB: 'str' object has no attribute 'insert_one'
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 71, in store_wind_data
+    db.insert_data(data)
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 43, in insert_data
+    get_data_collection().insert_one(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'insert_one'
+2025-03-04 11:00:29,506 - INFO - Email blocked - Counter: 3
+2025-03-04 11:00:29,508 - INFO - Counter: 3, Below Min Wind Speed Remaining: 30
+2025-03-04 11:00:30,511 - INFO - Stopping scheduler...
+2025-03-04 11:00:30,513 - INFO - All tasks are stopped and exited.
+2025-03-04 11:46:47,737 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 11:46:47,738 - INFO - Scheduler started.
+2025-03-04 11:46:53,937 - INFO - [11:46:53] Wind: 5.9 m/s, 355.0°
+2025-03-04 11:46:53,940 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 11:46:59,071 - INFO - [11:46:59] Wind: 5.9 m/s, 355.0°
+2025-03-04 11:46:59,074 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 11:47:04,232 - INFO - [11:47:04] Wind: 5.9 m/s, 350.0°
+2025-03-04 11:47:04,236 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 11:47:09,374 - INFO - [11:47:09] Wind: 5.9 m/s, 350.0°
+2025-03-04 11:47:09,378 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 11:47:11,382 - INFO - Stopping scheduler...
+2025-03-04 11:47:11,384 - INFO - All tasks are stopped and exited.
+2025-03-04 11:48:15,508 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 300s
+2025-03-04 11:48:15,508 - INFO - Scheduler started.
+2025-03-04 11:53:15,802 - INFO - [11:53:15] Wind: 5.9 m/s, 352.0°
+2025-03-04 11:53:15,805 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 11:58:17,208 - INFO - [11:58:17] Wind: 5.9 m/s, 349.0°
+2025-03-04 11:58:17,214 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:03:17,667 - INFO - [12:03:17] Wind: 7.0 m/s, 348.0°
+2025-03-04 12:03:17,671 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:08:19,345 - INFO - [12:08:19] Wind: 6.5 m/s, 353.0°
+2025-03-04 12:08:19,347 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:13:20,777 - INFO - [12:13:20] Wind: 5.4 m/s, 342.0°
+2025-03-04 12:13:20,780 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:18:21,236 - INFO - [12:18:21] Wind: 7.0 m/s, 339.0°
+2025-03-04 12:18:21,239 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:23:22,640 - INFO - [12:23:22] Wind: 5.9 m/s, 346.0°
+2025-03-04 12:23:22,642 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:28:22,997 - INFO - [12:28:22] Wind: 4.9 m/s, 353.0°
+2025-03-04 12:28:22,999 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:33:23,380 - INFO - [12:33:23] Wind: 5.9 m/s, 344.0°
+2025-03-04 12:33:23,384 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:38:24,809 - INFO - [12:38:24] Wind: 4.9 m/s, 333.0°
+2025-03-04 12:38:24,811 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:43:25,204 - INFO - [12:43:25] Wind: 5.4 m/s, 345.0°
+2025-03-04 12:43:25,206 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:48:25,678 - INFO - [12:48:25] Wind: 4.3 m/s, 339.0°
+2025-03-04 12:48:25,682 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:53:26,089 - INFO - [12:53:26] Wind: 5.4 m/s, 340.0°
+2025-03-04 12:53:26,092 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 12:58:27,518 - INFO - [12:58:27] Wind: 5.4 m/s, 331.0°
+2025-03-04 12:58:27,521 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:03:28,045 - INFO - [13:03:28] Wind: 4.3 m/s, 336.0°
+2025-03-04 13:03:28,049 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:08:30,528 - INFO - [13:08:30] Wind: 3.2 m/s, 349.0°
+2025-03-04 13:08:30,530 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:13:31,077 - INFO - [13:13:31] Wind: 2.7 m/s, 2.0°
+2025-03-04 13:13:31,080 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:18:32,561 - INFO - [13:18:32] Wind: 2.7 m/s, 2.0°
+2025-03-04 13:18:32,564 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:23:34,058 - INFO - [13:23:34] Wind: 2.2 m/s, 20.0°
+2025-03-04 13:23:34,061 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:28:35,498 - INFO - [13:28:35] Wind: 0.5 m/s, 17.0°
+2025-03-04 13:28:35,501 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:33:35,883 - INFO - [13:33:35] Wind: 0.0 m/s, 17.0°
+2025-03-04 13:33:35,886 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:38:37,365 - INFO - [13:38:37] Wind: 0.5 m/s, 17.0°
+2025-03-04 13:38:37,368 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:43:38,777 - INFO - [13:43:38] Wind: 0.5 m/s, 34.0°
+2025-03-04 13:43:38,779 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:48:39,253 - INFO - [13:48:39] Wind: 0.0 m/s, 52.0°
+2025-03-04 13:48:39,255 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:53:39,688 - INFO - [13:53:39] Wind: 2.7 m/s, 206.0°
+2025-03-04 13:53:39,693 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 13:58:40,069 - INFO - [13:58:40] Wind: 2.2 m/s, 205.0°
+2025-03-04 13:58:40,071 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:03:40,653 - INFO - [14:03:40] Wind: 0.5 m/s, 123.0°
+2025-03-04 14:03:40,656 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:08:40,974 - INFO - [14:08:40] Wind: 0.0 m/s, 181.0°
+2025-03-04 14:08:40,978 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:13:41,335 - INFO - [14:13:41] Wind: 0.0 m/s, 187.0°
+2025-03-04 14:13:41,338 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:18:41,723 - INFO - [14:18:41] Wind: 0.0 m/s, 187.0°
+2025-03-04 14:18:41,726 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:19:12,144 - ERROR - Error fetching email addresses: localhost:28017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67c6fdb11b45a25e1a6000c4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 28017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:28017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+Traceback (most recent call last):
+  File "d:\git_tsb\tbp-wind-cuttlefish\app\api.py", line 81, in fetch_email_addresses
+    client = db.connect_to_db()
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\Git_TSB\tbp-wind-cuttlefish\app\database.py", line 30, in connect_to_db
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 1987, in list_database_names
+    return [doc["name"] for doc in self.list_databases(session, nameOnly=True, comment=comment)]
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 1961, in list_databases
+    res = admin._retryable_read_command(cmd, session=session, operation=_Op.LIST_DATABASES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\database.py", line 1034, in _retryable_read_command
+    return self.__client._retryable_read(_cmd, read_preference, session, operation)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 1540, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 1507, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 2353, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 2483, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 2439, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\mongo_client.py", line 1322, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\topology.py", line 368, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\topology.py", line 346, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\topology.py", line 253, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\pymongo\topology.py", line 303, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: localhost:28017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67c6fdb11b45a25e1a6000c4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 28017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:28017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-03-04 14:19:20,420 - INFO - Stopping scheduler...
+2025-03-04 14:19:20,423 - INFO - All tasks are stopped and exited.
+2025-03-04 14:26:37,374 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 300s
+2025-03-04 14:26:37,375 - INFO - Scheduler started.
+2025-03-04 14:26:45,381 - INFO - Stopping scheduler...
+2025-03-04 14:26:45,384 - INFO - All tasks are stopped and exited.
+2025-03-04 14:26:53,178 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 14:26:53,179 - INFO - Scheduler started.
+2025-03-04 14:26:58,335 - INFO - [14:26:58] Wind: 0.0 m/s, 49.0°
+2025-03-04 14:26:58,337 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:27:03,485 - INFO - [14:27:03] Wind: 1.6 m/s, 17.0°
+2025-03-04 14:27:03,488 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:27:08,636 - INFO - [14:27:08] Wind: 1.6 m/s, 17.0°
+2025-03-04 14:27:08,639 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:27:13,646 - INFO - Stopping scheduler...
+2025-03-04 14:27:13,647 - INFO - All tasks are stopped and exited.
+2025-03-04 14:31:08,533 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-04 14:31:08,535 - INFO - Scheduler started.
+2025-03-04 14:31:14,689 - INFO - [14:31:14] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:14,692 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:19,849 - INFO - [14:31:19] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:19,852 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:24,989 - INFO - [14:31:24] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:24,991 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:30,171 - INFO - [14:31:30] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:30,173 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:36,402 - INFO - [14:31:36] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:36,405 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:41,628 - INFO - [14:31:41] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:41,630 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:46,774 - INFO - [14:31:46] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:46,778 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:51,906 - INFO - [14:31:51] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:51,909 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:31:57,064 - INFO - [14:31:57] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:31:57,067 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:02,239 - INFO - [14:32:02] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:02,242 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:07,555 - INFO - [14:32:07] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:07,557 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:12,706 - INFO - [14:32:12] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:12,710 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:17,845 - INFO - [14:32:17] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:17,849 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:22,989 - INFO - [14:32:22] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:22,991 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:28,123 - INFO - [14:32:28] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:28,126 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:34,302 - INFO - [14:32:34] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:34,305 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:39,439 - INFO - [14:32:39] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:39,442 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:44,567 - INFO - [14:32:44] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:44,570 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:49,717 - INFO - [14:32:49] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:49,720 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:32:54,866 - INFO - [14:32:54] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:32:54,869 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:00,032 - INFO - [14:33:00] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:00,036 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:05,171 - INFO - [14:33:05] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:05,174 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:10,306 - INFO - [14:33:10] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:10,309 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:15,432 - INFO - [14:33:15] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:15,435 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:20,788 - INFO - [14:33:20] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:20,791 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:25,943 - INFO - [14:33:25] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:25,946 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-04 14:33:31,070 - INFO - [14:33:31] Wind: 0.0 m/s, 342.0°
+2025-03-04 14:33:31,072 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
