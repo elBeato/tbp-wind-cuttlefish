@@ -24,7 +24,7 @@ def test_insert_user_into_database():
 
 def test_insert_data_into_database():
     client = db.connect_to_db(2000)
-    if client == None:
+    if client is None:
         assert True
         return
     db.clear_all_collections(client)
