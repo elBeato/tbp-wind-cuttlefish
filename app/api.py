@@ -31,11 +31,11 @@ def windguru_api_call(url1, url2, station_id, count_func, times_below_limit, tim
                            direction
                            )
 
-            if speed > 2.0:
+            if speed > 10.0:
                 store_wind_data({
-                    "station": station_id, 
-                    "speed": speed, 
-                    "direction": direction, 
+                    "station": str(station_id), 
+                    "speed": str(speed), 
+                    "direction": str(direction), 
                     "ts": response['datetime'],
                     "temp": response['temperature']
                 })
@@ -65,25 +65,21 @@ def windguru_api_call(url1, url2, station_id, count_func, times_below_limit, tim
         return req
 
 def store_wind_data(data):
-    with task_lock:
-        wl.logger.debug("Starting data insertion into MongoDB...")
-        try:
-            mongo_client = db.connect_to_db("Windseeker", "StationData")
-            user_collection = db.connect_to_collection(mongo_client, "Windseeker", "StationData")
-            db.insert_data(user_collection, data)
-        except Exception as ex:
-            wl.logger.error("Error storing data in MongoDB: %s", ex, exc_info=True)
-        finally:
-            wl.logger.debug("Finished data insertion into MongoDB")
+    wl.logger.debug("Starting data insertion into MongoDB...")
+    try:
+        client = db.connect_to_db()
+        db.insert_data(client, data)
+    except Exception as ex:
+        wl.logger.error("Error storing data in MongoDB: %s", ex, exc_info=True)
+    finally:
+        wl.logger.debug("Finished data insertion into MongoDB")
 
 def fetch_email_addresses():
     with task_lock:
         wl.logger.debug("Fetching email addresses...")
         try:
-            mongo_client = db.connect_to_db("Windseeker", "Users")
-            user_collection = db.connect_to_collection(mongo_client, "Windseeker", "Users")
-            db.insert_user(user_collection)
-            for user in db.find_all(user_collection):
+            client = db.connect_to_db()
+            for user in db.find_all_users(client):
                 wl.logger.debug("Fetched user: %s", user)
         except Exception as ex:
             wl.logger.error("Error fetching email addresses: %s", ex, exc_info=True)
@@ -105,8 +101,8 @@ def send_email(subject, body):
             server.login(sender_email, app_password)
             server.sendmail(sender_email, receiver_email, msg.as_string())
             wl.logger.info("✅ Email sent successfully to %s", receiver_email)
-    except Exception as e:
-        wl.logger.error("❌ Failed to send email: %s", e, exc_info=True)
+    except Exception as ex:
+        wl.logger.error("❌ Failed to send email: %s", ex, exc_info=True)
 
 if __name__ == '__main__':
     scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)
