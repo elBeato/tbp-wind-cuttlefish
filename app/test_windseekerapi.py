@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from windseekerapi import app
+from api import app
 import pytest
 
 @pytest.fixture

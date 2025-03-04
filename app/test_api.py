@@ -4,13 +4,13 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
-import api
+import startup
 import helper as hp
 
 def test_call_windguru_api():
     station_id = 2736
     count_func = hp.counter()
-    req = api.windguru_api_call(
+    req = startup.windguru_api_call(
         'https://www.windguru.cz/station/', 
         'https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station=', 
         station_id,
