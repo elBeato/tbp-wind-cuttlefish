@@ -1,6 +1,10 @@
 # 🌬️ tbp-wind-cuttlefish 💨
 💥 Scrapper for windguru stations with API. Run as Docker Container possible.
 
+[![Python application](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/python-app.yml)
+[![Pylint](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/pylint.yml)
+[![Docker Image CI](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/elBeato/tbp-wind-cuttlefish/actions/workflows/docker-image.yml)
+
 # 🧰 Functions
 - Call windguru api for data
 - Send mail to subscribers
