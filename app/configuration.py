@@ -4,9 +4,14 @@ import yaml
 
 # Load configuration from YAML file
 def load_config():
-    with open('config.yaml', 'r', encoding="utf-8") as file:
-        config = yaml.safe_load(file)
-    return config
+    try:
+        with open('config.yaml', 'r', encoding="utf-8") as file:
+            config = yaml.safe_load(file)
+        return config
+    except yaml.YAMLError as e:
+        print(f"Error loading YAML: {e}")
+        return {}
+
 
 # Use environment variables if they exist, otherwise fallback to the config file
 # Envirement variables are accessable in docker-compose file or fix in YAML file

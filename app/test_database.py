@@ -43,3 +43,5 @@ def test_insert_data_into_database():
     assert result[0]["direction"] == my_data['direction']
     assert result[0]["ts"] == my_data['ts']
     assert result[0]["temp"] == my_data['temp']
+
+test_insert_user_into_database()

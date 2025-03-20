@@ -9,7 +9,14 @@ services:
       - interval=120
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
-    command: python /app/API.py
+    command: python /app/startup.py
+    restart: always
+
+  windguru-flask-api:
+    build: .
+    ports: 
+      - 5000:5000
+    command: python /app/api.py
     restart: always
 
   mongo:

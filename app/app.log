@@ -43006,3 +43006,271 @@ pymongo.errors.ServerSelectionTimeoutError: localhost:28017: [WinError 10061] No
 2025-03-04 14:33:25,946 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
 2025-03-04 14:33:31,070 - INFO - [14:33:31] Wind: 0.0 m/s, 342.0�
 2025-03-04 14:33:31,072 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 21:59:18,590 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-19 21:59:18,606 - INFO - Scheduler started.
+2025-03-19 21:59:24,051 - INFO - [21:59:24] Wind: 2.2 m/s, 193.0°
+2025-03-19 21:59:24,066 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 21:59:29,434 - INFO - [21:59:29] Wind: 2.2 m/s, 193.0°
+2025-03-19 21:59:29,449 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 21:59:34,816 - INFO - [21:59:34] Wind: 2.2 m/s, 193.0°
+2025-03-19 21:59:34,816 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 21:59:36,841 - INFO - Stopping scheduler...
+2025-03-19 21:59:36,847 - INFO - All tasks are stopped and exited.
+2025-03-19 22:10:43,106 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-19 22:10:43,108 - INFO - Scheduler started.
+2025-03-19 22:10:49,442 - INFO - [22:10:49] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:10:49,443 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:10:54,872 - INFO - [22:10:54] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:10:54,872 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:00,224 - INFO - [22:11:00] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:00,224 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:05,396 - INFO - [22:11:05] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:05,396 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:10,710 - INFO - [22:11:10] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:10,712 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:16,063 - INFO - [22:11:16] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:16,063 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:21,377 - INFO - [22:11:21] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:21,380 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:26,625 - INFO - [22:11:26] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:26,634 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:31,974 - INFO - [22:11:31] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:31,983 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:37,257 - INFO - [22:11:37] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:37,259 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:42,461 - INFO - [22:11:42] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:42,465 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:47,868 - INFO - [22:11:47] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:47,872 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:53,021 - INFO - [22:11:53] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:53,021 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:11:58,296 - INFO - [22:11:58] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:11:58,306 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:03,528 - INFO - [22:12:03] Wind: 3.2 m/s, 202.0°
+2025-03-19 22:12:03,531 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:08,897 - INFO - [22:12:08] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:08,900 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:14,115 - INFO - [22:12:14] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:14,123 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:19,372 - INFO - [22:12:19] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:19,381 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:24,631 - INFO - [22:12:24] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:24,639 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:30,064 - INFO - [22:12:30] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:30,078 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:35,418 - INFO - [22:12:35] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:35,435 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:40,680 - INFO - [22:12:40] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:40,687 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:46,037 - INFO - [22:12:46] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:46,044 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:51,235 - INFO - [22:12:51] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:51,238 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:12:56,436 - INFO - [22:12:56] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:12:56,441 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:01,746 - INFO - [22:13:01] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:01,748 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:07,014 - INFO - [22:13:07] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:07,016 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:12,232 - INFO - [22:13:12] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:12,234 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:17,513 - INFO - [22:13:17] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:17,518 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:22,813 - INFO - [22:13:22] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:22,817 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:28,221 - INFO - [22:13:28] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:28,224 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:33,656 - INFO - [22:13:33] Wind: 1.6 m/s, 225.0°
+2025-03-19 22:13:33,660 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:13:35,666 - INFO - Stopping scheduler...
+2025-03-19 22:13:35,666 - INFO - All tasks are stopped and exited.
+2025-03-19 22:14:06,342 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.11.80:5050
+2025-03-19 22:14:06,345 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:14:06,389 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-19 22:14:55,337 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.11.80:5050
+2025-03-19 22:14:55,344 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:14:55,349 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-19 22:15:05,283 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-19 22:15:05,285 - INFO - Scheduler started.
+2025-03-19 22:15:10,692 - INFO - [22:15:10] Wind: 2.2 m/s, 214.0°
+2025-03-19 22:15:10,692 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:15:15,975 - INFO - [22:15:15] Wind: 2.2 m/s, 214.0°
+2025-03-19 22:15:15,991 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:15:17,010 - INFO - Stopping scheduler...
+2025-03-19 22:15:17,010 - INFO - All tasks are stopped and exited.
+2025-03-19 22:15:52,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.11.80:5050
+2025-03-19 22:15:52,660 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:15:52,660 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-19 22:17:51,199 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-19 22:17:51,203 - INFO - Scheduler started.
+2025-03-19 22:17:51,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.11.80:5050
+2025-03-19 22:17:51,224 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:17:51,229 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-19 22:17:56,537 - INFO - [22:17:56] Wind: 3.2 m/s, 196.0°
+2025-03-19 22:17:56,552 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:01,801 - INFO - [22:18:01] Wind: 3.2 m/s, 196.0°
+2025-03-19 22:18:01,808 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:07,082 - INFO - [22:18:07] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:07,085 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:12,271 - INFO - [22:18:12] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:12,277 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:17,575 - INFO - [22:18:17] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:17,591 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:22,843 - INFO - [22:18:22] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:22,843 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:28,025 - INFO - [22:18:28] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:28,028 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:33,213 - INFO - [22:18:33] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:33,229 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:38,394 - INFO - [22:18:38] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:38,409 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:43,665 - INFO - [22:18:43] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:43,681 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:49,029 - INFO - [22:18:49] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:49,044 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:54,207 - INFO - [22:18:54] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:54,223 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:18:59,722 - INFO - [22:18:59] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:18:59,732 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:05,053 - INFO - [22:19:05] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:05,055 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:11,294 - INFO - [22:19:11] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:11,303 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:16,172 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-19 22:19:16,172 - INFO - Scheduler started.
+2025-03-19 22:19:16,562 - INFO - [22:19:16] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:16,570 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:21,456 - INFO - [22:19:21] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:21,456 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:21,810 - INFO - [22:19:21] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:21,820 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:26,777 - INFO - [22:19:26] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:26,793 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:26,996 - INFO - [22:19:26] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:26,996 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:32,148 - INFO - [22:19:32] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:32,155 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:32,316 - INFO - [22:19:32] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:32,331 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:32,504 - INFO - [22:19:32] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:32,519 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:37,814 - INFO - [22:19:37] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:37,830 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:38,015 - INFO - [22:19:38] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:38,016 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:43,272 - INFO - [22:19:43] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:43,280 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:43,466 - INFO - [22:19:43] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:43,474 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:43,500 - INFO - [22:19:43] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:43,507 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:43,682 - INFO - [22:19:43] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:43,685 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:48,917 - INFO - [22:19:48] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:48,920 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:49,071 - INFO - [22:19:49] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:49,075 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:54,385 - INFO - [22:19:54] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:54,390 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:54,547 - INFO - [22:19:54] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:54,550 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:54,700 - INFO - [22:19:54] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:54,703 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:59,824 - INFO - [22:19:59] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:59,826 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:19:59,988 - INFO - [22:19:59] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:19:59,995 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:00,196 - INFO - [22:20:00] Wind: 0.5 m/s, 195.0°
+2025-03-19 22:20:00,196 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:05,352 - INFO - [22:20:05] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:05,367 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:05,540 - INFO - [22:20:05] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:05,540 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:11,330 - INFO - [22:20:11] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:11,330 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:11,551 - INFO - [22:20:11] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:11,567 - INFO - [22:20:11] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:11,567 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:11,582 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-19 22:20:11,780 - INFO - [22:20:11] Wind: 1.1 m/s, 242.0°
+2025-03-19 22:20:11,787 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:00:38,513 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-20 11:00:38,529 - INFO - Scheduler started.
+2025-03-20 11:00:43,830 - INFO - [11:00:43] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:00:43,830 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:00:49,077 - INFO - [11:00:49] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:00:49,086 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:00:51,097 - INFO - Stopping scheduler...
+2025-03-20 11:00:51,097 - INFO - All tasks are stopped and exited.
+2025-03-20 11:00:55,547 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-20 11:00:55,547 - INFO - Scheduler started.
+2025-03-20 11:01:00,836 - INFO - [11:01:00] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:00,849 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:06,075 - INFO - [11:01:06] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:06,090 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:11,301 - INFO - [11:01:11] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:11,301 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:16,616 - INFO - [11:01:16] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:16,619 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:21,873 - INFO - [11:01:21] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:21,875 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:27,048 - INFO - [11:01:27] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:27,051 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:32,288 - INFO - [11:01:32] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:32,291 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:37,519 - INFO - [11:01:37] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:37,535 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:42,844 - INFO - [11:01:42] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:42,848 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:48,071 - INFO - [11:01:48] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:48,073 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:53,298 - INFO - [11:01:53] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:53,300 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:01:58,514 - INFO - [11:01:58] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:01:58,517 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:03,747 - INFO - [11:02:03] Wind: 9.2 m/s, 354.0°
+2025-03-20 11:02:03,749 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:08,984 - INFO - [11:02:08] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:08,986 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:14,157 - INFO - [11:02:14] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:14,157 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:19,480 - INFO - [11:02:19] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:19,485 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:24,759 - INFO - [11:02:24] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:24,769 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:29,940 - INFO - [11:02:29] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:29,940 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:35,129 - INFO - [11:02:35] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:35,131 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:40,337 - INFO - [11:02:40] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:40,340 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:45,555 - INFO - [11:02:45] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:45,564 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:50,957 - INFO - [11:02:50] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:02:50,962 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:02:51,968 - INFO - Stopping scheduler...
+2025-03-20 11:02:51,970 - INFO - All tasks are stopped and exited.
+2025-03-20 11:02:56,315 - INFO - Scheduled task with URL: https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station= and Interval: 5s
+2025-03-20 11:02:56,315 - INFO - Scheduler started.
+2025-03-20 11:03:01,553 - INFO - [11:03:01] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:03:01,558 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:03:06,833 - INFO - [11:03:06] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:03:06,837 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:03:12,049 - INFO - [11:03:12] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:03:12,051 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:03:17,283 - INFO - [11:03:17] Wind: 8.1 m/s, 338.0°
+2025-03-20 11:03:17,286 - INFO - Counter: 1, Below Min Wind Speed Remaining: 0
+2025-03-20 11:03:20,292 - INFO - Stopping scheduler...
+2025-03-20 11:03:20,297 - INFO - All tasks are stopped and exited.

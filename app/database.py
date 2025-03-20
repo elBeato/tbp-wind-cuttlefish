@@ -47,10 +47,10 @@ def insert_data(client, data):
     connect_to_data_collection(client).insert_one(data)
 
 def find_all_users(client):
-    return connect_to_user_collection(client).find()
+    return list(connect_to_user_collection(client).find())
 
 def find_all_data(client):
-    return connect_to_data_collection(client).find()
+    return list(connect_to_data_collection(client).find())
 
 def clear_user_collection(client):
     x = connect_to_user_collection(client).delete_many({})

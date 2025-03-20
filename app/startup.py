@@ -104,5 +104,17 @@ def send_email(subject, body):
     except Exception as ex:
         wl.logger.error("❌ Failed to send email: %s", ex, exc_info=True)
 
+def serialize_user(user):
+    """Convert MongoDB ObjectId to string and prepare other fields."""
+    user["_id"] = str(user["_id"])  # Convert ObjectId to string
+    return user
+
 if __name__ == '__main__':
+    print(db.get_database_name())
+    client = db.connect_to_db()
+    users = db.find_all_data(client)
+    users_list = [serialize_user(user) for user in users]
+    print(users_list)
+    print(client)
+    wl.logger.info("Info fetching data form mongo: s%", users_list[0])
     scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)
