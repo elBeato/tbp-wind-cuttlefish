@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy the Python script and config.yaml from the 'app' folder into the container
 COPY app/configuration.py /app/configuration.py
+COPY app/models.py /app/models.py
 COPY app/startup.py /app/startup.py
 COPY app/database.py /app/database.py
 COPY app/helper.py /app/helper.py
@@ -15,10 +16,10 @@ COPY app/api.py /app/api.py
 COPY app/config.yaml /app/config.yaml
 
 # Install cert for SSL
-RUN pip install pip-system-certs
+RUN pip install pydantic[email]
 
 # Install required Python packages
-RUN pip install --no-cache-dir flask flask_cors requests schedule pyyaml pymongo pytest
+RUN pip install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest pydantic
 
 # Install CA certificates for SSL
 RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*

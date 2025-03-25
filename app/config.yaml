@@ -9,7 +9,7 @@ databaseName: "Windseeker"
 userCollection: "Users"
 dataCollection: "Data"
 
-mongohost: "host.docker.internal"
+mongohost: "localhost"
 mongoport: 27017
 
 logLevel: 10

@@ -1,11 +1,11 @@
 services:
-  windguru-subscriber:
+  subscriber:
     build: .
     volumes:
       - ./logs:/app/logs  # Mount the logs directory as before
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
     environment:
-      - stationId=2736
+      - stationId=5931 # 2736 Isleten Urnersee / 5931 Hoo'kipa Maui
       - windspeedTrigger=5.0
       - interval=15
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
@@ -13,16 +13,17 @@ services:
       - mongohost=host.docker.internal
       - mongoport=27017
       - logLevel=20
-      - SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
-      - REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
     command: python /app/startup.py
     restart: always
 
-  windguru-flask-api:
+  flask-api:
     build: .
     ports: 
-      - 5000:5000
+      - 5050:5050
     command: python /app/api.py
+    environment:
+      - mongohost=host.docker.internal
+      - mongoport=27017
     restart: always
 
   mongo:

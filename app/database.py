@@ -4,6 +4,7 @@ Created on Mon Feb 24 10:45:13 2025
 
 @author: fub
 """
+from models import UserModel, DataModel
 import pymongo
 import configuration as config
 
@@ -42,10 +43,10 @@ def connect_to_data_collection(client):
     database = client[get_database_name()]
     return database[get_data_collection()]
 
-def insert_user(client, user):
+def insert_user(client, user: UserModel):
     connect_to_user_collection(client).insert_one(user)
 
-def insert_data(client, data):
+def insert_data(client, data: DataModel):
     connect_to_data_collection(client).insert_one(data)
 
 def find_all_users(client):
