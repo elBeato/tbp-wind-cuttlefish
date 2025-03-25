@@ -13,4 +13,4 @@ def test_homepage(client):
     """Tests if the homepage loads successfully."""
     response = client.get("/")  # Simulate a GET request
     assert response.status_code == 200  # Check HTTP status
-    assert b"Hello world" in response.data  # Check page content
+    assert b"Hello from windseeker app - made with flusk and love <3" in response.data  # Check page content

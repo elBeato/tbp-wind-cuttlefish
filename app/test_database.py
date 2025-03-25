@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 
 import database as db
+from models import UserModel, DataModel
 
 def test_insert_user_into_database():
     client = db.connect_to_db(2000)
     if client is None:
         assert True
         return
-    db.clear_all_collections(client)
-    my_user = { "name": "John",
-              "address": "Highway 37", 
-              "email": "john@bluewin.ch", 
-              "mobile": "+41 79 123 45 99" 
-              }
-    db.insert_user(client, my_user)
+    db.clear_user_collection(client)
+    my_user = { 
+        "username": "Jonny B from pytest",
+        "name": "John",
+        "address": "Highway 37", 
+        "email": "john@bluewin.ch", 
+        "mobile": "+41 79 123 45 99" 
+        }
+    user = UserModel(**my_user)
+    db.insert_user(client, user.dict())
     result = list(db.find_all_users(client))
     print(result)
     assert len(result) == 1
@@ -27,14 +31,17 @@ def test_insert_data_into_database():
     if client is None:
         assert True
         return
-    db.clear_all_collections(client)
-    my_data = { "station": "1234",
-        "speed": "12.3", 
-        "direction": "360°", 
+    db.clear_data_collection(client)
+    my_data = { 
+        "name":"Data from pytest",
+        "station": 1234,
+        "speed": 12.3, 
+        "direction": 360, 
         "ts": "xxx",
-        "temp": "3.5"
+        "temp": 3.5
         }
-    db.insert_data(client, my_data)
+    data = DataModel(**my_data)
+    db.insert_data(client, data.dict())
     result = list(db.find_all_data(client))
     print(result)
     assert len(result) == 1
