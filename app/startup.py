@@ -1,6 +1,5 @@
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from bs4 import BeautifulSoup
 import smtplib
 import ssl
 import threading
@@ -16,27 +15,6 @@ BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
 
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
-
-def windguru_homepage_station_name():
-    # URL of the station page
-    url = "https://www.windguru.cz/station/5931"
-    
-    # Make the request to the webpage
-    response = requests.get(url)
-    
-    # Parse the HTML content
-    soup = BeautifulSoup(response.content, 'html.parser')
-    
-    # Find the <span> element with the correct class for the station name
-    station_name = soup.find('span', class_='wgs_station_name spotname-truncate')
-    
-    # Extract and print the station name if found
-    if station_name:
-        print(f"Station Name: {station_name.get_text()}")
-    else:
-        print("Station name not found.")
-
-
 
 def windguru_api_call(url1, url2, station_id, count_func, times_below_limit, times_above_limit):
     with task_lock:  # Only one task can run at a time
@@ -136,5 +114,4 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
-    windguru_homepage_station_name()
     scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)

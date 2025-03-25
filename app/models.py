@@ -11,9 +11,9 @@ class UserModel(BaseModel):
 
 class DataModel(BaseModel):
     """Data Model class"""
-    name: str 
+    name: str
     station: int
-    speed: float 
+    speed: float
     direction: int
     ts: str
     temp: float

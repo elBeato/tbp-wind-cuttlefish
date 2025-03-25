@@ -9,7 +9,7 @@ def test_insert_user_into_database():
         assert True
         return
     db.clear_user_collection(client)
-    my_user = { 
+    my_user = {
         "username": "Jonny B from pytest",
         "name": "John",
         "address": "Highway 37", 
@@ -32,7 +32,7 @@ def test_insert_data_into_database():
         assert True
         return
     db.clear_data_collection(client)
-    my_data = { 
+    my_data = {
         "name":"Data from pytest",
         "station": 1234,
         "speed": 12.3, 

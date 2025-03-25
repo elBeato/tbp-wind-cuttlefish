@@ -7,9 +7,6 @@ Created on Mon Mar  3 11:06:10 2025
 import startup
 import helper as hp
 
-def test_call_windguru_homepage_station_name():
-    startup.windguru_homepage_station_name()
-
 def test_call_windguru_api():
     station_id = 2736
     count_func = hp.counter()
@@ -93,7 +90,7 @@ def test_call_windguru_api_values():
     assert wind_direction >= 0
     assert temperature >= -80.0
     assert unixtime >= 0
-    
+
     assert isinstance(wind_avg, float)
     assert isinstance(wind_max, float)
     assert isinstance(wind_min, float)
@@ -101,7 +98,7 @@ def test_call_windguru_api_values():
     assert isinstance(temperature, float)
     assert isinstance(datetime, str)
     assert isinstance(unixtime, int)
-    
+
 def test_call_windguru_api_print_values():
     station_id = 5931  # Ho'okipa Maui
     count_func = hp.counter()
