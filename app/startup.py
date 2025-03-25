@@ -8,6 +8,7 @@ import scheduler
 import database as db
 import windlogger as wl
 import requests
+import configuration as config
 
 # Global variable to track last email sent time
 BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
@@ -30,8 +31,8 @@ def windguru_api_call(url1, url2, station_id, count_func, times_below_limit, tim
                            speed,
                            direction
                            )
-
-            if speed > 10.0:
+            wind_trigger = float(config.get_config_value("windspeedTrigger"))
+            if speed > wind_trigger:
                 store_wind_data({
                     "station": str(station_id), 
                     "speed": str(speed), 

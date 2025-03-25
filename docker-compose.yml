@@ -6,6 +6,7 @@ services:
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
     environment:
       - stationId=2736
+      - windspeedTrigger=5.0
       - interval=15
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
