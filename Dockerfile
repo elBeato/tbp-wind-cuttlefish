@@ -14,12 +14,17 @@ COPY app/windlogger.py /app/windlogger.py
 COPY app/api.py /app/api.py
 COPY app/config.yaml /app/config.yaml
 
+# Install cert for SSL
+RUN pip install pip-system-certs
+
 # Install required Python packages
 RUN pip install --no-cache-dir flask flask_cors requests schedule pyyaml pymongo pytest
+
+# Install CA certificates for SSL
+RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*
 
 # Expose the API port
 EXPOSE 5050
 
-# Run the Python script
-CMD ["python", "startup.py"]
-CMD ["python", "api.py"]
+# Start both scripts using a shell process
+CMD ["sh", "-c", "python startup.py & python api.py"]

@@ -88,14 +88,16 @@ def fetch_email_addresses():
 
 def send_email(subject, body):
     sender_email = "elbeato.furrer@gmail.com"
-    receiver_email = "beat.furrer@sisag.ch"
+    receiver_email = "b.furrer@protonmail.com"
     app_password = "uqzvthsdfbucolnp"  # Replace with environment variable!
 
     msg = MIMEMultipart()
     msg["From"], msg["To"], msg["Subject"] = sender_email, receiver_email, subject
     msg.attach(MIMEText(body, "plain"))
 
-    context = ssl.create_default_context()
+    #context = ssl.create_default_context()
+    context = ssl._create_unverified_context()
+
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(sender_email, app_password)
@@ -110,11 +112,4 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
-    print(db.get_database_name())
-    client = db.connect_to_db()
-    users = db.find_all_data(client)
-    users_list = [serialize_user(user) for user in users]
-    print(users_list)
-    print(client)
-    wl.logger.info("Info fetching data form mongo: s%", users_list[0])
     scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)

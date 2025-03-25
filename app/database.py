@@ -7,10 +7,12 @@ Created on Mon Feb 24 10:45:13 2025
 import pymongo
 import configuration as config
 
-def connect_to_db(timeout_ms = 30000):
+def connect_to_db(timeout_ms = 5000):
     """Connects to MongoDB and checks if the connection is healthy."""
     try:
-        client = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/",
+        host = config.get_config_value("mongohost")
+        port = config.get_config_value("mongoport")
+        client = pymongo.MongoClient(f"mongodb://root:supersecurepassword@{host}:{port}/",
                                      timeoutMS=timeout_ms)
 
         # Ping the database

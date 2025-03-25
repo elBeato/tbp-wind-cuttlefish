@@ -6,9 +6,14 @@ services:
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
     environment:
       - stationId=2736
-      - interval=120
+      - interval=15
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
+      - mongohost=host.docker.internal
+      - mongoport=27017
+      - logLevel=20
+      - SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+      - REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
     command: python /app/startup.py
     restart: always
 
@@ -25,7 +30,7 @@ services:
     container_name: mongo-ws
     command: ["mongod", "--auth"]  # Enforce authentication
     ports:
-      - 28017:27017
+      - 27017:27017
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.runCommand('ping').ok"]
       interval: 10s    # Check every 10 seconds
@@ -35,7 +40,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
-      MONGO_INITDB_DATABASE: Windseeker  # Creates an empty DB
+      MONGO_INITDB_DATABASE: Windseeker   
     volumes:
       - /d/Docker/windseeker/mongo-data:/data/db:rw
 
