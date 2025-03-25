@@ -27,7 +27,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests pymongo pyyaml
-        pip install Flask jsonify # for web app
+        pip install Flask flask_cors jsonify # for web app
         pip install schedule  # Installiere explizit `schedule`
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
