@@ -43,5 +43,4 @@ if not logger.hasHandlers():
     # Add both handlers to the logger
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-    
     logger.info("LOGGER: Container=INFO, File- and console=DEBUG")

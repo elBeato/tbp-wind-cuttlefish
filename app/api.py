@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from flask_cors import CORS
 import database as db
 
@@ -28,4 +28,3 @@ def get_users_all():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
