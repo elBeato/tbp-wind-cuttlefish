@@ -26,8 +26,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests pymongo pyyaml
-        pip install Flask jsonify # for web app
+        pip install requests pymongo pyyaml pydantic
+        pip install pydantic[email]
+        pip install Flask flask_cors jsonify flasgger # for web app
         pip install schedule  # Installiere explizit `schedule`
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -37,6 +38,9 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Copy config.yaml file
+      run: cp app/config.yaml .
+    - name: Debug - List files
+      run: ls -la app/
     - name: Test with pytest
-      run: |
-        pytest
+      run: pytest app/

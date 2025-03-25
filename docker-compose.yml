@@ -1,15 +1,29 @@
 services:
-  windguru-subscriber:
+  subscriber:
     build: .
     volumes:
       - ./logs:/app/logs  # Mount the logs directory as before
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
     environment:
-      - stationId=2736
-      - interval=120
+      - stationId=5931 # 2736 Isleten Urnersee / 5931 Hoo'kipa Maui
+      - windspeedTrigger=5.0
+      - interval=15
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
-    command: python /app/API.py
+      - mongohost=host.docker.internal
+      - mongoport=27017
+      - logLevel=20
+    command: python /app/startup.py
+    restart: always
+
+  flask-api:
+    build: .
+    ports: 
+      - 5050:5050
+    command: python /app/api.py
+    environment:
+      - mongohost=host.docker.internal
+      - mongoport=27017
     restart: always
 
   mongo:
@@ -18,7 +32,7 @@ services:
     container_name: mongo-ws
     command: ["mongod", "--auth"]  # Enforce authentication
     ports:
-      - 28017:27017
+      - 27017:27017
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.runCommand('ping').ok"]
       interval: 10s    # Check every 10 seconds
@@ -28,7 +42,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
-      MONGO_INITDB_DATABASE: Windseeker  # Creates an empty DB
+      MONGO_INITDB_DATABASE: Windseeker   
     volumes:
       - /d/Docker/windseeker/mongo-data:/data/db:rw
 

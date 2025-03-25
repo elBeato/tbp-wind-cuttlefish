@@ -4,13 +4,16 @@ Created on Mon Feb 24 10:45:13 2025
 
 @author: fub
 """
+from models import UserModel, DataModel
 import pymongo
 import configuration as config
 
-def connect_to_db(timeout_ms = 30000):
+def connect_to_db(timeout_ms = 5000):
     """Connects to MongoDB and checks if the connection is healthy."""
     try:
-        client = pymongo.MongoClient("mongodb://root:supersecurepassword@localhost:28017/",
+        host = config.get_config_value("mongohost")
+        port = config.get_config_value("mongoport")
+        client = pymongo.MongoClient(f"mongodb://root:supersecurepassword@{host}:{port}/",
                                      timeoutMS=timeout_ms)
 
         # Ping the database
@@ -40,17 +43,17 @@ def connect_to_data_collection(client):
     database = client[get_database_name()]
     return database[get_data_collection()]
 
-def insert_user(client, user):
+def insert_user(client, user: UserModel):
     connect_to_user_collection(client).insert_one(user)
 
-def insert_data(client, data):
+def insert_data(client, data: DataModel):
     connect_to_data_collection(client).insert_one(data)
 
 def find_all_users(client):
-    return connect_to_user_collection(client).find()
+    return list(connect_to_user_collection(client).find())
 
 def find_all_data(client):
-    return connect_to_data_collection(client).find()
+    return list(connect_to_data_collection(client).find())
 
 def clear_user_collection(client):
     x = connect_to_user_collection(client).delete_many({})

@@ -8,6 +8,7 @@ import scheduler
 import database as db
 import windlogger as wl
 import requests
+import configuration as config
 
 # Global variable to track last email sent time
 BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
@@ -30,12 +31,13 @@ def windguru_api_call(url1, url2, station_id, count_func, times_below_limit, tim
                            speed,
                            direction
                            )
-
-            if speed > 10.0:
+            wind_trigger = float(config.get_config_value("windspeedTrigger"))
+            if speed > wind_trigger:
                 store_wind_data({
-                    "station": str(station_id), 
-                    "speed": str(speed), 
-                    "direction": str(direction), 
+                    "name": "windguru-data",
+                    "station": int(station_id), 
+                    "speed": float(speed), 
+                    "direction": int(direction), 
                     "ts": response['datetime'],
                     "temp": response['temperature']
                 })
@@ -88,14 +90,16 @@ def fetch_email_addresses():
 
 def send_email(subject, body):
     sender_email = "elbeato.furrer@gmail.com"
-    receiver_email = "beat.furrer@sisag.ch"
+    receiver_email = "b.furrer@protonmail.com"
     app_password = "uqzvthsdfbucolnp"  # Replace with environment variable!
 
     msg = MIMEMultipart()
     msg["From"], msg["To"], msg["Subject"] = sender_email, receiver_email, subject
     msg.attach(MIMEText(body, "plain"))
 
-    context = ssl.create_default_context()
+    #context = ssl.create_default_context()
+    context = ssl._create_unverified_context()
+
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(sender_email, app_password)
@@ -103,6 +107,11 @@ def send_email(subject, body):
             wl.logger.info("✅ Email sent successfully to %s", receiver_email)
     except Exception as ex:
         wl.logger.error("❌ Failed to send email: %s", ex, exc_info=True)
+
+def serialize_user(user):
+    """Convert MongoDB ObjectId to string and prepare other fields."""
+    user["_id"] = str(user["_id"])  # Convert ObjectId to string
+    return user
 
 if __name__ == '__main__':
     scheduler.run(windguru_api_call, fetch_email_addresses, wl.logger)

@@ -14,9 +14,12 @@ def run(windguru_api_call, fetch_email_addresses, logger):
         interval = int(config.get_config_value("interval"))
         times_above_limit = int(config.get_config_value("timesAboveLimit"))
         times_below_limit = int(config.get_config_value("timesBelowLimit"))
+        log_level = config.get_config_value("logLevel")
         count_func = hp.counter()
 
+        logger.info("####################### start app #######################")
         logger.info(f"Scheduled task with URL: {url2} and Interval: {interval}s")
+        logger.info(f"Station: {station_id}, logging level: {log_level}")
     except Exception as ex:
         logger.error(f"Error fetching variable: {str(ex)}")
         sys.exit(1)  # Exit if we can't fetch the required configurations

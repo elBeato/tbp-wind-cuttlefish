@@ -5,17 +5,27 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copy the Python script and config.yaml from the 'app' folder into the container
+COPY app/configuration.py /app/configuration.py
+COPY app/models.py /app/models.py
 COPY app/startup.py /app/startup.py
 COPY app/database.py /app/database.py
 COPY app/helper.py /app/helper.py
 COPY app/scheduler.py /app/scheduler.py
 COPY app/windlogger.py /app/windlogger.py
 COPY app/api.py /app/api.py
-COPY app/configuration.py /app.configuration.py
 COPY app/config.yaml /app/config.yaml
 
-# Install required Python packages
-RUN pip install --no-cache-dir requests schedule pyyaml pymongo pytest
+# Install cert for SSL
+RUN pip install pydantic[email]
 
-# Run the Python script
-CMD ["python", "startup.py"]
+# Install required Python packages
+RUN pip install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest pydantic
+
+# Install CA certificates for SSL
+RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*
+
+# Expose the API port
+EXPOSE 5050
+
+# Start both scripts using a shell process
+CMD ["sh", "-c", "python startup.py & python api.py"]
