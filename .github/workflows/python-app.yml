@@ -31,9 +31,7 @@ jobs:
         pip install Flask flask_cors jsonify flasgger # for web app
         pip install schedule  # Installiere explizit `schedule`
         pip install flake8 pytest
-        pip install -U selenium 
-        pip install selenium.webdriver.edge.service selenium.webdriver.common.by
-        pip install webdriver_manager.microsoft
+        pip install -U selenium webdriver-manager
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: List all installed packages
       run: pip list
