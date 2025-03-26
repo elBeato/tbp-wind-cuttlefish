@@ -1,0 +1,2500 @@
+St: 013001; Urseren / Gross Schijen, WMO
+St: 013002; Tujetsch / Crispalt, WMO
+St: 013003; Mesocco / Piz Pian Grand, WMO
+St: 013004; Schachental / Gross Windgallen, WMO
+St: 013005; Davos / Stilli, WMO
+St: 013006; Chaussy / La Para, WMO
+St: 013007; Finhaut / Le Luisin, WMO
+St: 013008; Linthal / Ortstock Matt, WMO
+St: 013009; Gstaad / Ober Meiel, WMO
+St: 013010; Malbun / Spitz, WMO
+St: 013011; Bihac, WMO
+St: 013012; Sanski Most, WMO
+St: 013013; Banja Luka, WMO
+St: 013014; Jajce, WMO
+St: 013015; Bugojno, WMO
+St: 013016; Zenica, WMO
+St: 013017; Gradacac, WMO
+St: 013018; Tuzla, WMO
+St: 013019; Livno, WMO
+St: 013020; Mostar, WMO
+St: 013021; Ivan Sedlo, WMO
+St: 013022; Bjelasnica, WMO
+St: 013023; Sarajevo-bjelave, WMO
+St: 013024; Neum, WMO
+St: 013025; San Andres (isla)/se, WMO
+St: 013026; S.g. Cachoeira- Aero, WMO
+St: 013027; Porto Velho, WMO
+St: 013028; Ilha Rasa, WMO
+St: 013029; Salinopolis (1), WMO
+St: 013030; Morro Do Chapeu, WMO
+St: 013031; Serrinha, WMO
+St: 013032; Belem-aeroporto, WMO
+St: 013033; Vilhena - Aeroporto, WMO
+St: 013034; Fonte Boa, WMO
+St: 013035; Boa Vista-aeroporto, WMO
+St: 013036; Cruz Das Almas, WMO
+St: 013037; Peixe, WMO
+St: 013038; Salvador (ondina), WMO
+St: 013039; Boa Vista, WMO
+St: 013040; Santarem- Aero., WMO
+St: 013041; Salvador - Aeroporto, WMO
+St: 013042; Cali/alfonso Bonilla, WMO
+St: 013043; Tirios - Aero., WMO
+St: 013044; Canarana, WMO
+St: 013045; Barranquilla/ernesto, WMO
+St: 013046; Sao Luis-aeroporto, WMO
+St: 013047; Correntina, WMO
+St: 013048; Diamantino, WMO
+St: 013049; Neiva/benito Salas, WMO
+St: 013050; Tefe, WMO
+St: 013051; Nova Xavantina (xava, WMO
+St: 013052; Codajas, WMO
+St: 013053; Palmas, WMO
+St: 013054; Manaus-aeroporto, WMO
+St: 013055; Eduardo Gomes, WMO
+St: 013056; Formoso, WMO
+St: 013057; Itacoatiara, WMO
+St: 013058; Ilheus - Aeroporto, WMO
+St: 013059; Riohacha/almirante P, WMO
+St: 013060; Valledupar/alfonso L, WMO
+St: 013061; Cuiaba - Aeroporto, WMO
+St: 013062; Pirenopolis, WMO
+St: 013063; Brasilia, WMO
+St: 013064; Brasilia - Aeroporto, WMO
+St: 013065; Fortaleza, WMO
+St: 013066; Fortaleza-aeroporto, WMO
+St: 013067; Fernando De Noronha, WMO
+St: 013068; Benjamin Constant, WMO
+St: 013069; Tabatinga, WMO
+St: 013070; Caracarai, WMO
+St: 013071; Porto Seguro, WMO
+St: 013072; Caravelas - Aero., WMO
+St: 013073; Abrolhos, WMO
+St: 013074; Cuiaba, WMO
+St: 013075; Uberlandia, WMO
+St: 013076; Manicore - Aero, WMO
+St: 013077; Corumba - Aero, WMO
+St: 013078; Imperatriz-aeroporto, WMO
+St: 013079; Confins - Aeroporto, WMO
+St: 013080; Teresina, WMO
+St: 013081; Teresina-aeroporto, WMO
+St: 013082; Morada Nova, WMO
+St: 013083; Apodi, WMO
+St: 013084; Calcanhar, WMO
+St: 013085; Natal, WMO
+St: 013086; Natal-aeroporto, WMO
+St: 013087; Nossa Senhora Da Glo, WMO
+St: 013088; Lagoa Da Confusao, WMO
+St: 013089; Pium, WMO
+St: 013090; Jeremoabo, WMO
+St: 013091; Palmas, WMO
+St: 013092; Mateiros, WMO
+St: 013093; Oiapoque, WMO
+St: 013094; Delfino, WMO
+St: 013095; Senhor Do Bonfim, WMO
+St: 013096; Queimadas, WMO
+St: 013097; Euclides Da Cunha, WMO
+St: 013098; Poco Verde, WMO
+St: 013099; Boa Vista, WMO
+St: 013100; Aracaju, WMO
+St: 013101; Corrente, WMO
+St: 013102; Brejo Grande, WMO
+St: 013103; Coruripe, WMO
+St: 013104; Epitaciolandia, WMO
+St: 013105; Sao Jose Do Xingu, WMO
+St: 013106; Cacoal, WMO
+St: 013107; Formosa Do Rio Preto, WMO
+St: 013108; Juina, WMO
+St: 013109; Juara, WMO
+St: 013110; Sinop, WMO
+St: 013111; Almas, WMO
+St: 013112; Formoso Do Araguaia, WMO
+St: 013113; Monteria/los Garzone, WMO
+St: 013114; Gurupi, WMO
+St: 013115; Santa Rosa Do Tocant, WMO
+St: 013116; Dianopolis, WMO
+St: 013117; Santa Rita De Cassia, WMO
+St: 013118; Barra, WMO
+St: 013119; Irece, WMO
+St: 013120; Itaubal, WMO
+St: 013121; Porto Grande, WMO
+St: 013122; Macapa, WMO
+St: 013123; Conde, WMO
+St: 013124; Ribeira Do Amparo, WMO
+St: 013125; Serra Nova Dourada, WMO
+St: 013126; Vilhena, WMO
+St: 013127; S. G. Da Cachoeira, WMO
+St: 013128; Sorriso, WMO
+St: 013129; Sao Miguel Do Aragua, WMO
+St: 013130; Querencia, WMO
+St: 013131; Barcelos, WMO
+St: 013132; Peixe, WMO
+St: 013133; Palmas-aeroporto, WMO
+St: 013134; Parana, WMO
+St: 013135; Luiz Eduardo Magalha, WMO
+St: 013136; Barreiras, WMO
+St: 013137; Ibotirama, WMO
+St: 013138; Lencois, WMO
+St: 013139; Macajuba, WMO
+St: 013140; Itaberaba, WMO
+St: 013141; Cruz Das Almas, WMO
+St: 013142; Feira De Santana, WMO
+St: 013143; Araguaina, WMO
+St: 013144; Salinopolis, WMO
+St: 013145; Comodoro, WMO
+St: 013146; Campo Novo Dos Parec, WMO
+St: 013147; Nova Maringa, WMO
+St: 013148; S.j. Do Rio Claro, WMO
+St: 013149; Nova Ubirata, WMO
+St: 013150; Gaucha Do Norte, WMO
+St: 013151; Sapezal, WMO
+St: 013152; Porangatu, WMO
+St: 013153; Monte Alegre De Goia, WMO
+St: 013154; Correntina, WMO
+St: 013155; Bom Jesus Da Lapa, WMO
+St: 013156; Piata, WMO
+St: 013157; Itirucu, WMO
+St: 013158; 
+St: 013159; Valenca, WMO
+St: 013160; Marau, WMO
+St: 013161; Salvador, WMO
+St: 013162; Belem, WMO
+St: 013163; Castanhal, WMO
+St: 013164; Rosario Oeste, WMO
+St: 013165; Capitao Poco, WMO
+St: 013166; Braganca, WMO
+St: 013167; Agua Boa, WMO
+St: 013168; Turiacu, WMO
+St: 013169; Sao Goncalo, WMO
+St: 013170; Serido (caico), WMO
+St: 013171; Alto Paraiso De Goia, WMO
+St: 013172; Posse, WMO
+St: 013173; Montalvania, WMO
+St: 013174; Guanambi, WMO
+St: 013175; Espinosa, WMO
+St: 013176; Brumado, WMO
+St: 013177; Vitoria Da Conquista, WMO
+St: 013178; Ipiau, WMO
+St: 013179; Ilheus, WMO
+St: 013180; Rio Urubu, WMO
+St: 013181; Vila Bela Da Santiss, WMO
+St: 013182; Urucara, WMO
+St: 013183; Parintins, WMO
+St: 013184; Porto Estrela, WMO
+St: 013185; Cuiaba, WMO
+St: 013186; Monte Alegre, WMO
+St: 013187; Santarem, WMO
+St: 013188; Brazlandia, WMO
+St: 013189; Aragarcas, WMO
+St: 013190; Januaria, WMO
+St: 013191; Tome Acu, WMO
+St: 013192; Goias, WMO
+St: 013193; Goianesia, WMO
+St: 013194; Brasilia, WMO
+St: 013195; Aguas Emendadas, WMO
+St: 013196; Gama (ponte Alta), WMO
+St: 013197; Buritis, WMO
+St: 013198; Chapada Gaucha, WMO
+St: 013199; Mocambinho, WMO
+St: 013200; Rio Pardo De Minas, WMO
+St: 013201; Aguas Vermelhas, WMO
+St: 013202; Itapetinga, WMO
+St: 013203; Una, WMO
+St: 013204; Cristalina (fazenda, WMO
+St: 013205; Rondonopolis, WMO
+St: 013206; Manacapuru, WMO
+St: 013207; Caiaponia, WMO
+St: 013208; Ipora, WMO
+St: 013209; Parauna, WMO
+St: 013210; Paranoa (coopa-df), WMO
+St: 013211; Goiania, WMO
+St: 013212; Silvania, WMO
+St: 013213; Luziania, WMO
+St: 013214; Cristalina, WMO
+St: 013215; Altamira, WMO
+St: 013216; Medicilandia, WMO
+St: 013217; Montes Claros, WMO
+St: 013218; Salinas, WMO
+St: 013219; Itaobim, WMO
+St: 013220; Tucurui, WMO
+St: 013221; Belmonte, WMO
+St: 013222; Paragominas, WMO
+St: 013223; Aracuai, WMO
+St: 013224; Ze Doca, WMO
+St: 013225; Itiquira, WMO
+St: 013226; Chapadinha, WMO
+St: 013227; Alto Taquari, WMO
+St: 013228; Mineiros, WMO
+St: 013229; Jatai, WMO
+St: 013230; Rio Verde, WMO
+St: 013231; Edeia, WMO
+St: 013232; Morrinhos, WMO
+St: 013233; Pires Do Rio, WMO
+St: 013234; Guarda-mor, WMO
+St: 013235; Fortaleza, WMO
+St: 013236; Pirapora, WMO
+St: 013237; Itamaraju, WMO
+St: 013238; Capelinha, WMO
+St: 013239; Teofilo Otoni, WMO
+St: 013240; Serra Dos Aimores, WMO
+St: 013241; Caravelas, WMO
+St: 013242; Ecoporanga, WMO
+St: 013243; Corumba, WMO
+St: 013244; Nhumirim, WMO
+St: 013245; Sonora, WMO
+St: 013246; Coari, WMO
+St: 013247; Costa Rica, WMO
+St: 013248; Chapadao Do Sul, WMO
+St: 013249; Sao Simao, WMO
+St: 013250; Itumbiara, WMO
+St: 013251; Ituiutaba, WMO
+St: 013252; Uberlandia, WMO
+St: 013253; Catalao, WMO
+St: 013254; Itaituba, WMO
+St: 013255; Tres Marias, WMO
+St: 013256; Curvelo, WMO
+St: 013257; Diamantina, WMO
+St: 013258; Dom Eliseu, WMO
+St: 013259; Governador Valadares, WMO
+St: 013260; Mantena, WMO
+St: 013261; Rondon Do Para, WMO
+St: 013262; Buriticupu, WMO
+St: 013263; Sao Gabriel Do Oeste, WMO
+St: 013264; Bacabal, WMO
+St: 013265; Cassilandia, WMO
+St: 013266; Caxias, WMO
+St: 013267; Campina Verde, WMO
+St: 013268; Piripiri, WMO
+St: 013269; Campo Maior, WMO
+St: 013270; Araxa, WMO
+St: 013271; Dores Do Indaia, WMO
+St: 013272; Jaguaruana, WMO
+St: 013273; Quixada, WMO
+St: 013274; Belo Horizonte (pamp, WMO
+St: 013275; Timoteo, WMO
+St: 013276; Caratinga, WMO
+St: 013277; Aimores, WMO
+St: 013278; Tres Rios, WMO
+St: 013279; Linhares, WMO
+St: 013280; Bambui, WMO
+St: 013281; Miranda, WMO
+St: 013282; Aquidauana, WMO
+St: 013283; Venda Nova Do Imigra, WMO
+St: 013284; Manicore, WMO
+St: 013285; Patos De Minas, WMO
+St: 013286; Novo Aripuana, WMO
+St: 013287; Tres Lagoas, WMO
+St: 013288; Uberaba, WMO
+St: 013289; Machado, WMO
+St: 013290; Rio De Janeiro - Jac, WMO
+St: 013291; Angra Dos Reis, WMO
+St: 013292; Franca, WMO
+St: 013293; Passos, WMO
+St: 013294; Formiga, WMO
+St: 013295; Ibirite (rola Moca), WMO
+St: 013296; Imperatriz, WMO
+St: 013297; Grajau, WMO
+St: 013298; Vicosa, WMO
+St: 013299; Barra Do Corda, WMO
+St: 013300; Campos Novos, WMO
+St: 013301; Teresina, WMO
+St: 013302; Alegre, WMO
+St: 013303; Castelo Do Piaui, WMO
+St: 013304; Crateus, WMO
+St: 013305; Vila Velha, WMO
+St: 013306; Morada Nova, WMO
+St: 013307; Jaguaribe, WMO
+St: 013308; Mossoro, WMO
+St: 013309; Apodi, WMO
+St: 013310; Macau, WMO
+St: 013311; Bataguassu, WMO
+St: 013312; Valparaiso, WMO
+St: 013313; Jose Bonifacio, WMO
+St: 013314; Apartado/los Cedros, WMO
+St: 013315; Lins, WMO
+St: 013316; Ariranha, WMO
+St: 013317; Pradopolis, WMO
+St: 013318; Ibitinga, WMO
+St: 013319; Casa Branca, WMO
+St: 013320; Sao Carlos, WMO
+St: 013321; Alvorada Do Gurgueia, WMO
+St: 013322; Canto Do Buriti, WMO
+St: 013323; Sao Joao Do Piaui, WMO
+St: 013324; Sao Joao Del Rei, WMO
+St: 013325; Barbacena, WMO
+St: 013326; Juiz De Fora, WMO
+St: 013327; Muriae, WMO
+St: 013328; Presidente Kennedy, WMO
+St: 013329; Cambuci, WMO
+St: 013330; Campos Dos Goytacaze, WMO
+St: 013331; Ponta Pora, WMO
+St: 013332; Dourados, WMO
+St: 013333; Juti, WMO
+St: 013334; Ivinhema, WMO
+St: 013335; Diamante Do Norte, WMO
+St: 013336; Paranapoema, WMO
+St: 013337; Estreito, WMO
+St: 013338; Rancharia, WMO
+St: 013339; Bauru, WMO
+St: 013340; Colinas, WMO
+St: 013341; Barra Bonita, WMO
+St: 013342; Floriano, WMO
+St: 013343; Oeiras, WMO
+St: 013344; Valenca Do Piaui, WMO
+St: 013345; Maria Da Fe, WMO
+St: 013346; Campos Do Jordao, WMO
+St: 013347; Iguatu, WMO
+St: 013348; Resende, WMO
+St: 013349; Caico, WMO
+St: 013350; Santa Cruz, WMO
+St: 013351; Areia, WMO
+St: 013352; Camaratuba, WMO
+St: 013353; Rio De Janeiro - Vil, WMO
+St: 013354; Cruzeiro Do Sul, WMO
+St: 013355; Paulistana, WMO
+St: 013356; Saquarema - Sampaio, WMO
+St: 013357; Cabrobo, WMO
+St: 013358; Rio De Janeiro - For, WMO
+St: 013359; Labrea, WMO
+St: 013360; Nova Friburgo - Sali, WMO
+St: 013361; Humaita, WMO
+St: 013362; Macae, WMO
+St: 013363; Arraial Do Cabo, WMO
+St: 013364; Apui, WMO
+St: 013365; Amambai, WMO
+St: 013366; Sete Quedas, WMO
+St: 013367; Xinguara, WMO
+St: 013368; Cidade Gaucha, WMO
+St: 013369; Maringa, WMO
+St: 013370; Bertioga, WMO
+St: 013371; Carolina, WMO
+St: 013372; Japira, WMO
+St: 013373; Balsas, WMO
+St: 013374; Avare, WMO
+St: 013375; Urucui, WMO
+St: 013376; Sao Miguel Arcanjo, WMO
+St: 013377; Itaporanga, WMO
+St: 013378; Picos, WMO
+St: 013379; Campos Sales, WMO
+St: 013380; Ouricuri, WMO
+St: 013381; Barbalha, WMO
+St: 013382; Serra Talhada, WMO
+St: 013383; Paraty, WMO
+St: 013384; Monteiro, WMO
+St: 013385; Cabaceiras, WMO
+St: 013386; Campina Grande, WMO
+St: 013387; Surubim, WMO
+St: 013388; Joao Pessoa, WMO
+St: 013389; Nova Tebas, WMO
+St: 013390; Ventania, WMO
+St: 013391; Castro, WMO
+St: 013392; Barra Do Turvo, WMO
+St: 013393; Iguape, WMO
+St: 013394; Feijo, WMO
+St: 013395; Foz Do Iguacu, WMO
+St: 013396; Planalto, WMO
+St: 013397; Boca Do Acre, WMO
+St: 013398; Colombo, WMO
+St: 013399; Inacio Martins, WMO
+St: 013400; Ivai, WMO
+St: 013401; Sao Mateus Do Sul, WMO
+St: 013402; Porto Velho, WMO
+St: 013403; Curitiba, WMO
+St: 013404; Morretes, WMO
+St: 013405; Dionisio Cerqueira, WMO
+St: 013406; Redencao, WMO
+St: 013407; Novo Horizonte, WMO
+St: 013408; Colinas Do Tocantins, WMO
+St: 013409; Conceicao Do Araguai, WMO
+St: 013410; General Carneiro, WMO
+St: 013411; Major Vieira, WMO
+St: 013412; Cacador, WMO
+St: 013413; Rio Do Campo, WMO
+St: 013414; Rio Negrinho, WMO
+St: 013415; Indaial, WMO
+St: 013416; Baixa Grande Do Ribe, WMO
+St: 013417; Itajai, WMO
+St: 013418; Salgueiro, WMO
+St: 013419; Aracaju-aeroporto, WMO
+St: 013420; Paulistana, WMO
+St: 013421; Cabrobo, WMO
+St: 013422; Floresta, WMO
+St: 013423; Arco Verde, WMO
+St: 013424; Ibimirim, WMO
+St: 013425; Garanhuns, WMO
+St: 013426; Caruaru, WMO
+St: 013427; Palmares, WMO
+St: 013428; Florianopolis, WMO
+St: 013429; Rancho Queimado, WMO
+St: 013430; Sao Borja, WMO
+St: 013431; Sao Luiz Gonzaga, WMO
+St: 013432; Cruz Alta, WMO
+St: 013433; Passo Fundo, WMO
+St: 013434; Soledade, WMO
+St: 013435; Rio Branco, WMO
+St: 013436; Vacaria, WMO
+St: 013437; Sao Jose Dos Ausente, WMO
+St: 013438; Bom Jardim Da Serra, WMO
+St: 013439; Sao Joaquim, WMO
+St: 013440; Propria, WMO
+St: 013441; Urussanga, WMO
+St: 013442; Ararangua, WMO
+St: 013443; Laguna - Farol de S, WMO
+St: 013444; Uruguaiana, WMO
+St: 013445; Ibiruba, WMO
+St: 013446; Alegrete, WMO
+St: 013447; Santiago, WMO
+St: 013448; Santa Maria, WMO
+St: 013449; Carlinda, WMO
+St: 013450; Bento Goncalves, WMO
+St: 013451; Piranhas, WMO
+St: 013452; Rio Sono, WMO
+St: 013453; Santana Do Araguaia, WMO
+St: 013454; Marianopolis Do To, WMO
+St: 013455; Curaca, WMO
+St: 013456; Alto Parnaiba, WMO
+St: 013457; Gilbues, WMO
+St: 013458; Bom Jesus Do Piaui, WMO
+St: 013459; Caracol, WMO
+St: 013460; Sao Raimundo Nonato, WMO
+St: 013461; Macapa - Aero, WMO
+St: 013462; Remanso, WMO
+St: 013463; Petrolina, WMO
+St: 013464; Bage, WMO
+St: 013465; Cangucu, WMO
+St: 013466; Pao De Acucar, WMO
+St: 013467; Palmeira Dos Indios, WMO
+St: 013468; Arapiraca, WMO
+St: 013469; Sao Luis Do Quitunde, WMO
+St: 013470; Santa Vitoria do Pal, WMO
+St: 013471; Putao, WMO
+St: 013472; Homalin, WMO
+St: 013473; Phyapon, WMO
+St: 013474; Moulmein, WMO
+St: 013475; Ye, WMO
+St: 013476; Dawei, WMO
+St: 013477; Coco Island, WMO
+St: 013478; Mergui, WMO
+St: 013479; Victoria Point, WMO
+St: 013480; 
+St: 013481; Bhamo, WMO
+St: 013482; Mawlaik, WMO
+St: 013483; Kalewa, WMO
+St: 013484; Hakha, WMO
+St: 013485; Mae Hong Son, WMO
+St: 013486; Doi Ang Khang, WMO
+St: 013487; Chiang Rai, WMO
+St: 013488; Chaing Rai Agromet, WMO
+St: 013489; Thung Chang, WMO
+St: 013490; Falam, WMO
+St: 013491; Phayao, WMO
+St: 013492; Tha Wang Pha, WMO
+St: 013493; Thoen, WMO
+St: 013494; Mae Sariang, WMO
+St: 013495; Chiang Mai, WMO
+St: 013496; Lampang, WMO
+St: 013497; Lamphun, WMO
+St: 013498; Shwebo, WMO
+St: 013499; Phrae, WMO
+St: 013500; Nan, WMO
+St: 013501; Nan Agromet, WMO
+St: 013502; Lampang Agromet, WMO
+St: 013503; Lashio, WMO
+St: 013504; Loei Agromet, WMO
+St: 013505; Uttaradit, WMO
+St: 013506; Nong Khai, WMO
+St: 013507; Loei, WMO
+St: 013508; Udon Thani, WMO
+St: 013509; Sakon Nakhon Agromet, WMO
+St: 013510; Sakon Nakhon, WMO
+St: 013511; Nakhon Phanom, WMO
+St: 013512; 
+St: 013513; Nongbualamphu, WMO
+St: 013514; Buengkarn, WMO
+St: 013515; Monywa, WMO
+St: 013516; Sukhothai, WMO
+St: 013517; Si Samrong Agromet, WMO
+St: 013518; Lom Sak, WMO
+St: 013519; Mae Sot, WMO
+St: 013520; Tak, WMO
+St: 013521; Bhumibol Dam, WMO
+St: 013522; Phitsanulok, WMO
+St: 013523; Phetchabun, WMO
+St: 013524; Kam Phaeng Phet, WMO
+St: 013525; Khon Kaen, WMO
+St: 013526; 
+St: 013527; Mukdahan, WMO
+St: 013528; Thaphra Agromet, WMO
+St: 013529; Umphang, WMO
+St: 013530; Pichit Agromet, WMO
+St: 013531; Doi Mu Soe Agromet, WMO
+St: 013532; Kamalasai, WMO
+St: 013533; Amnart Jaroen, WMO
+St: 013534; Hkamti, WMO
+St: 013535; Nakhon Sawan, WMO
+St: 013536; Takfa Agromet, WMO
+St: 013537; Chai Nat Agromet, WMO
+St: 013538; Chaiyaphum, WMO
+St: 013539; Roi Et Agromet, WMO
+St: 013540; Roi Et, WMO
+St: 013541; Yasothon, WMO
+St: 013542; Ubon Ratchathani, WMO
+St: 013543; Ubon Ratchathani Agr, WMO
+St: 013544; Sisaket Agromet, WMO
+St: 013545; Uthaithani, WMO
+St: 013546; Wichian Buri, WMO
+St: 013547; Ayutthaya Agromet, WMO
+St: 013548; Tha Tum, WMO
+St: 013549; Bua Chum, WMO
+St: 013550; Pathumthani Agromet, WMO
+St: 013551; Mandalay, WMO
+St: 013552; Samutprakan Agromet, WMO
+St: 013553; Thong Pha Phum, WMO
+St: 013554; Suphan Buri, WMO
+St: 013555; Lop Buri, WMO
+St: 013556; U Thong Agromet, WMO
+St: 013557; Suvarnabhumi Interna, WMO
+St: 013558; Prachin Buri, WMO
+St: 013559; Nakhon Ratchasima, WMO
+St: 013560; Surin, WMO
+St: 013561; Surin Agromet, WMO
+St: 013562; Chok Chai, WMO
+St: 013563; Pak Chong Agromet, WMO
+St: 013564; Nang Rong, WMO
+St: 013565; Buriram, WMO
+St: 013566; Samut Songkram, WMO
+St: 013567; Kabin Buri, WMO
+St: 013568; Srakaew, WMO
+St: 013569; Kanchana Buri, WMO
+St: 013570; Nakhonpathom Agromet, WMO
+St: 013571; Bangna Agromet, WMO
+St: 013572; Bangkok Port, WMO
+St: 013573; Bangkok Metropolis, WMO
+St: 013574; Don Muang, WMO
+St: 013575; Bangkok Pilot, WMO
+St: 013576; Chachoengsao Agromet, WMO
+St: 013577; Chon Buri, WMO
+St: 013578; Ko Sichang, WMO
+St: 013579; Phatthaya, WMO
+St: 013580; Aranyaprathet, WMO
+St: 013581; Laem Chabang, WMO
+St: 013582; Ratcha Buri Agromet, WMO
+St: 013583; Phetchaburi, WMO
+St: 013584; Nong Phlub Agromet, WMO
+St: 013585; Hua Hin, WMO
+St: 013586; Sattahip, WMO
+St: 013587; Rayong, WMO
+St: 013588; Huai Pong Agromet, WMO
+St: 013589; Nyaung-U, WMO
+St: 013590; Chantha Buri, WMO
+St: 013591; Phliu Agromet, WMO
+St: 013592; Prachuap Khirikhan, WMO
+St: 013593; Khlong Yai, WMO
+St: 013594; Kyauktaw, WMO
+St: 013595; Chumphon, WMO
+St: 013596; Sawi Agromet, WMO
+St: 013597; Meiktila, WMO
+St: 013598; Ranong, WMO
+St: 013599; Ko Samui, WMO
+St: 013600; Surat Thani, WMO
+St: 013601; Nakhonsi Thammarat, WMO
+St: 013602; Nakhonsi Thammarat A, WMO
+St: 013603; Surat Thani Agromet, WMO
+St: 013604; Phrasang, WMO
+St: 013605; Chawang, WMO
+St: 013606; Phatthalung Agromet, WMO
+St: 013607; Takua Pa, WMO
+St: 013608; Krabi, WMO
+St: 013609; Phuket, WMO
+St: 013610; Phuket Airport, WMO
+St: 013611; Ko Lanta, WMO
+St: 013612; Trang, WMO
+St: 013613; Songkhla, WMO
+St: 013614; Hat Yai Airport, WMO
+St: 013615; Taunggyi, WMO
+St: 013616; Satun, WMO
+St: 013617; Kho Hong Agromet, WMO
+St: 013618; Sa Dao, WMO
+St: 013619; Pattani, WMO
+St: 013620; Yala Agromet, WMO
+St: 013621; Narathiwat, WMO
+St: 013622; Kengtung, WMO
+St: 013623; Sittwe, WMO
+St: 013624; Minbu, WMO
+St: 013625; Magway, WMO
+St: 013626; Kyaukpyu, WMO
+St: 013627; Manaung, WMO
+St: 013628; Pyinmana, WMO
+St: 013629; Prome, WMO
+St: 013630; Toungoo, WMO
+St: 013631; Myitkyina, WMO
+St: 013632; Sandoway, WMO
+St: 013633; Gwa, WMO
+St: 013634; Henzada, WMO
+St: 013635; Bago, WMO
+St: 013636; Pathein, WMO
+St: 013637; Maubin, WMO
+St: 013638; 
+St: 013639; Banteay_ampil, WMO
+St: 013640; Oddar_meanchey, WMO
+St: 013641; Battambang, WMO
+St: 013642; Pailin, WMO
+St: 013643; Preah Vihear, WMO
+St: 013644; Kompong_thom, WMO
+St: 013645; Siemreap, WMO
+St: 013646; Kompong Chnang, WMO
+St: 013647; Pursat, WMO
+St: 013648; Banteay Meanchey, WMO
+St: 013649; Yangon, WMO
+St: 013650; Kratie, WMO
+St: 013651; Mondol Kiri, WMO
+St: 013652; Stung Treng, WMO
+St: 013653; Rattanakiri, WMO
+St: 013654; Varin, WMO
+St: 013655; Sihanouk Ville, WMO
+St: 013656; Kampot, WMO
+St: 013657; Koh Kong, WMO
+St: 013658; Baset, WMO
+St: 013659; Hpa-An, WMO
+St: 013660; S_ang, WMO
+St: 013661; Phnom-penh (khmough), WMO
+St: 013662; Kompong Speu, WMO
+St: 013663; Takeo, WMO
+St: 013664; Kompong-cham, WMO
+St: 013665; Prey Veng, WMO
+St: 013666; Svay Rieng, WMO
+St: 013667; Dapaong, WMO
+St: 013668; Mango, WMO
+St: 013669; Niamtougou Intl., WMO
+St: 013670; Kara, WMO
+St: 013671; Sokode, WMO
+St: 013672; Atakpame, WMO
+St: 013673; Kouma Konda, WMO
+St: 013674; Tabligbo, WMO
+St: 013675; Lome, WMO
+St: 013676; Igdir, WMO
+St: 013677; Canakkale Gokceada H, WMO
+St: 013678; Canakkale, WMO
+St: 013679; Bandirma Havalimani, WMO
+St: 013680; Bursa, WMO
+St: 013681; Bursa Yenisehir Hava, WMO
+St: 013682; Yalova, WMO
+St: 013683; Bilecik, WMO
+St: 013684; Eskisehir Havalimani, WMO
+St: 013685; Ankara Murted Havali, WMO
+St: 013686; Ankara Esenboga Hava, WMO
+St: 013687; Etimesgut Havalimani, WMO
+St: 013688; Ankara Bolge, WMO
+St: 013689; Ankara Guvercinlik H, WMO
+St: 013690; Kirikkale, WMO
+St: 013691; Yozgat, WMO
+St: 013692; Balikesir Koca Seyit, WMO
+St: 013693; Akcakoca, WMO
+St: 013694; Balikesir Havalimani, WMO
+St: 013695; Kutahya, WMO
+St: 013696; Kirsehir, WMO
+St: 013697; Tunceli, WMO
+St: 013698; Van Ferit Melen Hava, WMO
+St: 013699; Ayvalik, WMO
+St: 013700; Dikili, WMO
+St: 013701; Akhisar, WMO
+St: 013702; Usak Havalimani, WMO
+St: 013703; Manisa, WMO
+St: 013704; Usak, WMO
+St: 013705; Afyonkarahisar Bolge, WMO
+St: 013706; Cihanbeyli, WMO
+St: 013707; Aksaray, WMO
+St: 013708; Nevsehir, WMO
+St: 013709; Kayseri Erkilet Hava, WMO
+St: 013710; Malatya Tulga Havali, WMO
+St: 013711; Malatya, WMO
+St: 013712; Bartin, WMO
+St: 013713; Malatya Erhac Havali, WMO
+St: 013714; Elazig Havalimani, WMO
+St: 013715; Bingol, WMO
+St: 013716; Mus, WMO
+St: 013717; Bitlis, WMO
+St: 013718; Siirt, WMO
+St: 013719; Cigli Havalimani, WMO
+St: 013720; Izmir Adnan Menderes, WMO
+St: 013721; Zonguldak, WMO
+St: 013722; Izmir Guzelyali, WMO
+St: 013723; Cesme, WMO
+St: 013724; Kusadasi, WMO
+St: 013725; Aydin, WMO
+St: 013726; Denizli, WMO
+St: 013727; Burdur, WMO
+St: 013728; Aksehir, WMO
+St: 013729; Inebolu, WMO
+St: 013730; Isparta, WMO
+St: 013731; Isparta Suleyman Dem, WMO
+St: 013732; Beysehir, WMO
+St: 013733; Konya Havalimani, WMO
+St: 013734; Karaman, WMO
+St: 013735; Eregli, WMO
+St: 013736; Nigde, WMO
+St: 013737; Kahramanmaras, WMO
+St: 013738; Kahramanmaras Havali, WMO
+St: 013739; Denizli Cardak Haval, WMO
+St: 013740; Sinop, WMO
+St: 013741; Gaziantep Havalimani, WMO
+St: 013742; Gaziantep, WMO
+St: 013743; Kilis, WMO
+St: 013744; Adiyaman, WMO
+St: 013745; Sanliurfa, WMO
+St: 013746; Sanliurfa Gap Havali, WMO
+St: 013747; Mardin, WMO
+St: 013748; Diyarbakir Havaliman, WMO
+St: 013749; Batman, WMO
+St: 013750; Hakkari, WMO
+St: 013751; Sirnak, WMO
+St: 013752; Bodrum, WMO
+St: 013753; Mugla Milas-Bodrum H, WMO
+St: 013754; Mugla, WMO
+St: 013755; Mugla Dalaman Havali, WMO
+St: 013756; Fethiye, WMO
+St: 013757; Datca, WMO
+St: 013758; Marmaris, WMO
+St: 013759; Samsun Bolge, WMO
+St: 013760; Antalya Havalimani, WMO
+St: 013761; Antalya Bolge, WMO
+St: 013762; Samsun Carsamba Hava, WMO
+St: 013763; Alanya, WMO
+St: 013764; Anamur, WMO
+St: 013765; Ordu, WMO
+St: 013766; Silifke, WMO
+St: 013767; Giresun, WMO
+St: 013768; Mersin, WMO
+St: 013769; Cukurova Havalimani, WMO
+St: 013770; Incirlik, WMO
+St: 013771; Adana Bolge, WMO
+St: 013772; Adana Sakirpasa Hava, WMO
+St: 013773; Osmaniye, WMO
+St: 013774; Iskenderun, WMO
+St: 013775; Hatay Havalimani, WMO
+St: 013776; Finike, WMO
+St: 013777; Trabzon Havalimani, WMO
+St: 013778; Kas, WMO
+St: 013779; Rize, WMO
+St: 013780; Hopa, WMO
+St: 013781; Artvin-Rize Havaalan, WMO
+St: 013782; Artvin, WMO
+St: 013783; Ardahan, WMO
+St: 013784; Edirne, WMO
+St: 013785; Guzelyurt, WMO
+St: 013786; Lefke, WMO
+St: 013787; Akdeniz, WMO
+St: 013788; Yesilirmak/KIBRIS, WMO
+St: 013789; Girne, WMO
+St: 013790; Lefkose, WMO
+St: 013791; Kirklareli, WMO
+St: 013792; Ercan, WMO
+St: 013793; Gecitkale, WMO
+St: 013794; Iskele, WMO
+St: 013795; Gazimagosa , WMO
+St: 013796; Dipkarpaz/KIBRIS, WMO
+St: 013797; Yeni Erenkoy, WMO
+St: 013798; Tekirdag, WMO
+St: 013799; Alsancak / KIBRIS, WMO
+St: 013800; istanbul havaalani, WMO
+St: 013801; Istanbul Ataturk Hav, WMO
+St: 013802; Sariyer, WMO
+St: 013803; Istanbul Sabiha Gokc, WMO
+St: 013804; Istanbul Bolge, WMO
+St: 013805; Kocaeli, WMO
+St: 013806; Kocaeli Cengiz Topel, WMO
+St: 013807; Sakarya, WMO
+St: 013808; Bolu, WMO
+St: 013809; Duzce, WMO
+St: 013810; Kastamonu, WMO
+St: 013811; Karabuk Kapullu, WMO
+St: 013812; Cankiri, WMO
+St: 013813; Amasya Merzifon Hava, WMO
+St: 013814; Corum, WMO
+St: 013815; Amasya, WMO
+St: 013816; Tokat, WMO
+St: 013817; Gumushane, WMO
+St: 013818; Bayburt, WMO
+St: 013819; Sivas, WMO
+St: 013820; Sivas Nuri Demirag H, WMO
+St: 013821; Erzincan Havalimani, WMO
+St: 013822; Erzincan, WMO
+St: 013823; Erzurum Bolge, WMO
+St: 013824; Erzurum Havalimani, WMO
+St: 013825; Kars Harakani Havali, WMO
+St: 013826; Agri, WMO
+St: 013827; Chernihiv, WMO
+St: 013828; Volodymyr-Volynskyi, WMO
+St: 013829; Konotop, WMO
+St: 013830; Sumy, WMO
+St: 013831; Kharkiv, WMO
+St: 013832; Rivne, WMO
+St: 013833; Shepetivka, WMO
+St: 013834; Zhytomyr, WMO
+St: 013835; Kyiv, WMO
+St: 013836; Lubny, WMO
+St: 013837; Lviv, WMO
+St: 013838; Ternopil, WMO
+St: 013839; Khmelnytskyi, WMO
+St: 013840; 
+St: 013841; Dnipro, WMO
+St: 013842; Poltava, WMO
+St: 013843; Ivano-Frankivsk, WMO
+St: 013844; Vinnytsia, WMO
+St: 013845; Uman, WMO
+St: 013846; Svitlovodsk, WMO
+St: 013847; Uzhhorod, WMO
+St: 013848; Chernivtsi, WMO
+St: 013849; Mohyliv-Podilskyi, WMO
+St: 013850; Kropyvnytskyi, WMO
+St: 013851; Liubashivka, WMO
+St: 013852; Kryvyi Rih, WMO
+St: 013853; Odesa, WMO
+St: 013854; Sarny, WMO
+St: 013855; Kherson, WMO
+St: 013856; Sallum Plateau, WMO
+St: 013857; Mersa Matruh, WMO
+St: 013858; Dabaa, WMO
+St: 013859; El Nouzha, WMO
+St: 013860; Baltim, WMO
+St: 013861; Port Said, WMO
+St: 013862; El Arish-Agrimet, WMO
+St: 013863; El Arish Intl., WMO
+St: 013864; Tahrir, WMO
+St: 013865; Wadi El Natroon Agri, WMO
+St: 013866; Cairo Intl., WMO
+St: 013867; Minya, WMO
+St: 013868; Assiut Intl., WMO
+St: 013869; Qena, WMO
+St: 013870; South Of Valley Univ, WMO
+St: 013871; Luxor Intl., WMO
+St: 013872; Aswan Intl., WMO
+St: 013873; Siwa, WMO
+St: 013874; Abu Simbel, WMO
+St: 013875; Baharia, WMO
+St: 013876; Farafra, WMO
+St: 013877; Shark El Oweinat Int, WMO
+St: 013878; Dakhla (62432-0), WMO
+St: 013879; Kharga Agrimet, WMO
+St: 013880; Ismailia, WMO
+St: 013881; Nekhel, WMO
+St: 013882; El Hasana, WMO
+St: 013883; Ras Sedr, WMO
+St: 013884; Taba Intl., WMO
+St: 013885; Aburdees, WMO
+St: 013886; El Tor, WMO
+St: 013887; Hurghada Intl., WMO
+St: 013888; Kosseir, WMO
+St: 013889; Shalatin, WMO
+St: 013890; Tiree, WMO
+St: 013891; Baldrick Aws, WMO
+St: 013892; Eskdalemuir, WMO
+St: 013893; Kirkwall, WMO
+St: 013894; Leuchars, WMO
+St: 013895; Halley, WMO
+St: 013896; Leeming, WMO
+St: 013897; Stornoway Airport, WMO
+St: 013898; Valley, WMO
+St: 013899; Waddington, WMO
+St: 013900; Shawbury, WMO
+St: 013901; Gibraltar, WMO
+St: 013902; Lerwick, WMO
+St: 013903; Aberporth, WMO
+St: 013904; Wattisham, WMO
+St: 013905; Akrotiri Cyprus Aut, WMO
+St: 013906; Rothera, WMO
+St: 013907; Vernadsky, WMO
+St: 013908; Kinloss, WMO
+St: 013909; Sarh, WMO
+St: 013910; Heathrow, WMO
+St: 013911; Manston, WMO
+St: 013912; Camborne, WMO
+St: 013913; Saidpur, WMO
+St: 013914; Rangpur, WMO
+St: 013915; Hurn, WMO
+St: 013916; Dinajpur, WMO
+St: 013917; Mount Byron Falklan, WMO
+St: 013918; Bogra, WMO
+St: 013919; Mymensingh, WMO
+St: 013920; Mount Pleasant Airpo, WMO
+St: 013921; Sylhet, WMO
+St: 013922; Mount Alice Falklan, WMO
+St: 013923; Rajshahi, WMO
+St: 013924; Ishurdi, WMO
+St: 013925; Tangail, WMO
+St: 013926; Dyce, WMO
+St: 013927; Srimangal, WMO
+St: 013928; Aldergrove, WMO
+St: 013929; Dhaka, WMO
+St: 013930; Chuadanga, WMO
+St: 013931; Farodpur, WMO
+St: 013932; Comilla, WMO
+St: 013933; Jessore, WMO
+St: 013934; Madaripur, WMO
+St: 013935; Chandpur, WMO
+St: 013936; Feni, WMO
+St: 013937; Satkhira, WMO
+St: 013938; Khulna, WMO
+St: 013939; Barisal, WMO
+St: 013940; Bhola, WMO
+St: 013941; Maijdicourt, WMO
+St: 013942; Patuakhali, WMO
+St: 013943; Hatia, WMO
+St: 013944; Sandwip, WMO
+St: 013945; Sitakundu, WMO
+St: 013946; Rangamati, WMO
+St: 013947; Chittagong Ambagan, WMO
+St: 013948; Chittagong Patenga, WMO
+St: 013949; Khepupara, WMO
+St: 013950; Kutubdia, WMO
+St: 013951; Cox's Bazar, WMO
+St: 013952; Teknaf, WMO
+St: 013953; Eton Dorney, WMO
+St: 013954; Sheffield, WMO
+St: 013955; Stormont Castle, WMO
+St: 013956; High Mowthorpe, WMO
+St: 013957; Cluanie Inn, WMO
+St: 013958; Santon Downham, WMO
+St: 013959; Alice Holt Lodge, WMO
+St: 013960; Altnahinch Filters, WMO
+St: 013961; Cromer, WMO
+St: 013962; Cambridge Niab, WMO
+St: 013963; Brooms Barn, WMO
+St: 013964; Lentran, WMO
+St: 013965; Goudhurst, WMO
+St: 013966; Westonbirt, WMO
+St: 013967; Carterhouse, WMO
+St: 013968; Banagher Caugh Hill, WMO
+St: 013969; Drumnadrochit, WMO
+St: 013970; Great Cumbrae Millp, WMO
+St: 013971; Houghton Hall, WMO
+St: 013972; Bridgefoot, WMO
+St: 013973; 
+St: 013974; 
+St: 013975; 
+St: 013976; 
+St: 013977; 
+St: 013978; 
+St: 013979; Astwood Bank, WMO
+St: 013980; Ballywatticock, WMO
+St: 013981; Charsfield, WMO
+St: 013982; Coton-in-the-elms, WMO
+St: 013983; Gogerddan, WMO
+St: 013984; Gringley On The Hill, WMO
+St: 013985; Newton Rigg, WMO
+St: 013986; Resallach, WMO
+St: 013987; Newport, WMO
+St: 013988; Otterbourne Aws, WMO
+St: 013989; Market Bosworth, WMO
+St: 013990; Swanage, WMO
+St: 013991; Cardiff Bute Park, WMO
+St: 013992; Cavendish, WMO
+St: 013993; Ryhill, WMO
+St: 013994; Porthmadog, WMO
+St: 013995; Pennerley, WMO
+St: 013996; South Newington, WMO
+St: 013997; Bainbridge, WMO
+St: 013998; Myerscough, WMO
+St: 013999; Llysdinam, WMO
+St: 014000; Bradford, WMO
+St: 014001; Ravensworth, WMO
+St: 014002; Whitechurch, WMO
+St: 014003; Killylane, WMO
+St: 014004; Usk No 2, WMO
+St: 014005; Pately Bridge Ravens, WMO
+St: 014006; Normanby Hall, WMO
+St: 014007; Edinburgh Royal Bota, WMO
+St: 014008; Frittenden, WMO
+St: 014009; Reading University W, WMO
+St: 014010; Scolton Country Park, WMO
+St: 014011; Wiggonholt, WMO
+St: 014012; Kielder Castle (aws), WMO
+St: 014013; Morecambe No2, WMO
+St: 014014; Giants Causeway, WMO
+St: 014015; Wellesbourne, WMO
+St: 014016; Bude, WMO
+St: 014017; Achnagart (mms), WMO
+St: 014018; Stowe, WMO
+St: 014019; Logan Botanic Garden, WMO
+St: 014020; Libanus (aws), WMO
+St: 014021; Chillingham Barns (m, WMO
+St: 014022; Hampton W Wks (aws), WMO
+St: 014023; Upper Lambourn (aws), WMO
+St: 014024; London Olympic Park, WMO
+St: 014025; London Olympic Park, WMO
+St: 014026; Hull West Park, WMO
+St: 014027; Hull East Park, WMO
+St: 014028; Tibenham Airfield, WMO
+St: 014029; Raleigh/raleigh-durh, WMO
+St: 014030; Fletcher Nc, WMO
+St: 014031; Rome Ga, WMO
+St: 014032; Tupelo/cd Lemons Mun, WMO
+St: 014033; Morpeth Cockle Park, WMO
+St: 014034; Coventry Coundon (c, WMO
+St: 014035; Deptford (cdl), WMO
+St: 014036; Bury Clarks Hill (c, WMO
+St: 014037; Bolton Lever Edge, WMO
+St: 014038; Herne Bay(cdl), WMO
+St: 014039; Bramham (cdl), WMO
+St: 014040; Monks Wood (cdl), WMO
+St: 014041; Wisley, WMO
+St: 014042; Derrylin, WMO
+St: 014043; Helens Bay, WMO
+St: 014044; Cleethorpes Haverst, WMO
+St: 014045; Auchincruive, WMO
+St: 014046; Braemar No 2, WMO
+St: 014047; Threave, WMO
+St: 014048; Kinlochewe, WMO
+St: 014049; Keele, WMO
+St: 014050; Okehampton East Oke, WMO
+St: 014051; Kew Gardens (cdl), WMO
+St: 014052; High Beach, WMO
+St: 014053; Norwich Airport, WMO
+St: 014054; Heathrow Airport (cd, WMO
+St: 014055; Ouahigouya, WMO
+St: 014056; Ouagadougou, WMO
+St: 014057; Bogande, WMO
+St: 014058; Dedougou, WMO
+St: 014059; Fada N'gourma, WMO
+St: 014060; Bobo Dioulasso, WMO
+St: 014061; Boromo, WMO
+St: 014062; Po, WMO
+St: 014063; Gaoua, WMO
+St: 014064; Pozo Colorado, WMO
+St: 014065; Concepcion, WMO
+St: 014066; Gral. Bruguez, WMO
+St: 014067; San Pedro, WMO
+St: 014068; San Estanislao, WMO
+St: 014069; Salto Del Guaira, WMO
+St: 014070; Aeropuerto Silvio Pe, WMO
+St: 014071; Paraguari, WMO
+St: 014072; Villarrica, WMO
+St: 014073; Coronel Oviedo, WMO
+St: 014074; Aeropuerto Int. Guar, WMO
+St: 014075; Pilar, WMO
+St: 014076; San Juan Bautista, WMO
+St: 014077; Caazapa, WMO
+St: 014078; Capitan Meza, WMO
+St: 014079; Encarnacion, WMO
+St: 014080; Bahia Negra, WMO
+St: 014081; Artigas G3, WMO
+St: 014082; Rivera G3, WMO
+St: 014083; Salto G3, WMO
+St: 014084; Tacuaremb G3, WMO
+St: 014085; Paysand G3, WMO
+St: 014086; Melo G3, WMO
+St: 014087; Paso de los Toros G3, WMO
+St: 014088; Mercedes G3, WMO
+St: 014089; Treinta y Tres G3, WMO
+St: 014090; Durazno G3, WMO
+St: 014091; Antartida G3, WMO
+St: 014092; Florida G3, WMO
+St: 014093; San Jos G4, WMO
+St: 014094; Colonia G3, WMO
+St: 014095; Rocha G3, WMO
+St: 014096; Aeropuerto Melilla G, WMO
+St: 014097; Carrasco, WMO
+St: 014098; Atlntida G3, WMO
+St: 014099; San Jacinto G3, WMO
+St: 014100; Lavalleja G3, WMO
+St: 014101; Prado G3, WMO
+St: 014102; Laguna del Sauce G3, WMO
+St: 014103; Punta del Este G4, WMO
+St: 014104; Mariscal Estigarribi, WMO
+St: 014105; Puerto Casado, WMO
+St: 014106; Pedro Juan Caballero, WMO
+St: 014107; Young G3, WMO
+St: 014108; Trinidad G4, WMO
+St: 014109; Vichadero G4, WMO
+St: 014110; Bella Uni?n G4, WMO
+St: 014111; Jaslyk, WMO
+St: 014112; Kungrad, WMO
+St: 014113; Ak-bajtal, WMO
+St: 014114; Chimbaj, WMO
+St: 014115; Nukus, WMO
+St: 014116; Urgench, WMO
+St: 014117; Buzaubaj, WMO
+St: 014118; Tamdy, WMO
+St: 014119; Tashkent, WMO
+St: 014120; Pskem, WMO
+St: 014121; Nurata, WMO
+St: 014122; Dzizak, WMO
+St: 014123; Syr-dar'ja, WMO
+St: 014124; Namangan, WMO
+St: 014125; Fergana, WMO
+St: 014126; Buhara, WMO
+St: 014127; Samarkand, WMO
+St: 014128; Karshi, WMO
+St: 014129; Termez, WMO
+St: 014130; Aeriance, Windbird 1767
+St: 014131; Unknown spot, Unknown WG Station
+St: 014132; Windbird 1697, Windbird 1697
+St: 014133; Unknown spot, Unknown WG Station
+St: 014134; Crawinkel, Wetterstation Crawinkel
+St: 014135; Gananoque Ontario, Gananoque West Ward
+St: 014136; Déco de Champfromier 1200m, OpenWindMap 1220
+St: 014137; Unknown spot, Unknown WG Station
+St: 014138; Lyckorna, Lyckorna
+St: 014139; Achiras, Parque Eólico Achiras
+St: 014140; Mar del Plata, MDQ
+St: 014141; Windbird , Windbird 1755
+St: 014142; Unknown spot, Unknown WG Station
+St: 014143; Nadolice Wielkie, Nadolice Wielkie
+St: 014144; Magurele Raului 98, Magurele Raului 98
+St: 014145; Peña Escrita 1250m, Windbird 1481
+St: 014146; Unknown spot, Unknown WG Station
+St: 014147; Santa Teresita, 47 y costanera
+St: 014148; KNJMIDDL2, Davis Vantage Pro 2
+St: 014149; Apartment Puravida, Wallis&Gill
+St: 014150; Loma Redonda, LREDONDAV
+St: 014151; Stoke Ferry, Stoke Ferry
+St: 014152; Delerius-Weather, Delerius Weather
+St: 014153; Balise custom 1221, OpenWindMap 1221
+St: 014154; Unknown spot, Unknown WG Station
+St: 014155; LFNW PUIVERT, OpenWindMap 994
+St: 014156; Unknown spot, Unknown WG Station
+St: 014157; Is Solinas, L‘ombelico del mondo
+St: 014158; Mytilene, Mytilene-OldTown
+St: 014159; Mytilene, Mytilene-OldTown
+St: 014160; Meadowbank, Meadowbank
+St: 014161; KWind Cabarete VIBRA-Kiteschool Bozo Beach, VIBRA-Kiteschool Repair/Rent & Hangoutbar
+St: 014162; Balok Kuantan, Kuantan - Balok beach
+St: 014163; Mui Ne, Phan Thiet, C2Sky Kitecenter (1chip.ru weather station)
+St: 014164; Mui Ne, Phan Thiet, C2Sky Kitecenter (1chip.ru weather station)
+St: 014165; Mount Joy, KPAMount100
+St: 014166; Balise Windbird , Windbird 1366
+St: 014167; Unknown spot, Unknown WG Station
+St: 014168; Almerimar, Almerimar
+St: 014169; Hrnciarovce, meteohrnciarovce.sk
+St: 014170; Montrose, MontroseSC
+St: 014171; Nicos, Garni in de tuin
+St: 014172; Costa Kite Bariloche, costakite
+St: 014173; Bande 825m, Pioupiou 582
+St: 014174; Unknown spot, Unknown WG Station
+St: 014175; Unknown spot, Unknown WG Station
+St: 014176; Nendaz Plan-du-Fou, Windbird 1380
+St: 014177; Unknown spot, Unknown WG Station
+St: 014178; Turriff, Turriff Weather
+St: 014179; Seichamps, privé
+St: 014180; Viladecans, Viladecans Station
+St: 014181; Farroupilha, gwust
+St: 014182; Pinamar Norte, Escuela Windkite
+St: 014183; Glapsides Loof Cafe Kites and Bananas, GAYIK4
+St: 014184; Monte Rossina, WeatherStation
+St: 014185; Monte Rossina, weather station Rossina01
+St: 014186; Ludvika, Ludvika Väderstation
+St: 014187; TestStation
+St: 014188; Ekeviken
+St: 014189; Kautenbach
+St: 014190; Offenbach Hundheim
+St: 014191; Hof PGK_ Stokkelia
+St: 014192; Anzonico Campagna
+St: 014193; Jani Gárdony
+St: 014194; HLSK Brudeberget
+St: 014195; Braunwald Gumen
+St: 014196; VossHPK Myrkdalen
+St: 014197; Wispile
+St: 014198; HLSK Grøtterud
+St: 014199; SUPiNord Gressholman
+St: 014200; Buchenberg Buching
+St: 014201; 
+St: 014202; Ebden_ Lake Hume
+St: 014203; Mt Murchison
+St: 014204; Zugerberg
+St: 014205; THPK Ersfjord
+St: 014206; The E
+St: 014207; Ålesund Kiteklubb Ro
+St: 014208; Hainberg
+St: 014209; Kruševo
+St: 014210; Coronet Peak Tandems
+St: 014211; Öreghegy
+St: 014212; Springfield Ridge
+St: 014213; Meråker
+St: 014214; Klüsserath
+St: 014215; RHMFK Flyplass
+St: 014216; Tapawera
+St: 014217; Skyline Gondola
+St: 014218; Hohwacht
+St: 014219; Storwartz
+St: 014220; Chalet du Chef
+St: 014221; Bürchen Mällig
+St: 014222; NLSK Salen
+St: 014223; NLSK Haksåsen
+St: 014224; Finse Skisenter
+St: 014225; THPK Finnvikdalen
+St: 014226; FLK Hafstadfjellet
+St: 014227; Skäret NO
+St: 014228; Hässleholm PM
+St: 014229; SPGK Fennefoss
+St: 014230; SPGK Hillestadheia
+St: 014231; Tjuvkil
+St: 014232; Kambar Fisfélagið
+St: 014233; BJFF Leinavatn_Troms
+St: 014234; Steckweiler
+St: 014235; G Skausnøya
+St: 014236; Gesunda/Dalmåsarna
+St: 014237; Laubberg
+St: 014238; Grünberg FlyingSwans
+St: 014239; Springfield
+St: 014240; Hororata
+St: 014241; Gschwänd / Galgenen
+St: 014242; Aljaforah
+St: 014243; Wenholthausen
+St: 014244; Ålleberg V
+St: 014245; Izvoru Crisului LIVE
+St: 014246; Brunsberg SP DGFC HX
+St: 014247; Weiler - RML
+St: 014248; Lasserg - RML
+St: 014249; Kobern-Gondorf - RML
+St: 014250; Niederzissen - RML
+St: 014251; Ise - Bjønnåsen
+St: 014252; Qatar Paragliding
+St: 014253; Rocky Gully
+St: 014254; THPK Aglapsvika
+St: 014255; Tata
+St: 014256; Brunstorp SV
+St: 014257; Lorea Startplz
+St: 014258; Glenorchy
+St: 014259; Boulder - RMHPA
+St: 014260; Ochsenberg
+St: 014261; PG Oresany
+St: 014262; Asker Seilforening
+St: 014263; Flugschule Jura Thal
+St: 014264; Camp Park Lijak
+St: 014265; Brento Exit
+St: 014266; Ca del Monte Sud
+St: 014267; Edwards
+St: 014268; The Lawley
+St: 014269; Garl. Brauneck LGGF
+St: 014270; T17_ Nevis Range
+St: 014271; THPK Fjellheisen
+St: 014272; Opsahlåsen DROP
+St: 014273; Dieberg
+St: 014274; WeserBergLand DGFCHx
+St: 014275; Hjartdal
+St: 014276; Flatdal
+St: 014277; Taktaharkány
+St: 014278; Ob Lucken
+St: 014279; Stauf Schlossberg
+St: 014280; Taylors Mistake
+St: 014281; Stokkvola
+St: 014282; Neumagen-Dhron
+St: 014283; Serrig
+St: 014284; Keiservarden
+St: 014285; Fürstenberg Süd
+St: 014286; Monte Carza
+St: 014287; Mölle
+St: 014288; Donnersberg Rampe
+St: 014289; Venetflieger LPZ
+St: 014290; Grubig West
+St: 014291; Grubig Süd
+St: 014292; Moos LP
+St: 014293; Al Khazna
+St: 014294; Borgo Priolo
+St: 014295; Kapiti Aeromodellers
+St: 014296; Tossebergsklätten
+St: 014297; Zeltingen-Rachtig O
+St: 014298; Ockfen Südwest
+St: 014299; Meerfeld Süd-SO
+St: 014300; Flightpark
+St: 014301; ElFerre
+St: 014302; Grubig Landeplatz
+St: 014303; Grønnhøbua_ Folldal
+St: 014304; Almkopf
+St: 014305; Nisseviken_ Gotland
+St: 014306; Gurli
+St: 014307; Gotschnagrat
+St: 014308; Kandel Süd DGFC
+St: 014309; Gnisvärd
+St: 014310; Losheim Gallo
+St: 014311; Trier Yachthafen
+St: 014312; Rofan - Startplatz
+St: 014313; Skalsko
+St: 014314; SCA Stoderzinken
+St: 014315; Geba - Träbes
+St: 014316; Brahehus
+St: 014317; Omarama
+St: 014318; Oberemmendorf DFCI
+St: 014319; Hindenburgblick
+St: 014320; Börry
+St: 014321; Nygruva Folldal
+St: 014322; Footes
+St: 014323; Canvastown
+St: 014324; Böhming DFCI
+St: 014325; Bergen Ulriken NØ
+St: 014326; Eldøy_ Stord
+St: 014327; Bjorli Skisenter AS
+St: 014328; Altenbeuthen
+St: 014329; Löhma/Hockroda
+St: 014330; Knobelsdorf
+St: 014331; Schönhalden
+St: 014332; UnternbergRuhpolding
+St: 014333; Box Canyon - Lower
+St: 014334; Åsan Tynset
+St: 014335; Langsetra_ Tynset
+St: 014336; s434
+St: 014337; Broughton
+St: 014338; Teufelsflieger DGL
+St: 014339; Hochoetz
+St: 014340; (Außer Betrieb) Prö.
+St: 014341; AVLE Caracenilla
+St: 014342; HAM
+St: 014343; Flugebyn
+St: 014344; Gabersee
+St: 014345; Boppard - nur RML
+St: 014346; Dielmissen Ith
+St: 014347; Eisenberg/Battenberg
+St: 014348; Barra do Dande
+St: 014349; Bell Hill
+St: 014350; VossHPK Vossevangen
+St: 014351; Déco St-Cergue
+St: 014352; GSC Neckar-Odenwald
+St: 014353; Pobbio (basso)
+St: 014354; Eschlkam
+St: 014355; ZFC: Schwarzsee
+St: 014356; Sommerberg
+St: 014357; Spornegg
+St: 014358; Micheldorf HW-Stein
+St: 014359; Metschstand
+St: 014360; SSS Inntal
+St: 014361; Svenstorps Gods
+St: 014362; Kandel West DGFC
+St: 014363; Frya
+St: 014364; Bayrischzell Landepl
+St: 014365; Schloss Johannisberg
+St: 014366; Heiði Fisfélagið
+St: 014367; Asker Modellklubb(N)
+St: 014368; Laubenheim
+St: 014369; Rivenich West-NW
+St: 014370; Burgen Ost
+St: 014371; Vestnes KRIK
+St: 014372; Csolnok
+St: 014373; Schwengimatt DC-Falk
+St: 014374; Cirrus RC Flyklubb
+St: 014375; Frauenberg SDH
+St: 014376; NLF Rikssenteret
+St: 014377; Mollis Airport_ LSZM
+St: 014378; Ålesund Kiteklubb BL
+St: 014379; Spaichingen 3-er
+St: 014380; Coronet Peak Summit
+St: 014381; Erlau Start
+St: 014382; Ölberg Startplatz
+St: 014383; Stephan Tellaroli
+St: 014384; Kleinheppacher Kopf
+St: 014385; Wolfratshauserhütte
+St: 014386; Sassenroth
+St: 014387; (HLSK) Bjørgeberget
+St: 014388; ZFS-Melchboden
+St: 014389; Schaufel/Bad Wildung
+St: 014390; Tungubakkar
+St: 014391; DunaSzeg p.v.sz.
+St: 014392; GyőrSzt.Iván p.v.sz.
+St: 014393; TöltésTava p.v.sz.
+St: 014394; EYOF Győr HQ
+St: 014395; Femund
+St: 014396; Sunrise Beach
+St: 014397; Øyer Kråbøl
+St: 014398; Prodkamm
+St: 014399; s572
+St: 014400; Wank
+St: 014401; Teufen ZH
+St: 014402; Millets-Direction HS
+St: 014403; Rodomont
+St: 014404; Loen Skylift
+St: 014405; Hesselberg
+St: 014406; Skógarnes
+St: 014407; FSV Sindelfingen
+St: 014408; GSC NOW / Aufwind Br
+St: 014409; Lindenfels Üb.Hang
+St: 014410; Blorenge
+St: 014411; AVLE NOEMÍ PEDRO B
+St: 014412; Hochfelln Süd
+St: 014413; Ostrau
+St: 014414; Csobánc
+St: 014415; Gerecse_ Kovács-hegy
+St: 014416; Clatter
+St: 014417; Opfertshofen
+St: 014418; (HLSK) Høsbjør
+St: 014419; Solbergåsen_ nedre s
+St: 014420; s614
+St: 014421; Seegeier Kulm
+St: 014422; Winton
+St: 014423; Mary Ann Bay
+St: 014424; Arosa Weisshorn
+St: 014425; NLSK Rye
+St: 014426; NLSK Gråkallen
+St: 014427; Club RC De l´Ebre
+St: 014428; Münsingen PWA
+St: 014429; Eged
+St: 014430; Líbar (ACAMET)
+St: 014431; Lindenfels Steinbr.
+St: 014432; Bäderhore vlgruyere
+St: 014433; Marienberg
+St: 014434; Pfeffelbach
+St: 014435; Schöneben SP
+St: 014436; Sléttan
+St: 014437; Breitenberg Pfronten
+St: 014438; Hohaflieger
+St: 014439; Base ULM Fréjus
+St: 014440; 657
+St: 014441; Takaka
+St: 014442; LA JASSERIE
+St: 014443; Spielberg
+St: 014444; Neukirchen-Vluyn
+St: 014445; Ca del Monte Ovest
+St: 014446; Vogelsang
+St: 014447; Paracider
+St: 014448; Schiltgrat
+St: 014449; WAKU Reichenhausen
+St: 014450; WAKU Spielbg 30-100°
+St: 014451; Fjellhaugen Alpin
+St: 014452; Sonchaux
+St: 014453; St-Quay Port d'Armor
+St: 014454; Sender Kleinerberg
+St: 014455; GSC Kraichtal/Obera.
+St: 014456; Hohenberg
+St: 014457; Kleingartach
+St: 014458; Skjerja
+St: 014459; G Brattelifjellet
+St: 014460; CVL - Chamossaire
+St: 014461; CVL - Villy
+St: 014462; EINKORN
+St: 014463; Sandsli - Skage
+St: 014464; Ryghåsen NV. DROP
+St: 014465; Bei Webers
+St: 014466; Sandviken
+St: 014467; Whitesheet
+St: 014468; Jochdohlen LP
+St: 014469; Jochdohlen SP
+St: 014470; Hafrsfjord South 743
+St: 014471; Schoden West-NW
+St: 014472; Maring Süd
+St: 014473; Haimburgerberg
+St: 014474; Fürstenberg Nord
+St: 014475; STRATUS Hestelegda
+St: 014476; Michelau
+St: 014477; Gringlay
+St: 014478; TRX
+St: 014479; Osterfelder
+St: 014480; LP Osterfelder
+St: 014481; Kreuzeck
+St: 014482; Liteni
+St: 014483; Heue Bergalingen
+St: 014484; JLK Rennesøy_ Pilå
+St: 014485; Muottas Muragl
+St: 014486; Gaffs Hill
+St: 014487; Woodspring
+St: 014488; Ålesund Kiteklubb BV
+St: 014489; 784
+St: 014490; 785
+St: 014491; WB22 Goaz-trez
+St: 014492; Hochfirst
+St: 014493; STRATUS Mulevika
+St: 014494; (HLSK) Bangsberg
+St: 014495; Tregrensa Vangslia
+St: 014496; Orensfels
+St: 014497; AWB Buchhorn
+St: 014498; Finale Ligure
+St: 014499; Ålleberg Ö
+St: 014500; Örebro Paramotor
+St: 014501; WB22 Ile-Grande
+St: 014502; VØH-Bondalseidet
+St: 014503; Harstad Modellflyklu
+St: 014504; Helmershausen - SW
+St: 014505; ÅPGK Emblemsfjellet
+St: 014506; Sandared VIASS
+St: 014507; Ballon de Paris
+St: 014508; BRIZ2
+St: 014509; SPGK Morkheia
+St: 014510; Croix de Boutières
+St: 014511; Eugendorf 1
+St: 014512; Epernay
+St: 014513; Panoramagique
+St: 014514; Framo Flatøy
+St: 014515; Bodenlos Neubiberg
+St: 014516; Devoluy Altisurface
+St: 014517; Valbeleix
+St: 014518; 886
+St: 014519; loge des gardes
+St: 014520; SSA La Bajada
+St: 014521; Rortangen
+St: 014522; Cavallaria
+St: 014523; Eugendorf 2
+St: 014524; Wirmighausen
+St: 014525; MONT MINISTRE
+St: 014526; Roaldshorn_ Stranda
+St: 014527; SALVARIS
+St: 014528; Matinolli
+St: 014529; Terra Botanica
+St: 014530; Athaiba
+St: 014531; AMCCO Messigny
+St: 014532; Tegelberg Startplatz
+St: 014533; Spieljoch
+St: 014534; P21 Mt Vallon
+St: 014535; Mont Semiol 42
+St: 014536; G2 Bouquetin
+St: 014537; G2 Cote Brune
+St: 014538; TC VIZELLE P16
+St: 014539; G4 Pas du Lac
+St: 014540; STRATUS Røyrafjellet
+St: 014541; MG Huttwil
+St: 014542; Crêt du Midi
+St: 014543; Grimer
+St: 014544; GMR Avenches
+St: 014545; VLS Decollo Colonei
+St: 014546; môle Port-Vendres
+St: 014547; AHMFK Auten
+St: 014548; Seville
+St: 014549; Acpm83
+St: 014550; Terrace SouthernClub
+St: 014551; treblecone
+St: 014552; Planplatten
+St: 014553; Nassau - RML
+St: 014554; Sandia Peak
+St: 014555; Segelclub Inheiden
+St: 014556; Rohrbahn/Kaulsdorf
+St: 014557; Ramenegg
+St: 014558; Chalais
+St: 014559; Finnland/ Rovaniemi
+St: 014560; Skotdeild Keflavikur
+St: 014561; Vauville
+St: 014562; Alpe Foppa
+St: 014563; 971
+St: 014564; Rofan Steilhang
+St: 014565; Hollersbach
+St: 014566; Heidal_ Espesetra
+St: 014567; Balbergkampn
+St: 014568; Decollo Malcesine
+St: 014569; Ergenzingen
+St: 014570; Melibokus
+St: 014571; Wetterkreuz GTO
+St: 014572; Bastenberg DGFC HX
+St: 014573; 
+St: 014574; 
+St: 014575; Radspitze
+St: 014576; Bergstein - OWF/LSV
+St: 014577; Mülkerblatte
+St: 014578; Delta Club Mosbach
+St: 014579; Predigtstuhl
+St: 014580; Pilotage BREST
+St: 014581; Spiesshorn
+St: 014582; Flugplatz Agathazell
+St: 014583; Vogelberg
+St: 014584; Sanc'air Parapente
+St: 014585; Nendaz_ Tracouet
+St: 014586; Haag
+St: 014587; Norheim
+St: 014588; Kingston SPHGC
+St: 014589; Flums Landeplatz
+St: 014590; Bälmeten
+St: 014591; South Mtn. - AZHPA
+St: 014592; La Berra arrivé télé
+St: 014593; MFG Pfinztal e.V.
+St: 014594; Meckenheim
+St: 014595; Saint Desirat
+St: 014596; Blankenhain
+St: 014597; Jenzig
+St: 014598; Jägerberg
+St: 014599; CCS
+St: 014600; Corgémont
+St: 014601; GRUISSAN-VieilleNouv
+St: 014602; Prabé
+St: 014603; Tréfuntec
+St: 014604; Bellalui CVLCMA
+St: 014605; Dreibündenstein
+St: 014606; Tyagarah
+St: 014607; MFV Alpin - Grins
+St: 014608; Hubertushütte
+St: 014609; ZFC: Riffelberg
+St: 014610; DCC Altenberg
+St: 014611; Long Mynd
+St: 014612; FSG Bölkow e.V.
+St: 014613; Storedal
+St: 014614; Tal Brauneck LGGF
+St: 014615; Visingsö Hamn
+St: 014616; JLK Nicostarten
+St: 014617; WAKU Heubach 0-40°
+St: 014618; WSCÜ
+St: 014619; CASM - NORDESTE
+St: 014620; Fréterette
+St: 014621; La Roche Devant
+St: 014622; Flugplatz Singhofen
+St: 014623; VossHPK Hangur øst 2
+St: 014624; Erden Südost
+St: 014625; Woolacombe NDHPC
+St: 014626; Wildkogel Bramberg
+St: 014627; STRATUS Vassverket N
+St: 014628; 
+St: 014629; JLK Frafjord
+St: 014630; JLK Hegelstad
+St: 014631; Alpe Giumello
+St: 014632; AMS PR
+St: 014633; Wehingen
+St: 014634; Tête-de-Ran
+St: 014635; La Robella
+St: 014636; Anzère_ Chamossaire
+St: 014637; Panoramagique 2
+St: 014638; Mauborget
+St: 014639; Lookout Mtn - RMPHA
+St: 014640; Meilleret
+St: 014641; El Hierro_2 Hermanas
+St: 014642; Moléson_Plan-Francey
+St: 014643; St-Lô
+St: 014644; Venet
+St: 014645; Corent (Dpt 63)
+St: 014646; Saint Cyprien
+St: 014647; Tschenten
+St: 014648; El Hierro_M Colorada
+St: 014649; Benston
+St: 014650; Shaw Butte - AZHPA
+St: 014651; Mönchswalder Berg
+St: 014652; Shoaiba Kite Lagoon
+St: 014653; Wether Fell
+St: 014654; SGC-Reserve
+St: 014655; Vieux Château
+St: 014656; Marnex
+St: 014657; Donnersberg Adler
+St: 014658; Steep Mountain
+St: 014659; Speiereck Peterbauer
+St: 014660; Jöchelspitze Rampe
+St: 014661; Jöchelspitze Sommer
+St: 014662; Weiler bei Monzingen
+St: 014663; Baring Head
+St: 014664; Birnberg
+St: 014665; VossHPK Aurland
+St: 014666; VossHPK Hangur Sør
+St: 014667; Talwind Lähn-Bichlba
+St: 014668; Fanas - Höreli
+St: 014669; Skafjellet
+St: 014670; VØH-Reset
+St: 014671; Niederwil
+St: 014672; 1455
+St: 014673; Herndleck
+St: 014674; Estey
+St: 014675; 1467TEST
+St: 014676; Evolène
+St: 014677; Pic Saint-Pierre 63
+St: 014678; Lancieux
+St: 014679; St Lunaire
+St: 014680; Urenschwang e.V
+St: 014681; Buttenhausen
+St: 014682; Hochblauen HCRB
+St: 014683; DGCSG Finkenberg
+St: 014684; Königstuhl SP
+St: 014685; Cret du Rachat
+St: 014686; CHASSENOUD
+St: 014687; Ciecien PG
+St: 014688; Wankdorf
+St: 014689; Obergrainet
+St: 014690; Hörnerbahn Gipfel
+St: 014691; Modvaberget
+St: 014692; Solosnica
+St: 014693; Hohe Winde
+St: 014694; Schernfeld DFCI
+St: 014695; JLK Reve
+St: 014696; Vercorin
+St: 014697; Parpaner Rothorn
+St: 014698; Brämabüel
+St: 014699; Duneflyer
+St: 014700; Ålesund Kiteklubb PL
+St: 014701; STRATUS Rjåhornet
+St: 014702; Edington Airstrip
+St: 014703; Oppenau Ost
+St: 014704; Jägerwirt Landeplatz
+St: 014705; Cry d'Err CVLCMA
+St: 014706; QUIROGA CPFerrol
+St: 014707; 
+St: 014708; 
+St: 014709; 
+St: 014710; Paule-Pausitz
+St: 014711; Du Toitskloof
+St: 014712; Falkenflue
+St: 014713; ZFC: Landing Zermatt
+St: 014714; ZFC: Rothorn South
+St: 014715; Station "Océanopolis
+St: 014716; Duc d'Albe - rade de
+St: 014717; Crap Sogn Gion
+St: 014718; Berg Brauneck LGGF
+St: 014719; Blomberg LGGF
+St: 014720; COMADO CPFerrol
+St: 014721; MONDOÑEDO CPFerrol
+St: 014722; Hohe Kugel
+St: 014723; Volmerange
+St: 014724; Madrisa Schaffürggli
+St: 014725; Laber
+St: 014726; Kammeregg SP
+St: 014727; Hinhang
+St: 014728; Brunni
+St: 014729; GSV
+St: 014730; JLK Torland PPG
+St: 014731; Frauenalpe Gipfel
+St: 014732; SCA Michaelerberg
+St: 014733; Startplatz Hochimst
+St: 014734; Amisbühl holfuy
+St: 014735; Pfunds
+St: 014736; ImbergerHorn Hindela
+St: 014737; Bargella
+St: 014738; Lautersheimer Kante
+St: 014739; Tylderingen
+St: 014740; Laucha
+St: 014741; Reichenbach
+St: 014742; Höhematte holfuy
+St: 014743; 
+St: 014744; In memory of Patrice
+St: 014745; DGCSG Rodenbach
+St: 014746; Jenner
+St: 014747; 
+St: 014748; DGCSG Krausberg-Ahr
+St: 014749; DGCSG Hönningen-Ahr
+St: 014750; 9erköpfle West
+St: 014751; Herlisberg
+St: 014752; CHGPC Allandale
+St: 014753; Ladera Guimar
+St: 014754; Puerto. Aptos.Bahía.
+St: 014755; Puertito Güímar
+St: 014756; Fulseck
+St: 014757; ZFC:Rothorn North
+St: 014758; ÅPGK Storhornet
+St: 014759; Gaisberg SP Ost
+St: 014760; Gaisberg LP Guggen.
+St: 014761; Bremm - RML
+St: 014762; Lehn holfuy
+St: 014763; Bischling Startplatz
+St: 014764; Bischling Landeplatz
+St: 014765; PONZOS CPFerrol
+St: 014766; Piz Scalottas
+St: 014767; Parpan
+St: 014768; Paramotorclub RW
+St: 014769; DCC_Fille Morte
+St: 014770; Messelberg Donzdorf
+St: 014771; Adelberg
+St: 014772; Maori Bay@Glidepro
+St: 014773; 1895 test CVLD Bosse
+St: 014774; 1914
+St: 014775; La Corona. Despegue
+St: 014776; 
+St: 014777; Hochstetten(NNO-NNW)
+St: 014778; Sula_ Blåfjell
+St: 014779; SBK
+St: 014780; Övertorneå Paramotor
+St: 014781; ZFC: Kl. Matterhorn
+St: 014782; (HLSK) Lundeberget
+St: 014783; BD, BD
+St: 014784; Neuberg (ONO-OSO)
+St: 014785; Obermaubach - OWF
+St: 014786; Grüner Weg
+St: 014787; Gränna Hamn
+St: 014788; SKB Dalaro
+St: 014789; Stord_ Fossabrekko
+St: 014790; Biscarrosse plage
+St: 014791; Cisternino, Cisternino
+St: 014792; BD1, Bravoodelta1
+St: 014793; s641
+St: 014794; NLF Vole
+St: 014795; Collins Hill
+St: 014796; 1095
+St: 014797; Vik O
+St: 014798; VámosSzabadi p.v.sz.
+St: 014799; Ljungby/Feringe ESMG
+St: 014800; LW6EQG Chivilcoy, MeteoStar Team
+St: 014801; LW6EQG Chivilcoy, MeteoStar Team
+St: 014802; Malmefjorden_ ener'n
+St: 014803; Ringerudkollen_ Ådal
+St: 014804; Le Seigneur - Mont du Moustier, Windbird 1657
+St: 014805; Unknown spot, Unknown WG Station
+St: 014806; Mežaparks, CCL W100
+St: 014807; Porto Salvo, METRG-PS-110
+St: 014808; Hammers
+St: 014809; 
+St: 014810; Netaman Repair Group
+St: 014811; Isosuo
+St: 014812; ZFS-Bruggerstube
+St: 014813; My Hoa Lagoon Kiting Town, Roxy
+St: 014814; HHPK Glopsfjellet
+St: 014815; Kvittegga
+St: 014816; Aviosuperficie Boglietto, Aviosuperficie Boglietto
+St: 014817; Tjessheim AMFK
+St: 014818; Colinas Verdes, Colinas Verdes Sur
+St: 014819; Club Náutico Bariloche, CNB
+St: 014820; Almería - Cruz de Caravaca, KRVKWeather
+St: 014821; HHPK Hodlestadnuten
+St: 014822; ÅPGK Kverveaksla
+St: 014823; Colinas Verdes, Colinas Verdes Sur
+St: 014824; rhobut, נטשה מורד
+St: 014825; 
+St: 014826; Leotar-Gljiva
+St: 014827; Parking du Meix Musy , OpenWindMap 991
+St: 014828; Unknown spot, Unknown WG Station
+St: 014829; Ibiza, Cana Bernarda Weather Station
+St: 014830; SPGK Vigeland
+St: 014831; 
+St: 014832; HHPK Sletthaug
+St: 014833; HHPK Hodnafjell
+St: 014834; Lac de Monteynard - Nord, Pioupiou 23
+St: 014835; Unknown spot, Unknown WG Station
+St: 014836; Unknown spot, Unknown WG Station
+St: 014837; Plaine d'Autrans, Pioupiou 1007
+St: 014838; Unknown spot, Unknown WG Station
+St: 014839; Unknown spot, Unknown WG Station
+St: 014840; 
+St: 014841; 
+St: 014842; Jektheia
+St: 014843; VØH-Brekkeheida
+St: 014844; 
+St: 014845; 
+St: 014846; HKBK ( Sandtorg)
+St: 014847; CASM - SETE CIDADES
+St: 014848; Garranty, Inishturk Island
+St: 014849; Windbird 1670, Windbird 1670
+St: 014850; Unknown spot, Unknown WG Station
+St: 014851; Atterrissage de Villes 576m, OpenWindMap 1222
+St: 014852; Unknown spot, Unknown WG Station
+St: 014853; Déco le Bouant 1030m, OpenWindMap 1223
+St: 014854; Unknown spot, Unknown WG Station
+St: 014855; Hochfelln Landeplatz
+St: 014856; Diamante, Ariel Carmarán
+St: 014857; 1894 test CVLD Frete
+St: 014858; Imeretinska, Imeretinska
+St: 014859; VossHPK Øystese/Tore
+St: 014860; Martinique Beach, IEASTP22
+St: 014861; Siglufjörður, Barri
+St: 014862; IllahuapiZ, AWS_ZS
+St: 014863; Colorado Springs, CO 80922, WS-5000
+St: 014864; Svencele, vejomiestelis
+St: 014865; 
+St: 014866; IFunes8, Manuel Macchi
+St: 014867; Resort Support, LAMI-stuartinfiji
+St: 014868; Nagyvázsony, Sencor sws 12500
+St: 014869; Meloisey Sud-Est, Windbird 1546
+St: 014870; Unknown spot, Unknown WG Station
+St: 014871; Unknown spot, Unknown WG Station
+St: 014872; Les Piafs Migrateurs, Pioupiou 214
+St: 014873; Unknown spot, Unknown WG Station
+St: 014874; Praia da Rainha, Praia da Rainha
+St: 014875; 
+St: 014876; Possums
+St: 014877; Budapest XX, Budapest XX
+St: 014878; Unknown spot, Unknown WG Station
+St: 014879; Unknown spot, Unknown WG Station
+St: 014880; Egmond aan Zee, WebcamEgmond
+St: 014881; Aeroport Sochi, Aeroport Sochi
+St: 014882; Sodkopf_ Lauf
+St: 014883; Brise de vallée Les Houches - Taconaz 1020m, Windbird 1594
+St: 014884; Unknown spot, Unknown WG Station
+St: 014885; PDD Nord (Dpt 63)
+St: 014886; WAKU Nord 0-65°
+St: 014887; San Mayol, Ruta 75
+St: 014888; Windbird 1673, Windbird 1673
+St: 014889; Unknown spot, Unknown WG Station
+St: 014890; říčany, sws1660
+St: 014891; Bolshie gorki, Ropsha
+St: 014892; Quad_ Nevis Range
+St: 014893; Väjern, Väjern
+St: 014894; praia da Daniela, Mané Kite Dani
+St: 014895; 
+St: 014896; Fazenda Figueira, Figueira
+St: 014897; 
+St: 014898; LaMotte
+St: 014899; Cefalù ( Santa Barbara ), Cefalù Santa Barbara
+St: 014900; Cabañas de la Villa - Villa Carlos Paz, CABAÑAS de la VILLA
+St: 014901; Mt. Sentinel
+St: 014902; Alicante-AQI, Alicante-AQI
+St: 014903; La plata, La plata
+St: 014904; Nagens
+St: 014905; Squamish, BC
+St: 014906; 
+St: 014907; Julian, Toninas
+St: 014908; KWind Cabarete Watermark Hotel, Watermark Hotel
+St: 014909; Tête de Balme, Windbird 1702
+St: 014910; Unknown spot, Unknown WG Station
+St: 014911; Tiszaderzs, Tiszaderzs
+St: 014912; Landeryd, Landeryd
+St: 014913; Hochzellberg
+St: 014914; Darregueira, IDARRE2
+St: 014915; Westerland/Sylt Arpt, SH, DE, Westerland/Sylt Arpt, SH, DE
+St: 014916; Kegnæs Fyr, Kegnæs Fyr
+St: 014917; Romo, Rømø/Juvre
+St: 014918; kenitra heddada, MEDWAY STATION
+St: 014919; Hohwald holfuy
+St: 014920; Puerto Natales, Puerto Natales
+St: 014921; La boca, La Boca
+St: 014922; KWind Dolphin Beach, Cape Town
+St: 014923; KWind Riah Kite Academy, Riah Kite Academy
+St: 014924; KWind El Medano, Tenerife, El Medano
+St: 014925; Palo Blanco, Emanuel Sosa Terraplen Costero
+St: 014926; PG Křeplický Vrch 902m, Křeplický Vrch
+St: 014927; Clifton, Virginia, Clifton
+St: 014928; Svetlovodsk, SvetloKite
+St: 014929; El Portil, FlechaExtreme
+St: 014930; Curium windsurfing (1chip.ru weather station), Curium windsurfing (1chip.ru weather station)
+St: 014931; Unknown spot, Unknown WG Station
+St: 014932; 
+St: 014933; Unknown spot, Unknown WG Station
+St: 014934; Ploemeur, PWSPLOEM
+St: 014935; Barra de Ibiraquera, Barra de Ibiraquera
+St: 014936; Kite Beach, Cabarete Kite Point
+St: 014937; Siglufjörður, Viking Heliskiing Base
+St: 014938; 
+St: 014939; 
+St: 014940; 
+St: 014941; 
+St: 014942; 
+St: 014943; Puesto La Lechuza, MeteoStar Team
+St: 014944; 
+St: 014945; KWind Cabarete Kite Point, Cabarete Kite Beach
+St: 014946; Real Club Náutico Portosín, Nautico Portosín
+St: 014947; Mytilene, Mytilene-OldTown
+St: 014948; Saraphee, Saraphee - Chomphu
+St: 014949; 
+St: 014950; Osser 1751
+St: 014951; Villars-Fontaine, OpenWindMap 953
+St: 014952; Unknown spot, Unknown WG Station
+St: 014953; KWind Makani Beach Club, Makani
+St: 014954; KWind Punta Cana JellyFish, KiteSurf
+St: 014955; KWind High Five Kitesurf School, Cape Town Lieuwe Boards
+St: 014956; DCC Brezouard
+St: 014957; RUSTEGA, METEONB
+St: 014958; AJX - CSS
+St: 014959; El Pedregoso, El Hoy, Chubut, Argentina, JULIO JORGE BALIÑO
+St: 014960; KWind Hangin Kite Center Boracay, Bulabog Beach Boracay
+St: 014961; KWind Cabarete Thor's Kite Club, Openmqtt RTL_433 Receiver Test
+St: 014962; KWind LoraWan Helium Net Atoll test, Helium LoraWan Network
+St: 014963; KWind Friendly Kite Buen Hombre, tempest station test
+St: 014964; KWind Habagat Kiteboarding Center, Bulabog Beach Boracay
+St: 014965; delete, delete
+St: 014966; Bombala st Launch WS80, Bombala Launch WS80
+St: 014967; KWind Cabarete Ocean Point, Cabarete Kite Beach
+St: 014968; Exmouth Seafront, NCI Exmouth
+St: 014969; Sankt Peter-Ording, Sankt Peter-Ording
+St: 014970; 
+St: 014971; Flensburg (Schaeferhaus), Flensburg (Schaeferhaus)
+St: 014972; La Viñuela, Meteo Malaga
+St: 014973; Es Pujols, WeatherSunset Formentera
+St: 014974; Windbird 1633, Windbird 1633
+St: 014975; Unknown spot, Unknown WG Station
+St: 014976; Decollo Santa Maria in Calanca 1218m, Windbird 1322
+St: 014977; Unknown spot, Unknown WG Station
+St: 014978; 
+St: 014979; 7winds Mevo Hama
+St: 014980; 
+St: 014981; 
+St: 014982; KWind Maui WS85 LoraWan Conversion Helium Network Test, Helium Net.Downlink interval change test
+St: 014983; 
+St: 014984; Niel bij As, Niel bij As
+St: 014985; Praia de Fora, OutWeather
+St: 014986; Municipalidad Monte Vera, info@meteostar.com.ar
+St: 014987; Monte del Tigre, MeteoStar Team
+St: 014988; Les Laphonds, OpenWindMap 906
+St: 014989; Auvika - Mjelle
+St: 014990; Loma Verde, Buenos Aires, ILOMAV1
+St: 014991; KWind Boracay Isla Kite, Bulabog Beach,Boracay
+St: 014992; Aiolos-Petrussa
+St: 014993; Unknown spot, Unknown WG Station
+St: 014994; Unknown spot, Unknown WG Station
+St: 014995; Unknown spot, Unknown WG Station
+St: 014996; Unknown spot, Unknown WG Station
+St: 014997; Unknown spot, Unknown WG Station
+St: 014998; Unknown spot, Unknown WG Station
+St: 014999; Unknown spot, Unknown WG Station
+St: 015000; Unknown spot, Unknown WG Station
+St: 015001; Unknown spot, Unknown WG Station
+St: 015002; Unknown spot, Unknown WG Station
+St: 015003; Unknown spot, Unknown WG Station
+St: 015004; Unknown spot, Unknown WG Station
+St: 015005; Unknown spot, Unknown WG Station
+St: 015006; Unknown spot, Unknown WG Station
+St: 015007; Unknown spot, Unknown WG Station
+St: 015008; Unknown spot, Unknown WG Station
+St: 015009; Unknown spot, Unknown WG Station
+St: 015010; Unknown spot, Unknown WG Station
+St: 015011; Unknown spot, Unknown WG Station
+St: 015012; Unknown spot, Unknown WG Station
+St: 015013; Unknown spot, Unknown WG Station
+St: 015014; Unknown spot, Unknown WG Station
+St: 015015; Unknown spot, Unknown WG Station
+St: 015016; Unknown spot, Unknown WG Station
+St: 015017; Unknown spot, Unknown WG Station
+St: 015018; Unknown spot, Unknown WG Station
+St: 015019; Unknown spot, Unknown WG Station
+St: 015020; Unknown spot, Unknown WG Station
+St: 015021; 
+St: 015022; Unknown spot, Unknown WG Station
+St: 015023; Unknown spot, Unknown WG Station
+St: 015024; Unknown spot, Unknown WG Station
+St: 015025; Unknown spot, Unknown WG Station
+St: 015026; Unknown spot, Unknown WG Station
+St: 015027; Unknown spot, Unknown WG Station
+St: 015028; Unknown spot, Unknown WG Station
+St: 015029; Unknown spot, Unknown WG Station
+St: 015030; Unknown spot, Unknown WG Station
+St: 015031; Unknown spot, Unknown WG Station
+St: 015032; Unknown spot, Unknown WG Station
+St: 015033; Unknown spot, Unknown WG Station
+St: 015034; 
+St: 015035; Unknown spot, Unknown WG Station
+St: 015036; Unknown spot, Unknown WG Station
+St: 015037; Unknown spot, Unknown WG Station
+St: 015038; Unknown spot, Unknown WG Station
+St: 015039; Unknown spot, Unknown WG Station
+St: 015040; Unknown spot, Unknown WG Station
+St: 015041; Unknown spot, Unknown WG Station
+St: 015042; Unknown spot, Unknown WG Station
+St: 015043; Unknown spot, Unknown WG Station
+St: 015044; Unknown spot, Unknown WG Station
+St: 015045; Unknown spot, Unknown WG Station
+St: 015046; Unknown spot, Unknown WG Station
+St: 015047; Unknown spot, Unknown WG Station
+St: 015048; Unknown spot, Unknown WG Station
+St: 015049; Unknown spot, Unknown WG Station
+St: 015050; Unknown spot, Unknown WG Station
+St: 015051; Unknown spot, Unknown WG Station
+St: 015052; Unknown spot, Unknown WG Station
+St: 015053; Unknown spot, Unknown WG Station
+St: 015054; Unknown spot, Unknown WG Station
+St: 015055; Unknown spot, Unknown WG Station
+St: 015056; Unknown spot, Unknown WG Station
+St: 015057; Unknown spot, Unknown WG Station
+St: 015058; Unknown spot, Unknown WG Station
+St: 015059; Unknown spot, Unknown WG Station
+St: 015060; Unknown spot, Unknown WG Station
+St: 015061; Unknown spot, Unknown WG Station
+St: 015062; Unknown spot, Unknown WG Station
+St: 015063; Unknown spot, Unknown WG Station
+St: 015064; Unknown spot, Unknown WG Station
+St: 015065; Unknown spot, Unknown WG Station
+St: 015066; Unknown spot, Unknown WG Station
+St: 015067; Unknown spot, Unknown WG Station
+St: 015068; Unknown spot, Unknown WG Station
+St: 015069; Unknown spot, Unknown WG Station
+St: 015070; Unknown spot, Unknown WG Station
+St: 015071; Unknown spot, Unknown WG Station
+St: 015072; Unknown spot, Unknown WG Station
+St: 015073; Unknown spot, Unknown WG Station
+St: 015074; Unknown spot, Unknown WG Station
+St: 015075; Unknown spot, Unknown WG Station
+St: 015076; Unknown spot, Unknown WG Station
+St: 015077; Unknown spot, Unknown WG Station
+St: 015078; Unknown spot, Unknown WG Station
+St: 015079; Unknown spot, Unknown WG Station
+St: 015080; Unknown spot, Unknown WG Station
+St: 015081; Unknown spot, Unknown WG Station
+St: 015082; 
+St: 015083; Unknown spot, Unknown WG Station
+St: 015084; Unknown spot, Unknown WG Station
+St: 015085; Unknown spot, Unknown WG Station
+St: 015086; Unknown spot, Unknown WG Station
+St: 015087; Unknown spot, Unknown WG Station
+St: 015088; Unknown spot, Unknown WG Station
+St: 015089; Unknown spot, Unknown WG Station
+St: 015090; Unknown spot, Unknown WG Station
+St: 015091; Unknown spot, Unknown WG Station
+St: 015092; Unknown spot, Unknown WG Station
+St: 015093; Unknown spot, Unknown WG Station
+St: 015094; Unknown spot, Unknown WG Station
+St: 015095; Unknown spot, Unknown WG Station
+St: 015096; Unknown spot, Unknown WG Station
+St: 015097; Unknown spot, Unknown WG Station
+St: 015098; Unknown spot, Unknown WG Station
+St: 015099; Unknown spot, Unknown WG Station
+St: 015100; Unknown spot, Unknown WG Station
+St: 015101; Unknown spot, Unknown WG Station
+St: 015102; Unknown spot, Unknown WG Station
+St: 015103; Unknown spot, Unknown WG Station
+St: 015104; Unknown spot, Unknown WG Station
+St: 015105; Unknown spot, Unknown WG Station
+St: 015106; Unknown spot, Unknown WG Station
+St: 015107; Unknown spot, Unknown WG Station
+St: 015108; Unknown spot, Unknown WG Station
+St: 015109; Unknown spot, Unknown WG Station
+St: 015110; Unknown spot, Unknown WG Station
+St: 015111; Unknown spot, Unknown WG Station
+St: 015112; Unknown spot, Unknown WG Station
+St: 015113; Unknown spot, Unknown WG Station
+St: 015114; Unknown spot, Unknown WG Station
+St: 015115; Unknown spot, Unknown WG Station
+St: 015116; 
+St: 015117; 
+St: 015118; 
+St: 015119; Unknown spot, Unknown WG Station
+St: 015120; Unknown spot, Unknown WG Station
+St: 015121; Unknown spot, Unknown WG Station
+St: 015122; Unknown spot, Unknown WG Station
+St: 015123; Unknown spot, Unknown WG Station
+St: 015124; Unknown spot, Unknown WG Station
+St: 015125; Unknown spot, Unknown WG Station
+St: 015126; Unknown spot, Unknown WG Station
+St: 015127; Unknown spot, Unknown WG Station
+St: 015128; 
+St: 015129; Unknown spot, Unknown WG Station
+St: 015130; 
+St: 015131; 
+St: 015132; Unknown spot, Unknown WG Station
+St: 015133; 
+St: 015134; 
+St: 015135; 
+St: 015136; 
+St: 015137; Unknown spot, Unknown WG Station
+St: 015138; Unknown spot, Unknown WG Station
+St: 015139; Unknown spot, Unknown WG Station
+St: 015140; Unknown spot, Unknown WG Station
+St: 015141; Unknown spot, Unknown WG Station
+St: 015142; Unknown spot, Unknown WG Station
+St: 015143; Unknown spot, Unknown WG Station
+St: 015144; Unknown spot, Unknown WG Station
+St: 015145; Unknown spot, Unknown WG Station
+St: 015146; Unknown spot, Unknown WG Station
+St: 015147; Unknown spot, Unknown WG Station
+St: 015148; Unknown spot, Unknown WG Station
+St: 015149; Unknown spot, Unknown WG Station
+St: 015150; Unknown spot, Unknown WG Station
+St: 015151; Unknown spot, Unknown WG Station
+St: 015152; Unknown spot, Unknown WG Station
+St: 015153; Unknown spot, Unknown WG Station
+St: 015154; Unknown spot, Unknown WG Station
+St: 015155; Unknown spot, Unknown WG Station
+St: 015156; Unknown spot, Unknown WG Station
+St: 015157; Unknown spot, Unknown WG Station
+St: 015158; Unknown spot, Unknown WG Station
+St: 015159; Unknown spot, Unknown WG Station
+St: 015160; Unknown spot, Unknown WG Station
+St: 015161; Unknown spot, Unknown WG Station
+St: 015162; Unknown spot, Unknown WG Station
+St: 015163; Unknown spot, Unknown WG Station
+St: 015164; Unknown spot, Unknown WG Station
+St: 015165; Unknown spot, Unknown WG Station
+St: 015166; Unknown spot, Unknown WG Station
+St: 015167; Unknown spot, Unknown WG Station
+St: 015168; Unknown spot, Unknown WG Station
+St: 015169; Unknown spot, Unknown WG Station
+St: 015170; Unknown spot, Unknown WG Station
+St: 015171; Unknown spot, Unknown WG Station
+St: 015172; Unknown spot, Unknown WG Station
+St: 015173; Unknown spot, Unknown WG Station
+St: 015174; Unknown spot, Unknown WG Station
+St: 015175; Unknown spot, Unknown WG Station
+St: 015176; Unknown spot, Unknown WG Station
+St: 015177; Unknown spot, Unknown WG Station
+St: 015178; Unknown spot, Unknown WG Station
+St: 015179; Unknown spot, Unknown WG Station
+St: 015180; Unknown spot, Unknown WG Station
+St: 015181; Unknown spot, Unknown WG Station
+St: 015182; Unknown spot, Unknown WG Station
+St: 015183; Unknown spot, Unknown WG Station
+St: 015184; Unknown spot, Unknown WG Station
+St: 015185; Unknown spot, Unknown WG Station
+St: 015186; Unknown spot, Unknown WG Station
+St: 015187; Unknown spot, Unknown WG Station
+St: 015188; Unknown spot, Unknown WG Station
+St: 015189; Unknown spot, Unknown WG Station
+St: 015190; Unknown spot, Unknown WG Station
+St: 015191; Unknown spot, Unknown WG Station
+St: 015192; Unknown spot, Unknown WG Station
+St: 015193; Unknown spot, Unknown WG Station
+St: 015194; Unknown spot, Unknown WG Station
+St: 015195; Unknown spot, Unknown WG Station
+St: 015196; Unknown spot, Unknown WG Station
+St: 015197; Unknown spot, Unknown WG Station
+St: 015198; Unknown spot, Unknown WG Station
+St: 015199; Unknown spot, Unknown WG Station
+St: 015200; Unknown spot, Unknown WG Station
+St: 015201; Unknown spot, Unknown WG Station
+St: 015202; Unknown spot, Unknown WG Station
+St: 015203; Unknown spot, Unknown WG Station
+St: 015204; Unknown spot, Unknown WG Station
+St: 015205; Unknown spot, Unknown WG Station
+St: 015206; Unknown spot, Unknown WG Station
+St: 015207; Unknown spot, Unknown WG Station
+St: 015208; Unknown spot, Unknown WG Station
+St: 015209; Unknown spot, Unknown WG Station
+St: 015210; Unknown spot, Unknown WG Station
+St: 015211; Unknown spot, Unknown WG Station
+St: 015212; Unknown spot, Unknown WG Station
+St: 015213; Unknown spot, Unknown WG Station
+St: 015214; Unknown spot, Unknown WG Station
+St: 015215; Unknown spot, Unknown WG Station
+St: 015216; Unknown spot, Unknown WG Station
+St: 015217; Unknown spot, Unknown WG Station
+St: 015218; Unknown spot, Unknown WG Station
+St: 015219; Unknown spot, Unknown WG Station
+St: 015220; Unknown spot, Unknown WG Station
+St: 015221; Unknown spot, Unknown WG Station
+St: 015222; Unknown spot, Unknown WG Station
+St: 015223; Unknown spot, Unknown WG Station
+St: 015224; Unknown spot, Unknown WG Station
+St: 015225; Unknown spot, Unknown WG Station
+St: 015226; Unknown spot, Unknown WG Station
+St: 015227; Unknown spot, Unknown WG Station
+St: 015228; Unknown spot, Unknown WG Station
+St: 015229; Unknown spot, Unknown WG Station
+St: 015230; Unknown spot, Unknown WG Station
+St: 015231; 
+St: 015232; Unknown spot, Unknown WG Station
+St: 015233; Unknown spot, Unknown WG Station
+St: 015234; Unknown spot, Unknown WG Station
+St: 015235; Unknown spot, Unknown WG Station
+St: 015236; 
+St: 015237; Unknown spot, Unknown WG Station
+St: 015238; Unknown spot, Unknown WG Station
+St: 015239; Unknown spot, Unknown WG Station
+St: 015240; Unknown spot, Unknown WG Station
+St: 015241; Unknown spot, Unknown WG Station
+St: 015242; Unknown spot, Unknown WG Station
+St: 015243; Unknown spot, Unknown WG Station
+St: 015244; Unknown spot, Unknown WG Station
+St: 015245; Unknown spot, Unknown WG Station
+St: 015246; Unknown spot, Unknown WG Station
+St: 015247; Unknown spot, Unknown WG Station
+St: 015248; 
+St: 015249; Unknown spot, Unknown WG Station
+St: 015250; Unknown spot, Unknown WG Station
+St: 015251; Unknown spot, Unknown WG Station
+St: 015252; Unknown spot, Unknown WG Station
+St: 015253; Unknown spot, Unknown WG Station
+St: 015254; Unknown spot, Unknown WG Station
+St: 015255; Unknown spot, Unknown WG Station
+St: 015256; Unknown spot, Unknown WG Station
+St: 015257; Unknown spot, Unknown WG Station
+St: 015258; 
+St: 015259; Unknown spot, Unknown WG Station
+St: 015260; Unknown spot, Unknown WG Station
+St: 015261; Unknown spot, Unknown WG Station
+St: 015262; Unknown spot, Unknown WG Station
+St: 015263; Unknown spot, Unknown WG Station
+St: 015264; Unknown spot, Unknown WG Station
+St: 015265; Unknown spot, Unknown WG Station
+St: 015266; Unknown spot, Unknown WG Station
+St: 015267; Unknown spot, Unknown WG Station
+St: 015268; Unknown spot, Unknown WG Station
+St: 015269; Unknown spot, Unknown WG Station
+St: 015270; Unknown spot, Unknown WG Station
+St: 015271; Unknown spot, Unknown WG Station
+St: 015272; Unknown spot, Unknown WG Station
+St: 015273; Unknown spot, Unknown WG Station
+St: 015274; Unknown spot, Unknown WG Station
+St: 015275; Unknown spot, Unknown WG Station
+St: 015276; Unknown spot, Unknown WG Station
+St: 015277; Unknown spot, Unknown WG Station
+St: 015278; Unknown spot, Unknown WG Station
+St: 015279; Unknown spot, Unknown WG Station
+St: 015280; Unknown spot, Unknown WG Station
+St: 015281; Unknown spot, Unknown WG Station
+St: 015282; Unknown spot, Unknown WG Station
+St: 015283; Unknown spot, Unknown WG Station
+St: 015284; Unknown spot, Unknown WG Station
+St: 015285; Unknown spot, Unknown WG Station
+St: 015286; 
+St: 015287; Unknown spot, Unknown WG Station
+St: 015288; Unknown spot, Unknown WG Station
+St: 015289; Unknown spot, Unknown WG Station
+St: 015290; Unknown spot, Unknown WG Station
+St: 015291; Unknown spot, Unknown WG Station
+St: 015292; Unknown spot, Unknown WG Station
+St: 015293; Unknown spot, Unknown WG Station
+St: 015294; Unknown spot, Unknown WG Station
+St: 015295; Unknown spot, Unknown WG Station
+St: 015296; Unknown spot, Unknown WG Station
+St: 015297; Unknown spot, Unknown WG Station
+St: 015298; Unknown spot, Unknown WG Station
+St: 015299; Unknown spot, Unknown WG Station
+St: 015300; Unknown spot, Unknown WG Station
+St: 015301; Unknown spot, Unknown WG Station
+St: 015302; Unknown spot, Unknown WG Station
+St: 015303; 
+St: 015304; Unknown spot, Unknown WG Station
+St: 015305; Unknown spot, Unknown WG Station
+St: 015306; Unknown spot, Unknown WG Station
+St: 015307; Unknown spot, Unknown WG Station
+St: 015308; 
+St: 015309; Unknown spot, Unknown WG Station
+St: 015310; Unknown spot, Unknown WG Station
+St: 015311; 
+St: 015312; Unknown spot, Unknown WG Station
+St: 015313; Unknown spot, Unknown WG Station
+St: 015314; Unknown spot, Unknown WG Station
+St: 015315; 
+St: 015316; Unknown spot, Unknown WG Station
+St: 015317; 
+St: 015318; 
+St: 015319; Unknown spot, Unknown WG Station
+St: 015320; Unknown spot, Unknown WG Station
+St: 015321; 
+St: 015322; Unknown spot, Unknown WG Station
+St: 015323; Unknown spot, Unknown WG Station
+St: 015324; Unknown spot, Unknown WG Station
+St: 015325; Unknown spot, Unknown WG Station
+St: 015326; Unknown spot, Unknown WG Station
+St: 015327; Unknown spot, Unknown WG Station
+St: 015328; Unknown spot, Unknown WG Station
+St: 015329; Unknown spot, Unknown WG Station
+St: 015330; Unknown spot, Unknown WG Station
+St: 015331; Unknown spot, Unknown WG Station
+St: 015332; Unknown spot, Unknown WG Station
+St: 015333; Unknown spot, Unknown WG Station
+St: 015334; Unknown spot, Unknown WG Station
+St: 015335; Unknown spot, Unknown WG Station
+St: 015336; Unknown spot, Unknown WG Station
+St: 015337; Unknown spot, Unknown WG Station
+St: 015338; Unknown spot, Unknown WG Station
+St: 015339; Unknown spot, Unknown WG Station
+St: 015340; Unknown spot, Unknown WG Station
+St: 015341; Unknown spot, Unknown WG Station
+St: 015342; Unknown spot, Unknown WG Station
+St: 015343; Unknown spot, Unknown WG Station
+St: 015344; Unknown spot, Unknown WG Station
+St: 015345; Unknown spot, Unknown WG Station
+St: 015346; Unknown spot, Unknown WG Station
+St: 015347; Unknown spot, Unknown WG Station
+St: 015348; Unknown spot, Unknown WG Station
+St: 015349; Unknown spot, Unknown WG Station
+St: 015350; Unknown spot, Unknown WG Station
+St: 015351; Unknown spot, Unknown WG Station
+St: 015352; Unknown spot, Unknown WG Station
+St: 015353; Unknown spot, Unknown WG Station
+St: 015354; Unknown spot, Unknown WG Station
+St: 015355; Unknown spot, Unknown WG Station
+St: 015356; Unknown spot, Unknown WG Station
+St: 015357; Unknown spot, Unknown WG Station
+St: 015358; Unknown spot, Unknown WG Station
+St: 015359; Unknown spot, Unknown WG Station
+St: 015360; Unknown spot, Unknown WG Station
+St: 015361; Unknown spot, Unknown WG Station
+St: 015362; Unknown spot, Unknown WG Station
+St: 015363; Unknown spot, Unknown WG Station
+St: 015364; Unknown spot, Unknown WG Station
+St: 015365; Unknown spot, Unknown WG Station
+St: 015366; Unknown spot, Unknown WG Station
+St: 015367; Unknown spot, Unknown WG Station
+St: 015368; Unknown spot, Unknown WG Station
+St: 015369; Unknown spot, Unknown WG Station
+St: 015370; Unknown spot, Unknown WG Station
+St: 015371; Unknown spot, Unknown WG Station
+St: 015372; Unknown spot, Unknown WG Station
+St: 015373; Unknown spot, Unknown WG Station
+St: 015374; Unknown spot, Unknown WG Station
+St: 015375; Unknown spot, Unknown WG Station
+St: 015376; Unknown spot, Unknown WG Station
+St: 015377; Unknown spot, Unknown WG Station
+St: 015378; Unknown spot, Unknown WG Station
+St: 015379; Unknown spot, Unknown WG Station
+St: 015380; Unknown spot, Unknown WG Station
+St: 015381; Unknown spot, Unknown WG Station
+St: 015382; Unknown spot, Unknown WG Station
+St: 015383; Unknown spot, Unknown WG Station
+St: 015384; Unknown spot, Unknown WG Station
+St: 015385; Unknown spot, Unknown WG Station
+St: 015386; Unknown spot, Unknown WG Station
+St: 015387; Unknown spot, Unknown WG Station
+St: 015388; Unknown spot, Unknown WG Station
+St: 015389; Unknown spot, Unknown WG Station
+St: 015390; Unknown spot, Unknown WG Station
+St: 015391; Unknown spot, Unknown WG Station
+St: 015392; Unknown spot, Unknown WG Station
+St: 015393; Unknown spot, Unknown WG Station
+St: 015394; Unknown spot, Unknown WG Station
+St: 015395; Unknown spot, Unknown WG Station
+St: 015396; Unknown spot, Unknown WG Station
+St: 015397; Unknown spot, Unknown WG Station
+St: 015398; Unknown spot, Unknown WG Station
+St: 015399; Unknown spot, Unknown WG Station
+St: 015400; Unknown spot, Unknown WG Station
+St: 015401; Unknown spot, Unknown WG Station
+St: 015402; Unknown spot, Unknown WG Station
+St: 015403; Unknown spot, Unknown WG Station
+St: 015404; Unknown spot, Unknown WG Station
+St: 015405; Unknown spot, Unknown WG Station
+St: 015406; Unknown spot, Unknown WG Station
+St: 015407; Unknown spot, Unknown WG Station
+St: 015408; Unknown spot, Unknown WG Station
+St: 015409; Unknown spot, Unknown WG Station
+St: 015410; Unknown spot, Unknown WG Station
+St: 015411; Unknown spot, Unknown WG Station
+St: 015412; Unknown spot, Unknown WG Station
+St: 015413; Unknown spot, Unknown WG Station
+St: 015414; Unknown spot, Unknown WG Station
+St: 015415; Unknown spot, Unknown WG Station
+St: 015416; Unknown spot, Unknown WG Station
+St: 015417; Unknown spot, Unknown WG Station
+St: 015418; Unknown spot, Unknown WG Station
+St: 015419; Unknown spot, Unknown WG Station
+St: 015420; Unknown spot, Unknown WG Station
+St: 015421; Unknown spot, Unknown WG Station
+St: 015422; Unknown spot, Unknown WG Station
+St: 015423; Unknown spot, Unknown WG Station
+St: 015424; Unknown spot, Unknown WG Station
+St: 015425; Unknown spot, Unknown WG Station
+St: 015426; Unknown spot, Unknown WG Station
+St: 015427; Unknown spot, Unknown WG Station
+St: 015428; Unknown spot, Unknown WG Station
+St: 015429; Unknown spot, Unknown WG Station
+St: 015430; Unknown spot, Unknown WG Station
+St: 015431; Unknown spot, Unknown WG Station
+St: 015432; Unknown spot, Unknown WG Station
+St: 015433; Unknown spot, Unknown WG Station
+St: 015434; Unknown spot, Unknown WG Station
+St: 015435; Unknown spot, Unknown WG Station
+St: 015436; Unknown spot, Unknown WG Station
+St: 015437; Unknown spot, Unknown WG Station
+St: 015438; Unknown spot, Unknown WG Station
+St: 015439; Unknown spot, Unknown WG Station
+St: 015440; Unknown spot, Unknown WG Station
+St: 015441; Unknown spot, Unknown WG Station
+St: 015442; Unknown spot, Unknown WG Station
+St: 015443; Unknown spot, Unknown WG Station
+St: 015444; Unknown spot, Unknown WG Station
+St: 015445; Unknown spot, Unknown WG Station
+St: 015446; Unknown spot, Unknown WG Station
+St: 015447; Unknown spot, Unknown WG Station
+St: 015448; Unknown spot, Unknown WG Station
+St: 015449; Unknown spot, Unknown WG Station
+St: 015450; Unknown spot, Unknown WG Station
+St: 015451; Unknown spot, Unknown WG Station
+St: 015452; Unknown spot, Unknown WG Station
+St: 015453; Unknown spot, Unknown WG Station
+St: 015454; Unknown spot, Unknown WG Station
+St: 015455; Unknown spot, Unknown WG Station
+St: 015456; Unknown spot, Unknown WG Station
+St: 015457; Unknown spot, Unknown WG Station
+St: 015458; Unknown spot, Unknown WG Station
+St: 015459; Unknown spot, Unknown WG Station
+St: 015460; Unknown spot, Unknown WG Station
+St: 015461; Unknown spot, Unknown WG Station
+St: 015462; Unknown spot, Unknown WG Station
+St: 015463; Unknown spot, Unknown WG Station
+St: 015464; Unknown spot, Unknown WG Station
+St: 015465; Unknown spot, Unknown WG Station
+St: 015466; Unknown spot, Unknown WG Station
+St: 015467; Unknown spot, Unknown WG Station
+St: 015468; Unknown spot, Unknown WG Station
+St: 015469; Unknown spot, Unknown WG Station
+St: 015470; Unknown spot, Unknown WG Station
+St: 015471; Unknown spot, Unknown WG Station
+St: 015472; Unknown spot, Unknown WG Station
+St: 015473; Unknown spot, Unknown WG Station
+St: 015474; Unknown spot, Unknown WG Station
+St: 015475; Unknown spot, Unknown WG Station
+St: 015476; Unknown spot, Unknown WG Station
+St: 015477; Unknown spot, Unknown WG Station
+St: 015478; Unknown spot, Unknown WG Station
+St: 015479; Unknown spot, Unknown WG Station
+St: 015480; Unknown spot, Unknown WG Station
+St: 015481; Unknown spot, Unknown WG Station
+St: 015482; Unknown spot, Unknown WG Station
+St: 015483; Unknown spot, Unknown WG Station
+St: 015484; Unknown spot, Unknown WG Station
+St: 015485; Unknown spot, Unknown WG Station
+St: 015486; Unknown spot, Unknown WG Station
+St: 015487; Unknown spot, Unknown WG Station
+St: 015488; Unknown spot, Unknown WG Station
+St: 015489; Unknown spot, Unknown WG Station
+St: 015490; Unknown spot, Unknown WG Station
+St: 015491; Unknown spot, Unknown WG Station
+St: 015492; Unknown spot, Unknown WG Station
+St: 015493; Unknown spot, Unknown WG Station
+St: 015494; Unknown spot, Unknown WG Station
+St: 015495; Unknown spot, Unknown WG Station
+St: 015496; Unknown spot, Unknown WG Station
+St: 015497; Unknown spot, Unknown WG Station
+St: 015498; Unknown spot, Unknown WG Station
+St: 015499; Unknown spot, Unknown WG Station
+St: 015500; Unknown spot, Unknown WG Station

@@ -1,0 +1,716 @@
+St: 000053; Camber Sands, Red House
+St: 000149; Villa Carlos Paz, Cordoba, MeteoStar
+St: 000245; Paje, Zanzibar island, Airborne Kite & Surf Centres
+St: 000249; Goa, Majorda Beach
+St: 000330; Bredene, Twins Club
+St: 000354; Liepāja,DR pludmale (Kites.lv)
+St: 000382; 
+St: 000515; Chichester Canal, Turners View
+St: 000556; Melkbos Haakgat
+St: 000600; Zandvoort, Watersport Vereniging Zandvoort (WVZ)
+St: 000603; Plaja H2O, Plaja H2O
+St: 000642; Ulyankovo, Moscow region
+St: 000647; pelikan, Klein Rogahn
+St: 000684; Clube do Jangadeiros, Clube dos Jangadeiros
+St: 000686; Baltiysk, Spasalka
+St: 000689; LEMUNKUYEN AURORA, Curacavi, Melipilla, Chile, Meteostar
+St: 000744; Unknown spot, Unknown WG Station
+St: 000764; Plantation Key, Fuca503
+St: 000807; BDN St Paul, CielAustral
+St: 000809; Origo Mare Pierre et Vacances, Majanicho, YOLO RIDERS WATERSPORTS
+St: 000829; Cayman Turtle Centre, Cayman Turtle Centre
+St: 000839; RedSeaZone, Egypt, RedSeaZone
+St: 000845; Barrio Pueblo Nuevo, Bragado, Meteostar
+St: 000876; Clahane, Clahane Waverider
+St: 000882; Singapore, test 2
+St: 000885; Сасыколи, Рыболовная база "Успех"
+St: 000889; Miribel, Les Echets, iGirouette
+St: 000894; Estación Sastre y Ortiz, Meteostar
+St: 000909; Unknown spot, Unknown WG Station
+St: 000914; Unknown spot, Unknown WG Station
+St: 000935; Crandon Park, MIAMI KITEBOARDING
+St: 000942; Kings Mills, Le Douit Farm
+St: 000953; Belcekiz Beach Club Oludeniz Hangout, Belcekiz Beach Club Oludeniz
+St: 000967; La Adelina, Gaiman, Chubut, Meteostar
+St: 001069; atlantic, 000
+St: 001230; Egge, OPK Eggekollen
+St: 001233; Thessaloniki, Profitis SAM
+St: 001234; Vauville, France, Vauville
+St: 001235; CALANZANA, MIKE
+St: 001236; Tasman, New Zealand, Inwoods
+St: 001237; 
+St: 001238; Germany, Roxheim, Auf dem Mergesfeld
+St: 001239; Hemsedal, OPK Hydnefossen
+St: 001240; 
+St: 001387; ProteccionCivilVLA2, MeteoStar
+St: 001418; VODA Surf Station, VODA Surf Station
+St: 001429; St Sulpice, Port du Laviau
+St: 001430; Elektrėnai, Jacthklubas, EBK Poseidonas
+St: 001431; Sir Lowry's Pass, Sir Lowry's Pass
+St: 001432; Olivedale, BuyLighting
+St: 001433; Costa Volpino, Costa Volpino Webcam
+St: 001434; Benicasim, Caseta CVB
+St: 001435; Philippines, Siargao Island, General Luna, Barangay 5, BRAVO SIARGAO
+St: 001436; Sweden, Uppsala, KajTech - Skaris
+St: 001437; Los molinos, 4 Vientos Kite - METEOX
+St: 001438; Winter Springs, FL (Orlando, FL) KFLWINTE111, Tuscawilla FW3708
+St: 001439; Beverly, Massachusetts, CW0169
+St: 001440; Helmsley, Helmsley
+St: 001441; Olds Park Hurstville, Olds Park Hurstville
+St: 001442; Lazurnoe, KiteClub
+St: 001443; La Lonja, Pilar, Ema La Lonja
+St: 001444; Jyrgalan Valley, Jyrgalan Yurt Lodge
+St: 001445; Aéroclub Marie Marvingt - Chemin Stratégique SAINT MAX, Aéroclub ULM Marie Marvingt
+St: 001446; ICT, ICT
+St: 001448; ArecoClima - San Antonio de Areco, MeteoStar Team
+St: 001449; Kite Beach Cabarete, GoKiteCabarete.com
+St: 001451; Norway, Bergen, Bergen, Ulriken N
+St: 001452; Norway, Bergen, Bergen, Unnelandstop
+St: 001453; Zvíčina, Zvíčina PG
+St: 001597; St Peter Port, Guernsey, Sun Yachts
+St: 001619; Erciyes Mountain, Erciyes Ace Otel
+St: 001620; Portland, Alpha Quadrant
+St: 001621; Akademija, Windgame weather station
+St: 001622; Isle of Hoy, Ocean View
+St: 001623; Gondomar, Brisadascies
+St: 001624; lagunita, lagunita
+St: 001625; lab, labtest1
+St: 001626; Cordoba Argentina, Gral Bustos, Cordoba
+St: 001627; Acantilados - FreeWaves, MeteoStar
+St: 001628; Autodromo Villicum, MeteoStar
+St: 001629; DIAVATA / THESSALONIKI / GREECE, sv2bzq-2
+St: 001630; Prague, test - 1chip.ru
+St: 001631; Jhampir, Thatta, Artistic Energy
+St: 001632; Gotland / Västergarns Hamn
+St: 001633; Montfort, Meteoroerstreek
+St: 001634; Mozambique, Inhambane, Vertigo Lodge
+St: 001635; Deutschland, Rheinland-Pfalz, Arzbach, Arzbach Großer Kopf
+St: 001636; Glesvær, Glesvær
+St: 001637; Isla Martín García, semáforo
+St: 001638; Las Americas, Las Americas
+St: 001639; Tzaneen, Humor
+St: 001640; ST HELIER, Steeve Mcadams
+St: 001641; Dahab Happykite, Dahab Happykite 1chip.ru station
+St: 001642; Cape Town, KOTA 2021
+St: 001767; Bolton le Sands, Mike Brown
+St: 001876; Land's End, Ed Hoffman
+St: 002221; Hitachi Amsterdam, Hitachi
+St: 002245; Sunningdale, Cape Town, blouberg.co.za
+St: 002246; Riga ,krasta iela, Riga, krasta iela daugava
+St: 002248; Germany, Bavaria, Immenstadt, Mittag
+St: 002249; Hauchenberg, Hauchenberg
+St: 002250; Buchenegg Gleitschirm Übungshang, Buchenegg Gleitschirm Übungshang
+St: 002251; Hündlebahn, Gleitschirm Flugberg Hündle
+St: 002252; Schwanden Gleitschirm Übungshang, Schwanden Gleitschirm Übungshang
+St: 002253; Gleitschirm Fluggelände Ratholz, Gleitschirm Fluggelände Ratholz
+St: 002254; Gleitschirm Übungshang Finkennest, Gleitschirm Übungshang Finkennest
+St: 002255; Gleitschirm Übungshang Sinswang, Gleitschirm Übungshang Sinswang
+St: 002256; Israel, Atlit, ATLIT המבצר עתלית
+St: 002257; Padres Island Canals, Wind.NInja
+St: 002258; Bahia blanca, Ana
+St: 002260; Flugplatz Hinterweiler, Hinterweiler HG
+St: 002263; Rond-Point Crédit Agricole - La Couarde, LaCouardeNouralene
+St: 002277; Krupka, Krupka PG TOP 650m n.m.
+St: 002311; Backyard, Will Butler
+St: 002313; Saarbrücken-Dudweiler, Meshka-WH4000SE
+St: 002478; PG Koterov start, SIGMET Koterov
+St: 002484; Farm216, Farm216 Overzicht
+St: 002486; Harderwijk, Wolderwijdweer.nl
+St: 002488; Unknown spot, Unknown WG Station
+St: 002490; Alita, MeteoStar Team
+St: 002491; Great Sound, Bermuda, Pearl Island
+St: 002494; Purmerbos/Purmerbuurt, Weerstation Purmerbuurt
+St: 002505; Alexandre Neault, Ville-joie,Bozo
+St: 002511; arroyito, MAZZU
+St: 002617; Gijón - Somió, Gijón Este - Somió
+St: 002695; Portugal, Arouca, Passadiços do Paiva, Ponte Pedonal, Passadiços do Paiva
+St: 002714; Siyanda, Siyanda
+St: 002784; Аршинцевская коса, 7 Winds
+St: 002797; Rosslyngveien, Rosslyng Station
+St: 002827; Wareham, Wareham Weather
+St: 002861; Årsta, zephyrus
+St: 002964; Kintai, Kintu kaitu klubas
+St: 002966; Pontinha City, PWS | Pontinha
+St: 002968; Bridgeview Harbour Marina, Bridgeview Harbour Marina
+St: 002993; Мысовое, KJetK 1chip
+St: 003109; La Luna, La Luna
+St: 003145; Boxtel, vikamaso
+St: 003147; Círculo Aeromodelista Rafaelino, Meteo CAR
+St: 003192; Sobínka modelářské letiště, Sobínka Praha
+St: 003215; Ювал, Teriberka tundra 80km - Kitemonch
+St: 003261; Duotone Pro Center / Kiwengwa Zanzibar, DPC Zanzibar
+St: 003262; Estación Meteorológica MDP, MeteoStar Team
+St: 003265; Liptov-Rohačka, Rohačka
+St: 003285; Dev 1 @ 243 Seaforth Rd, Waihi Beach, ... data by https://adrenalinealley.co.nz
+St: 003310; Born a. Darß, KITEN-LERNEN.DE Born
+St: 003318; Mangroovy Beach, El Gouna, KBC El Gouna
+St: 003320; Csopak Strand, Csopak Strand
+St: 003373; Košice - Krásna, Na Hore
+St: 003376; Velence, Színpad fedés
+St: 003377; Hadera Port ims, נמל חדרה
+St: 003379; Beit Zida ims, בית ציידה
+St: 003381; Constanta, WEGO Kite Spot
+St: 003382; Cuero de Zorro, EOLOsurf Club KITE
+St: 003383; Meteotest Teststation, PH Bern, Meteotest
+St: 003388; Lago Tunas Grandes, EOLOsurf Mun. Trenque Lauquen
+St: 003394; Haczow, pogoda-podkarpackie.pl
+St: 003402; Holnis Strand, Holnis Strand - Foerdekiter
+St: 003403; Beaune, Ecowitt-GW1102
+St: 003404; Ridgewood, NJ, Kruse1
+St: 003435; Las Palmeras (A. Roca), MeteoStar Team
+St: 003502; Accrokite Koh Phangan-Kitesurf-Wingfoil Center, Thong Sala beach next to Slumber party hostel
+St: 003519; SIAM PRO KITE (+66 93 6969 478), The Pier Resort, Thong Sala
+St: 003521; La Ventana Campground, La Ventana Campground
+St: 003552; Panenský Týnec letiště, PG Panenský Týnec 350m.n.m
+St: 003560; Kasperi, DavisVP2
+St: 003594; Terça, Boqueirão
+St: 003597; Seichamps, Davis Vantage
+St: 003599; Punta Chame, Panama Kite Center
+St: 003600; Stříbro, STRIBRO907
+St: 003601; PINE RIDGE CAMPGROUND, KPABIGLE6
+St: 003607; Tideswell, Tideswell
+St: 003622; La crau, Apounou
+St: 003633; San José Costa Rica, Escalante
+St: 003635; Mui Ne Bay, Surfpoint Vietnam - Mui Ne Bay
+St: 003665; Argentina, Rio de la Plata, NORDEN
+St: 003672; Home, Hudson Avenue
+St: 003733; SPAIN, TEAM GUADAIZA
+St: 003735; Howell, NJ, Southard, NJ
+St: 003757; Tempest, AK4FD
+St: 003758; Clima Pergamino - La Violeta, MeteoStar Team
+St: 003759; Fuerteventura Villaverde, Cancumar, Casilla de costa
+St: 003760; Domburg
+St: 003761; Duna1, Duna1
+St: 003766; AT Lindberg 1240m, AT Lindberg 1240m
+St: 003767; Domburg, Domburg
+St: 003768; Spain, Andalusia, Rota, Playa de Piedras Gordas (Hotel Playa de la Luz)
+St: 003769; Озеро Аслыкуль, Russia, АслыкульУфа
+St: 003770; Azara - EFA San Antonio, MeteoStar Team
+St: 003771; Estación Alto Verde, MeteoStar Team
+St: 003772; Røsslyngveien, idIOT Weatherstation
+St: 003773; Newport Boat Club, Newport Boat Club
+St: 003774; Cumberland Bay, LesRoches
+St: 003775; Miinisadam, Andrei Gapejev
+St: 003776; Tolagnaro, Ehoala Port, Range Tower - SEPL
+St: 003777; Stavros Thessaloniki, Ecowitt Gw1100
+St: 003778; La Elsa (DRF), MeteoStar Team
+St: 003791; Calldetenes, Calldetenes (Est)
+St: 003815; Theologos, Wetskillz Kiteboarding Center
+St: 003846; Kollund / Kuhhaken, Kollund / Kuhhaken
+St: 003905; Wierumergronden
+St: 003911; D15 platform
+St: 003912; J6 platform
+St: 003913; K14 platform
+St: 003914; A12 platform
+St: 003915; Rotterdamse hoek
+St: 003916; IJgeul stroommeetpaal
+St: 003917; IJmuiden Zuid havenhoofd
+St: 003918; Lage Licht
+St: 003919; Europlatform
+St: 003920; P11 platform
+St: 003921; Bergsediepsluis wind
+St: 003922; Hansweert wind
+St: 003923; Stavenisse
+St: 003924; Zeelandbrug wind
+St: 003925; Grevelingensluis wind
+St: 003926; Terneuzen Westsluis
+St: 003927; Kats Zandkreeksluis
+St: 003928; Oosterschelde 4
+St: 003929; Brouwershavense Gat 2
+St: 003930; Vlakte v/d Raan
+St: 003931; Maeslantkering geleidetor
+St: 003932; Haringvlietsluizen sch 1
+St: 003933; Lichteiland Goeree
+St: 003934; Nieuw Beerta
+St: 003935; Lauwersoog
+St: 003936; Hoorn Terschelling
+St: 003937; Vlieland
+St: 003938; K13 Alpha
+St: 003939; Marknesse
+St: 003940; Stavoren
+St: 003941; De Kooy
+St: 003942; Berkhout
+St: 003943; Wijk aan Zee
+St: 003944; Rotterdam Luchthaven
+St: 003945; Hoek van Holland
+St: 003946; Hansweert
+St: 003947; Wilhelminadorp
+St: 003948; Vlissingen
+St: 003962; Hunting Creek, LucasWeather
+St: 003981; Keri island, marko
+St: 003982; Port of Kihnu, marko
+St: 003986; Munalaid harbor, marko
+St: 003991; Port of Rohuküla, marko
+St: 004012; Balatonfüred (BYC), Balatonfüred (BYC)
+St: 004020; baie d’allaman, allaman
+St: 004035; Framura beach, Framura beach 🏖
+St: 004043; Sint-Katelijne-Waver, Veronique
+St: 004106; Siófoki medence, Balaton keleti medence
+St: 004111; MONTEROSI, MONTEROSI 2
+St: 004112; LARACHA, EA1HLH
+St: 004119; Benalmadena, Monte Visto
+St: 004141; Curium Episkopi, CuriumWind
+St: 004149; Kozí Hora, Meteostanice na Kozí Hoře
+St: 004166; Alp Scheidegg, Wald ZH, Alp Scheidegg Start
+St: 004186; Heilongjiang, Site
+St: 004190; Springtown, Flower Streets
+St: 004192; Chipstead Lake, Chipstead Lake
+St: 004199; Tichelaarsdonk, Tichelaarsdonk
+St: 004201; Vaassen (GE), Weerstation De Griftsemolen
+St: 004328; RAGNOLO SPOT, Windbird 1373
+St: 004330; Flugplatz Mönchsheide, Windbird 1744
+St: 004334; Despegue de Siones, Pioupiou 398
+St: 004354; Létra, Pioupiou 332
+St: 004357; AGProcess, Pioupiou 106
+St: 004359; Unknown spot, Unknown WG Station
+St: 004363; Decollo alto S.Elisabetta 1565m, Windbird 1409
+St: 004368; Pioupiou 352, Pioupiou 352
+St: 004378; 
+St: 004406; Monte Carpegna Decollo Sud, Windbird 1403
+St: 004448; Decollo CFP Monte Bernadia 730m, Windbird 1719
+St: 004454; DSV-RM-3, Windbird 1758
+St: 004459; Unknown spot, Unknown WG Station
+St: 004461; Unknown spot, Unknown WG Station
+St: 004465; Piste d’Aéromodélisme Chapareillan, OpenWindMap 952
+St: 004485; Unknown spot, Unknown WG Station
+St: 004500; Refuge du col de Balme, OpenWindMap 817
+St: 004501; Déco de Salvi, OpenWindMap 811
+St: 004502; Balise Barani , OpenWindMap 805
+St: 004503; Poupet Nord/Ouest 800m, OpenWindMap 804
+St: 004512; KENNEDY, OpenWindMap 808
+St: 004525; Briançon vallée de la Durance, Windbird 1544
+St: 004535; Déco de Soult , OpenWindMap 818
+St: 004574; , OpenWindMap 958
+St: 004586; Le Kemberg 750m, Pioupiou 320
+St: 004607; Unknown spot, Unknown WG Station
+St: 004608; Décollage de Varan 1630m, OpenWindMap 834
+St: 004609; ADVENTURE COTE BASQUE PARAMOTEUR, Pioupiou 220
+St: 004611; Unknown spot, Unknown WG Station
+St: 004612; Eurenciel, Windbird 1381
+St: 004635; Unknown spot, Unknown WG Station
+St: 004744; Windbird 1560, Windbird 1560
+St: 004746; Plate-forme Ballon privée, Pioupiou 163
+St: 004747; Unknown spot, Unknown WG Station
+St: 004748; Unknown spot, Unknown WG Station
+St: 004749; Gery 610m, Pioupiou 324
+St: 004750; Unknown spot, Unknown WG Station
+St: 004751; Unknown spot, Unknown WG Station
+St: 004752; Windbird 1401, Windbird 1401
+St: 004753; Unknown spot, Unknown WG Station
+St: 004754; AVC Coulet, Windbird 1307
+St: 004755; Unknown spot, Unknown WG Station
+St: 004756; Passage du Croc Sire 1405m, Windbird 1399
+St: 004757; Unknown spot, Unknown WG Station
+St: 004758; Decollo TRUCETTI 980m, Windbird 1363
+St: 004759; Unknown spot, Unknown WG Station
+St: 004760; En Maintenance , OpenWindMap 940
+St: 004761; Zumholz, Windbird 1314
+St: 004762; Unknown spot, Unknown WG Station
+St: 004763; Decollo Monte Valinis Meduno 980 m, Windbird 1340
+St: 004764; Unknown spot, Unknown WG Station
+St: 004765; Petit Mont-Rond 1 535m, Windbird 1595
+St: 004766; Unknown spot, Unknown WG Station
+St: 004767; Aérodrome de Cessieu-La Tour du Pin, Windbird 1337
+St: 004768; Tour Matagrin, 42 Violay , Pioupiou 371
+St: 004769; Unknown spot, Unknown WG Station
+St: 004770; Unknown spot, Unknown WG Station
+St: 004771; Windbird 1579, Windbird 1579
+St: 004772; Unknown spot, Unknown WG Station
+St: 004773; , OpenWindMap 931
+St: 004774; Déco Montendry 1282m, Pioupiou 207
+St: 004775; Unknown spot, Unknown WG Station
+St: 004776; Windbird 1550, Windbird 1550
+St: 004777; Unknown spot, Unknown WG Station
+St: 004778; Unknown spot, Unknown WG Station
+St: 004779; Pioupiou 395 Chabanet Privas , Pioupiou 395
+St: 004780; Unknown spot, Unknown WG Station
+St: 004781; Unknown spot, Unknown WG Station
+St: 004782; Les Lanchettes 1807m, Windbird 1329
+St: 004783; Unknown spot, Unknown WG Station
+St: 004784; Poizat-Lalleyriat, Pioupiou 172
+St: 004785; Unknown spot, Unknown WG Station
+St: 004786; Unknown spot, Unknown WG Station
+St: 004787; Ginoles, Pioupiou 131
+St: 004788; Unknown spot, Unknown WG Station
+St: 004789; Unknown spot, Unknown WG Station
+St: 004790; Cirey - Nolay, OpenWindMap 955
+St: 004791; Le Rissas/Beaumont du Ventoux, Windbird 1463
+St: 004792; , OpenWindMap 925
+St: 004793; Unknown spot, Unknown WG Station
+St: 004794; Mont Dardon à Uxeau 488m, OpenWindMap 962
+St: 004795; Windbird 1461, Windbird 1461
+St: 004796; Unknown spot, Unknown WG Station
+St: 004797; Roc de la Grenouille Belesta, Windbird 1357
+St: 004798; Unknown spot, Unknown WG Station
+St: 004799; Aviosuperficie Vall’Ornara, Windbird 1386
+St: 004800; Unknown spot, Unknown WG Station
+St: 004801; Sauveterre, Pioupiou 41
+St: 004802; Unknown spot, Unknown WG Station
+St: 004803; Unknown spot, Unknown WG Station
+St: 004804; Cornudère (Arbas), Pioupiou 313
+St: 004805; Unknown spot, Unknown WG Station
+St: 004806; Unknown spot, Unknown WG Station
+St: 004807; Decollo GAS, Windbird 1319
+St: 004808; Unknown spot, Unknown WG Station
+St: 004809; Déco de Parves 593m, Pioupiou 235
+St: 004810; Unknown spot, Unknown WG Station
+St: 004847; Unknown spot, Unknown WG Station
+St: 004884; Unknown spot, Unknown WG Station
+St: 004916; AGYPLANE , Pioupiou 484
+St: 004926; UNCA club nautique, Pioupiou 597
+St: 004928; Unknown spot, Unknown WG Station
+St: 004946; Le Piardel Plaisance Est, Pioupiou 488
+St: 004947; Unknown spot, Unknown WG Station
+St: 004948; Unknown spot, Unknown WG Station
+St: 004949; Pioupiou 257 - Club ULM Les Alpes Mans'Ailes, Pioupiou 257
+St: 004950; Unknown spot, Unknown WG Station
+St: 004951; Unknown spot, Unknown WG Station
+St: 004952; Soncourt sur Marne, Windbird 1311
+St: 004953; Unknown spot, Unknown WG Station
+St: 004954; Arduino 979, OpenWindMap 979
+St: 004955; Bourg St Maurice , Windbird 1347
+St: 004963; Unknown spot, Unknown WG Station
+St: 004983; Déco de Puivert 800m Aude, OpenWindMap 939
+St: 004995; Otivar 900m, Windbird 1393
+St: 004998; Unknown spot, Unknown WG Station
+St: 005001; Balise, Windbird 1350
+St: 005029; Décollage Le Pré Bozel, Windbird 1427
+St: 005132; Unknown spot, Unknown WG Station
+St: 005133; Site de "la Vierge" à Varanges, Pioupiou 225
+St: 005480; Windbird 1323, Windbird 1323
+St: 005564; CMG TC Mer de Glace, OpenWindMap 845
+St: 005629; Leenane Village, Tim Wood
+St: 005630; Pointe de Pelluaz 1908m, Windbird 1479
+St: 005698; Alovera, Alovera Las Suertes
+St: 005711; La Roche de Vaux en pré, Windbird 1590
+St: 005712; Unknown spot, Unknown WG Station
+St: 005763; El Nido, Exoticloops
+St: 005849; Meierwik, Glücksburg/Meierwik
+St: 005944; vVVDN, DA NANG AIRPORT
+St: 005946; puestodeltigre, Puesto_Del_Tigre
+St: 005948; Goslar, Rammelsberg HDGV
+St: 005949; Mönchengladbach-Odenkirchen, Kamphausener Höhe
+St: 005950; San Martin de los Andes, LomaRedondaV
+St: 005951; Ripley, MS, Ripley Station
+St: 005952; La Clusaz, Pioupiou 629
+St: 005953; Unknown spot, Unknown WG Station
+St: 005954; Unknown spot, Unknown WG Station
+St: 005955; FBVL - BVVF COO, Pioupiou 515
+St: 005956; Unknown spot, Unknown WG Station
+St: 005957; Unknown spot, Unknown WG Station
+St: 006040; Switzerland, SZ, Arth, Rigi Rotstock
+St: 006057; Paranagi, Estação Meteorológica Paranagi PR
+St: 006079; Gobernador Andonaegui, Tláloc
+St: 006090; Paonia, CO, KCOPAONI27
+St: 006091; Schöckl mitte (test), Windbird 1559
+St: 006131; Pala, WMO
+St: 006170; Edmonton Stony Plain, WMO
+St: 006171; Kindersley Regional, WMO
+St: 006172; Craigmyle Agcm, WMO
+St: 006173; Nipawin, WMO
+St: 006897; Golden Airport, WMO
+St: 006899; Inukjuak, WMO
+St: 007133; Beidao, WMO
+St: 007208; Bailing-miao, WMO
+St: 007229; Liangping, WMO
+St: 007253; Bayan Mod, WMO
+St: 007295; Kukes, WMO
+St: 007297; Yinchuan, WMO
+St: 007303; Korca, WMO
+St: 007415; Rizhao, WMO
+St: 007491; Puerto Carreno/a.gua, WMO
+St: 007517; Toromana_aut, WMO
+St: 007572; Cruces_las, WMO
+St: 007597; Santa_rosita, WMO
+St: 007598; Cerros_noroccidental, WMO
+St: 007599; Cajamarca_aut, WMO
+St: 007600; Montezuma, WMO
+St: 007601; Piedras_aut, WMO
+St: 007602; Narino_aut, WMO
+St: 007603; Armero_granja, WMO
+St: 007604; Murillo_aut, WMO
+St: 007605; La_nueva, WMO
+St: 007606; Nataima_aut, WMO
+St: 007607; Ibague/perales, WMO
+St: 007608; Batallon_rooke, WMO
+St: 007609; El_juncal, WMO
+St: 007610; Universidad_de, WMO
+St: 007611; Cartagena/rafael Nun, WMO
+St: 007612; Ita_valsalice, WMO
+St: 007613; Herrera_aut, WMO
+St: 007614; Las_sardinas, WMO
+St: 007615; 
+St: 007616; Demostracion_granja, WMO
+St: 007617; Mesa_de, WMO
+St: 007618; San_antonio, WMO
+St: 007619; Santa_helena, WMO
+St: 007620; El_diamante, WMO
+St: 007621; El_guamo, WMO
+St: 007622; Bogota/eldorado, WMO
+St: 007623; Eldorado_catam, WMO
+St: 007624; Tibaitata_aut, WMO
+St: 007625; Villeta_aut, WMO
+St: 007626; Ideam_bogota, WMO
+St: 007627; Acapulco, WMO
+St: 007628; Paquilo_aut, WMO
+St: 007629; Aeropuerto_rafael, WMO
+St: 007630; San_cayetano, WMO
+St: 007632; La_esperanza, WMO
+St: 007633; Manzanares_aut, WMO
+St: 007634; Albania, WMO
+St: 007635; Puerto_salgar, WMO
+St: 007636; Argelia_antioquia, WMO
+St: 007637; San_jose, WMO
+St: 007638; San_miguel, WMO
+St: 007639; Alto_del, WMO
+St: 007640; La_cabrera, WMO
+St: 007641; Villeta_aut, WMO
+St: 007642; Quebrada_negra, WMO
+St: 007643; Puerto_libre, WMO
+St: 007644; Guaduero, WMO
+St: 007645; Tobia_aut, WMO
+St: 007646; Villeta_aut, WMO
+St: 007647; Granja_experiomental, WMO
+St: 007648; Corrientes, WMO
+St: 007649; San_carlos, WMO
+St: 007650; La_selva, WMO
+St: 007651; Puente_real, WMO
+St: 007652; Riotex, WMO
+St: 007653; Puerto_berrio, WMO
+St: 007655; Vegachi, WMO
+St: 007656; Maceo_aut, WMO
+St: 007657; Na, WMO
+St: 007658; Puerto_boyaca, WMO
+St: 007659; Otanche, WMO
+St: 007660; Buenavista, WMO
+St: 007661; Cimitarra, WMO
+St: 007662; San_cayetano, WMO
+St: 007663; Puerto_araujo, WMO
+St: 007675; Piedecuesta_granja, WMO
+St: 007714; Duitama_aut, WMO
+St: 007781; Crq_armenia, WMO
+St: 007785; Calarca_aut, WMO
+St: 007820; Paramo_belmira, WMO
+St: 007868; Aeropuerto_alm, WMO
+St: 007890; Casetejas_delicias, WMO
+St: 007892; Medina_aut, WMO
+St: 007914; Toquilla_aut, WMO
+St: 008061; Gemena, WMO
+St: 008076; Hoernli, WMO
+St: 008092; Primda, WMO
+St: 008114; Usti Nad Orlici, WMO
+St: 008118; Kucharovice, WMO
+St: 008171; Roesnaes Fyr, WMO
+St: 008172; Hyesan, WMO
+St: 008173; Tongyeong, WMO
+St: 008174; Mokpo, WMO
+St: 008175; Nakkehoved Fyr, WMO
+St: 008176; Gniben, WMO
+St: 008179; Gochang, WMO
+St: 008180; Namwon, WMO
+St: 008181; Tesseboelle, WMO
+St: 008182; Koebenhavns Lufthavn, WMO
+St: 008183; Jaegersborg, WMO
+St: 008184; Drogden Fyr, WMO
+St: 008185; Jeju, WMO
+St: 008186; Gosan, WMO
+St: 008187; Sjaelsmark, WMO
+St: 008188; Seogwipo, WMO
+St: 008189; Silstrup, WMO
+St: 008190; Bornholms Lufthavn, WMO
+St: 008191; Jinju, WMO
+St: 008192; Hammer Odde Fyr, WMO
+St: 008193; Nexoe Vest, WMO
+St: 008194; Kanggye, WMO
+St: 008196; Mittarfik Qaanaaq, WMO
+St: 008197; Kitsissorsuit, WMO
+St: 008198; Mittarfik Upernavik, WMO
+St: 008199; Mittarfik Uummannaq-, WMO
+St: 008200; Nuussuaq, WMO
+St: 008201; Pungsan, WMO
+St: 008202; Aasiaat, WMO
+St: 008203; Mittarfik Ilulissat, WMO
+St: 008204; Mittarfik Aasiaat, WMO
+St: 008205; Mittarfik Kangerluss, WMO
+St: 008206; Mittarfik Sisimiut, WMO
+St: 008207; Mittarfik Maniitsoq, WMO
+St: 008208; Sioralik, WMO
+St: 008209; Kimchaek, WMO
+St: 008210; Nuuk, WMO
+St: 008211; Ukiiviit, WMO
+St: 008212; Mittarfik Paamiut, WMO
+St: 008213; Nunarssuit, WMO
+St: 008214; Mittarfik Narsarsuaq, WMO
+St: 008215; Supung, WMO
+St: 008216; Angissoq, WMO
+St: 008217; Senbong, WMO
+St: 008257; Pyonggang, WMO
+St: 008342; Vente, WMO
+St: 008343; Nida, WMO
+St: 008344; Taurage, WMO
+St: 008345; Dotnuva, WMO
+St: 008346; Raseiniai, WMO
+St: 008347; Kaunas, WMO
+St: 008348; Utena, WMO
+St: 008349; Ukmerge, WMO
+St: 008350; Svencionys, WMO
+St: 008351; Kybartai, WMO
+St: 008352; Marijampole, WMO
+St: 008356; Vilnius AIRPORT, WMO
+St: 008357; Varena, WMO
+St: 008358; Buco Zau, WMO
+St: 008359; Cabinda, WMO
+St: 008360; Landana, WMO
+St: 008361; Maquela Do Zombo, WMO
+St: 008362; Uige, WMO
+St: 008363; Negage, WMO
+St: 008364; Negage (meso), WMO
+St: 008365; Dundo, WMO
+St: 008366; Camissombo, WMO
+St: 008538; Rovaniemi airport, WMO
+St: 008540; Salla parish, WMO
+St: 008541; Varkaus Kosulanniemi, WMO
+St: 008542; Oulu Oulunsalo Pello, WMO
+St: 008543; Kokkola Santahaka, WMO
+St: 008545; Inari Angeli Lintupu, WMO
+St: 008550; Kemi I lighthouse, WMO
+St: 008594; Somero Salkola, WMO
+St: 008598; Kouvola Utti Lentopo, WMO
+St: 008634; Lannion_aero, WMO
+St: 008635; St Brieuc, WMO
+St: 008636; Dinard, WMO
+St: 008637; Rennes-st Jacques, WMO
+St: 008638; Laval-etronnier, WMO
+St: 008639; Alencon, WMO
+St: 008642; Trappes, WMO
+St: 008643; Toussus Le Noble, WMO
+St: 008644; Orly, WMO
+St: 008650; Vatry-aero, WMO
+St: 008756; Mangareva, WMO
+St: 008759; Glorieuses, WMO
+St: 008764; Nouvelle Amsterdam, WMO
+St: 008765; Crozet, WMO
+St: 008769; Port Gentil, WMO
+St: 008771; Cocobeach, WMO
+St: 008817; Schwerin, WMO
+St: 008884; Bangalore/hindustan, WMO
+St: 008892; Belm, WMO
+St: 008902; M.o. Pondicherry, WMO
+St: 008926; Minicoy, WMO
+St: 008974; Leipzig/Halle, WMO
+St: 008993; Koenigswinter-Heider, WMO
+St: 008995; Haflong, WMO
+St: 008996; Lumding, WMO
+St: 008997; Marienberg Bad, WMO
+St: 008998; Kohima, WMO
+St: 008999; Puri, WMO
+St: 009000; Giessen/Wettenberg, WMO
+St: 009016; Gera-Leumnitz, WMO
+St: 009032; Deuselbach, WMO
+St: 009042; Offenbach-Wetterpark, WMO
+St: 009047; Gandhinagar, WMO
+St: 009067; Burdwan, WMO
+St: 009091; Chhindwara, WMO
+St: 009092; Una, WMO
+St: 009094; Seoni, WMO
+St: 009197; Argos, WMO
+St: 009198; Kalamata (airport), WMO
+St: 009217; Ikaria (airport), WMO
+St: 009262; Salto G3, WMO
+St: 009263; Tacuaremb? G3, WMO
+St: 009517; Brattabrekka, WMO
+St: 009518; Siglufjararvegur, WMO
+St: 009524; ��lkelduh��ls, WMO
+St: 009560; Grindav��k, WMO
+St: 009671; Amahai , WMO
+St: 009674; Serang , WMO
+St: 009676; Jakarta/tanjung , WMO
+St: 009677; Jakarta/observatory, WMO
+St: 009679; Jakarta/soekarno- , WMO
+St: 009702; Surabaya/juanda , WMO
+St: 009712; Roman, WMO
+St: 009733; Tarnaveni, WMO
+St: 009801; Rm. Vilcea, WMO
+St: 009888; Afeq, WMO
+St: 010092; Yoko, WMO
+St: 010218; Konyrolen, WMO
+St: 010219; Zharkent, WMO
+St: 010230; Zlikha, WMO
+St: 010247; Obergurgl, WMO
+St: 010389; Moyale, WMO
+St: 010390; Mandera, WMO
+St: 010429; Cheongju, WMO
+St: 010434; Pohang, WMO
+St: 010499; Nouasseur, WMO
+St: 010520; Tagmout, WMO
+St: 010733; Retie, WMO
+St: 010735; Humain, WMO
+St: 010736; Diepenbeek, WMO
+St: 010744; Tahoua, WMO
+St: 010745; Goure, WMO
+St: 010755; Gaya, WMO
+St: 010760; Rost Ap, WMO
+St: 010778; Drag-ajluokta, WMO
+St: 010860; Bergen/flesland, WMO
+St: 010886; Hollekolten, WMO
+St: 010921; Kvitsoy - Nordbo, WMO
+St: 010983; Hakadal, WMO
+St: 011032; Parachinar, WMO
+St: 011066; Gawadar, WMO
+St: 011072; Tumbes - Spim, WMO
+St: 011102; Matucana, WMO
+St: 011109; Cochabamba_grande, WMO
+St: 011124; Arequipa, WMO
+St: 011126; Pampa_de_majes, WMO
+St: 011127; Moquegua, WMO
+St: 011128; Candarave, WMO
+St: 011129; Bocatoma_el_ayro, WMO
+St: 011144; Calca, WMO
+St: 011254; Novyj, WMO
+St: 011259; Kljuci, WMO
+St: 011300; Krasnyj, WMO
+St: 011301; Igarka, WMO
+St: 011302; Staraya, WMO
+St: 011303; Motygino, WMO
+St: 011359; Kamysin, WMO
+St: 011361; Yarkovo, WMO
+St: 011427; Gunib, WMO
+St: 011526; Ostrov, WMO
+St: 011580; Tetjusi, WMO
+St: 011636; Sovetskaya, WMO
+St: 011690; Morsansk, WMO
+St: 011707; Shangaly, WMO
+St: 011733; Gajny, WMO
+St: 011738; Slavgorod, WMO
+St: 011754; Hanty-mansijsk, WMO
+St: 011797; Ob'jacevo, WMO
+St: 011807; Santa Rosa - SLLP, WMO
+St: 011962; Ouhanet, WMO
+St: 012166; Marken, WMO
+St: 012285; Marion Island Rsa, WMO
+St: 012287; Izana, WMO
+St: 012291; Arties, WMO
+St: 012318; Llanes, WMO
+St: 012351; Alto De Los Leones, WMO
+St: 012353; Madrid C. Universit, WMO
+St: 012403; Irurita, WMO
+St: 012423; Hinojosa Del Duque, WMO
+St: 012424; Llerena, WMO
+St: 012482; Cartagena, WMO
+St: 012503; Adra Club Nautico, WMO
+St: 012506; Roquetas De Mar-faro, WMO
+St: 012507; Lublin Radawiec, WMO
+St: 012523; Krakow-balice, WMO
+St: 012529; Sandomierz, WMO
+St: 012541; Kronsno, WMO
+St: 012544; Przemysl, WMO
+St: 012546; Bae Gabriel Castilla, WMO
+St: 012606; Blahammaren, WMO
+St: 012619; Krangede, WMO
+St: 012631; Jarnasklubb, WMO
+St: 012701; Nordkoster, WMO
+St: 012747; Skillinge, WMO
+St: 012751; Lund Sol, WMO
+St: 012884; Ulrichen, WMO
+St: 012892; Acquarossa / Comprov, WMO
+St: 012938; Julier / Piz Bardella, WMO

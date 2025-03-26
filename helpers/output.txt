@@ -1,0 +1,1000 @@
+St: 000001; Rocky-Point, JupiThor Valhallla
+St: 000002; Holyně, Davis Vantage Pro
+St: 000003; Parkstone, Parkstone Yacht Club
+St: 000004; Presidente Roca, METEOBRIDGE WH1081
+St: 000005; Wakanoi, Waihi Beach
+St: 000006; Tarifa, Volare Starboard Tarifa
+St: 000007; Nechranice, Bobík
+St: 000008; Unknown spot, Unknown WG Station
+St: 000009; Unknown spot, Unknown WG Station
+St: 000010; Red Bull King of the Air 2017
+St: 000011; H, GA
+St: 000012; Unknown spot, Unknown WG Station
+St: 000013; Unknown spot, Unknown WG Station
+St: 000014; KLEOPATRA BEACH AGIOS NICOLAOS, LEFKADA, KLEOPATRA KITE REZORT, BIG AL SURF SHOP
+St: 000015; Unknown spot, Unknown WG Station
+St: 000016; Heavensurfhouse, Yedidalga
+St: 000017; Famagusta, EMU Beach Club Surf School
+St: 000018; Papouch Praha, Test
+St: 000019; Lipno - Černá v Pošumaví (Jestřábí), Catamaran
+St: 000020; Letna Park Praha, Testing Station
+St: 000021; Akdeniz, Caretta Beach Restaurant
+St: 000022; Nové Mlýny, YC Dyje přístav
+St: 000023; Unknown spot, Unknown WG Station
+St: 000024; Ládví
+St: 000025; La Calera, Cordoba, Estacion Voler Parapente
+St: 000026; Unknown spot, Unknown WG Station
+St: 000027; Kazbegi
+St: 000028; Lago Maggiore, Porto Ronco Beach, portoroncobeach.ch
+St: 000029; Broad Haven, Haven Sports
+St: 000030; Bonaire, Atlantis, Kiteboardingbonaire.com
+St: 000031; Praia do Garrao, Izzys
+St: 000032; Neusiedl am See, OeSV Bundesleistungszentrum
+St: 000033; -----
+St: 000034; Rettin, Surfschule Rettin
+St: 000035; Quebra Mar - Paracurù - Cearà
+St: 000036; ArecoClima, San Antonio de Areco, MeteoStar
+St: 000037; Gimnasia Zona Norte, Chivilcoy, Buenos Aires, MeteoStar Team
+St: 000038; Ilha do Guajiru, Pousada via col vento
+St: 000039; Nagaev bay, NAGAEVA
+St: 000040; Viganj, Water Donkey
+St: 000041; Mauritius, Pointe D'Esny
+St: 000042; Cape Town, Kitebeach, Board and Kite Africa
+St: 000043; Pagham, Kitesurfing Armada
+St: 000044; Bloubergstrand, Best Kiteboarding Africa
+St: 000045; 3 Anchor Bay, Kaskazi Kayaks
+St: 000046; Benicasim, Caseta CVB
+St: 000047; Lauttasaari, Larukite
+St: 000048; wsb pirogovo, wsb pirogovo
+St: 000049; Viboni, Kalna Viboni
+St: 000050; Agios Nikolaos, Agiosnikolaos-kitecenter
+St: 000051; Dunes Kite Piles Club / Platja de Piles, DKPiles Meteo
+St: 000052; Playa de Valdevaqueros, Tarifa Spin Out
+St: 000053; 
+St: 000054; Térénez, SRTZ
+St: 000055; Zloncice, Kralupy nad Vltavou, Maca
+St: 000056; Paracuru, Quebra-Mar, KITEFRIENDS
+St: 000057; Marmari - Kos, Marmari Windsurfing Center
+St: 000058; Hel, Chałupy, FUNSURF.PL
+St: 000059; Flag Beach, Flag Beach Water Sports Centre
+St: 000060; El Medano, AZULKITEBOARDING
+St: 000061; Seaford Bay, Newhaven and Seaford Sailing Club NSSC
+St: 000062; St Kilda VIC, St Kilda VIC
+St: 000063; Sailing Time Thessaloniki, Club
+St: 000064; Harlow Blackwater Sailing Club, hbsc
+St: 000065; Bowentown, Pioshores
+St: 000066; Castiglione della Pescaia, CVCP
+St: 000067; Duny, St.Petersburg (OLD), Duna
+St: 000068; Brae Marina, DBC
+St: 000069; Pozo Izquierdo, CUTRE School & Rent, CUTRE Windsurf
+St: 000070; Fergusson Park, FergyPark
+St: 000071; Riga, Kisezers, Klubs 360
+St: 000072; Agios Ilias / Pirgi, Kiteshack Wind Station
+St: 000073; חוף צופי ים - הרצליה, HERZLIA SEA SCOUTS
+St: 000074; Unknown spot, Unknown WG Station
+St: 000075; Unknown spot, Unknown WG Station
+St: 000076; Unknown spot, Unknown WG Station
+St: 000077; Villa Cañas, Santa Fe, MeteoStar
+St: 000078; Rosario, Santa Fe, MeteoStar
+St: 000079; General Cabrera, Córdoba, MeteoStar
+St: 000080; Saladillo, Buenos Aires, MeteoStar
+St: 000081; Sierras Bayas, Olavarria, Buenos Aires, MeteoStar
+St: 000082; Carmen de Areco, Buenos Aires, MeteoStar
+St: 000083; Aeroclub Baradero, Buenos Aires, MeteoStar
+St: 000084; FDR Clima, MeteoStar
+St: 000085; Saladillo, Buenos Aires, MeteoStar
+St: 000086; Mar del Plata, FreeWaves, MeteoStar
+St: 000087; San Rafael, Mendoza, MeteoStar
+St: 000088; Chajarí, Corrientes, MeteoStar
+St: 000089; San Guillermo, San Juan, MeteoStar
+St: 000090; Tornquist, Buenos Aires, MeteoStar
+St: 000091; Roldan, Santa Fe, MeteoStar
+St: 000092; Laboulaye, Córdoba, MeteoStar
+St: 000093; Necochea, Buenos Aires, MeteoStar
+St: 000094; Iles de la Madeleine, 164CHCOULOMBE
+St: 000095; Leucate, Chinook Surf shop
+St: 000096; Nikoi Island, Nikoi Island Windguru Station
+St: 000097; Fundata The Spot, spotfundata
+St: 000098; Liptovská Mara, testovací režim
+St: 000099; Ouen Toro Cote Blanche, LVLNC-ACPV
+St: 000100; Kalajoki Hiekkasarkat, Rautio Sports Surf Center
+St: 000101; Kuznica, ABCSURF.PL KUZNICA
+St: 000102; J, S
+St: 000103; Marina di Grosseto, Kitebeach Fiumara & restaurant
+St: 000104; Westende, De Kwinte
+St: 000105; Kite4fun, Kite4fun
+St: 000106; Westeinderplassen, WSCA Windstation
+St: 000107; Dakhla, Dakhla Attitude Hotel
+St: 000108; Galisbay, Saint Martin
+St: 000109; Suao Neipi, Waterman kitesurfing club
+St: 000110; Blue Planet, Shuraabad
+St: 000111; Les Messieres Torteval Guernsey GY8 0LP, georgeo
+St: 000112; Unknown spot, Unknown WG Station
+St: 000113; Zallaq, Bahrain
+St: 000114; Rozkoš, Surfcentrum u Milana
+St: 000115; Kingsdown, crossleas
+St: 000116; Brebbia, Nautica Lavazza
+St: 000117; Castricum, Sports at Sea
+St: 000118; Chascomus, Aeródromo Skydivecenter
+St: 000119; Praia Barra da Tijuca, ONDAS RIO
+St: 000120; Unknown spot, Unknown WG Station
+St: 000121; Unknown spot, Unknown WG Station
+St: 000122; Unknown spot, Unknown WG Station
+St: 000123; Unknown spot, Unknown WG Station
+St: 000124; Unknown spot, Unknown WG Station
+St: 000125; Unknown spot, Unknown WG Station
+St: 000126; Unknown spot, Unknown WG Station
+St: 000127; Unknown spot, Unknown WG Station
+St: 000128; Unknown spot, Unknown WG Station
+St: 000129; Unknown spot, Unknown WG Station
+St: 000130; Castelli, Buenos Aires, MeteoStar
+St: 000131; Lujan, Buenos Aires, MeteoStar
+St: 000132; Leones, Cordoba, MeteoStar
+St: 000133; Rauch, Buenos Aires, MeteoStar
+St: 000134; La Pega, Mendoza, MeteoStar
+St: 000135; Colonia San Bartolome, Arroyito, Cordoba, MeteoStar
+St: 000136; Arroyito2, Cordoba, MeteoStar
+St: 000137; Balnearia, Cordoba, MeteoStar
+St: 000138; General Levalle, Cordoba, MeteoStar
+St: 000139; Treinta de Agosto, Buenos Aires, MeteoStar
+St: 000140; Cordoba Capital, Cordoba, MeteoStar
+St: 000141; Cordoba2, Cordoba, MeteoStar
+St: 000142; Mechita, Buenos Aires, MeteoStar
+St: 000143; Rio Gallegos, Santa Cruz, MeteoStar
+St: 000144; Gancedo, Chaco, MeteoStar
+St: 000145; Carlos Casares, Buenos Aires, MeteoStar
+St: 000146; Montevideo, MeteoStar
+St: 000147; Las Toscas, Santa Fe, MeteoStar
+St: 000148; Coronel Suarez, Buenos Aires, MeteoStar
+St: 000149; 
+St: 000150; Unknown spot, Unknown WG Station
+St: 000151; Unknown spot, Unknown WG Station
+St: 000152; Unknown spot, Unknown WG Station
+St: 000153; Unknown spot, Unknown WG Station
+St: 000154; Unknown spot, Unknown WG Station
+St: 000155; Unknown spot, Unknown WG Station
+St: 000156; Unknown spot, Unknown WG Station
+St: 000157; Unknown spot, Unknown WG Station
+St: 000158; Unknown spot, Unknown WG Station
+St: 000159; Štěpánský rybník, Mýto
+St: 000160; Fraserburgh Beach, Synergy Kitesports
+St: 000161; Lago Maggiore, Brione s/Minusio, CASA LUCE
+St: 000162; De Panne, Side Shore Surfers
+St: 000163; Kleinbaai, Great White House
+St: 000164; Carlingford Lough Yacht Club, Killowen, Northern Ireland
+St: 000165; Âncora, Henrique Gonçalves
+St: 000166; Florianópolis, Ondas do Vento - Campeche
+St: 000167; Balykchi, YachtClub
+St: 000168; Necker Island, North Sound
+St: 000169; Dolphin beach, Guns
+St: 000170; Villa Regina Rio Negro, MeteoStar
+St: 000171; Soriano, MeteoStar
+St: 000172; Littlehampton, Harbour
+St: 000173; Campione del Garda, Tender RRD
+St: 000174; kontikiteam, station
+St: 000175; Maldives, Landaa Giraavaru, Four Seasons Resort, OSC
+St: 000176; Progreso, Chicxulub Pto., Villa Mercedes
+St: 000177; El Gouna, Kiteboarding Club El Gouna
+St: 000178; Unknown spot, Unknown WG Station
+St: 000179; Sylt, PWA
+St: 000180; Rojas Buenos, Aires, MeteoStar
+St: 000181; San Isidro, Buenos Aires, FreeWaves, MeteoStar
+St: 000182; El Hoyo Chubut, MeteoStar
+St: 000183; Unknown spot, Unknown WG Station
+St: 000184; 4mile Beach Port Douglas QLD, 4mile Pt Douglas
+St: 000185; Mombasa, XANTwindguru Mombasa
+St: 000186; Shady Cottage, Shady Cottage Wind Station
+St: 000187; La Torche, PWA
+St: 000188; Dan's House, Hove Lagoon, Dan's House, Hove Lagoon
+St: 000189; Eastbourne, Robinson Bay North
+St: 000190; Unknown spot, Unknown WG Station
+St: 000191; Unknown spot, Unknown WG Station
+St: 000192; Unknown spot, Unknown WG Station
+St: 000193; Unknown spot, Unknown WG Station
+St: 000194; Unknown spot, Unknown WG Station
+St: 000195; Unknown spot, Unknown WG Station
+St: 000196; Unknown spot, Unknown WG Station
+St: 000197; Unknown spot, Unknown WG Station
+St: 000198; Cuesta del viento Ghmcontenidos, San Juan, MeteoStar
+St: 000199; Planta Diaema - Comodoro Rivadavia, Chubut, MeteoStar
+St: 000200; Estación Bioder Parana, Entre Ríos, MeteoStar
+St: 000201; Estación de Servicio Ruano, Peyrano Santa Fe, MeteoStar
+St: 000202; Porta1, Cordoba, MeteoStar
+St: 000203; Bunsuran, windmast1
+St: 000204; Lancing, Lancing Sailing Club
+St: 000205; St Barthelemy, Tradewind / Le Guanahani
+St: 000206; Leça da Palmeira, Matosinhos, Surftotal
+St: 000207; Estación Mauro - Hernando, Cordoba, MeteoStar
+St: 000208; Corpen Aike - Pto. Sta.Cruz, Santa Cruz, MeteoStar
+St: 000209; B-High, B-High
+St: 000210; Suiderstrand, SS46
+St: 000211; Muiderzand, Beachclub & catamaranzeilschool Sail-Today
+St: 000212; Unknown spot, Unknown WG Station
+St: 000213; Galisbay
+St: 000214; Famara Beach, Lanzarote, Lanzasurf
+St: 000215; Fayrouz Beach, Playkite
+St: 000216; Alblasserdam, RHVG
+St: 000217; Rutland Water, Rutland Chandlery
+St: 000218; SISY, Hangar 15
+St: 000219; Brouwersdam, Zeil- & Surfcentrum Brouwersdam
+St: 000220; Diepkloof Airfield, Malmesbury, Mother City SkyDiving
+St: 000221; TL-82 - Tranque Lauquen, Buenos Aires, MeteoStar
+St: 000222; Los Petisos - Coronel Pringles, Buenos Aires, MeteoStar
+St: 000223; Escollera Norte, FreeWaves, MeteoStar
+St: 000224; LU9ACA Capital Federal, Buenos Aires, MeteoStar
+St: 000225; Mariano Acosta, Buenos Aires, MeteoStar
+St: 000226; Estación Costera Municipal Villa Gesell, Buenos Aires, MeteoStar
+St: 000227; Planta Ruta 193 Solis, Buenos Aires, MeteoStar
+St: 000228; Åre Lavincenter, Fjällängen
+St: 000229; Kitesurfing Armada, Pagham Yacht Club
+St: 000230; Queen Mary Sailing Club, QMSC
+St: 000231; The Singular Patagonia, The Singular Patagonia
+St: 000232; Stewartby Lake, SWSC Sailing
+St: 000233; Unknown spot, Unknown WG Station
+St: 000234; Campo Pressuttari Hernando, Cordoba, MeteoStar
+St: 000235; Balneario El Condor Viedma, Rio Negro, MeteoStar
+St: 000236; dfb Cipolletti, Rio Negro, MeteoStar
+St: 000237; Niña Paula San Alberto, Cordoba, MeteoStar
+St: 000238; Papouch Praha, Test Station 2
+St: 000239; Morecambe, Morecambe Bay Kitesurfing Club
+St: 000240; Limassol, Anemometer
+St: 000241; B-HIGH airfield, BTECH
+St: 000242; Holyně, 2
+St: 000243; Vlieland Posthuys, Hotel Posthuys Vlieland
+St: 000244; the ski resort Liepkalnis ( www.liepkalnis.lt ), Vilnius
+St: 000245; 
+St: 000246; Milzkalns, ski resort Milzkalns
+St: 000247; Sao Chico
+St: 000248; Orient Bay, Villa Orient Caraibes
+St: 000249; 
+St: 000250; WISCH Hallwilersee, Meisterschwanden-Tennwil, Windsurfclub
+St: 000251; Saint-Martin-de-Ré, Saint-Martin-de-Ré
+St: 000252; Barra da Tijuca, K7 | KITEPOINT RIO
+St: 000253; Seamill, The Lane
+St: 000254; Gokite - Ponta das Almas - Lagoa da Conceição, GOKITE - AULAS DE KITESURF
+St: 000255; Hunstanton beach, Hunstanton sailing club
+St: 000256; Skerries, Skerries Sailing Club - Obsolete
+St: 000257; Puck, surfzone
+St: 000258; Ada Koy Marina Marmaris, Sailinturkey
+St: 000259; Born a. Darß, KITEN-LERNEN.DE
+St: 000260; Kislovodsk, Stavropol region
+St: 000261; MikroTik
+St: 000262; Horstermeer1, Polder1
+St: 000263; Sandy Port beach, Sandy Port Beach
+St: 000264; Clube Naval de Cascais, CNCascais
+St: 000265; Essentuky, Stavropol region
+St: 000266; Yutsa, Stavropol region, Václav
+St: 000267; LongpontSpot
+St: 000268; Casa Mia Maldives, Mathiveri, Casa Mia Maldives, Mathiveri
+St: 000269; Tarifa Spin Out, Playa de Valdevaqueros
+St: 000270; Lo Stagnone di Marsala, www.Kiteseason.cz
+St: 000271; Beachclub Havana aan Zee, Zandvoort
+St: 000272; Unknown spot, Unknown WG Station
+St: 000273; Kralova Elektraren, Kralova Powerplant
+St: 000274; Estación Las Isletillas Hernando, Cordoba, MeteoStar
+St: 000275; Meteo Chivilcoy, Buenos Aires, MeteoStar
+St: 000276; flycaucasus
+St: 000277; Skerries, Skerries Sailing Club
+St: 000278; North Obhur, Danah Jed
+St: 000279; Kerolland, Ile d'Arz, CNG Ile d'Arz
+St: 000280; Horstermeer, Polder
+St: 000281; Vääna Jõesuu, Vääna
+St: 000282; Högsäter
+St: 000283; Dronten, Sailing.Today
+St: 000284; Nauticlub Castelfusano, Nauticlub Castelfusano
+St: 000285; Hunstanton Sailing Club, HSC
+St: 000286; Podersdorf, PWA
+St: 000287; Praia do Preá, Rancho do Peixe
+St: 000288; Lefkada, Agios Nikolaos, Kleopatra Kite Resort
+St: 000289; Bozo Beach, Cabarete, Bahia Residence Cabarete
+St: 000290; Estación Huinca Renanco, Cordoba, MeteoStar
+St: 000291; AWS Bella Vista, Buenos Aires, MeteoStar Team
+St: 000292; Agrotécnico 4 - San Pedro, Guasayan - Sgo del Estero, MeteoStar
+St: 000293; La Primavera, Rio Cuarto - Cordoba, MeteoStar
+St: 000294; Meteo Colón, Colón - Buenos Aires, MeteoStar
+St: 000295; Liernu, Centre ULM/Paramoteur Liernu
+St: 000296; PICO DO GAVIÃO, Águas da Prata/SP - Andradas/MG
+St: 000297; DOSC, Dubai Offshore Sailing Club
+St: 000298; Albeř, Alber 1
+St: 000299; Lierna, Villa Sport
+St: 000300; Amsterdam Windsurfing
+St: 000301; Powells Pool, Sutton SC
+St: 000302; Commissioner’s House, National Museum of Bermuda, Dockyard
+St: 000303; Playa America
+St: 000304; Bol, ZOO Station Bol 1
+St: 000305; Podersdorf am Neusiedlersee, Süd-Süd-Strand, kitesurfing.at
+St: 000306; Cliffs of Moher, Roof Station
+St: 000307; 2016 Lipno Ice Marathon, Lipno lake, Jestrabi
+St: 000308; Unknown spot, Unknown WG Station
+St: 000309; Div'Ocean, Div'Ocean Bonaire
+St: 000310; Unknown spot, Unknown WG Station
+St: 000311; Unknown spot, Unknown WG Station
+St: 000312; INTA - San A. de Areco, Buenos Aires, MeteoStar
+St: 000313; Barrio Santa Clara - Tigre, MeteoStar
+St: 000314; Ferrari - Claromeco, Buenos Aires, MeteoStar
+St: 000315; Lefkada, Milos Beach, EFPT 2015
+St: 000316; Dahab ♥SURFHOUSE.LT♥, Neverending Summer Camp
+St: 000317; Pärnu beach, SURF CENTER - https://surfcenter.ee
+St: 000318; Urb Rio Real Playa, Quickflash
+St: 000319; Jeløy, Moss
+St: 000320; Koronisia, RRD Kite Club
+St: 000321; Cocagne Cape Marina, CCPA
+St: 000322; Unknown spot, Unknown WG Station
+St: 000323; Fredhäll, Stockholm
+St: 000324; Stewarty Water Sports Club, Stewartby Water Sports Club
+St: 000325; Challwell, Towers
+St: 000326; Kaberneeme, Tequila Weather Station
+St: 000327; Wijk aan Zee, Noordpier, Outstanding Events
+St: 000328; Surfers Paradise - Knokke-Heist
+St: 000329; VKWC Youth Cup Costa Brava, Sant Pere Pescador, Camping La Ballena Alegre
+St: 000330; 
+St: 000331; Douro River, Porto, Douro Marina
+St: 000332; KITEBEACHFIUMARA - FIUMARA BEACH, KBF
+St: 000333; Coco's Isla Cortez, La Mitotera
+St: 000334; Pasohlávky - F4 škola windsurfingu, F4 škola windsurfingu - Pasohlávky
+St: 000335; le Cercle de la Voile de Paris, CVP Station
+St: 000336; Ras Al Hamra Boat Club, RAHBC
+St: 000337; Lviv, Sirka
+St: 000338; Paracuru, JVU
+St: 000339; Prasonisi / Rodos, Wind4Fun.PL
+St: 000340; Cliffs of Moher, Kiosk
+St: 000341; matalaa Wallis, wallis gliss
+St: 000342; Lentfoehrden
+St: 000343; Unknown spot, Unknown WG Station
+St: 000344; Hotel Vila Marola, Taiba , Vila Marola
+St: 000345; Hardinxveld-Gessendam, Wolfseind
+St: 000346; Praha, GSM test Holyne 2
+St: 000347; Sunshine Beach, Sunshine Beach
+St: 000348; Upper Rideau Lake, RideauWx
+St: 000349; Selden, KNYSELDE1
+St: 000350; Punta Pellaro NewKiteZone IKO Center, www.traversata.it
+St: 000351; Alimos marina, Greek Isles Yachting
+St: 000352; Piazza Grande, Locarno, Locarno Film Festival
+St: 000353; Unknown spot, Unknown WG Station
+St: 000354; 
+St: 000355; Yacht Club Carnac - Carnac, YCCarnac
+St: 000356; Mesnil / lac d'orient, ASEGA / KITESHOP.FR
+St: 000357; Skadovsk, KiteClub
+St: 000358; PENTALOFOS / SV2BZQ-3, George Foltopoulos
+St: 000359; Central Pueblo Esther, Santa Fe, MeteoStar
+St: 000360; Delta Marina Guardería Náutica, Villa La Ñata, Tigre
+St: 000361; Sec. de Ambiente Munic. de Gral. Viamonte, Meteostar
+St: 000362; Meteo Salto, Buenos Aires,, Meteostar
+St: 000363; Puente Viejo Bajo, Mar del Plata, Meteostar
+St: 000364; La Providencia bajo, Mar del Plata, Meteostar
+St: 000365; El Batitú, Ismael Cortinas, Meteostar
+St: 000366; Shartash, Sparta
+St: 000367; Estación Meteorológica Aeródromo Rafaela, Meteostar
+St: 000368; Aramis Group, Villa Angela, Chaco, Meteostar
+St: 000369; Holyně
+St: 000370; Parque Central, EW5407
+St: 000371; Unknown spot, Unknown WG Station
+St: 000372; Chalwell, Chalwell TO
+St: 000373; Sotavento, Rene Egli Center
+St: 000374; MAKRIGIALOS / SV2BZQ-1, Makrigialos - SV2BZQ
+St: 000375; San Francisco, Mar del Plata, Meteostar
+St: 000376; Mina Clavero, Cordoba, Meteostar
+St: 000377; eXploder, UKS Navigo Sopot
+St: 000378; Malveira da Serra / Janes, TGuincho
+St: 000379; E.T. Puerto Moreno, Bariloche, Meteostar
+St: 000380; Assen Zuid-West, Weather Station Assen Zuid West
+St: 000381; Máchovo Jezero, TESTING ONLY! (Prague)
+St: 000382; 
+St: 000383; What'sup:+1(829)644-8354, GoKite Cabarete Kite School
+St: 000384; Meteo 9 de Julio, Meteostar
+St: 000385; San Carlos Minas, Cordoba, Meteostar
+St: 000386; Facultad Agronomía-Agrometeorología, Azul, Buenos Aires, Meteostar
+St: 000387; Lider, Gral.E.Martinez (Charqueada) Treinta y Tres, Uruguay, Meteostar
+St: 000388; Aalacati Bu Bi Surf School Beach, Bu Bi Surf school
+St: 000389; Jericoacoara, Jeri250 Water Sports Center
+St: 000390; Alacati, Bu Bi Surf School 1
+St: 000391; Mineralniye Vodi, Stavropol region
+St: 000392; Nevinnomissk, Stavropol region
+St: 000393; Georgievsk, Stavropol region
+St: 000394; Stavropol, Stavropol region
+St: 000395; Castelo de Trevim, Omniflow Station
+St: 000396; Ifira Point, Port Vila, Vanuatu, RS Sailing Academy
+St: 000397; Home, Zales
+St: 000398; Chasewater, Chase Sailing Club
+St: 000399; Kaskadniy, Stavropol region
+St: 000400; Live Las Cucharas Xtremesails, live las Cucharas Xtremesails
+St: 000401; Paracas, Kangaroo Kite Shack
+St: 000402; YC Lipno nad Vltavou - test mode, windguru station
+St: 000403; ibuenosa217, Boulogne, Buenos Aires, Meteostar
+St: 000404; Progreso, yucatanmarino.com
+St: 000405; Chichester Canal, Turners View
+St: 000406; Bintan Agro, Outer Quadrant
+St: 000407; Villages of Bridgestone, TXW
+St: 000408; Camping le Tedey, Tedey Yacht Club ⛵
+St: 000409; Klitmøller, KIA Cold Hawaii PWA World Tour
+St: 000410; ----
+St: 000411; cartagena, clubpesca
+St: 000412; La Candelaria, Salta, Meteostar
+St: 000413; Virginia, Ian
+St: 000414; Shanklin, Shanklin Sailing Club
+St: 000415; Chancani, Cordoba, Meteostar
+St: 000416; Gorizia San Rocco Università, MeteoGorizia
+St: 000417; MARINA HERZLIA - מרינה הרצליה, תחנה מושבתת
+St: 000418; CBK Kite Beach, CBK Hayling Island
+St: 000419; Portavadie Marina, PortavadieMarina
+St: 000420; Praha, Holyně, GSM test
+St: 000421; Sigtuna, Sundveda
+St: 000422; Table View, Cape Town, meteo.capetown
+St: 000423; Constance Halaveli
+St: 000424; Locos Por El Viento, Rosario, Meteostar
+St: 000425; Belen15, Morón, Meteostar
+St: 000426; Ischitella Lido, Kitesurf Napoli
+St: 000427; Le Dossen, Beach Break - Café / Surfshop
+St: 000428; Morro Ferrabraz, Sapiranga-RS, Brazil, WeatherStationAGVL
+St: 000429; Pirlanta Kitesurf Beach, pirlantaruzgar.com
+St: 000430; Sochi, Club Khosta Rika
+St: 000431; Los Pinos, COLONIA KITERS
+St: 000432; St. Georges, Endeavour East Fort
+St: 000433; Brae, Delting Boating Club
+St: 000434; Ouderkerkerplas, WVOP
+St: 000435; TiempoYoung, Young, Rio Negro, Uruguay, Meteostar
+St: 000436; Keranguyader, Keranguyader
+St: 000437; Buxtehude, Villa General Belgrano, Meteostar
+St: 000438; Half Moon Bay KSA, HMB1
+St: 000439; Salzburg, Hallein, Rif
+St: 000440; Kenon lake, Andre' House
+St: 000441; Lomas de Zamora, Buenos Aires, Mschvartz
+St: 000442; Milos, Lavamilos
+St: 000443; Macapà, BeeKite Brasil
+St: 000444; Klobben, SVK, Soukka
+St: 000445; Les Dauphins Souk el Guebli Djerba, Lagoon South-East, Les Dauphins Djerba
+St: 000446; Jackson Heights, New York, Roosevelt Terrace Cooperative, Inc.
+St: 000447; Riekstukalns, ski resort
+St: 000448; Porto de Portimão, Cais Comercial
+St: 000449; Porto de Faro, Cais Comercial
+St: 000450; Trou d'Eau - La Saline les Bains, SKC.RE
+St: 000451; Amodeo bay, Anglers Lodge
+St: 000452; Shelly Beach, Shelly Skottel Braai
+St: 000453; AleIguera JNF, Juan N. Fernandez, Buenos Aires, MeteoStar
+St: 000454; Hoveringham, Notts County Sailing Club
+St: 000455; Ilıca Plajı Çeşme, Meteoroloji İstasyonu ilica.pirlantaruzgar.com
+St: 000456; 's-gravendeel, tonvandenbosch
+St: 000457; Pipanaco, Catamarca, Argentina, Meteostar
+St: 000458; Terres Basses, SCITEL
+St: 000459; Exmouth, Kings Lake
+St: 000460; Kitebeach Bonaire, Kiteboarding Bonaire
+St: 000461; Friedrichshafen Bodensee, Muntenried
+St: 000462; Gjilan
+St: 000463; La Gendarmerie, AK SAINT-PIERRE
+St: 000464; Fonte da Telha, WindSpirit Club
+St: 000465; al lith, Al Lith - Abu Sameh Station
+St: 000466; Doany-Antafondro, Doany Beach
+St: 000467; Nashville, IN, The Ridge
+St: 000468; AYELET HASHACHAR, AYELET בבדיקה
+St: 000469; Gwithian, thesurfhouse.co.uk
+St: 000470; Portsmouth, Spitbank Fort, America's Cup 1
+St: 000471; Station 2 TEST 2
+St: 000472; Test Holyne, S2, prototyp
+St: 000473; Test Holyne, S2, SN 26 ( ...AAFA52)
+St: 000474; Cape Town, KOTA 2017, Big Bay Events
+St: 000475; Unknown spot, Unknown WG Station
+St: 000476; Portsmouth, Southsea, America's Cup 2
+St: 000477; Isle of Wight, America's Cup 3
+St: 000478; Ilha dos Marinheiros - Porto Alegre, Sul
+St: 000479; Sri Lanka - Kalpitiya - RuukVillage, RuukVillage
+St: 000480; Unknown spot, Unknown WG Station
+St: 000481; Ipanema | Kitesurf Rio
+St: 000482; Port Elizabeth - Eastern Cape, PE-RSA
+St: 000483; Aberavon, Aberavon
+St: 000484; Rest Bay, RestBay
+St: 000485; windguru_1
+St: 000486; Killington, Killington
+St: 000487; Papouch Praha, Test 2
+St: 000488; Mirador de los condores APC, Merlo, San Luis, Meteostar
+St: 000489; Endeavour East
+St: 000490; scheveningen Pier Zuid, Pier Zuid Windguru
+St: 000491; Prague, Test only
+St: 000492; Praha, Čimice
+St: 000493; Kuxville cap malheureux, Sindbad
+St: 000494; Ferraria, SPOTAZORES - Ferraria
+St: 000495; Vila Franca do Campo, SPOTAZORES - Vila Franca do Campo
+St: 000496; RIbeira Quente, SPOTAZORES - Praia da Ribeira Quente
+St: 000497; Praia de Santa Bárbara, SPOTAZORES - Praia de Santa Bárbara
+St: 000498; Morriston - Swansea, SWANSEA - SA6
+St: 000499; Fajã Grande, SPOTAZORES - Fajã Grande
+St: 000500; Unknown spot, Unknown WG Station
+St: 000501; EMA ROSARIO SUR (TIRO SUIZO), Meteostar
+St: 000502; Lake Wanaka, Wanaka Yacht Club - Weather Station
+St: 000503; Vaggio, Ventus W835
+St: 000504; Fajã do Ouvidor, SPOTAZORES - Fajã do Ouvidor
+St: 000505; Praia da Vitória, SPOTAZORES - Electro Cruzeiro
+St: 000506; Lajes do Pico, SPOTAZORES - Lajes do Pico
+St: 000507; ObsMeteoCODE, Santa Fe, Meteostar
+St: 000508; Puerto Velero, Nautica Velero
+St: 000509; Agroveterinaria El Bagual, Gobernador Gregores, Santa Cruz, Meteostar
+St: 000510; El Gouna, Element Watersports El Gouna
+St: 000511; Pornichet, Glissevolution
+St: 000512; Club Universitario de Buenos Aires - Sede Nuñez, CUBA - sede nuñez
+St: 000513; YCI, Yacht Club Immensee
+St: 000514; Seahouses, North East Kitesurfing Club
+St: 000515; 
+St: 000516; Long Bay Beach, TCK Station
+St: 000517; Las Cucharas - Costa Teguise, Villa La Morena Las Cucharas
+St: 000518; OCEANICA - PRAIA DA VITORIA, OCEANICA
+St: 000519; Hutir Red'ky, Selteq Racing
+St: 000520; Barra da Tijuca | Golden Green | BRKITE
+St: 000521; Brouwersdam, Natural High Flight Zone
+St: 000522; Clube Naval de Cascais, CNCascais
+St: 000523; TU, Carousel-F
+St: 000524; Escola Superior Náutica Infante D. Henrique - ENIDH
+St: 000525; Cihan, Cihan
+St: 000526; Radio Libertad, Rosario, Santa Fe, Meteostar
+St: 000527; Rapel, Quebrada Honda
+St: 000528; Bomberos del Viso, Meteostar
+St: 000529; Clima de Chascomús, Meteostar
+St: 000530; Barra da Tijuca, K7 | KITEPOINT RIO
+St: 000531; Guardamar del Segura, Playa, Cortinadecor
+St: 000532; OpZeezand, OpZeezand
+St: 000533; Porth Eirias, Colwyn Bay Watersports
+St: 000534; Unknown spot, Unknown WG Station
+St: 000535; Kerkrade, Weerstation Parkstad
+St: 000536; test, Václav Horník
+St: 000537; TU-North, TU-North
+St: 000538; Sporting Club Porto Pollo, IKA
+St: 000539; Urla, Gülbahçe, UKC-UrlaKiteCenter
+St: 000540; El Parador, Almeria, Meteostar
+St: 000541; Neilson Active Holidays - Brighton Marina, NAH Brighton Office
+St: 000542; El Dichoso, Colonia Benítez, Chaco, Meteostar
+St: 000543; North_beach, North_Kite
+St: 000544; "La Esmeralda", Pueblo Bellocq (Estación Las Garzas), Hasenkamp, Meteostar
+St: 000545; Haga Park, ÖWC
+St: 000546; Yorkshire Dales Sailing Club, ydsc windguru aws
+St: 000547; Lo Stagnone Kiteboarding Club, Kiteboarding Club Sicily
+St: 000548; Hunstanton, Hunstanton Sailing Club and Watersports Centre
+St: 000549; Pozo Izquierdo, Grand Canaria, PWA World Cup
+St: 000550; San Esteban, Los Andes, Chile, Meteostar
+St: 000551; Canal Local La Carlota, Cordoba, Meteostar
+St: 000552; El Faro Pacasmayo, El Faro Adventure Resort
+St: 000553; Uruguay - Colonia del Sacramento - Pocoloco, Pocoloco
+St: 000554; ISTANBUL - HARBIYE, KORAY BIRAND
+St: 000555; CA3MRD, Región Metropolitana, Maipú,Chile, Meteostar
+St: 000556; 
+St: 000557; Lago di Alpi, Alperstedter See
+St: 000558; Seahouses Golf, North East Kitesurfing Club
+St: 000559; Punta Lara EL MIRADOR, FreeWaves
+St: 000560; Punta Lara EL MIRADOR, FreeWaves
+St: 000561; Lo Stagnone, ProKite Alby Rondina
+St: 000562; Pyatigorsk, Stavropol region
+St: 000563; Essentukskaya, Stavropol region
+St: 000564; Lermontov, Stavropol region
+St: 000565; Kislovodsk (center), Stavropol region
+St: 000566; Borgustan, Stavropol region
+St: 000567; krumovgrad, krumovgrad
+St: 000568; Turkey 1, Omniled Firewatcher 1
+St: 000569; Omniled Firewachter 2, Firewachter 2
+St: 000570; Omniled Firewachter 3, Firewachter 3
+St: 000571; Southend-on-Sea, TEYC Jetty
+St: 000572; Montreal Olympic Basin, CKC Montreal Basin
+St: 000573; Protección Civil VLA , Villa la Angostura,Neuquen, Meteostar
+St: 000574; ULModrome de Liernu, ULModrome de Liernu
+St: 000575; Modjadjiskloof, Hansfontein
+St: 000576; Unknown spot, Unknown WG Station
+St: 000577; Fanes Beach, MKV Weather Station
+St: 000578; Apelviken, Varberg, Surfers Center
+St: 000579; Panaga Club, PWS
+St: 000580; Neilson Active Holidays - Brighton Marina, Brighton Office
+St: 000581; Royal Naval Dockyard, Bermuda, AC Endeavour West
+St: 000582; Sarsta, Johan Emilsson
+St: 000583; AC 4
+St: 000584; Donnalucata, Appletree Surfboards - B&B La Rosa dei Venti
+St: 000585; Akyaka, Gökova Kitemaximum
+St: 000586; Ortakent, Neilson Seaside Beachclub
+St: 000587; Clarens Xtreme, Clarens Xtreme
+St: 000588; Wakatobi Dive Resort, Restaurant Corner
+St: 000589; Messini Beachclub - Neilson Active Holidays, Messini Beachclub - Neilson Active Holidays
+St: 000590; Icarus Zeebrugge, Icarus
+St: 000591; out of service, out of service
+St: 000592; Dreverna - GO2KITE, Dreverna - GO2KITE
+St: 000593; Skydive Mauritius, Skydive Mauritius
+St: 000594; Paso Cordoba, Rio Negro, Meteostar
+St: 000595; Instituto Agropecuario de Monte, Meteostar
+St: 000596; Aloha-attitude-brest, Cale du port-Aloha
+St: 000597; Praha, GSM test 5
+St: 000598; Jaunciema osta, Jaunciema osta
+St: 000599; Arte y Vida, SpotfavWingu1
+St: 000600; 
+St: 000601; Ninh Chu Bay, Phan Rang, Ninh Thuan, Ninh Chu Bay Beach Club
+St: 000602; test, weewx
+St: 000603; 
+St: 000604; kemping Chałupy 6, EASY SURF Chałupy 6
+St: 000605; El Choike , Bariloche, Meteostar
+St: 000606; Milwaukee, Sailing Center
+St: 000607; Rio de Janeiro | Mangaratiba
+St: 000608; Winnal Industrial Estate, Winchester, Renewables House
+St: 000609; Meteosanpedro, San Pedro, Buenos Aires, Meteostar
+St: 000610; Rade de Brest, Le Renard (TWS only)
+St: 000611; Praha, GSM test 7
+St: 000612; Praha, GSM test 8
+St: 000613; Paris, Salon Nautique
+St: 000614; AC Bermuda 2017 GSM, AC Endeavour
+St: 000615; Praha, GSM test 11
+St: 000616; AC Toulon, Phare Grande-Jetée Toulon, GSM Station
+St: 000617; Praha, test
+St: 000618; Sĺňava Piešťany, Slnava - Lodenica
+St: 000619; Hilton Dalaman Sarigerme Resort & Spa, Hilton Dalaman Sarigerme Resort & Spa
+St: 000620; Gucverwatersports, Gucverwatersports
+St: 000621; Vineyard Haven- Lagoon Pond, Wind's Up! Martha's Vineyard
+St: 000622; Gamboa, Gamboa Seb van Hal
+St: 000623; Shambhala beach bar, Koh Chang, Thailand, Shambhala Koh Chang
+St: 000624; Newport, Newport Boat Club
+St: 000625; Langebaan, Langebaan Waterfront
+St: 000626; CNAlges, CNAlges
+St: 000627; El Carril, Salta, Meteostar
+St: 000628; Salerie Quay, QE 2 Marina, Sun Yachts Ltd
+St: 000629; KITE & WIND, Meteostar
+St: 000630; Dublin, SBR
+St: 000631; Yacht Club de Toulon, YCT
+St: 000632; Circolo Surf Torbole, Garda lake
+St: 000633; Machovo jezero, Borny, www.windsurfingmachac.cz
+St: 000634; Vila Coqueiros Boutique Hotel - Restaurant - Kite Center, vilacoqueiros
+St: 000635; PICO DO GAVIAO SP/MG, PICO DO GAVIAO SP/MG
+St: 000636; Porto Ronco, Porto ronco beach
+St: 000637; Pebble Beach, Rockport, Massachusetts, Pebble Beach
+St: 000638; Thacher Island, Rockport, Massachusetts, Keepers House
+St: 000639; Central Square, Cambridge, Massachusetts, Central Square
+St: 000640; Wakatobi 1, Corner Palm Tree
+St: 000641; Wakatobi 2
+St: 000642; 
+St: 000643; Shevlino, Moscow region
+St: 000644; wego kitespot / zoom beach, WEGO Kite Spot
+St: 000645; Odessa - Chernomorskiy YC, Selteq Racing 2
+St: 000646; Watchhouse, Salcombe Yacht Club
+St: 000647; 
+St: 000648; Bahía de los Moros, Lobería, Buenos Aires, Meteostar
+St: 000649; Glenmar, Houser
+St: 000650; Kakumäe Surfiklubi, kakumaeilm
+St: 000651; test, test
+St: 000652; Sperlonga Torre Truglia, Stazione Meteo SperlongaTurismo
+St: 000653; Ecuadorkitesurf Santa Marianita - Manta, EcuadorKiteSurf
+St: 000654; Unknown spot, Unknown WG Station
+St: 000655; PULMARI, Ezeiza, Buenos Aires, Meteostar
+St: 000656; Skarholmen, KajTech - Skaris
+St: 000657; FOS SUR MER - Station des Amaryllis, FOS-13270
+St: 000658; PWA La Torche, eooliz-live
+St: 000659; Colonia del Sacramento - Uruguay, WDGCOE
+St: 000660; Cempedak Island, Cempedak Windguru Station
+St: 000661; Unstad, Unstad
+St: 000662; CASBAS CLIMA, Casbas, Buenos Aires, Meteostar
+St: 000663; Loosdrechtseplassen - 1e plas - KWVL Starttoren, KWV Loosdrecht
+St: 000664; Unknown spot, Unknown WG Station
+St: 000665; atmos . progresión climática, Erezcano, San Nicolás, Meteostar
+St: 000666; Vääna-Jõesuu, Vääna
+St: 000667; Happy Valley, Lemmings Beach
+St: 000668; Paraty - (Marina Porto Imperial), AMar (Amigos do Mar)
+St: 000669; Miami Florida, Adrians weather station
+St: 000670; Tay-zhetysu, Tay-zhetysu
+St: 000671; Paros Nautical Club - Livadia beach - Paroikia, Paros Sailing Center
+St: 000672; KSP Gradina, KSP Gradina
+St: 000673; Punta Sam, Punta Samy🏄🏻‍♂️
+St: 000674; AC Toulon, IMS 700, IMS shipyard
+St: 000675; bedanne, météobedanne
+St: 000676; Unknown spot, Unknown WG Station
+St: 000677; Unknown spot, Unknown WG Station
+St: 000678; Unknown spot, Unknown WG Station
+St: 000679; Unknown spot, Unknown WG Station
+St: 000680; Unknown spot, Unknown WG Station
+St: 000681; Assonautica Tarquinia, Assonautica
+St: 000682; Astrum Helicopters - Cisco Base, Astrum Helicopters - Cisco Base
+St: 000683; Port Grimaud, Spoerry Tower
+St: 000684; 
+St: 000685; Tramore beach, Campsite
+St: 000686; 
+St: 000687; St. George's, AC Endeavour East Fort
+St: 000688; Unknown spot, Unknown WG Station
+St: 000689; 
+St: 000690; Sainte Rita, Primeutt
+St: 000691; Lichtenburg, SA36
+St: 000692; Unknown spot, Unknown WG Station
+St: 000693; ALMOTOLIAS, Almotolias
+St: 000694; MacPaw Village
+St: 000695; Candeehy, The Maharees, Jamie Knox Watersports Surf Shop
+St: 000696; Senov, Amatérská meteostanice Šenov u Ostravy
+St: 000697; Zagreb Jarun Tri Strijele, HR-ZG-JARUN-TRI_STRIJELE
+St: 000698; Loma Bola, wh3101
+St: 000699; Dunaj, Zdrž Hrušov
+St: 000700; Campo Monte del Buey,Monte Buey, Córdoba, Meteostar
+St: 000701; Estancia Santa María , 9 de julio, Meteostar
+St: 000702; Unknown spot, Unknown WG Station
+St: 000703; Paros - Pounda, PAROS KITE PRO CENTER
+St: 000704; Clube Maritimo de Desportos, CMD
+St: 000705; CNBPP Cercle Nautique La Baule, Le Pouliguen, Pornichet, CNBPP
+St: 000706; Barrio Los Flores - Santiago del Estero, ISANTIAG199
+St: 000707; Tyngsboro, MA, Jacques Ridge
+St: 000708; York, ME, Short Sands
+St: 000709; Meteorológica Cipolletti, Rio Negro, Meteostar
+St: 000710; Hvide Sande, PWA Hvide Sande slalom World cup
+St: 000711; Plaza Las Toscaneras de Villa Real, Clima Toscaneras
+St: 000712; Holyne, Test station 1
+St: 000713; Rada Tilly, VictorDevincenti
+St: 000714; Varamobaden, Kona Windsurfing HQ
+St: 000715; Bahía Inglesa, Caldera,Copiapó, Meteostar
+St: 000716; Hunstanton sailing club and watersports centre, Hsc station 2
+St: 000717; aranya, aranya water sports center
+St: 000718; Chalwell, Chalwell
+St: 000719; Ixia, Surfers Paradise - Windsurf & Wingfoil Club
+St: 000720; Alaçatı, Yelken Konak Alaçatı
+St: 000721; Orient Bay, Wind adventures Kiteschool
+St: 000722; Agustin Mosconi, Partido de 25 de Mayo, Meteostar
+St: 000723; Santa Catalina, Marcos Paz, Meteostar
+St: 000724; Pentrez, Club de char à voile de Pentrez
+St: 000725; Varesana Sopra -Lipari, Wmr88
+St: 000726; Konini, Konini
+St: 000727; Unknown spot, Unknown WG Station
+St: 000728; Unknown spot, Unknown WG Station
+St: 000729; Unknown spot, Unknown WG Station
+St: 000730; Unknown spot, Unknown WG Station
+St: 000731; Unknown spot, Unknown WG Station
+St: 000732; Unknown spot, Unknown WG Station
+St: 000733; Unknown spot, Unknown WG Station
+St: 000734; Unknown spot, Unknown WG Station
+St: 000735; Unknown spot, Unknown WG Station
+St: 000736; Unknown spot, Unknown WG Station
+St: 000737; Unknown spot, Unknown WG Station
+St: 000738; Unknown spot, Unknown WG Station
+St: 000739; Unknown spot, Unknown WG Station
+St: 000740; Unknown spot, Unknown WG Station
+St: 000741; Unknown spot, Unknown WG Station
+St: 000742; Unknown spot, Unknown WG Station
+St: 000743; Unknown spot, Unknown WG Station
+St: 000744; 
+St: 000745; Unknown spot, Unknown WG Station
+St: 000746; Unknown spot, Unknown WG Station
+St: 000747; Unknown spot, Unknown WG Station
+St: 000748; Unknown spot, Unknown WG Station
+St: 000749; Unknown spot, Unknown WG Station
+St: 000750; Unknown spot, Unknown WG Station
+St: 000751; Unknown spot, Unknown WG Station
+St: 000752; Unknown spot, Unknown WG Station
+St: 000753; Unknown spot, Unknown WG Station
+St: 000754; Unknown spot, Unknown WG Station
+St: 000755; Unknown spot, Unknown WG Station
+St: 000756; Unknown spot, Unknown WG Station
+St: 000757; Unknown spot, Unknown WG Station
+St: 000758; Unknown spot, Unknown WG Station
+St: 000759; 5 Dock, Cammell Laird
+St: 000760; Langland East, Timlangland
+St: 000761; 2mile bay sailing centre, 2mile bay
+St: 000762; Raglan Kite Beach, Ozone Weather Station
+St: 000763; Thornburg, VA, Finney Estates
+St: 000764; 
+St: 000765; Emu Beach Club, EMU Beach Club Surf School
+St: 000766; Richmond Yacht Club, Westhaven, Auckland, RichmondYC
+St: 000767; Spaanse Water - Jan Sofat, Beachhouse
+St: 000768; Trenque Lauquen
+St: 000769; Kodumudi, INTAMILNAEDKMD
+St: 000770; Dublin WindGuru, Kari's WindGuru
+St: 000771; Los Pinos, coloniakiters
+St: 000772; Urnersee Grounbach, Surfclub-Uri
+St: 000773; Barra Grande Kitesurf BGK, IKA2
+St: 000774; Betty's Bay East
+St: 000775; Monheim am Rhein, yeast_1
+St: 000776; Albatros Charters / Scuba Shack, IQROOCOZ2
+St: 000777; Alte Wetterstation Urnersee Isleten, Alte Wetterstation Isleten Bachdelta
+St: 000778; Mizen Head, Ratooragh
+St: 000779; Estacion Metereologica Charata, Meteostar
+St: 000780; Raudsaar OÜ, Saaremaa
+St: 000781; Junin Sur, JuninSur
+St: 000782; La Cheltonia, ISANTAFE104
+St: 000783; Kite Provo, Kite Provo
+St: 000784; Moldava, nahoře
+St: 000785; Big Bay, Red Bull King of the Air 2017 (Station GSM)
+St: 000786; APS - Centro Controlo de Trafego, APS-CCT1
+St: 000787; Atlantis, BONAIREKITESCHOOL.COM
+St: 000788; Oostwouder 't Zand, OTS
+St: 000789; Port de Canet en Roussillon, Yacht Club Canet en Roussillon
+St: 000790; Base nautique Menthon-Saint-Bernard, CNL Menthon
+St: 000791; CIMED_RACING, CIMED_RACING
+St: 000792; Tzaneen, Allesbeste
+St: 000793; Mayreau - Salt Whistle Bay, Salt Whistle Bay
+St: 000794; Praia de Santa Cruz, Miradouro Santa Cruz
+St: 000795; Ciudad de Rafaela (Pcia. Santa Fe), Rafaela (Camperi)
+St: 000796; Port Plaisance, Le Chateau - Port Plaisance
+St: 000797; La Boquilla / Cartagena, Nativo Kite School
+St: 000798; Hidden Beach, Blue Palawan
+St: 000799; Praha, GSM test 16
+St: 000800; Praha, GSM test 17
+St: 000801; La Restinga, Arrecifal Dive Centre - El Hierro
+St: 000802; Dockyard, Commissioners House
+St: 000803; Melilla, Svola
+St: 000804; YCAs, YCAs
+St: 000805; ALGARROBO
+St: 000806; la plata, AP7SURWEATHER
+St: 000807; 
+St: 000808; Kaust Beach, Kaust south beach
+St: 000809; 
+St: 000810; Kalpitiya, DE SILVA Windresort
+St: 000811; Cayo Coco Cuba Kite School, Cuba Kite School
+St: 000812; Palmito, Palmito
+St: 000813; Martinez | Buenos Aires, CACF
+St: 000814; Worthing Sailing Club, Worthing Sailing Club
+St: 000815; Ardglass Harbour, Ardglass
+St: 000816; SELLOR - KERNEVEL, PORT DE PLAISANCE DU KERNEVEL
+St: 000817; Watamu, Tribe Watersports (Kitesurf School)
+St: 000818; Dockyard, EndeavourWest
+St: 000819; Unknown spot, Unknown WG Station
+St: 000820; El Nonono, Sección de Islas del Delta, Tigre, Meteostar
+St: 000821; CLUB DE VELEROS SAN ISIDRO, CVSI | PULSAR.IT
+St: 000822; Hilltop Crystal Cove, Bruce Rose
+St: 000823; Salon Nautic Paris, FIN (Fédération des Industries Nautiques)
+St: 000824; Cas en Bas, Tona Boards
+St: 000825; Unknown spot, Unknown WG Station
+St: 000826; Rincón, The Cadushy Distillery
+St: 000827; CVVX, CVVX - Vaux sur Seine
+St: 000828; D'Arros, D'Arros
+St: 000829; 
+St: 000830; Camps Bay, The French Connection
+St: 000831; Atlantis Beach, Kiteboarding Bonaire
+St: 000832; Draycote Water Sailing Club, Draycote Water Sailing Club Weather Station
+St: 000833; Ituclima, Daniel Jerez
+St: 000834; Privodino, Privodino
+St: 000835; Mijdrecht, Windmolen
+St: 000836; enschede, glanerbrug
+St: 000837; nemrut bay, Tceege
+St: 000838; BETA YOKIM, WINDGURU STATION 2
+St: 000839; 
+St: 000840; Bintan Agro Resort, Outer Quadrant Kitesurf School
+St: 000841; Rota, PaqlaUma Wasi
+St: 000842; Argentina - Villa Gesell, Eighteen Apartments
+St: 000843; Maviri Topolobampo, Maviri
+St: 000844; Hjelmeland, IHJELMEL7
+St: 000845; 
+St: 000846; Luna Negra, Zárate,, Meteostar
+St: 000847; Clarens Xtreme, Clarens Xtreme
+St: 000848; CVBS, CAFEBF0
+St: 000849; c.n gallineras, c.n gallineras
+St: 000850; Farmapp Hortifresco, Zipaquira - Cundinamarca, Meteoagro
+St: 000851; Jílové, Jílové PG Start 530m n.m.
+St: 000852; New Golden Beach (Tserdakia), Paros, Paros Surf Club
+St: 000853; Meteo Delfzijl, Meteo Delfzijl
+St: 000854; Lucas-Tandil, Meteostar
+St: 000855; Casa R4, Uaymitun; Yucatan, Mexico, Meteostar
+St: 000856; Limassol Surf House, Limassol Surf House
+St: 000857; Escuela 7, Marcos Paz, Buenos Aires, Meteostar
+St: 000858; Campo Quijano,Salta, Argentina, Meteostar
+St: 000859; San Lorenzo,Salta, Argentina, Meteostar
+St: 000860; Goring Thames Sailing Club, Goring Thames Sailing Club
+St: 000861; Escuela 11, Marcos Paz, Buenos Aires, Meteostar
+St: 000862; CACF, Martinez, Buenos Aires, Meteostar
+St: 000863; LU4FBU BARRIO BELGRANO,, Meteostar
+St: 000864; Watersportcentrum Vlietland, Vlietland
+St: 000865; La Resistencia, Dalmacio Vélez Sarsfield, Córdoba, Meteostar
+St: 000866; La Oracion, Sauce, Corrientes, Meteostar
+St: 000867; Tortoreto, meteotortoreto
+St: 000868; Castelldefels (BCN), BUNKER BEACH CLUB
+St: 000869; Baz'Notik Carayou - Trois-Îlets, baz'notik
+St: 000870; Urnersee Bootshafen Flüelen, Bootshafen Flüelen
+St: 000871; OBSERVATORIO CLIMATOLOGICO , Catamarca, Meteostar
+St: 000872; Kreslice, Kreslice
+St: 000873; Campoformido, MeteoBasaldella
+St: 000874; Clima390, Clara de Saguier, Santa Fe, Meteostar
+St: 000875; Kangaroo Kite Shack, Kangaroo Kite IKO Center
+St: 000876; 
+St: 000877; pak nam pran, Moose Asian TTR Kiteboarding championship
+St: 000878; East Preston, EP Reefers
+St: 000879; seasa Santiago, Chile, Meteostar
+St: 000880; Glisse et Kite, Glisse et Kite station
+St: 000881; CVVX - Cercle de Voile de Vaux sur seine, CVVX new
+St: 000882; 
+St: 000883; Singapore, test 1
+St: 000884; Paal 17, Paal 17
+St: 000885; 
+St: 000886; LaPiaBeach, GoPiaWeatherStation
+St: 000887; Kalafiornia LakeSide, Kite Locales Kolobrzeg
+St: 000888; Bigand , Santa Fe, Meteostar
+St: 000889; 
+St: 000890; Windsurfing De Winge Rotselaar, surfclub dewinge
+St: 000891; KTA, KTA
+St: 000892; El Mojon, moviquity
+St: 000893; 's-Gravenzande, North Sea Surfing
+St: 000894; 
+St: 000895; LaPiaBeach, GoPia.LaPiaBeach.WeatherStation
+St: 000896; LaPiaBeach, GoPia.LaPiaBeach.WeatherStation
+St: 000897; ASOCIACIÓN MENDOCINA DE KITE, Potrerillos, Meteostar
+St: 000898; La Vanguardia - Rural, Don Segundo
+St: 000899; Lentoparatiisi Leivonmäki
+St: 000900; Kalajoki Beach, Rautio Sports Surf Center
+St: 000901; Lakeside - Chikaming Township - Michigan, Lakeside-WX-Centre
+St: 000902; Pavilosta, Piekraste.com
+St: 000903; TORRES DEL PAINE, AUSTRO INTERNET
+St: 000904; Cascais, CNCascais
+St: 000905; LU4FBS-13, Alcorta, Meteostar
+St: 000906; DonSegundo, La Vanguardia, Meteostar
+St: 000907; Sydhavnens Windsurfer Club, SWC
+St: 000908; Unknown spot, Unknown WG Station
+St: 000909; 
+St: 000910; Reuselstraat 36 Eindhoven, Paddy
+St: 000911; Unknown spot, Unknown WG Station
+St: 000912; Unknown spot, Unknown WG Station
+St: 000913; Unknown spot, Unknown WG Station
+St: 000914; 
+St: 000915; Unknown spot, Unknown WG Station
+St: 000916; Unknown spot, Unknown WG Station
+St: 000917; AVIS OSTIANO, Adelmo Danieli
+St: 000918; error, nahrad2
+St: 000919; TITITO, Arroyito, Cordoba, Meteostar
+St: 000920; Plan d'eau de Reiningue, Club de Voile de Mulhouse
+St: 000921; 1060 Wildwood Rd Yallingup Siding, 1060Wildwood
+St: 000922; Sauveterre (30), Sauveterre (30)
+St: 000923; Theologos, Surf and Kite Theologos
+St: 000924; Hoek van Holland, Windata.nu
+St: 000925; Atkinson, New Hampshire, Big Island Pond
+St: 000926; Neokom, sibkiting.ru
+St: 000927; N/A, N/A
+St: 000928; Paraná, Entre Ríos, Argentina, Aramburu Centro
+St: 000929; Lac du Drennec, CN ARREE
+St: 000930; Gruissan, Pôle Nautique Gruissan
+St: 000931; Noordwijk aan Zee, Vuurtoren Noordwijk
+St: 000932; AC BERMUDA, Cement Plant
+St: 000933; Amsterdam East, Amsterdam East
+St: 000934; Cap Coz, Centre Nautique Fouesnant Cornouaille
+St: 000935; 
+St: 000936; Baia dei Mori Neilson Active Holidays, Baia dei Mori Neilson Active Holidays
+St: 000937; FunSurf.pl (przy molo w Chałupach), FunSurf.pl wind&kite
+St: 000938; Yacht Club Olivos, YCO
+St: 000939; Bermuda, AC Bermuda, Casemates, National Museum of Bermuda
+St: 000940; Kulikovo, Kulikovo (do not use, random data for testing)
+St: 000941; Parapuerto Magdalena del Mar, CONDOR XTREME
+St: 000942; 
+St: 000943; Silver Sands Beach, silver_sands_beach
+St: 000944; Yacht Club de Six-Fours, YCSF
+St: 000945; kk1, kk1
+St: 000946; Barrio Aeronáutico, Ituzaingo, Meteostar
+St: 000947; AGVNET-WS, Burzaco, Meteostar
+St: 000948; LA RUE DU FORT RADIO STATION, GJ7DNI-13
+St: 000949; Quinta dos Artistas, Levadas, Santa Cruz, Madeira, Quinta dos Artistas
+St: 000950; Piamonte, Piamonte Cooperativa
+St: 000951; incheon, KMS
+St: 000952; MeteoBellaVista, Meteostar
+St: 000953; 
+St: 000954; AC Bermuda, Wreck Road
+St: 000955; Agios Ilias (Pirgi), Agios Ilias Live
+St: 000956; Kite Beach Fiumara, KBF
+St: 000957; SFA, 25 de mayo, Meteostar
+St: 000958; Falls Church VA, WestFallsChurch
+St: 000959; Binic, POLE NAUTIQUE SUD GOELO Base de Binic
+St: 000960; Michmoret, Surfski Israel
+St: 000961; Granero Del Oeste , Bragado, Meteostar
+St: 000962; Willis Ave, Willis Ave
+St: 000963; EMA_Beccar_CAVS, Meteostar
+St: 000964; Prasonisi, Prasonisi Center Toyota NS Starboard Fanatic
+St: 000965; talamone, ALL windsurf school
+St: 000966; TOUGUES, CHENS SUR LEMAN
+St: 000967; 
+St: 000968; Famagusta, Famagusta
+St: 000969; Alana Beachclub Neilson Active Holidays, Alana Beachclub Neilson Active Holidays
+St: 000970; YPF Directo Gas Pic, Colon, MeteoStar
+St: 000971; Helsingborg, Hittarp, Wesurf Hittarp
+St: 000972; Valparaiso, Valparaiso
+St: 000973; משאבות, Kineret Magdalena
+St: 000974; porto pollo, FH Academy
+St: 000975; Tilburg Reeshof, Wil Evertz
+St: 000976; Finca La Bonita, Los Chacayes, Vista Flores, Meteostar
+St: 000977; Lipno nad Vltavou, YC Lipno nad Vltavou
+St: 000978; TRELEW, Javier
+St: 000979; 2hao, 2hao
+St: 000980; Vada InKite School - Dune Mosse, Scuola Kitesurf Inkite ASD
+St: 000981; Děvín, PG Pálava TOP 559m n.m.
+St: 000982; DURRES, PARIDE
+St: 000983; Sirka, Sirka
+St: 000984; Twann, Kaeptn Oli
+St: 000985; Phare tribord du port, LA GRANDE MOTTE
+St: 000986; Bedanne, Bedanne
+St: 000987; Suhrendorf, Ummaii
+St: 000988; North Wind Surf Ltd / Swell Israel, בצת - בבדיקה
+St: 000989; UCPA Village Nautique, UCPA Bombannes
+St: 000990; Vatulino DZ, Vaisala WS425
+St: 000991; Staunton Harold Reservoir, Staunton Harold Sailing Club
+St: 000992; Mani Beach, Mani Beach
+St: 000993; Portomyrina Palace, Neilson Active Holidays, Portomyrina Palace Neilson Active Holidays
+St: 000994; Espoo, Pentala, Esbo Segelförening, Harrys
+St: 000995; Prasonisi, Wind4Fun
+St: 000996; Hermanowa, Stacja Hermanowa
+St: 000997; South Cerney Sailing Club, SCSC
+St: 000998; AGVNET-CDU, Concepción del Uruguay, Meteostar
+St: 000999; Acantilados FreeWaves, Mar del Plata
+St: 001000; La Brava, FreeWaves, Mar del Plata
