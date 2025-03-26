@@ -86,6 +86,8 @@ def post_new_users():
         user = UserModel(**data)  # Validate input using Pydantic
         client = db.connect_to_db()
         db.insert_user(client, user.dict())
+        inserted_user = db.find_user_by_username(client, user.username)
+        db.add_user_to_station_by_username(client, inserted_user)
         return jsonify({
             "message": "User data received successfully",
             "user": user.dict()
