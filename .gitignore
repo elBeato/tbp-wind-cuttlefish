@@ -5,6 +5,7 @@ __pycache__/
 # Ignore virtual environments
 venv/
 .env/
+*.app/app.log
 
 # Ignore Jupyter Notebook checkpoints (Spyder uses Jupyter internally)
 .ipynb_checkpoints/
