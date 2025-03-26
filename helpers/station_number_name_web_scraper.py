@@ -7,7 +7,7 @@ Created on Tue Mar 25 22:47:54 2025
 from datetime import datetime
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
