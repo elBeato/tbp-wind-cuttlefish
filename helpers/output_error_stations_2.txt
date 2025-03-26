@@ -1,0 +1,47 @@
+St: 013158; Obidos, WMO
+St: 013480; Katha, WMO
+St: 013512; Nakhon Phanom Agrome, WMO
+St: 013526; Kosum Phisai, WMO
+St: 013638; Mingaladon, WMO
+St: 013840; Myronivka, WMO
+St: 013973; Hampstead, WMO
+St: 013974; Winchcombe Sudeley, WMO
+St: 013975; Scarborough, WMO
+St: 013976; Blencathra, WMO
+St: 013977; Derrylin Cornahoule, WMO
+St: 013978; Balmoral (aws), WMO
+St: 014201; Hausstein
+St: 014573; Hörnerbahn Mitte
+St: 014574; Garda Paragliding
+St: 014628; Loser/Hochanger
+St: 014707; Hintere Niedere
+St: 014708; chariez
+St: 014709; Schraba
+St: 014743; Madenburg
+St: 014747; Stierenberg DC-Falk
+St: 014776; 
+St: 014809; Kite Club Koh Phangan, Thong Sala Beach (1chip.ru weather station)
+St: 014825; s844
+St: 014831; s642
+St: 014840; blayat wachen, blayat wachen
+St: 014841; Sønderborg Arpt, SY, DK, Sønderborg Arpt, SY, DK
+St: 014844; Carnool, Devine
+St: 014845; Varazze - Salice, Meteovarazze
+St: 014865; NY HANGUR ØST
+St: 014875; Monties
+St: 014895; SPGK Åraksbø
+St: 014897; Väjern, Sotenäs
+St: 014906; SPGK Einerfjell
+St: 014932; Balise mobile Bel-Air, Pioupiou 546
+St: 014938; Bligny, Windbird 1540
+St: 014939; Unknown spot, Unknown WG Station
+St: 014940; Ex Allevard en panne , Pioupiou 170
+St: 014941; Unknown spot, Unknown WG Station
+St: 014942; Unknown spot, Unknown WG Station
+St: 014944; Kutinki
+St: 014949; Vale Florido, Vale
+St: 014970; Zapodje 845m, OpenWindMap 990
+St: 014978; NE Round Rock, Estates at Settlers Park II
+St: 014980; Ružomberok, AQI
+St: 014981; Morsbach Hohe Hardt
+St: 014983; Graubes 83, Delley, DelleyGHU

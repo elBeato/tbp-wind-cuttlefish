@@ -1,0 +1,4000 @@
+St: 009001; Hoherodskopf/Vogelsb, WMO
+St: 009002; Neu-Ulrichstein, WMO
+St: 009003; Eisenach, WMO
+St: 009004; Hersfeld Bad, WMO
+St: 009005; Wasserkuppe, WMO
+St: 009006; Chittorgarh, WMO
+St: 009007; Meiningen, WMO
+St: 009008; Fehmarn, WMO
+St: 009009; Schmuecke, WMO
+St: 009010; Erfurt-Weimar, WMO
+St: 009011; Neuhaus am Rennweg, WMO
+St: 009012; Guna, WMO
+St: 009013; Tikamgarh, WMO
+St: 009014; Schleiz, WMO
+St: 009015; Osterfeld, WMO
+St: 009016; 
+St: 009017; Plauen, WMO
+St: 009018; Bombay / Colaba, WMO
+St: 009019; Satna, WMO
+St: 009020; Carlsfeld, WMO
+St: 009021; Chemnitz, WMO
+St: 009022; Fichtelberg, WMO
+St: 009023; Marienberg, WMO
+St: 009024; Alibag, WMO
+St: 009025; Zinnwald-Georgenfeld, WMO
+St: 009026; Daltonganj, WMO
+St: 009027; Dehri, WMO
+St: 009028; Lichtenhain-Mittelnd, WMO
+St: 009029; Matheran, WMO
+St: 009030; Berhampore, WMO
+St: 009031; Trier-Petrisberg, WMO
+St: 009032; 
+St: 009033; Hahn, WMO
+St: 009034; Dharmsala, WMO
+St: 009035; Imphal, WMO
+St: 009036; Geisenheim, WMO
+St: 009037; Poona, WMO
+St: 009038; Bhuj-rudramata, WMO
+St: 009039; Kleiner Feldberg/Tau, WMO
+St: 009040; Frankfurt/Main, WMO
+St: 009041; New Kandla, WMO
+St: 009042; 
+St: 009043; Neuhuetten/Spessart, WMO
+St: 009044; Ahmadabad, WMO
+St: 009045; Michelstadt-Vielbrun, WMO
+St: 009046; Manali, WMO
+St: 009047; 
+St: 009048; Wuerzburg, WMO
+St: 009049; Kissingen Bad, WMO
+St: 009050; Ujjain, WMO
+St: 009051; Bhopal/bairagarh, WMO
+St: 009052; Lautertal-Oberlauter, WMO
+St: 009053; Raisen, WMO
+St: 009054; Damoh, WMO
+St: 009055; Bamberg, WMO
+St: 009056; Umaria, WMO
+St: 009057; Hof, WMO
+St: 009058; Wunsiedel-Schoenbrun, WMO
+St: 009059; Weiden, WMO
+St: 009060; Baramati, WMO
+St: 009061; UFS Deutsche Bucht, WMO
+St: 009062; M.o. Ranchi, WMO
+St: 009063; Berus, WMO
+St: 009064; Purulia, WMO
+St: 009065; Tholey, WMO
+St: 009066; Saarbruecken-Ensheim, WMO
+St: 009067; 
+St: 009068; Amritsar, WMO
+St: 009069; Krishnanagar, WMO
+St: 009070; Bagati, WMO
+St: 009071; Malanjkhand, WMO
+St: 009072; Weinbiet, WMO
+St: 009073; Mannheim, WMO
+St: 009074; Rheinstetten, WMO
+St: 009075; Waibstadt, WMO
+St: 009076; Muehlacker, WMO
+St: 009077; Rajkot, WMO
+St: 009078; Stuttgart-Echterding, WMO
+St: 009079; Stuttgart (Schnarren, WMO
+St: 009080; Surendranagar, WMO
+St: 009081; Oehringen, WMO
+St: 009082; Vallabh Vidyanagar, WMO
+St: 009083; Kaisersbach-Cronhuet, WMO
+St: 009084; Dhar, WMO
+St: 009085; Indore, WMO
+St: 009086; Feuchtwangen-Heilbro, WMO
+St: 009087; Weissenburg-Emetzhei, WMO
+St: 009088; Nuernberg, WMO
+St: 009089; Roth, WMO
+St: 009090; Pachmarhi, WMO
+St: 009091; 
+St: 009092; 
+St: 009093; Narsinghpur, WMO
+St: 009094; 
+St: 009095; Regensburg, WMO
+St: 009096; Gelbelsee, WMO
+St: 009097; Pendra Road, WMO
+St: 009098; Mandi, WMO
+St: 009099; Waldmuenchen, WMO
+St: 009100; Straubing, WMO
+St: 009101; Grosser Arber, WMO
+St: 009102; Sundargarh, WMO
+St: 009103; Zwiesel, WMO
+St: 009104; Jamshedpur, WMO
+St: 009105; Jamshedpur, WMO
+St: 009106; Freiburg, WMO
+St: 009107; Lahr, WMO
+St: 009108; Calcutta/dum Dum, WMO
+St: 009109; Nizamabad, WMO
+St: 009110; Freudenstadt, WMO
+St: 009111; Klippeneck, WMO
+St: 009112; Messstetten-Appental, WMO
+St: 009113; Medak, WMO
+St: 009114; Amreli, WMO
+St: 009115; Stoetten, WMO
+St: 009116; Mahuva, WMO
+St: 009117; Ulm-Maehringen, WMO
+St: 009118; Khargone, WMO
+St: 009119; Harburg, WMO
+St: 009120; Jalgaon, WMO
+St: 009121; Augsburg, WMO
+St: 009122; Khandwa, WMO
+St: 009123; Ramgundam, WMO
+St: 009124; Betul, WMO
+St: 009125; Weihenstephan-Duerna, WMO
+St: 009126; Muenchen-Stadt, WMO
+St: 009127; Nagpur Sonegaon, WMO
+St: 009128; Hanamkonda, WMO
+St: 009129; Muenchen-Flughafen, WMO
+St: 009130; Gottfrieding, WMO
+St: 009131; Raipur, WMO
+St: 009132; Muehldorf, WMO
+St: 009133; Durg, WMO
+St: 009134; Sambalpur, WMO
+St: 009135; Jharsuguda, WMO
+St: 009136; Keongjhargarh, WMO
+St: 009137; Baripada, WMO
+St: 009138; Fuerstenzell, WMO
+St: 009139; Contai, WMO
+St: 009140; Digha, WMO
+St: 009141; Feldberg/Schwarzwald, WMO
+St: 009142; Veraval, WMO
+St: 009143; Arkona, WMO
+St: 009144; Diu, WMO
+St: 009145; Bulsar, WMO
+St: 009146; Nasik, WMO
+St: 009147; Malegaon, WMO
+St: 009148; Konstanz, WMO
+St: 009149; Putbus, WMO
+St: 009150; Buldana, WMO
+St: 009151; Akola, WMO
+St: 009152; Amraoti, WMO
+St: 009153; Wardha, WMO
+St: 009154; Yeotmal, WMO
+St: 009155; Leutkirch-Herlazhofe, WMO
+St: 009156; Kempten, WMO
+St: 009157; Oberstdorf, WMO
+St: 009158; Zugspitze, WMO
+St: 009159; Hohenpeissenberg, WMO
+St: 009160; Garmisch-Partenkirch, WMO
+St: 009161; Angul, WMO
+St: 009162; Greifswalder Oie, WMO
+St: 009163; Cuttack, WMO
+St: 009164; Bhubaneswar, WMO
+St: 009165; Chandbali, WMO
+St: 009166; Paradip (c.w.r.), WMO
+St: 009167; Chieming, WMO
+St: 009168; Serrai, WMO
+St: 009169; Florina, WMO
+St: 009170; Kastoria (airport), WMO
+St: 009171; Edessa, WMO
+St: 009172; Thessaloniki (airpor, WMO
+St: 009173; Chrysopouli (airport, WMO
+St: 009174; Alexandroupoli (airp, WMO
+St: 009175; Konitsa, WMO
+St: 009176; Kozani (airport), WMO
+St: 009177; Kerkyra (airport), WMO
+St: 009178; Ioannina (airport), WMO
+St: 009179; Aktion (airport), WMO
+St: 009180; Larissa (airport), WMO
+St: 009181; Limnos (airport), WMO
+St: 009182; Astros, WMO
+St: 009183; Kimi, WMO
+St: 009184; Mytilini (airport), WMO
+St: 009185; Lamia, WMO
+St: 009186; Andravida (airport), WMO
+St: 009187; Skyros (airport), WMO
+St: 009188; Kefalhnia (airport), WMO
+St: 009189; Desfina, WMO
+St: 009190; Chios (airport), WMO
+St: 009191; Tripolis (airport), WMO
+St: 009192; Tatoi, WMO
+St: 009193; Helliniko, WMO
+St: 009194; Elefsis (airport), WMO
+St: 009195; Zakynthos (airport), WMO
+St: 009196; Samos (airport), WMO
+St: 009197; 
+St: 009198; 
+St: 009199; Naxos, WMO
+St: 009200; Milos, WMO
+St: 009201; Astypalaia (airport), WMO
+St: 009202; El Venizelos Airport, WMO
+St: 009203; Kos (airport), WMO
+St: 009204; Kythira, WMO
+St: 009205; Souda (airport), WMO
+St: 009206; Rhodes (airport), WMO
+St: 009207; Mykonos (airport), WMO
+St: 009208; Heraklion (airport), WMO
+St: 009209; Sitia, WMO
+St: 009210; Kasteli (airport), WMO
+St: 009211; Karpathos (airport), WMO
+St: 009212; Paros (airport), WMO
+St: 009213; Kastelorizo, WMO
+St: 009214; Leros (airport), WMO
+St: 009215; Kasos (airport), WMO
+St: 009216; Syros, WMO
+St: 009217; 
+St: 009218; Kalymnos(airport), WMO
+St: 009219; Doxato, WMO
+St: 009220; Azul Auto, WMO
+St: 009221; Benito Juarez Auto, WMO
+St: 009222; Club Nautico San Isi, WMO
+St: 009223; Tucuman Aero, WMO
+St: 009224; Termas De Rio Hondo, WMO
+St: 009225; Santiago Del Estero, WMO
+St: 009226; Presidencia Roque Sa, WMO
+St: 009227; Resistencia Aero, WMO
+St: 009228; Oran Aero, WMO
+St: 009229; Formosa Aero, WMO
+St: 009230; Bernardo De Irigoyen, WMO
+St: 009231; Corrientes Aero, WMO
+St: 009232; Ituzaingo, WMO
+St: 009233; Posadas Aero, WMO
+St: 009234; Obera, WMO
+St: 009235; Tinogasta, WMO
+St: 009236; Chilecito Aero, WMO
+St: 009237; La Rioja Aero, WMO
+St: 009238; Lavalle RMA11, WMO
+St: 009239; Tartagal Aero, WMO
+St: 009240; Catamarca Aero, WMO
+St: 009241; Villa De Maria Del R, WMO
+St: 009242; Ceres Aero, WMO
+St: 009243; Reconquista Aero, WMO
+St: 009244; Mercedes Aero, WMO
+St: 009245; Paso De Los Libres A, WMO
+St: 009246; Jachal, WMO
+St: 009247; San Juan Aero, WMO
+St: 009248; Bella Uni?n G4, WMO
+St: 009249; Chamical Aero, WMO
+St: 009250; Chepes, WMO
+St: 009251; Villa Dolores Aero, WMO
+St: 009252; Artigas G3, WMO
+St: 009253; Base Belgrano Ii, WMO
+St: 009254; Cordoba Aero, WMO
+St: 009255; Cordoba Observatorio, WMO
+St: 009256; Escuela De Aviacion, WMO
+St: 009257; Pilar RMA1, WMO
+St: 009258; Pilar Observatorio, WMO
+St: 009259; Rivera G3, WMO
+St: 009260; Vichadero G4, WMO
+St: 009261; Sunchales Aero, WMO
+St: 009262; 
+St: 009263; 
+St: 009264; Sauce Viejo Aero, WMO
+St: 009265; Parana Aero, WMO
+St: 009266; Monte Caseros Aero, WMO
+St: 009267; Concordia Aero, WMO
+St: 009268; Uspallata, WMO
+St: 009269; San Martin (mza), WMO
+St: 009270; Mendoza Aero, WMO
+St: 009271; Mendoza Observatorio, WMO
+St: 009272; Jujuy Un, WMO
+St: 009273; Paysand? G3, WMO
+St: 009274; San Luis Aero, WMO
+St: 009275; Melo G3, WMO
+St: 009276; Santa Rosa De Conlar, WMO
+St: 009277; Villa Reynolds Aero, WMO
+St: 009278; Young G3, WMO
+St: 009279; Rio Cuarto Aero, WMO
+St: 009280; Chacras De Coria - 3, WMO
+St: 009281; Jujuy Aero, WMO
+St: 009282; Paso de los Toros G3, WMO
+St: 009283; Marcos Juarez Aero, WMO
+St: 009284; Venado Tuerto Aero, WMO
+St: 009285; Villa Maria RMA1, WMO
+St: 009286; Salta Aero, WMO
+St: 009287; Rosario Aero, WMO
+St: 009288; Mercedes G3, WMO
+St: 009289; Gualeguaychu Aero, WMO
+St: 009290; Metan, WMO
+St: 009291; Treinta y Tres G3, WMO
+St: 009292; Malargue Aero, WMO
+St: 009293; San Rafael Aero, WMO
+St: 009294; Base Carlini, WMO
+St: 009295; Durazno G3, WMO
+St: 009296; General Pico Aero, WMO
+St: 009297; Trinidad G4, WMO
+St: 009298; Laboulaye Aero, WMO
+St: 009299; Antartida G3, WMO
+St: 009300; Trenque Lauquen, WMO
+St: 009301; Pehuajo Aero, WMO
+St: 009302; Florida G3, WMO
+St: 009303; Junin Aero, WMO
+St: 009304; Azul Auto, WMO
+St: 009305; Base Marambio, WMO
+St: 009306; Nueve De Julio, WMO
+St: 009307; San Fernando Aero, WMO
+St: 009308; Colonia G3, WMO
+St: 009309; Las Flores, WMO
+St: 009310; Rocha G3, WMO
+St: 009311; San Miguel - Cerrada, WMO
+St: 009312; Campo De Mayo Aero, WMO
+St: 009313; El Palomar Aero, WMO
+St: 009314; Mariano Moreno Aero, WMO
+St: 009315; Merlo Aero, WMO
+St: 009316; Moron Aero, WMO
+St: 009317; Aeropuerto Melilla G, WMO
+St: 009318; Ezeiza Aero, WMO
+St: 009319; Carrasco, WMO
+St: 009320; Atl?ntida G3, WMO
+St: 009321; Aeroparque Aero, WMO
+St: 009322; Lavalleja G3, WMO
+St: 009323; Prado G3, WMO
+St: 009324; Laguna del Sauce G3, WMO
+St: 009325; La Plata Aero, WMO
+St: 009326; Punta del Este G4, WMO
+St: 009327; Punta Indio B.a., WMO
+St: 009328; Rincon de los Sauces, WMO
+St: 009329; Victorica, WMO
+St: 009330; Santa Rosa Aero, WMO
+St: 009331; Coronel Suarez Aero, WMO
+St: 009332; Bolivar Aero, WMO
+St: 009333; Azul Aero, WMO
+St: 009334; Olavarria Aero, WMO
+St: 009335; Azul Auto, WMO
+St: 009336; Tandil Aero, WMO
+St: 009337; Dolores Aero, WMO
+St: 009338; Benito Juarez Aero, WMO
+St: 009339; Rivadavia, WMO
+St: 009340; Benito Juarez Auto, WMO
+St: 009341; Faro Punta Medanos, WMO
+St: 009342; Base San Martin, WMO
+St: 009343; Villa Gesell Aero, WMO
+St: 009344; Pigue Aero, WMO
+St: 009345; Tres Arroyos, WMO
+St: 009346; Mar Del Plata Aero, WMO
+St: 009347; La Quiaca Observator, WMO
+St: 009348; Neuquen Aero, WMO
+St: 009349; Cipolletti, WMO
+St: 009350; Rio Colorado, WMO
+St: 009351; Bahia Blanca Aero, WMO
+St: 009352; Chapelco Aero, WMO
+St: 009353; Bariloche Aero, WMO
+St: 009354; Bariloche INVAP, WMO
+St: 009355; Maquinchao, WMO
+St: 009356; Las Lomitas, WMO
+St: 009357; San Antonio Oeste Ae, WMO
+St: 009358; Viedma Aero, WMO
+St: 009359; El Bolson Aero, WMO
+St: 009360; Esquel Aero, WMO
+St: 009361; Paso De Indios, WMO
+St: 009362; Puerto Madryn Aero, WMO
+St: 009363; Trelew Aero, WMO
+St: 009364; Perito Moreno Aero, WMO
+St: 009365; Comodoro Rivadavia A, WMO
+St: 009366; Gobernador Gregores, WMO
+St: 009367; Puerto Deseado Aero, WMO
+St: 009368; El Calafate Aero, WMO
+St: 009369; San Julian Aero, WMO
+St: 009370; Santa Cruz Aero, WMO
+St: 009371; Rio Gallegos Aero, WMO
+St: 009372; Rio Grande B.a., WMO
+St: 009373; Ushuaia Aero, WMO
+St: 009374; Base Esperanza, WMO
+St: 009375; Base Orcadas, WMO
+St: 009376; Iguazu Aero, WMO
+St: 009377; Bariloche INVAP, WMO
+St: 009378; Pilar RMA1, WMO
+St: 009379; Villa Maria RMA1, WMO
+St: 009380; Rincon de los Sauces, WMO
+St: 009381; Lavalle RMA11, WMO
+St: 009382; Taipa Grande, WMO
+St: 009383; Hong Kong Internatio, WMO
+St: 009384; Bjargtangar, WMO
+St: 009385; lafsvkurhfn, WMO
+St: 009386; Patreksfjordur, WMO
+St: 009387; Gufuskalar, WMO
+St: 009388; ��lafsv��k, WMO
+St: 009389; Seljalandsdalur, WMO
+St: 009390; Grundarfjrur, WMO
+St: 009391; Thverfjall, WMO
+St: 009392; Gufusklar, WMO
+St: 009393; S����av��k, WMO
+St: 009394; Litla-Skar, WMO
+St: 009395; Garskagaviti, WMO
+St: 009396; ��safj��r��ur, WMO
+St: 009397; Grindavik, WMO
+St: 009398; Straumnesviti, WMO
+St: 009399; Akranes, WMO
+St: 009400; Hornbjargsviti, WMO
+St: 009401; Straumsvik, WMO
+St: 009402; B��ldudalur, WMO
+St: 009403; Reykhlar sjlfvir, WMO
+St: 009404; Stykkisholmur, WMO
+St: 009405; Reykjavik, WMO
+St: 009406; Gjogur, WMO
+St: 009407; Korpa, WMO
+St: 009408; sgarur sjlfvir, WMO
+St: 009409; Hvanneyri, WMO
+St: 009410; Nautab sjlfvirk, WMO
+St: 009411; Sk��lafell, WMO
+St: 009412; Akureyri - Krossanes, WMO
+St: 009413; Blfjll, WMO
+St: 009414; Vgeirsstair F, WMO
+St: 009415; ��ingvellir, WMO
+St: 009416; Haugur sjlfvirk st, WMO
+St: 009417; ��ykkvib��r, WMO
+St: 009418; Vestmannaeyjabaer, WMO
+St: 009419; Br��sasta��ir sj��lf, WMO
+St: 009420; Kolka, WMO
+St: 009421; H��safell, WMO
+St: 009422; Skagat, WMO
+St: 009423; S��mssta��ir, WMO
+St: 009424; Svartrkot sjlfvi, WMO
+St: 009425; Burfell, WMO
+St: 009426; ��lafsfj��r��ur, WMO
+St: 009427; Siglufjrur, WMO
+St: 009428; Setur, WMO
+St: 009429; Thufuver, WMO
+St: 009430; Veidivatnahraun, WMO
+St: 009431; Va��lahei��i, WMO
+St: 009432; Vatnsskar��sh��lar s, WMO
+St: 009433; Grimsey, WMO
+St: 009434; Jokulheimar, WMO
+St: 009435; M����ruvellir, WMO
+St: 009436; Sandbudir, WMO
+St: 009437; Br�� �� J��kuldal, WMO
+St: 009438; Aedey, WMO
+St: 009439; Skardsfjoruviti, WMO
+St: 009440; H��sav��k, WMO
+St: 009441; Skaftafell, WMO
+St: 009442; M��vatn, WMO
+St: 009443; Rau��in��pur, WMO
+St: 009444; Karahnjukar, WMO
+St: 009445; Upptyppingar, WMO
+St: 009446; Eyjabakkar, WMO
+St: 009447; sbyrgi, WMO
+St: 009448; Keflavik, WMO
+St: 009449; Mrudalur sjlfv, WMO
+St: 009450; Fontur, WMO
+St: 009451; Teigarhorn sjlfvir, WMO
+St: 009452; Eskifj��r��ur, WMO
+St: 009453; Kollaleira sjlfvir, WMO
+St: 009454; Bjarnarey, WMO
+St: 009455; Vattarnes, WMO
+St: 009456; Hallormssta��ur, WMO
+St: 009457; Hallormssta��ah��ls, WMO
+St: 009458; Egilssta��aflugv��ll, WMO
+St: 009459; Gagnheidi, WMO
+St: 009460; Papey, WMO
+St: 009461; Sey��isfj��r��ur, WMO
+St: 009462; Kambanes, WMO
+St: 009463; Dalatangi, WMO
+St: 009464; Seley, WMO
+St: 009465; Neskaupsta��ur sj��l, WMO
+St: 009466; Reykjavik, WMO
+St: 009467; Stafholtsey, WMO
+St: 009468; Eyrarbakki, WMO
+St: 009469; Blonduos, WMO
+St: 009470; Vestmannaeyjar, WMO
+St: 009471; Bolungarvik, WMO
+St: 009472; Hveravellir, WMO
+St: 009473; Torfur, WMO
+St: 009474; Akureyri, WMO
+St: 009475; Kirkjubaejarklaustur, WMO
+St: 009476; Stadarholl, WMO
+St: 009477; Holar I Dyrafirdi, WMO
+St: 009478; Manarbakki, WMO
+St: 009479; Fagurholsmyri, WMO
+St: 009480; Grimsstadir, WMO
+St: 009481; Raufarhofn, WMO
+St: 009482; Frrheii, WMO
+St: 009483; Kleifaheii, WMO
+St: 009484; K��lfh��ll, WMO
+St: 009485; Hlfdn, WMO
+St: 009486; yrill, WMO
+St: 009487; Hraunsmli, WMO
+St: 009488; Vatnalei, WMO
+St: 009489; Kolgrafarfjararbr, WMO
+St: 009490; gur, WMO
+St: 009491; Botnshei��i, WMO
+St: 009492; Svnadalur Dlu, WMO
+St: 009493; Skrauth��lar, WMO
+St: 009494; Seljalandsdalur - sk, WMO
+St: 009495; Hofn I Hornafirdi, WMO
+St: 009496; rnes, WMO
+St: 009497; Reykjanesbraut, WMO
+St: 009498; Klettshls, WMO
+St: 009499; Hvassahraun, WMO
+St: 009500; Steingrmsfjararh, WMO
+St: 009501; Hafnarfjall, WMO
+St: 009502; Ennishls, WMO
+St: 009503; Hellisheii, WMO
+St: 009504; Tjrnes - Geribre, WMO
+St: 009505; Reykjav��kurflugv��l, WMO
+St: 009506; Holtavruheii, WMO
+St: 009507; verrfjall, WMO
+St: 009508; Gullfoss, WMO
+St: 009509; Blndus sjlfvir, WMO
+St: 009510; Kjalarnes, WMO
+St: 009511; Skjaldthingsstadir, WMO
+St: 009512; Blfjll rkomust, WMO
+St: 009513; Laxrdalsheii, WMO
+St: 009514; Bl��fjallask��li, WMO
+St: 009515; Vatnsskar, WMO
+St: 009516; Sandskei, WMO
+St: 009517; 
+St: 009518; 
+St: 009519; rengsli, WMO
+St: 009520; xnadalsheii, WMO
+St: 009521; Mrdalssandur, WMO
+St: 009522; S��ta, WMO
+St: 009523; Hellisskar, WMO
+St: 009524; 
+St: 009525; Vkurskar, WMO
+St: 009526; Sklholt, WMO
+St: 009527; Reykir Fnjskada, WMO
+St: 009528; Steinar, WMO
+St: 009529; Mvatnsheii, WMO
+St: 009530; Hvammur, WMO
+St: 009531; Hlasandur, WMO
+St: 009532; Laufbali, WMO
+St: 009533; Mvatnsrfi, WMO
+St: 009534; Lmagnpur, WMO
+St: 009535; Hlsar, WMO
+St: 009536; Vestmannaeyjar - hra, WMO
+St: 009537; rfi, WMO
+St: 009538; Vopnafjararheii, WMO
+St: 009539; Geldinganes, WMO
+St: 009540; Mrudalsrfi I, WMO
+St: 009541; Sandvkurheii, WMO
+St: 009542; Inglfshfi, WMO
+St: 009543; Kvsker sjlfvirk, WMO
+St: 009544; Fagridalur, WMO
+St: 009545; Hgngur, WMO
+St: 009546; Hvalnes, WMO
+St: 009547; Breidalsheii, WMO
+St: 009548; Vatnsskar eystra, WMO
+St: 009549; Oddskar, WMO
+St: 009550; Neskaupstaur - Dra, WMO
+St: 009551; Akureyri lgreglust, WMO
+St: 009552; jrsrbr, WMO
+St: 009553; Hjar��arland sj��lfv, WMO
+St: 009554; Vatnsfell, WMO
+St: 009555; Tindfjll, WMO
+St: 009556; Flatey Skjlfand, WMO
+St: 009557; eistareykir, WMO
+St: 009558; Dalatangi, WMO
+St: 009559; Brarjkull B10, WMO
+St: 009560; 
+St: 009561; Szecseny, WMO
+St: 009562; Josvafo, WMO
+St: 009563; Miskolc Diosgyor, WMO
+St: 009564; Zahony, WMO
+St: 009565; Fertorakos, WMO
+St: 009566; Szombathely, WMO
+St: 009567; Mosonmagyarovar, WMO
+St: 009568; Per repuloter, WMO
+St: 009569; Gyor Likocs, WMO
+St: 009570; Papa repuloter, WMO
+St: 009571; Szentkiralyszabadja, WMO
+St: 009572; Tata, WMO
+St: 009573; Budapest belterulet, WMO
+St: 009574; Budapest Pestszentlo, WMO
+St: 009575; Agard, WMO
+St: 009576; Tat Vizmu, WMO
+St: 009577; Kekesteto, WMO
+St: 009578; Szolnok repuloter, WMO
+St: 009579; Poroszlo, WMO
+St: 009580; Eger, WMO
+St: 009581; Debrecen repuloter, WMO
+St: 009582; Napkor, WMO
+St: 009583; Szentgotthard Farkas, WMO
+St: 009584; Nagykutas, WMO
+St: 009585; Keszthely Tanyakeres, WMO
+St: 009586; Sarmellek repuloter, WMO
+St: 009587; Nagykanizsa, WMO
+St: 009588; Kaposvar Feszerlak, WMO
+St: 009589; Siofok, WMO
+St: 009590; Pogany repuloter, WMO
+St: 009591; Paks, WMO
+St: 009592; Baja Csillagvizsgalo, WMO
+St: 009593; Kecskemet repuloter, WMO
+St: 009594; Szeged kulterulet, WMO
+St: 009595; Bekescsaba repuloter, WMO
+St: 009596; Darabani, WMO
+St: 009597; Sabang/cut Bau , WMO
+St: 009598; Pakanbaru/ , WMO
+St: 009599; Banda Aceh/ , WMO
+St: 009600; Majene , WMO
+St: 009601; Masamba , WMO
+St: 009602; Menado/dr. Sam , WMO
+St: 009603; Kolaka/poma , WMO
+St: 009604; Tarempa , WMO
+St: 009605; Kendari/woltermon- , WMO
+St: 009606; Ranai/ranai , WMO
+St: 009607; Meulaboh/cut Nyak , WMO
+St: 009608; Bitung , WMO
+St: 009609; Padang/tabing , WMO
+St: 009610; Rengat/japura , WMO
+St: 009611; Singkep/dabo , WMO
+St: 009612; Ujung Pandang/ , WMO
+St: 009613; Ujang Pandang , WMO
+St: 009614; Bau-bau/beto Ambiri, WMO
+St: 009615; Jambi/sultan Taha , WMO
+St: 009616; Kerinci/depati Parb, WMO
+St: 009617; Palembang/ , WMO
+St: 009618; Denpasar/ngurah-rai, WMO
+St: 009619; Pangkalpinang/ , WMO
+St: 009620; Ampenan/selaparang , WMO
+St: 009621; Tanjungpandan/ , WMO
+St: 009622; Bengkulu/ , WMO
+St: 009623; Sumbawa Besar/ , WMO
+St: 009624; Bima , WMO
+St: 009625; Toli-toli/lalos , WMO
+St: 009626; Ruteng/satartacik , WMO
+St: 009627; Raden Intan/beranti, WMO
+St: 009628; Maumere/wai Oti , WMO
+St: 009629; Larantuka , WMO
+St: 009630; Alor/mali , WMO
+St: 009631; Belawan , WMO
+St: 009632; Waingapu/mau Hau , WMO
+St: 009633; Medan/polonia , WMO
+St: 009634; Kupang/el Tari , WMO
+St: 009635; Rote/baa , WMO
+St: 009636; Sabu/tardamu , WMO
+St: 009637; Galela/gamarmalamu , WMO
+St: 009638; Ternate/babullah , WMO
+St: 009639; Labuha/taliabu , WMO
+St: 009640; Gorontalo/jalaluddi, WMO
+St: 009641; Sorong/jefman , WMO
+St: 009642; Longbawan/juvai , WMO
+St: 009643; Tarakan/juwata , WMO
+St: 009644; Tanjung Selor , WMO
+St: 009645; Tanjung Redep/berau, WMO
+St: 009646; Manokwari/rendani , WMO
+St: 009647; Paloh , WMO
+St: 009648; Nangapinoh , WMO
+St: 009649; Sintang , WMO
+St: 009650; Biak/mokmer , WMO
+St: 009651; Putusibau , WMO
+St: 009652; Serui/yendosa , WMO
+St: 009653; Sarmi , WMO
+St: 009654; Pontianak/supadio , WMO
+St: 009655; Muaratewe/beringin , WMO
+St: 009656; Sanana , WMO
+St: 009657; Samarinda/temindung, WMO
+St: 009658; Ketapang/rahadi , WMO
+St: 009659; Fak-fak/torea , WMO
+St: 009660; Balikpapan/sepingga, WMO
+St: 009661; Pangkalan Bun/ , WMO
+St: 009662; Palangkaraya/ , WMO
+St: 009663; Nabire , WMO
+St: 009664; Banjarmasin/ , WMO
+St: 009665; Wamena/wamena , WMO
+St: 009666; Jayapura/sentani , WMO
+St: 009667; Kotabaru , WMO
+St: 009668; Jayapura , WMO
+St: 009669; Namlea , WMO
+St: 009670; Palu/mutiara , WMO
+St: 009671; 
+St: 009672; Ambon/pattimura , WMO
+St: 009673; Sibolga/pinangsori , WMO
+St: 009674; 
+St: 009675; Curug/budiarto , WMO
+St: 009676; 
+St: 009677; 
+St: 009678; Geser , WMO
+St: 009679; 
+St: 009680; Gunung Sitoli/binak, WMO
+St: 009681; Citeko/puncak , WMO
+St: 009682; Kaimana/utarom , WMO
+St: 009683; Enarotali , WMO
+St: 009684; Bandung/husein , WMO
+St: 009685; Neira , WMO
+St: 009686; Jatiwangi , WMO
+St: 009687; Kokonao/timuka , WMO
+St: 009688; Tegal , WMO
+St: 009689; Tahuna , WMO
+St: 009690; Cilacap , WMO
+St: 009691; Tual/dumatubun , WMO
+St: 009692; Maritim Semarang , WMO
+St: 009693; Semarang/ahmadyani , WMO
+St: 009694; Luwuk/bubung , WMO
+St: 009695; Batan , WMO
+St: 009696; Tanah Merah/tanah , WMO
+St: 009697; Lhokseumawe/ , WMO
+St: 009698; Saumlaki , WMO
+St: 009699; Tanjungpinang/kijan, WMO
+St: 009700; Sangkapura , WMO
+St: 009701; Surabaya/perak , WMO
+St: 009702; 
+St: 009703; Surabaya , WMO
+St: 009704; Poso/kasiguncu , WMO
+St: 009705; Kalianget(madura Is, WMO
+St: 009706; Merauke/mopah , WMO
+St: 009707; Banyuwangi , WMO
+St: 009708; Satu Mare, WMO
+St: 009709; Toplita, WMO
+St: 009710; Ceahlau Toaca, WMO
+St: 009711; Piatra Neamt, WMO
+St: 009712; 
+St: 009713; Negresti, WMO
+St: 009714; Holod, WMO
+St: 009715; Stana De Vale, WMO
+St: 009716; Vladeasa-1800, WMO
+St: 009717; Cluj-napoca, WMO
+St: 009718; Sarmasu, WMO
+St: 009719; Batos, WMO
+St: 009720; Joseni, WMO
+St: 009721; Chisineu Cris, WMO
+St: 009722; Dumbravita De Codru, WMO
+St: 009723; Baia-mare, WMO
+St: 009724; Turda, WMO
+St: 009725; Tg.mures, WMO
+St: 009726; Bucin, WMO
+St: 009727; Oc.sugatag, WMO
+St: 009728; Bacau, WMO
+St: 009729; Vaslui, WMO
+St: 009730; Stei, WMO
+St: 009731; Campeni, WMO
+St: 009732; Baisoara, WMO
+St: 009733; 
+St: 009734; Odorheiul Secuiesc, WMO
+St: 009735; Miercurea Ciuc, WMO
+St: 009736; Siria, WMO
+St: 009737; Gurahont, WMO
+St: 009738; Rosia Montana, WMO
+St: 009739; Dumbraveni, WMO
+St: 009740; Targu Ocna, WMO
+St: 009741; Barlad, WMO
+St: 009742; Sannicolaul Mare, WMO
+St: 009743; Botosani, WMO
+St: 009744; Arad, WMO
+St: 009745; Varadia De Mures, WMO
+St: 009746; Tebea, WMO
+St: 009747; Alba Iulia, WMO
+St: 009748; Blaj, WMO
+St: 009749; Baraolt, WMO
+St: 009750; Tg.secuiesc, WMO
+St: 009751; Adjud, WMO
+St: 009752; Suceava, WMO
+St: 009753; Deva, WMO
+St: 009754; Sebes-alba, WMO
+St: 009755; Fagaras, WMO
+St: 009756; Sfantu Gheorghe Cova, WMO
+St: 009757; Jimbolia, WMO
+St: 009758; Timisoara, WMO
+St: 009759; Stefanesti Stinca, WMO
+St: 009760; Paltinis Sibiu, WMO
+St: 009761; Sibiu, WMO
+St: 009762; Intorsura Buzaului, WMO
+St: 009763; Lacauti, WMO
+St: 009764; Focsani, WMO
+St: 009765; Tecuci, WMO
+St: 009766; Lugoj, WMO
+St: 009767; Boita, WMO
+St: 009768; Bilea Lac, WMO
+St: 009769; Vf. Omu, WMO
+St: 009770; Penteleu, WMO
+St: 009771; Bisoca, WMO
+St: 009772; Banloc, WMO
+St: 009773; Caransebes, WMO
+St: 009774; Petrosani, WMO
+St: 009775; Ob.lotrului, WMO
+St: 009776; Brasov - Ghimbav, WMO
+St: 009777; Fundata, WMO
+St: 009778; Predeal, WMO
+St: 009779; Ramnicu Sarat, WMO
+St: 009780; Galati, WMO
+St: 009781; Resita, WMO
+St: 009782; Semenic, WMO
+St: 009783; Cuntu, WMO
+St: 009784; Tarcu, WMO
+St: 009785; Voineasa, WMO
+St: 009786; Parang, WMO
+St: 009787; Campulung Muscel, WMO
+St: 009788; Sinaia 1500, WMO
+St: 009789; Patirlagele, WMO
+St: 009790; Iezer, WMO
+St: 009791; Braila, WMO
+St: 009792; Tulcea, WMO
+St: 009793; Gorgova, WMO
+St: 009794; Mahmudia, WMO
+St: 009795; Oravita, WMO
+St: 009796; Tg.jiu, WMO
+St: 009797; Apa Neagra, WMO
+St: 009798; Horezu 1550, WMO
+St: 009799; Polovragi, WMO
+St: 009800; Moraresti, WMO
+St: 009801; 
+St: 009802; Curtea De Arges, WMO
+St: 009803; Campina, WMO
+St: 009804; Buzau, WMO
+St: 009805; Sulina, WMO
+St: 009806; Bozovici, WMO
+St: 009807; Baile Herculane, WMO
+St: 009808; Tg.logresti, WMO
+St: 009809; Pitesti, WMO
+St: 009810; Tirgoviste, WMO
+St: 009811; Ploiesti, WMO
+St: 009812; Sfantu Gheorghe Delt, WMO
+St: 009813; Moldova Veche, WMO
+St: 009814; Dragasani, WMO
+St: 009815; Sighetul Marmatiei, WMO
+St: 009816; Urziceni, WMO
+St: 009817; Grivita, WMO
+St: 009818; Harsova, WMO
+St: 009819; Corugea, WMO
+St: 009820; Jurilovca, WMO
+St: 009821; Drobeta-turnu Severi, WMO
+St: 009822; Bacles, WMO
+St: 009823; Stolnici, WMO
+St: 009824; Titu, WMO
+St: 009825; Sacueni, WMO
+St: 009826; Buc-baneasa, WMO
+St: 009827; Bucuresti Afumati, WMO
+St: 009828; Bucuresti Filaret, WMO
+St: 009829; Slobozia, WMO
+St: 009830; Gura Portitei, WMO
+St: 009831; Slatina, WMO
+St: 009832; Supuru De Jos, WMO
+St: 009833; Fetesti, WMO
+St: 009834; Cernavoda, WMO
+St: 009835; Craiova, WMO
+St: 009836; Videle, WMO
+St: 009837; Calarasi, WMO
+St: 009838; Medgidia, WMO
+St: 009839; Bailesti, WMO
+St: 009840; Caracal, WMO
+St: 009841; Tg.lapus, WMO
+St: 009842; Rosiorii De Vede, WMO
+St: 009843; Oltenita, WMO
+St: 009844; Adamclisi, WMO
+St: 009845; Constanta, WMO
+St: 009846; Calafat, WMO
+St: 009847; Constanta Dig, WMO
+St: 009848; Alexandria, WMO
+St: 009849; Turnu Magurele, WMO
+St: 009850; Giurgiu, WMO
+St: 009851; Bechet, WMO
+St: 009852; Zimnicea, WMO
+St: 009853; Mangalia, WMO
+St: 009854; Cotnari, WMO
+St: 009855; Zalau, WMO
+St: 009856; Poiana Stampei, WMO
+St: 009857; Radauti, WMO
+St: 009858; Tg.neamt, WMO
+St: 009859; Oradea, WMO
+St: 009860; Dej, WMO
+St: 009861; Bistrita, WMO
+St: 009862; Calimani Retitis, WMO
+St: 009863; Iasi, WMO
+St: 009864; Barnova-radar, WMO
+St: 009865; Borod, WMO
+St: 009866; Huedin, WMO
+St: 009867; Sherkin Island, WMO
+St: 009868; Roches Point, WMO
+St: 009869; Valentia Observatory, WMO
+St: 009870; Cork Airport, WMO
+St: 009871; Johnstown Castle, WMO
+St: 009872; Oak Park Carlow, WMO
+St: 009873; Shannon Airport, WMO
+St: 009874; Mace Head, WMO
+St: 009875; Gurteen, WMO
+St: 009876; Casement Aerodrome, WMO
+St: 009877; Dublin Airport, WMO
+St: 009878; Claremorris, WMO
+St: 009879; Mullingar, WMO
+St: 009880; Connaught Airport, WMO
+St: 009881; Belmullet, WMO
+St: 009882; Finner, WMO
+St: 009883; Ballyhaise Cavan, WMO
+St: 009884; Malin Head, WMO
+St: 009885; Rosh Haniqra, WMO
+St: 009886; Har-knaan (zefat), WMO
+St: 009887; Kefar Nahum, WMO
+St: 009888; 
+St: 009889; Herzliyya Airport IA, WMO
+St: 009890; Hadera Port, WMO
+St: 009891; Bet Dagan, WMO
+St: 009892; Lod Airport IAA, WMO
+St: 009893; Jerusalem Centre, WMO
+St: 009894; Ashqelon Port, WMO
+St: 009895; Beer Sheva City, WMO
+St: 009896; Sedom, WMO
+St: 009897; Neot Smadar, WMO
+St: 009898; Eilat, WMO
+St: 009899; Mahanayim Airport IA, WMO
+St: 009900; Haifa Airport IAA, WMO
+St: 009901; Ramon Airport IAA, WMO
+St: 009902; Merom Golan Picman, WMO
+St: 009903; Ayyelet Hashahar, WMO
+St: 009904; Harashim, WMO
+St: 009905; Shave Ziyyon, WMO
+St: 009906; Afeq, WMO
+St: 009907; Haifa Refineries, WMO
+St: 009908; Bet Zayda, WMO
+St: 009909; Avne Etan, WMO
+St: 009910; Haifa University, WMO
+St: 009911; Haifa Technion, WMO
+St: 009912; Yavneel, WMO
+St: 009913; Tavor Kadoorie, WMO
+St: 009914; En Hashofet, WMO
+St: 009915; En Karmel, WMO
+St: 009916; Afula Nir Haemeq, WMO
+St: 009917; Zikhron Yaaqov, WMO
+St: 009918; Hadera Port, WMO
+St: 009919; Tel Yosef, WMO
+St: 009920; Sede Eliyyahu, WMO
+St: 009921; Eden Farm, WMO
+St: 009922; Hakfar Hayarok, WMO
+St: 009923; Qarne Shomeron, WMO
+St: 009924; Itamar, WMO
+St: 009925; Har Harasha, WMO
+St: 009926; Gilgal, WMO
+St: 009927; Nahshon, WMO
+St: 009928; Jerusalem Givat Ram, WMO
+St: 009929; Bet Haarava, WMO
+St: 009930; Ashdod Port, WMO
+St: 009931; Beit Jimal, WMO
+St: 009932; Gat, WMO
+St: 009933; Netiv Halamed He, WMO
+St: 009934; Dorot, WMO
+St: 009935; Shani, WMO
+St: 009936; En Gedi, WMO
+St: 009937; Besor Farm, WMO
+St: 009938; Lahav, WMO
+St: 009939; Nevatim, WMO
+St: 009940; Beer Sheva Universit, WMO
+St: 009941; Ezuz, WMO
+St: 009942; Avdat, WMO
+St: 009943; Mizpe Ramon, WMO
+St: 009944; Neot Smadar, WMO
+St: 009945; Yotvata, WMO
+St: 009946; Dafna, WMO
+St: 009947; Kefar Giladi, WMO
+St: 009948; Kefar Blum, WMO
+St: 009949; Zefat Har Kenaan, WMO
+St: 009950; Elon, WMO
+St: 009951; Rosh Haniqra, WMO
+St: 009952; Gamla, WMO
+St: 009953; Ammiad, WMO
+St: 009954; Eshhar, WMO
+St: 009955; Deir Hanna, WMO
+St: 009956; Kefar Nahum, WMO
+St: 009957; Newe Yaar, WMO
+St: 009958; Massada, WMO
+St: 009959; Zemah, WMO
+St: 009960; Maale Gilboa, WMO
+St: 009961; Galed, WMO
+St: 009962; En Hahoresh, WMO
+St: 009963; Ariel, WMO
+St: 009964; Maale Adummim, WMO
+St: 009965; Tel Aviv Coast, WMO
+St: 009966; Bet Dagan, WMO
+St: 009967; Jerusalem Centre, WMO
+St: 009968; Nizzan, WMO
+St: 009969; Qevuzat Yavne, WMO
+St: 009970; Hafez Hayyim, WMO
+St: 009971; Zova, WMO
+St: 009972; Negba, WMO
+St: 009973; Rosh Zurim, WMO
+St: 009974; Metzoke Dragot, WMO
+St: 009975; Arad, WMO
+St: 009976; Ashqelon Port, WMO
+St: 009977; Beer Sheva, WMO
+St: 009978; Zomet Hanegev, WMO
+St: 009979; Sede Boqer, WMO
+St: 009980; Sedom, WMO
+St: 009981; Hazeva, WMO
+St: 009982; Paran, WMO
+St: 009983; Elat, WMO
+St: 009984; Venezia Tessera, WMO
+St: 009985; Ronchi Dei Legionari, WMO
+St: 009986; Trieste, WMO
+St: 009987; Mondovi', WMO
+St: 009988; Passo Dei Giovi, WMO
+St: 009989; Genova/sestri, WMO
+St: 009990; Passo Della Cisa, WMO
+St: 009991; Sarzana/luni, WMO
+St: 009992; Monte Cimone, WMO
+St: 009993; Ferrara, WMO
+St: 009994; Bologna/b.panigale, WMO
+St: 009995; Punta Marina, WMO
+St: 009996; Cervia, WMO
+St: 009997; Rimini, WMO
+St: 009998; Capo Mele, WMO
+St: 009999; Pisa S.giusto, WMO
+St: 010000; Monte Argentario, WMO
+St: 010001; Firenze Peretola, WMO
+St: 010002; Arezzo, WMO
+St: 010003; Frontone, WMO
+St: 010004; Falconara, WMO
+St: 010005; Monte Calamita, WMO
+St: 010006; Bolzano Civ Aerodrom, WMO
+St: 010007; Radicofani, WMO
+St: 010008; Grosseto, WMO
+St: 010009; Passo Rolle, WMO
+St: 010010; Civitavecchia, WMO
+St: 010011; Viterbo, WMO
+St: 010012; Orte, WMO
+St: 010013; Monte Terminillo, WMO
+St: 010014; Paganella, WMO
+St: 010015; Vigna Di Valle, WMO
+St: 010016; Pescara, WMO
+St: 010017; Termoli, WMO
+St: 010018; Guidonia, WMO
+St: 010019; Roma/ciampino, WMO
+St: 010020; Roma/fiumicino, WMO
+St: 010021; Latina, WMO
+St: 010022; Frosinone, WMO
+St: 010023; Pratica Di Mare, WMO
+St: 010024; Campobasso, WMO
+St: 010025; Grazzanise, WMO
+St: 010026; Monte S.angelo, WMO
+St: 010027; Amendola, WMO
+St: 010028; Trevico, WMO
+St: 010029; Bari/palese, WMO
+St: 010030; Ponza, WMO
+St: 010031; Napoli/capodichino, WMO
+St: 010032; Capri, WMO
+St: 010033; Capo Palinuro, WMO
+St: 010034; Gioia Del Colle, WMO
+St: 010035; Latronico, WMO
+St: 010036; Brindisi, WMO
+St: 010037; Marina Di Ginosa, WMO
+St: 010038; Dobbiaco, WMO
+St: 010039; Lecce, WMO
+St: 010040; Bonifati, WMO
+St: 010041; Monte Scuro, WMO
+St: 010042; Aviano, WMO
+St: 010043; S.maria Di Leuca, WMO
+St: 010044; Lamezia Terme, WMO
+St: 010045; Tarvisio, WMO
+St: 010046; Ustica, WMO
+St: 010047; Palermo Punta Raisi, WMO
+St: 010048; Messina, WMO
+St: 010049; Reggio Calabria, WMO
+St: 010050; Trapani Birgi, WMO
+St: 010051; Prizzi, WMO
+St: 010052; Udine/rivolto, WMO
+St: 010053; Enna, WMO
+St: 010054; Gela, WMO
+St: 010055; Catania Sigonella, WMO
+St: 010056; Catania Fontanarossa, WMO
+St: 010057; Cozzo Spadaro, WMO
+St: 010058; Lampedusa, WMO
+St: 010059; Pian Rosa', WMO
+St: 010060; Alghero, WMO
+St: 010061; Capo Caccia, WMO
+St: 010062; Olbia Costa Smeralda, WMO
+St: 010063; Monte Limbara, WMO
+St: 010064; Capo Frasca, WMO
+St: 010065; Perdasdefogu, WMO
+St: 010066; Capo S.lorenzo, WMO
+St: 010067; Decimomannu, WMO
+St: 010068; Capo Bellavista, WMO
+St: 010069; Cagliari Elmas, WMO
+St: 010070; Capo Carbonara, WMO
+St: 010071; Torino Caselle, WMO
+St: 010072; Bric Della Croce, WMO
+St: 010073; Concordia, WMO
+St: 010074; Novara/cameri, WMO
+St: 010075; Milano/malpensa, WMO
+St: 010076; Bergamo Orio Al Seri, WMO
+St: 010077; S.valentino Alla Mut, WMO
+St: 010078; Milano/linate, WMO
+St: 010079; Piacenza S. Damiano, WMO
+St: 010080; Brescia/ghedi, WMO
+St: 010081; Verona/villafranca, WMO
+St: 010082; Treviso/istrana, WMO
+St: 010083; Treviso/s.angelo, WMO
+St: 010084; Salak, WMO
+St: 010085; Garoua Intl., WMO
+St: 010086; N'Gaoundr, WMO
+St: 010087; Banyo, WMO
+St: 010088; Meiganga, WMO
+St: 010089; Mamfe, WMO
+St: 010090; Bamenda, WMO
+St: 010091; Foumban Nkounja, WMO
+St: 010092; 
+St: 010093; Btar Oya, WMO
+St: 010094; Douala Intl., WMO
+St: 010095; Nkongsamba, WMO
+St: 010096; Tiko, WMO
+St: 010097; Bafia, WMO
+St: 010098; Bertoua, WMO
+St: 010099; Batouri, WMO
+St: 010100; Yaound, WMO
+St: 010101; Abong M'Bang, WMO
+St: 010102; Lomie, WMO
+St: 010103; Kribi, WMO
+St: 010104; Wakkanai, WMO
+St: 010105; Asahikawa, WMO
+St: 010106; Abashiri, WMO
+St: 010107; Sapporo, WMO
+St: 010108; Kushiro, WMO
+St: 010109; Nemuro, WMO
+St: 010110; Suttsu, WMO
+St: 010111; Urakawa, WMO
+St: 010112; Hakodate, WMO
+St: 010113; Syowa, WMO
+St: 010114; Wakamatsu, WMO
+St: 010115; Aomori, WMO
+St: 010116; Akita, WMO
+St: 010117; Morioka, WMO
+St: 010118; Sendai, WMO
+St: 010119; Wajima, WMO
+St: 010120; Niigata, WMO
+St: 010121; Kanazawa, WMO
+St: 010122; Nagano, WMO
+St: 010123; Maebashi, WMO
+St: 010124; Mito, WMO
+St: 010125; Nagoya, WMO
+St: 010126; Choshi, WMO
+St: 010127; Tsu, WMO
+St: 010128; Omaezaki, WMO
+St: 010129; Tokyo, WMO
+St: 010130; Oshima, WMO
+St: 010131; Hachijojima, WMO
+St: 010132; Saigo, WMO
+St: 010133; Matsue, WMO
+St: 010134; Tottori, WMO
+St: 010135; Maizuru, WMO
+St: 010136; Hiroshima, WMO
+St: 010137; Osaka, WMO
+St: 010138; Shionomisaki, WMO
+St: 010139; Izuhara, WMO
+St: 010140; Fukuoka, WMO
+St: 010141; Oita, WMO
+St: 010142; Nagasaki, WMO
+St: 010143; Kagoshima, WMO
+St: 010144; Miyazaki, WMO
+St: 010145; Fukue, WMO
+St: 010146; Matsuyama, WMO
+St: 010147; Takamatsu, WMO
+St: 010148; Kochi, WMO
+St: 010149; Tokushima, WMO
+St: 010150; Naze, WMO
+St: 010151; Ishigakijima, WMO
+St: 010152; Miyakojima, WMO
+St: 010153; Naha, WMO
+St: 010154; Minamidaito, WMO
+St: 010155; Chichijima, WMO
+St: 010156; Minamitori.i, WMO
+St: 010157; Fort, WMO
+St: 010158; Uralsk, WMO
+St: 010159; Semijarka, WMO
+St: 010160; Derzhavinsk, WMO
+St: 010161; Zhaltyr, WMO
+St: 010162; Semipalatinsk, WMO
+St: 010163; Astana, WMO
+St: 010164; Ashchysai, WMO
+St: 010165; Tavria, WMO
+St: 010166; Turkestan, WMO
+St: 010167; Leninogorsk, WMO
+St: 010168; Dzhambejty, WMO
+St: 010169; Tole, WMO
+St: 010170; Aktobe, WMO
+St: 010171; Stepnoe, WMO
+St: 010172; Novonikalaevka, WMO
+St: 010173; Pavlodar, WMO
+St: 010174; Chapaevo, WMO
+St: 010175; Bugun, WMO
+St: 010176; Bayyrkum, WMO
+St: 010177; Shymkent, WMO
+St: 010178; Aul, WMO
+St: 010179; Taraz, WMO
+St: 010180; Kulan, WMO
+St: 010181; Torgai, WMO
+St: 010182; Karaganda, WMO
+St: 010183; Zhalgyztobe, WMO
+St: 010184; Zhalpaktal, WMO
+St: 010185; Taipak, WMO
+St: 010186; Uil, WMO
+St: 010187; Temir, WMO
+St: 010188; Ulken, WMO
+St: 010189; Shardara, WMO
+St: 010190; Shubarkul, WMO
+St: 010191; Zharyk, WMO
+St: 010192; Mugodzarskaja, WMO
+St: 010193; Kokpekty, WMO
+St: 010194; Kyzylzhar, WMO
+St: 010195; Makat, WMO
+St: 010196; Kyzylorda, WMO
+St: 010197; Urzhar, WMO
+St: 010198; Karsakbay, WMO
+St: 010199; Zhezkazgan, WMO
+St: 010200; Petropavlovsk, WMO
+St: 010201; Shieli, WMO
+St: 010202; Novyj, WMO
+St: 010203; Bektauata, WMO
+St: 010204; Atyrau, WMO
+St: 010205; Isatai, WMO
+St: 010206; Aral, WMO
+St: 010207; Blagoveshchenka, WMO
+St: 010208; Atbasar, WMO
+St: 010209; Zhansugurov, WMO
+St: 010210; Moiynty, WMO
+St: 010211; Balhash, WMO
+St: 010212; Ganjushkino, WMO
+St: 010213; Mikhailovka, WMO
+St: 010214; Ertis, WMO
+St: 010215; Bakanas, WMO
+St: 010216; Kazaly, WMO
+St: 010217; Akkol', WMO
+St: 010218; 
+St: 010219; 
+St: 010220; Sarykol, WMO
+St: 010221; Almaty, WMO
+St: 010222; Karasaysky, WMO
+St: 010223; Kokshetay, WMO
+St: 010224; Iliysky, WMO
+St: 010225; Bestobe, WMO
+St: 010226; Sam, WMO
+St: 010227; Kostanay, WMO
+St: 010228; Zhosaly, WMO
+St: 010229; Ruzaevka, WMO
+St: 010230; 
+St: 010231; Balkasino, WMO
+St: 010232; Sucinsk, WMO
+St: 010233; Wolfsegg, WMO
+St: 010234; Linz/hoersching-flug, WMO
+St: 010235; Bregenz, WMO
+St: 010236; Feldkirch, WMO
+St: 010237; St.anton/arlberg, WMO
+St: 010238; Galzig, WMO
+St: 010239; Landeck, WMO
+St: 010240; Nauders, WMO
+St: 010241; Reutte/tirol, WMO
+St: 010242; Seefeld, WMO
+St: 010243; Kremsmuenster, WMO
+St: 010244; Innsbruck-flughafen, WMO
+St: 010245; Innsbruck-flughafen, WMO
+St: 010246; Patscherkofel, WMO
+St: 010247; 
+St: 010248; Brenner Neu, WMO
+St: 010249; Kufstein, WMO
+St: 010250; Krimml, WMO
+St: 010251; Rudolfshuette-alpinz, WMO
+St: 010252; Lofer, WMO
+St: 010253; Bischofshofen, WMO
+St: 010254; St. Johann Im Pongau, WMO
+St: 010255; Zell Am See, WMO
+St: 010256; St.michael/lungau, WMO
+St: 010257; Obertauern, WMO
+St: 010258; Salzburg-flughafen, WMO
+St: 010259; Mattsee, WMO
+St: 010260; Mondsee, WMO
+St: 010261; Feuerkogel, WMO
+St: 010262; Aigen_im_ennstal, WMO
+St: 010263; Praebichl, WMO
+St: 010264; Zeltweg, WMO
+St: 010265; Lunz, WMO
+St: 010266; Mariazell/st Sebasti, WMO
+St: 010267; Fischbach, WMO
+St: 010268; Bruck/mur, WMO
+St: 010269; Kapfenberg-flugfeld, WMO
+St: 010270; Amstetten, WMO
+St: 010271; Rax/seilbahn-bergsta, WMO
+St: 010272; Wiener_neustadt, WMO
+St: 010273; Moenichkirchen, WMO
+St: 010274; Allentsteig, WMO
+St: 010275; Eisenstadt, WMO
+St: 010276; Kleinzicken, WMO
+St: 010277; Bad Tatzmannsdorf, WMO
+St: 010278; Stift Zwettl, WMO
+St: 010279; Sillian, WMO
+St: 010280; Lienz, WMO
+St: 010281; Radstadt-tandalier, WMO
+St: 010282; Litschau, WMO
+St: 010283; Villach, WMO
+St: 010284; Preitenegg, WMO
+St: 010285; Retz, WMO
+St: 010286; Neumarkt, WMO
+St: 010287; Koeflach, WMO
+St: 010288; Weitensfeld, WMO
+St: 010289; Feldkirchen, WMO
+St: 010290; St.andrae I.l., WMO
+St: 010291; Klagenfurt-flughafen, WMO
+St: 010292; Feistritz Ob Bleibur, WMO
+St: 010293; Bad Eisenkappel Eise, WMO
+St: 010294; Jauerling, WMO
+St: 010295; Graz-thalerhof-flugh, WMO
+St: 010296; Schoeckl, WMO
+St: 010297; St.radegund, WMO
+St: 010298; Bad Gleichenberg, WMO
+St: 010299; Weitra, WMO
+St: 010300; Virgen, WMO
+St: 010301; Koetschach-mauthen, WMO
+St: 010302; Mallnitz-bad, WMO
+St: 010303; Weissensee/gatschach, WMO
+St: 010304; Villacher Alpe - Aut, WMO
+St: 010305; Achenkirch Campingpl, WMO
+St: 010306; Stockerau, WMO
+St: 010307; Dellach Im Drautal, WMO
+St: 010308; Spittal/drau, WMO
+St: 010309; Leoben, WMO
+St: 010310; Arriach, WMO
+St: 010311; Poertschach, WMO
+St: 010312; Murau, WMO
+St: 010313; Deutschlandsberg, WMO
+St: 010314; Graz Universitaet, WMO
+St: 010315; Graz Universitaet/he, WMO
+St: 010316; Lassnitzhoehe, WMO
+St: 010317; Leibnitz, WMO
+St: 010318; Feldbach, WMO
+St: 010319; Tulln/langenlebarn, WMO
+St: 010320; Alberschwende, WMO
+St: 010321; Dornbirn, WMO
+St: 010322; Brand, WMO
+St: 010323; Langen/arlberg, WMO
+St: 010324; Warth, WMO
+St: 010325; Ischgl/idalpe, WMO
+St: 010326; Galtuer, WMO
+St: 010327; Reutte, WMO
+St: 010328; Holzgau, WMO
+St: 010329; Pitztaler Gletscher, WMO
+St: 010330; Brunnenkogel / Oetzt, WMO
+St: 010331; Poysdorf, WMO
+St: 010332; Jenbach, WMO
+St: 010333; Mayrhofen, WMO
+St: 010334; Klagenfurt-flughafen, WMO
+St: 010335; Mistelbach, WMO
+St: 010336; Loferer Alm, WMO
+St: 010337; Wien-innere Stadt, WMO
+St: 010338; Schmittenhoehe, WMO
+St: 010339; Sonnblick - Autom., WMO
+St: 010340; St.veit Im Pongau, WMO
+St: 010341; Rauris, WMO
+St: 010342; Mariapfarr, WMO
+St: 010343; Katschberg, WMO
+St: 010344; Wien/hohe Warte, WMO
+St: 010345; Salzburg-freisaal, WMO
+St: 010346; Ramsau/dachstein, WMO
+St: 010347; Windischgarsten, WMO
+St: 010348; Bad Aussee, WMO
+St: 010349; St.wolfgang, WMO
+St: 010350; Bad Mitterndorf, WMO
+St: 010351; Groebming, WMO
+St: 010352; Wien/schwechat-flugh, WMO
+St: 010353; Kalwang, WMO
+St: 010354; Zeltweg - Autom. Sta, WMO
+St: 010355; Saalbach, WMO
+St: 010356; Baernkopf, WMO
+St: 010357; Grossenzersdorf, WMO
+St: 010358; Aflenz, WMO
+St: 010359; Gutenstein-mariahilf, WMO
+St: 010360; Reichenau/rax, WMO
+St: 010361; Puchberg, WMO
+St: 010362; Semmering/pass, WMO
+St: 010363; Hirschenkogel, WMO
+St: 010364; Hohe Wand/hochkogelh, WMO
+St: 010365; Krumbach I. D. Buckl, WMO
+St: 010366; Seibersdorf, WMO
+St: 010367; St.poelten Landhaus, WMO
+St: 010368; Hartberg, WMO
+St: 010369; Lutzmannsburg, WMO
+St: 010370; Andau, WMO
+St: 010371; Wien/unterlaa, WMO
+St: 010372; Braunau/ranshofen, WMO
+St: 010373; Ried Im Innkreis, WMO
+St: 010374; Schaerding, WMO
+St: 010375; Wels/schleissheim, WMO
+St: 010376; Linz-stadt, WMO
+St: 010377; Krems, WMO
+St: 010378; Waidhofen/ybbs, WMO
+St: 010379; Neusiedl Am See, WMO
+St: 010380; Langenlois, WMO
+St: 010381; Lilienfeld/tarschber, WMO
+St: 010382; Rohrbach, WMO
+St: 010383; Wien/mariabrunn, WMO
+St: 010384; Gumpoldskirchen, WMO
+St: 010385; Leiser Berge, WMO
+St: 010386; Zwerndorf-marchegg, WMO
+St: 010387; Wien-donaufeld, WMO
+St: 010388; Lodwar, WMO
+St: 010389; 
+St: 010390; 
+St: 010391; Marsabit, WMO
+St: 010392; Kitale, WMO
+St: 010393; Wajir, WMO
+St: 010394; Eldoret, WMO
+St: 010395; Kakamega, WMO
+St: 010396; Eldoret Internationa, WMO
+St: 010397; Meru, WMO
+St: 010398; Kisumu, WMO
+St: 010399; Kisii, WMO
+St: 010400; Kericho, WMO
+St: 010401; Nakuru, WMO
+St: 010402; Nyeri, WMO
+St: 010403; Embu, WMO
+St: 010404; Garissa, WMO
+St: 010405; Narok, WMO
+St: 010406; Nairobi/jomo Kenyatt, WMO
+St: 010407; Nairobi/dagoretti, WMO
+St: 010408; Nairobi/wilson, WMO
+St: 010409; Makindu, WMO
+St: 010410; Lamu, WMO
+St: 010411; Voi, WMO
+St: 010412; Malindi, WMO
+St: 010413; Mombasa, WMO
+St: 010414; Daegwallyeong, WMO
+St: 010415; Chuncheon, WMO
+St: 010416; Baengnyeongdo, WMO
+St: 010417; Bukgangneung, WMO
+St: 010418; Gangneung, WMO
+St: 010419; Donghae, WMO
+St: 010420; Seoul, WMO
+St: 010421; Incheon, WMO
+St: 010422; Wonju, WMO
+St: 010423; Ulleungdo, WMO
+St: 010424; Suwon, WMO
+St: 010425; Yeongwol, WMO
+St: 010426; Chungju, WMO
+St: 010427; Seosan, WMO
+St: 010428; Uljin, WMO
+St: 010429; 
+St: 010430; Daejeon, WMO
+St: 010431; Chupungnyeong, WMO
+St: 010432; Andong, WMO
+St: 010433; Sangju, WMO
+St: 010434; 
+St: 010435; Gunsan, WMO
+St: 010436; Daegu, WMO
+St: 010437; Cheonan, WMO
+St: 010438; Jeonju, WMO
+St: 010439; Boryeong, WMO
+St: 010440; Ulsan, WMO
+St: 010441; Gumi, WMO
+St: 010442; Changwon, WMO
+St: 010443; Gwangju, WMO
+St: 010444; Geochang, WMO
+St: 010445; Busan, WMO
+St: 010446; Tongyeong, WMO
+St: 010447; Mokpo, WMO
+St: 010448; Yeosu, WMO
+St: 010449; Heuksando, WMO
+St: 010450; Wando, WMO
+St: 010451; Jeongeup, WMO
+St: 010452; Gochanggun, WMO
+St: 010453; Namwon, WMO
+St: 010454; Suncheon, WMO
+St: 010455; Hongseong, WMO
+St: 010456; Jeju, WMO
+St: 010457; Gosan, WMO
+St: 010458; Seongsan, WMO
+St: 010459; Seogwipo, WMO
+St: 010460; Jinju, WMO
+St: 010461; Sokcho, WMO
+St: 010462; Bukchuncheon, WMO
+St: 010463; Cheorwon, WMO
+St: 010464; Icheon, WMO
+St: 010465; Dongducheon, WMO
+St: 010466; Paju, WMO
+St: 010467; Luxembourg, WMO
+St: 010468; Hanimaadhoo, WMO
+St: 010469; Male, WMO
+St: 010470; Kadhdhoo, WMO
+St: 010471; Kaadedhdhoo, WMO
+St: 010472; Gan, WMO
+St: 010473; Kriva Palanka, WMO
+St: 010474; Lazaropole, WMO
+St: 010475; Ohrid, WMO
+St: 010476; Topolcani-pgc, WMO
+St: 010477; Bitola, WMO
+St: 010478; Prilep, WMO
+St: 010479; Skopje Petrovec, WMO
+St: 010480; Skopje-zajcev Rid, WMO
+St: 010481; Guriste-pgc, WMO
+St: 010482; Stip, WMO
+St: 010483; Demir Kapija, WMO
+St: 010484; Pozar-pgc, WMO
+St: 010485; Vinica-pgc, WMO
+St: 010486; Gevgelija, WMO
+St: 010487; Berovo, WMO
+St: 010488; Tanger (aerodrome), WMO
+St: 010489; Larache, WMO
+St: 010490; Al Hoceima, WMO
+St: 010491; Oujda, WMO
+St: 010492; Kenitra, WMO
+St: 010493; Rabat-sale, WMO
+St: 010494; Fes-sais, WMO
+St: 010495; Taza-aero, WMO
+St: 010496; Mohammedia, WMO
+St: 010497; Meknes, WMO
+St: 010498; Casablanca, WMO
+St: 010499; 
+St: 010500; Ifrane, WMO
+St: 010501; Settat, WMO
+St: 010502; Khouribga, WMO
+St: 010503; Safi, WMO
+St: 010504; Benguerir, WMO
+St: 010505; Beni-mellal-aero, WMO
+St: 010506; Bouarfa, WMO
+St: 010507; Essaouira, WMO
+St: 010508; Essaouira (aerodrome, WMO
+St: 010509; Takerkoust, WMO
+St: 010510; Marrakech, WMO
+St: 010511; Agadir, WMO
+St: 010512; Taroudant, WMO
+St: 010513; Ouarzazate, WMO
+St: 010514; Tiznit, WMO
+St: 010515; Zagora, WMO
+St: 010516; Guelmin, WMO
+St: 010517; Smara, WMO
+St: 010518; Nador, WMO
+St: 010519; Sidi Ifni, WMO
+St: 010520; 
+St: 010521; Fianarantsoa, WMO
+St: 010522; Toliara, WMO
+St: 010523; Taolagnaro, WMO
+St: 010524; Mocimboa Da Praia, WMO
+St: 010525; Marrupa_auto, WMO
+St: 010526; Mecula/niassa, WMO
+St: 010527; Pemba, WMO
+St: 010528; Lichinga, WMO
+St: 010529; Marrupa, WMO
+St: 010530; Montepuez, WMO
+St: 010531; Furancungo/tete, WMO
+St: 010532; Ulongue, WMO
+St: 010533; Cuamba, WMO
+St: 010534; Nampula, WMO
+St: 010535; Lumbo, WMO
+St: 010536; Zumbo, WMO
+St: 010537; Songo, WMO
+St: 010538; Chitima, WMO
+St: 010539; Milange, WMO
+St: 010540; Tete, WMO
+St: 010541; Tete/chingodzi, WMO
+St: 010542; Tsangano, WMO
+St: 010543; Namarroi_auto, WMO
+St: 010544; Zumbo_auto, WMO
+St: 010545; Mocuba/zambezia, WMO
+St: 010546; Angoche, WMO
+St: 010547; Caia, WMO
+St: 010548; Quelimane, WMO
+St: 010549; Pebane, WMO
+St: 010550; Chibabava_auto, WMO
+St: 010551; Catandica/manica, WMO
+St: 010552; Chimoio, WMO
+St: 010553; Beira, WMO
+St: 010554; Espungabera/manica, WMO
+St: 010555; Massangena_auto, WMO
+St: 010556; Dindiza/gaza, WMO
+St: 010557; Massinga, WMO
+St: 010558; Vilanculos, WMO
+St: 010559; Inhambane, WMO
+St: 010560; Inhambane, WMO
+St: 010561; Panda/inhambane, WMO
+St: 010562; Mapulanguene/maputo, WMO
+St: 010563; Xai Xai, WMO
+St: 010564; Changalane_auto, WMO
+St: 010565; Maputo/mavalane, WMO
+St: 010566; Ndola, WMO
+St: 010567; Panna, WMO
+St: 010568; Kaoma, WMO
+St: 010569; Cuttack, WMO
+St: 010570; Barbados Fire Station, WMO
+St: 010571; Platform D15-FA-1, WMO
+St: 010572; Platform P11-B, WMO
+St: 010573; Platform K14-FA-1C, WMO
+St: 010574; Platform A12-CPP, WMO
+St: 010575; Platform L9-FF-1, WMO
+St: 010576; Platform AWG-1, WMO
+St: 010577; IJmond, WMO
+St: 010578; Platform J6-A, WMO
+St: 010579; Platform BG-OHVS2, WMO
+St: 010580; Voorschoten, WMO
+St: 010581; IJmuiden, WMO
+St: 010582; Texelhors, WMO
+St: 010583; De Kooy, WMO
+St: 010584; Platform F3-FB-1, WMO
+St: 010585; Amsterdam, WMO
+St: 010586; Vlieland, WMO
+St: 010587; Wijdenes, WMO
+St: 010588; Berkhout, WMO
+St: 010589; Terschelling Hoorn, WMO
+St: 010590; K13-Alpha Platform, WMO
+St: 010591; Wijk aan Zee, WMO
+St: 010592; Houtribdijk, WMO
+St: 010593; De Bilt, WMO
+St: 010594; Stavoren, WMO
+St: 010595; Lelystad, WMO
+St: 010596; Leeuwarden, WMO
+St: 010597; Marknesse, WMO
+St: 010598; Deelen, WMO
+St: 010599; Lauwersoog, WMO
+St: 010600; Heino, WMO
+St: 010601; Hoogeveen, WMO
+St: 010602; Groningen, WMO
+St: 010603; Hupsel, WMO
+St: 010604; Huibertgat, WMO
+St: 010605; Nieuw Beerta, WMO
+St: 010606; Twenthe, WMO
+St: 010607; Cadzand, WMO
+St: 010608; Vlissingen, WMO
+St: 010609; Oosterschelde, WMO
+St: 010610; Vlakte van de Raan, WMO
+St: 010611; Hansweert, WMO
+St: 010612; Schaar, WMO
+St: 010613; Westdorpe, WMO
+St: 010614; Lichteiland Goeree, WMO
+St: 010615; Euro Platform, WMO
+St: 010616; Wilhelminadorp, WMO
+St: 010617; Stavenisse, WMO
+St: 010618; Hoek van Holland, WMO
+St: 010619; Tholen, WMO
+St: 010620; Woensdrecht, WMO
+St: 010621; Rotterdam Geulhaven, WMO
+St: 010622; Rotterdam, WMO
+St: 010623; Cabauw, WMO
+St: 010624; Gilze Rijen, WMO
+St: 010625; Herwijnen, WMO
+St: 010626; Eindhoven, WMO
+St: 010627; Volkel, WMO
+St: 010628; Ell, WMO
+St: 010629; Maastricht, WMO
+St: 010630; Arcen, WMO
+St: 010631; Sola (vanua Lava), WMO
+St: 010632; Pekoa Airport (santo, WMO
+St: 010633; Lamap (malekula), WMO
+St: 010634; Bauerfield (efate), WMO
+St: 010635; White Grass Airport, WMO
+St: 010636; Aneityum, WMO
+St: 010637; Surprise, WMO
+St: 010638; Belep Aerod., WMO
+St: 010639; Chesterfield, WMO
+St: 010640; Koumac, WMO
+St: 010641; Kone, WMO
+St: 010642; Ouloup, WMO
+St: 010643; Ouanaham, WMO
+St: 010644; Touho Aerod., WMO
+St: 010645; La Roche, WMO
+St: 010646; La Tontouta, WMO
+St: 010647; Noumea, WMO
+St: 010648; Moue, WMO
+St: 010649; Hihifo, WMO
+St: 010650; Maopoopo, WMO
+St: 010651; Niuafoou, WMO
+St: 010652; Keppel, WMO
+St: 010653; Lupepauu, WMO
+St: 010654; Haapai, WMO
+St: 010655; Fuaamotu, WMO
+St: 010656; Auckland Airport, WMO
+St: 010657; Whitianga Airport, WMO
+St: 010658; Kaitaia Airport, WMO
+St: 010659; Hamilton Airport, WMO
+St: 010660; Tauranga Airport, WMO
+St: 010661; Whakatane Airport, WMO
+St: 010662; Hicks Bay, WMO
+St: 010663; Port Taharoa, WMO
+St: 010664; Taupo Airport, WMO
+St: 010665; Gisborne Airport, WMO
+St: 010666; New Plymouth Airport, WMO
+St: 010667; Hawera, WMO
+St: 010668; Whanganui Airport, WMO
+St: 010669; Waiouru Airfield, WMO
+St: 010670; Napier Airport, WMO
+St: 010671; Mahia, WMO
+St: 010672; Cape Reinga, WMO
+St: 010673; Palmerston North Air, WMO
+St: 010674; Paraparaumu Airport, WMO
+St: 010675; Wellington Airport, WMO
+St: 010676; Takapau Plains, WMO
+St: 010677; Ngawi, WMO
+St: 010678; Castlepoint, WMO
+St: 010679; Westport Airport, WMO
+St: 010680; Farewell Spit, WMO
+St: 010681; Nelson Airport, WMO
+St: 010682; Stephens Island, WMO
+St: 010683; Whangarei Airport, WMO
+St: 010684; Cape Campbell, WMO
+St: 010685; Hokitika Airport, WMO
+St: 010686; Kaikoura, WMO
+St: 010687; Mokohinau Island, WMO
+St: 010688; Haast, WMO
+St: 010689; Milford Sound, WMO
+St: 010690; Nukunonu, WMO
+St: 010691; Mount Cook Airport, WMO
+St: 010692; Tara Hills, WMO
+St: 010693; Faleolo Airport, WMO
+St: 010694; Apia, WMO
+St: 010695; Timaru Airport, WMO
+St: 010696; Christchurch Airport, WMO
+St: 010697; Lincoln Broadfield, WMO
+St: 010698; Le Bons Bay, WMO
+St: 010699; Oamaru Airport, WMO
+St: 010700; Secretary Island, WMO
+St: 010701; Penrhyn Aws, WMO
+St: 010702; Puysegur Point, WMO
+St: 010703; Manihiki Aws, WMO
+St: 010704; Lauder, WMO
+St: 010705; Niue Airport, WMO
+St: 010706; Niue Airport Aws, WMO
+St: 010707; Queenstown Airport, WMO
+St: 010708; Mauke Aws, WMO
+St: 010709; Rarotonga, WMO
+St: 010710; Invercargill Airport, WMO
+St: 010711; Mangaia Aws, WMO
+St: 010712; Nugget Point, WMO
+St: 010713; Dunedin Airport, WMO
+St: 010714; South West Cape, WMO
+St: 010715; Enderby Island, WMO
+St: 010716; Campbell Island, WMO
+St: 010717; Chatham Island Airpo, WMO
+St: 010718; Raoul Island, WMO
+St: 010719; Koksijde Air Base, WMO
+St: 010720; Middelkerke, WMO
+St: 010721; Beitem, WMO
+St: 010722; Zeebrugge, WMO
+St: 010723; Semmerzake, WMO
+St: 010724; Chi��vres Air Base, WMO
+St: 010725; Melle, WMO
+St: 010726; Stabroek, WMO
+St: 010727; Sint-katelijne-waver, WMO
+St: 010728; Uccle-ukkel, WMO
+St: 010729; Dourbes, WMO
+St: 010730; Florennes Air Base, WMO
+St: 010731; Beauvechain Air Base, WMO
+St: 010732; Ernage, WMO
+St: 010733; 
+St: 010734; Schaffen, WMO
+St: 010735; 
+St: 010736; 
+St: 010737; Kleine Brogel Air Ba, WMO
+St: 010738; Buzenol, WMO
+St: 010739; Mont Rigi, WMO
+St: 010740; Elsenborn, WMO
+St: 010741; Bilma, WMO
+St: 010742; Mano Dayak Intl., WMO
+St: 010743; Tillabery, WMO
+St: 010744; 
+St: 010745; 
+St: 010746; N'Guigmi, WMO
+St: 010747; Niamey, WMO
+St: 010748; Niamey, WMO
+St: 010749; Birni-N'Konni, WMO
+St: 010750; Maradi, WMO
+St: 010751; Diffa, WMO
+St: 010752; Zinder, WMO
+St: 010753; Magaria, WMO
+St: 010754; Maine-Soroa, WMO
+St: 010755; 
+St: 010756; Jan Mayen, WMO
+St: 010757; Andoya, WMO
+St: 010758; Sklinna Lh, WMO
+St: 010759; Rotvaer, WMO
+St: 010760; 
+St: 010761; Vega-vallsjo, WMO
+St: 010762; Kvitoya, WMO
+St: 010763; Bronnoysund Ap, WMO
+St: 010764; Reipa, WMO
+St: 010765; Myken, WMO
+St: 010766; Sandnessjoen Ap, WMO
+St: 010767; Tjotta, WMO
+St: 010768; Solvaer Iii, WMO
+St: 010769; Mosjoen Ap, WMO
+St: 010770; Snasa, WMO
+St: 010771; Isfjord Radio, WMO
+St: 010772; Majavatn V, WMO
+St: 010773; Laksfors, WMO
+St: 010774; Seljelia, WMO
+St: 010775; Somna-kvaloyfjellet, WMO
+St: 010776; Vaeroy Heliport, WMO
+St: 010777; Leknes Ap, WMO
+St: 010778; 
+St: 010779; Helligvaer Ii, WMO
+St: 010780; Skamdal, WMO
+St: 010781; Varntresk, WMO
+St: 010782; Storforshei, WMO
+St: 010783; Hekkingen Lh, WMO
+St: 010784; Hjartasen, WMO
+St: 010785; Mo I Rana Ap, WMO
+St: 010786; Bodo Vi, WMO
+St: 010787; Bo I Vesteralen, WMO
+St: 010788; Setsa, WMO
+St: 010789; Kongsoya, WMO
+St: 010790; Skrova Lh, WMO
+St: 010791; Svolvaer Ap, WMO
+St: 010792; Stokmarknes Ap, WMO
+St: 010793; Saltdal-nordnes, WMO
+St: 010794; Akseloya, WMO
+St: 010795; Andoya-trolltinden, WMO
+St: 010796; Harstad, WMO
+St: 010797; Evenes Ap, WMO
+St: 010798; Straumsnes, WMO
+St: 010799; Dividalen Ii, WMO
+St: 010800; Sihccajavri, WMO
+St: 010801; Verlegenhuken, WMO
+St: 010802; Sorkappoya, WMO
+St: 010803; Krakenes, WMO
+St: 010804; Svinoy Lh, WMO
+St: 010805; Orsta-volda Ap, WMO
+St: 010806; Alesund/vigra, WMO
+St: 010807; Ona Ii, WMO
+St: 010808; Rekdal, WMO
+St: 010809; Molde Ap, WMO
+St: 010810; Tafjord, WMO
+St: 010811; Mannen, WMO
+St: 010812; Tagdalen, WMO
+St: 010813; Kristiansund Ap, WMO
+St: 010814; Aalesund, WMO
+St: 010815; Veiholmen, WMO
+St: 010816; Innerdalen, WMO
+St: 010817; Sula, WMO
+St: 010818; Lebergsfjellet, WMO
+St: 010819; Bardufoss, WMO
+St: 010820; Bjorli, WMO
+St: 010821; Marstein, WMO
+St: 010822; Dombaas, WMO
+St: 010823; Orkdal-thamshamn, WMO
+St: 010824; Hitra, WMO
+St: 010825; Fokstugu, WMO
+St: 010826; Hjerkinn Ii, WMO
+St: 010827; Halten Lh, WMO
+St: 010828; Orland Iii, WMO
+St: 010829; Afjord Ii, WMO
+St: 010830; Oppdal-seter, WMO
+St: 010831; Tromso/langnes, WMO
+St: 010832; Folldal-fredheim, WMO
+St: 010833; Soknedal, WMO
+St: 010834; Kotsoy, WMO
+St: 010835; Trondheim/voll, WMO
+St: 010836; Buholmrasa Lh, WMO
+St: 010837; Tromso, WMO
+St: 010838; Nordoyan Lh, WMO
+St: 010839; Tynset-hansmoen, WMO
+St: 010840; Tromso-holt, WMO
+St: 010841; Kvithamar, WMO
+St: 010842; Trondheim/vernes, WMO
+St: 010843; Frosta, WMO
+St: 010844; Selbu, WMO
+St: 010845; Steinkjer, WMO
+St: 010846; Bjornoya, WMO
+St: 010847; Namsskogan, WMO
+St: 010848; Rorvik Ap, WMO
+St: 010849; Solendet, WMO
+St: 010850; Roros Ap, WMO
+St: 010851; Namsos Ap, WMO
+St: 010852; Gartland, WMO
+St: 010853; Meraker-egge, WMO
+St: 010854; Hornsund, WMO
+St: 010855; Kistefjell, WMO
+St: 010856; Ytteroyane Lh, WMO
+St: 010857; Fedje, WMO
+St: 010858; Furuneset, WMO
+St: 010859; Floro Ap, WMO
+St: 010860; 
+St: 010861; Fossmark, WMO
+St: 010862; Evanger, WMO
+St: 010863; Bergen/florida, WMO
+St: 010864; Takle, WMO
+St: 010865; Sandane Ap, WMO
+St: 010866; Stryn, WMO
+St: 010867; Forde Ap, WMO
+St: 010868; Modalen Iii, WMO
+St: 010869; Kvamskogen-jonshogdi, WMO
+St: 010870; Kvamsoy, WMO
+St: 010871; Torsvag Lh, WMO
+St: 010872; Fjaerland-bremuseet, WMO
+St: 010873; Bulken, WMO
+St: 010874; Vossevangen, WMO
+St: 010875; Vangsnes, WMO
+St: 010876; Fet I Eidfjord, WMO
+St: 010877; Ullensvang, WMO
+St: 010878; Mjolfjell, WMO
+St: 010879; Klevavatnet, WMO
+St: 010880; Midtstova, WMO
+St: 010881; Sogndal Ap, WMO
+St: 010882; Lyngen Gjerdvassbu, WMO
+St: 010883; Finsevatn, WMO
+St: 010884; Sandhaug, WMO
+St: 010885; Laerdal Iv, WMO
+St: 010886; 
+St: 010887; Hemsedal Ii, WMO
+St: 010888; Geilo-oldebraten, WMO
+St: 010889; Brata-slettom, WMO
+St: 010890; Grotli Iii, WMO
+St: 010891; Juvvasshoe, WMO
+St: 010892; Dagali Ap, WMO
+St: 010893; Filefjell, WMO
+St: 010894; Beitostolen Ii, WMO
+St: 010895; Sognefjell, WMO
+St: 010896; Fagernes, WMO
+St: 010897; Fagernes Ap, WMO
+St: 010898; Skibotn 2, WMO
+St: 010899; Skabu, WMO
+St: 010900; Loken I Volbu, WMO
+St: 010901; Nesbyen-todokk, WMO
+St: 010902; Vest-torpa Ii, WMO
+St: 010903; Kvitfjell, WMO
+St: 010904; Gulsvik Ii, WMO
+St: 010905; Lillehammer-saethere, WMO
+St: 010906; Venabu, WMO
+St: 010907; Apelsvoll, WMO
+St: 010908; Kise, WMO
+St: 010909; Evenstad, WMO
+St: 010910; Oslo/gardermoen, WMO
+St: 010911; Hamar, WMO
+St: 010912; Hamar Ii, WMO
+St: 010913; Favang, WMO
+St: 010914; Rena Ap, WMO
+St: 010915; Flisa Ii, WMO
+St: 010916; Drevsjo, WMO
+St: 010917; Trysil Vegstasjon, WMO
+St: 010918; Utsira Lh, WMO
+St: 010919; Slatteroy Lh, WMO
+St: 010920; Haugesund Ap, WMO
+St: 010921; 
+St: 010922; Obrestad, WMO
+St: 010923; Saerheim, WMO
+St: 010924; Rover, WMO
+St: 010925; Stavanger/sola, WMO
+St: 010926; Stavanger Vaaland, WMO
+St: 010927; Nedre Vats, WMO
+St: 010928; Austevoll, WMO
+St: 010929; Liarvatn, WMO
+St: 010930; Hasvik-sluskfjellet, WMO
+St: 010931; Fister_sigmundstad, WMO
+St: 010932; Sauda, WMO
+St: 010933; Eik Hove, WMO
+St: 010934; Eigeroya, WMO
+St: 010935; Lista Lh, WMO
+St: 010936; Roldalsfjellet, WMO
+St: 010937; Rognsundet, WMO
+St: 010938; Mandal Iii, WMO
+St: 010939; Sirdal-sinnes, WMO
+St: 010940; Vaagsli, WMO
+St: 010941; Haukeliseter Testfel, WMO
+St: 010942; Lindesnes Lh, WMO
+St: 010943; Laudal-kleiven, WMO
+St: 010944; Hasvik Ap, WMO
+St: 010945; Blasjo, WMO
+St: 010946; Hovden-lundane, WMO
+St: 010947; Byglandsfjord, WMO
+St: 010948; Valle, WMO
+St: 010949; Hoydalsmo Ii, WMO
+St: 010950; Oksoy Lh, WMO
+St: 010951; Gjerstad, WMO
+St: 010952; Nordstraum I Kvaenan, WMO
+St: 010953; Mosstrand Ii, WMO
+St: 010954; Kristiansand/kjevik, WMO
+St: 010955; Hynnekleiv, WMO
+St: 010956; Tveitsund, WMO
+St: 010957; Nelaug, WMO
+St: 010958; Sorkjosen, WMO
+St: 010959; Gullholmen, WMO
+St: 010960; Gaustatoppen, WMO
+St: 010961; Porsgrunn, WMO
+St: 010962; As, WMO
+St: 010963; Landvik, WMO
+St: 010964; Torungen Lh, WMO
+St: 010965; Kjeller Ap, WMO
+St: 010966; Lyngor Lh, WMO
+St: 010967; Kongsvinger, WMO
+St: 010968; Honefoss-hoyby, WMO
+St: 010969; Kautokeino, WMO
+St: 010970; Gvarv, WMO
+St: 010971; Veggli Ii, WMO
+St: 010972; Kongsberg Brannstasj, WMO
+St: 010973; Jomfruland Lh, WMO
+St: 010974; Konnerud, WMO
+St: 010975; Svenner Lh, WMO
+St: 010976; Drammen Berskog, WMO
+St: 010977; Melsom, WMO
+St: 010978; Ferder Lh, WMO
+St: 010979; Torp, WMO
+St: 010980; Aurskog, WMO
+St: 010981; Sande-galleberg, WMO
+St: 010982; Asker, WMO
+St: 010983; 
+St: 010984; Bjornholt, WMO
+St: 010985; Alta Lufthavn, WMO
+St: 010986; Tryvannshogda, WMO
+St: 010987; Oslo-blindern, WMO
+St: 010988; Sarpsborg, WMO
+St: 010989; Rygge, WMO
+St: 010990; Stromtangen Lh, WMO
+St: 010991; Hammerfest Ap, WMO
+St: 010992; Fruholmen Lh, WMO
+St: 010993; Cuovddatmohkki, WMO
+St: 010994; Suolovuopmi Lulit, WMO
+St: 010995; Banak, WMO
+St: 010996; Edgeoya, WMO
+St: 010997; Hopen, WMO
+St: 010998; Iskoras Ii, WMO
+St: 010999; Karasjok, WMO
+St: 011000; Honningsvag Ap, WMO
+St: 011001; Ny-alesund, WMO
+St: 011002; Mehamn Ap, WMO
+St: 011003; Tanabru, WMO
+St: 011004; Slettnes Lh, WMO
+St: 011005; Svalbard Ap, WMO
+St: 011006; Nyrud, WMO
+St: 011007; Berlevag Ap, WMO
+St: 011008; Pasvik, WMO
+St: 011009; Batsfjord Ap, WMO
+St: 011010; Vadso Ap, WMO
+St: 011011; Kirkenes, WMO
+St: 011012; Karl Xii Oya, WMO
+St: 011013; Losistua, WMO
+St: 011014; Makkaur Lh, WMO
+St: 011015; Vardo, WMO
+St: 011016; Vardo Ap, WMO
+St: 011017; Gupis, WMO
+St: 011018; Chitral, WMO
+St: 011019; Dir, WMO
+St: 011020; Drosh, WMO
+St: 011021; Gilgit, WMO
+St: 011022; Skurdu, WMO
+St: 011023; Bunji, WMO
+St: 011024; Chillas, WMO
+St: 011025; Astore, WMO
+St: 011026; Saidu Sharif, WMO
+St: 011027; Peshawar, WMO
+St: 011028; Muzaffarabad, WMO
+St: 011029; Risalpur, WMO
+St: 011030; Kakul, WMO
+St: 011031; Balakot, WMO
+St: 011032; 
+St: 011033; Kohat, WMO
+St: 011034; Cherat, WMO
+St: 011035; Islamabad, WMO
+St: 011036; Murre, WMO
+St: 011037; Islamabad City, WMO
+St: 011038; Mianwali, WMO
+St: 011039; Sargodha, WMO
+St: 011040; Jhelum, WMO
+St: 011041; Sialkot, WMO
+St: 011042; Zhob, WMO
+St: 011043; Dera Ismail Khan, WMO
+St: 011044; Faisalabad, WMO
+St: 011045; Lahore (pbo), WMO
+St: 011046; Lahore Airport, WMO
+St: 011047; Quetta, WMO
+St: 011048; Rafiqui, WMO
+St: 011049; Multan, WMO
+St: 011050; Bahawalnagar, WMO
+St: 011051; Barkhan, WMO
+St: 011052; Kalat, WMO
+St: 011053; Sibbi, WMO
+St: 011054; Bahawalpur, WMO
+St: 011055; Nokkundi, WMO
+St: 011056; Dalbandin, WMO
+St: 011057; Jacobabad, WMO
+St: 011058; Khanpur, WMO
+St: 011059; Sukkur, WMO
+St: 011060; Turbat, WMO
+St: 011061; Pungjur, WMO
+St: 011062; Khuzdar, WMO
+St: 011063; Padidan, WMO
+St: 011064; Nawabshah, WMO
+St: 011065; Jiwani, WMO
+St: 011066; 
+St: 011067; Pasni, WMO
+St: 011068; Padidan, WMO
+St: 011069; Chhor, WMO
+St: 011070; Karachi, WMO
+St: 011071; Badin, WMO
+St: 011072; 
+St: 011073; Iquitos - Spim, WMO
+St: 011074; Talara - Spim, WMO
+St: 011075; Lancones, WMO
+St: 011076; Paimas, WMO
+St: 011077; Chulucanas, WMO
+St: 011078; Piura, WMO
+St: 011079; San_ignacio, WMO
+St: 011080; Canchaque, WMO
+St: 011081; El_virrey, WMO
+St: 011082; Jaen, WMO
+St: 011083; Yurimaguas - Spim, WMO
+St: 011084; Tongorrape, WMO
+St: 011085; Chachapoyas, WMO
+St: 011086; Tinajones, WMO
+St: 011087; Chugur, WMO
+St: 011088; Chiclayo - Spim, WMO
+St: 011089; Tarapoto, WMO
+St: 011090; Cajamarca -spim, WMO
+St: 011091; Juanjui, WMO
+St: 011092; San_marcos, WMO
+St: 011093; Trujillo - Spim, WMO
+St: 011094; Pucallpa - Spim, WMO
+St: 011095; Chimbote, WMO
+St: 011096; Tingo Maria - Spim, WMO
+St: 011097; Anta (huaraz), WMO
+St: 011098; Puca_puca, WMO
+St: 011099; Huanuco, WMO
+St: 011100; Chacapalpa, WMO
+St: 011101; Tarma, WMO
+St: 011102; 
+St: 011103; Marcapomacocha, WMO
+St: 011104; Huaytapallana, WMO
+St: 011105; Aa, WMO
+St: 011106; Von_humboldt, WMO
+St: 011107; Lima-callao/aerop. I, WMO
+St: 011108; Carania, WMO
+St: 011109; 
+St: 011110; Puerto Maldonado Bam, WMO
+St: 011111; Ayacucho - Spim, WMO
+St: 011112; Calca, WMO
+St: 011113; Cuzco, WMO
+St: 011114; Andahuaylas, WMO
+St: 011115; Pisco, WMO
+St: 011116; Sicuani, WMO
+St: 011117; Palca, WMO
+St: 011118; Pampahuta, WMO
+St: 011119; Nazca, WMO
+St: 011120; Juliaca - Spim, WMO
+St: 011121; Illpa, WMO
+St: 011122; Imata, WMO
+St: 011123; Puno, WMO
+St: 011124; 
+St: 011125; San_jose_de_uzuna, WMO
+St: 011126; 
+St: 011127; 
+St: 011128; 
+St: 011129; 
+St: 011130; Ilo, WMO
+St: 011131; Tacna, WMO
+St: 011132; Chulucanas, WMO
+St: 011133; Tongorrape, WMO
+St: 011134; San_marcos, WMO
+St: 011135; Von_humboldt, WMO
+St: 011136; �a�a, WMO
+St: 011137; Puca_puca, WMO
+St: 011138; Matucana, WMO
+St: 011139; Marcapomacocha, WMO
+St: 011140; Carania, WMO
+St: 011141; Tarma, WMO
+St: 011142; Huaytapallana, WMO
+St: 011143; Pampa_de_majes, WMO
+St: 011144; 
+St: 011145; Moquegua, WMO
+St: 011146; Puno, WMO
+St: 011147; Illpa, WMO
+St: 011148; flores-aeroporto, WMO
+St: 011149; corvo-aeroporto, WMO
+St: 011150; pico-aerodromo, WMO
+St: 011151; horta-castelobranco, WMO
+St: 011152; horta-observatorio-p, WMO
+St: 011153; graciosa-aerodromo, WMO
+St: 011154; Lajes (Acores) (8509, WMO
+St: 011155; sao-jorge-aerodromo, WMO
+St: 011156; angra-do-heroismo-ob, WMO
+St: 011157; ponta-delgada-nordel, WMO
+St: 011158; ponta-delgada-observ, WMO
+St: 011159; santa-maria-aeroport, WMO
+St: 011160; Selvagem Grande, WMO
+St: 011161; Funchal/S.Catarina, WMO
+St: 011162; Funchal, WMO
+St: 011163; Porto Santo, WMO
+St: 011164; cabo-carvoeiro-farol, WMO
+St: 011165; Sintra/Granja, WMO
+St: 011166; sagres-quartel-da-ma, WMO
+St: 011167; Montijo, WMO
+St: 011168; lisboa-geofisico, WMO
+St: 011169; lisboa-portela, WMO
+St: 011170; Alverca, WMO
+St: 011171; Monte Real, WMO
+St: 011172; sines-monte-chaos, WMO
+St: 011173; Ovar/Maceda, WMO
+St: 011174; porto-pedras-rubras, WMO
+St: 011175; porto-serra-do-pilar, WMO
+St: 011176; coimbra-aerodromo, WMO
+St: 011177; viana-do-castelo-cha, WMO
+St: 011178; faro-aeroporto, WMO
+St: 011179; evora-aerodromo, WMO
+St: 011180; viseu-cc, WMO
+St: 011181; Beja/B. Aerea, WMO
+St: 011182; beja, WMO
+St: 011183; vila-real-aerodromo, WMO
+St: 011184; penhas-douradas-obse, WMO
+St: 011185; castelo-branco, WMO
+St: 011186; portalegre, WMO
+St: 011187; braganca, WMO
+St: 011188; lisboa-gago-coutinho, WMO
+St: 011189; Babesa, WMO
+St: 011190; Gasa, WMO
+St: 011191; Kanglung, WMO
+St: 011192; Tsampa, WMO
+St: 011193; Chamkhar, WMO
+St: 011194; Bol'saja, WMO
+St: 011195; Oha, WMO
+St: 011196; Yaniskoski, WMO
+St: 011197; Kanku, WMO
+St: 011198; Toora-hem, WMO
+St: 011199; Saryg-sep, WMO
+St: 011200; Padun, WMO
+St: 011201; Barentsburg, WMO
+St: 011202; Ohony, WMO
+St: 011203; Obojan', WMO
+St: 011204; Sorochinsk, WMO
+St: 011205; Bogoroditskoe-fenino, WMO
+St: 011206; Sredny, WMO
+St: 011207; Varandej, WMO
+St: 011208; Murmansk, WMO
+St: 011209; Mys, WMO
+St: 011210; Kudymkar, WMO
+St: 011211; Orenburg, WMO
+St: 011212; Kargasok, WMO
+St: 011213; Voronez, WMO
+St: 011214; Bragin, WMO
+St: 011215; Olenek, WMO
+St: 011216; Shadzhatmaz, WMO
+St: 011217; Lovozero, WMO
+St: 011218; Konstantinovskaya, WMO
+St: 011219; Livny, WMO
+St: 011220; Russkaja, WMO
+St: 011221; Suhana, WMO
+St: 011222; Toko, WMO
+St: 011223; Orsk, WMO
+St: 011224; Kamennaja, WMO
+St: 011225; Dzardzan, WMO
+St: 011226; Verhotur'e, WMO
+St: 011227; Borisoglebsk, WMO
+St: 011228; Bilibino, WMO
+St: 011229; Stepanovka, WMO
+St: 011230; Juzhno-sahalinsk, WMO
+St: 011231; Chaun, WMO
+St: 011232; Balashov, WMO
+St: 011233; Gdov, WMO
+St: 011234; Ugino, WMO
+St: 011235; Oktyabrsky, WMO
+St: 011236; Kologriv, WMO
+St: 011237; Kanin, WMO
+St: 011238; Nikolaevskoe, WMO
+St: 011239; Ayan, WMO
+St: 011240; Andryushkino, WMO
+St: 011241; Sochi, WMO
+St: 011242; Tyanya, WMO
+St: 011243; Potapovo, WMO
+St: 011244; Vohma, WMO
+St: 011245; Novgorod, WMO
+St: 011246; Tuapse, WMO
+St: 011247; Ershov, WMO
+St: 011248; Pinsk, WMO
+St: 011249; Bugrino, WMO
+St: 011250; Belaya, WMO
+St: 011251; Suon-tit, WMO
+St: 011252; Kirov, WMO
+St: 011253; Gotnja, WMO
+St: 011254; 
+St: 011255; Nar'jan-mar, WMO
+St: 011256; Srednekolymsk, WMO
+St: 011257; Maksatikha, WMO
+St: 011258; Majsk, WMO
+St: 011259; 
+St: 011260; Monchegorsk, WMO
+St: 011261; Apatity, WMO
+St: 011262; Glazov, WMO
+St: 011263; Krasnyj, WMO
+St: 011264; Kandalaksha, WMO
+St: 011265; Nazran', WMO
+St: 011266; Yarol'in, WMO
+St: 011267; Amderma, WMO
+St: 011268; Poshehon'e, WMO
+St: 011269; Perm', WMO
+St: 011270; Rybinsk, WMO
+St: 011271; Vorkuta, WMO
+St: 011272; Vladikavkaz, WMO
+St: 011273; Ainazi.............., WMO
+St: 011274; Napas, WMO
+St: 011275; Kirensk, WMO
+St: 011276; Liski, WMO
+St: 011277; Krasnoscel'e, WMO
+St: 011278; Rujiena............., WMO
+St: 011279; Urjupinsk, WMO
+St: 011280; Novyj, WMO
+St: 011281; Gudermes, WMO
+St: 011282; Kalach, WMO
+St: 011283; Ilirnej, WMO
+St: 011284; Kanevka, WMO
+St: 011285; Nikolo-poloma, WMO
+St: 011286; Elan', WMO
+St: 011287; Novoannenskij, WMO
+St: 011288; Tazovskij, WMO
+St: 011289; Pskov, WMO
+St: 011290; Kosh-agach, WMO
+St: 011291; Zilair, WMO
+St: 011292; Batagaj-alyta, WMO
+St: 011293; Rudnya, WMO
+St: 011294; Batagaj, WMO
+St: 011295; Verhojansk, WMO
+St: 011296; Danilovka, WMO
+St: 011297; Dno, WMO
+St: 011298; Zhitckovichi, WMO
+St: 011299; Shojna, WMO
+St: 011300; 
+St: 011301; 
+St: 011302; 
+St: 011303; 
+St: 011304; Vetluga, WMO
+St: 011305; Mugur-aksy, WMO
+St: 011306; Teriberka, WMO
+St: 011307; Mys, WMO
+St: 011308; Kotel'nic, WMO
+St: 011309; Krestcy, WMO
+St: 011310; Ust'-, WMO
+St: 011311; Borovici, WMO
+St: 011312; Indiga, WMO
+St: 011313; Magdagaci, WMO
+St: 011314; Kumeny, WMO
+St: 011315; Bologoe, WMO
+St: 011316; Ponyri, WMO
+St: 011317; Zeja, WMO
+St: 011318; Okunev, WMO
+St: 011319; Erzin, WMO
+St: 011320; Bratsk, WMO
+St: 011321; Armavir, WMO
+St: 011322; Kovda, WMO
+St: 011323; Kolka..............., WMO
+St: 011324; Ventspils..........., WMO
+St: 011325; Kasin, WMO
+St: 011326; Stende.............., WMO
+St: 011327; Nozovka, WMO
+St: 011328; Maresale, WMO
+St: 011329; Uglic, WMO
+St: 011330; Polyarnyj, WMO
+St: 011331; Ust', WMO
+St: 011332; Mersrags............, WMO
+St: 011333; Skulte.............., WMO
+St: 011334; Bakchar, WMO
+St: 011335; Rostov, WMO
+St: 011336; Salehard, WMO
+St: 011337; Molchanovo, WMO
+St: 011338; Kostroma, WMO
+St: 011339; Kashkarantsy, WMO
+St: 011340; Priekuli............, WMO
+St: 011341; Bogucar, WMO
+St: 011342; Kazachinsk, WMO
+St: 011343; Ejk, WMO
+St: 011344; Zoseni.............., WMO
+St: 011345; Rubcovsk, WMO
+St: 011346; Zhigansk, WMO
+St: 011347; Kazanskaja, WMO
+St: 011348; Nyda, WMO
+St: 011349; Aluksne............., WMO
+St: 011350; Ivanovo, WMO
+St: 011351; Gulbene............., WMO
+St: 011352; Pjalica, WMO
+St: 011353; Jur'evec, WMO
+St: 011354; Frolovo, WMO
+St: 011355; Serafimovic, WMO
+St: 011356; Novyj, WMO
+St: 011357; Puskinskie, WMO
+St: 011358; Mozyr, WMO
+St: 011359; 
+St: 011360; Abramovskij, WMO
+St: 011361; 
+St: 011362; Tyumen', WMO
+St: 011363; Krasnye, WMO
+St: 011364; Vologda, WMO
+St: 011365; Chernjaevo, WMO
+St: 011366; Chara, WMO
+St: 011367; Pallasovka, WMO
+St: 011368; Kazachinskoe, WMO
+St: 011369; Svetlogorsk, WMO
+St: 011370; Holm, WMO
+St: 011371; Taseevo, WMO
+St: 011372; Vasilevichi, WMO
+St: 011373; Demjansk, WMO
+St: 011374; Ust'-isim, WMO
+St: 011375; Nizhnyaya, WMO
+St: 011376; Ust'-njukzha, WMO
+St: 011377; Norsk, WMO
+St: 011378; Ostaskov, WMO
+St: 011379; Aleksandrov-gaj, WMO
+St: 011380; Vysnij, WMO
+St: 011381; Mys, WMO
+St: 011382; Nikel', WMO
+St: 011383; Zyryanka, WMO
+St: 011384; Tver', WMO
+St: 011385; Pavilosta..........., WMO
+St: 011386; Ust'-cil'ma, WMO
+St: 011387; Liepaja............., WMO
+St: 011388; Kalevala, WMO
+St: 011389; Gomel, WMO
+St: 011390; Izhevsk, WMO
+St: 011391; Ust'-usa, WMO
+St: 011392; Engozero, WMO
+St: 011393; Saldus.............., WMO
+St: 011394; Klin, WMO
+St: 011395; Pechora, WMO
+St: 011396; Ajon, WMO
+St: 011397; Riga Lu............., WMO
+St: 011398; Dobele.............., WMO
+St: 011399; Jelgava............., WMO
+St: 011400; Muzi, WMO
+St: 011401; Omolon, WMO
+St: 011402; Bauska.............., WMO
+St: 011403; Tomsk, WMO
+St: 011404; Pitlyar, WMO
+St: 011405; Ostrov, WMO
+St: 011406; Nizhneangarsk, WMO
+St: 011407; Krasnoufimsk, WMO
+St: 011408; Skriveri............, WMO
+St: 011409; Zilani.............., WMO
+St: 011410; Zhizhgin, WMO
+St: 011411; Bogorodskoe, WMO
+St: 011412; Serov, WMO
+St: 011413; Ekaterinburg, WMO
+St: 011414; Simanovsk, WMO
+St: 011415; Pangody, WMO
+St: 011416; Bokovskaja, WMO
+St: 011417; Rezekne............., WMO
+St: 011418; Madona.............., WMO
+St: 011419; Bestyahskaya, WMO
+St: 011420; Gorodec, WMO
+St: 011421; Uakit, WMO
+St: 011422; Kepino, WMO
+St: 011423; Nizhnij, WMO
+St: 011424; Polargmo, WMO
+St: 011425; Ilovlya, WMO
+St: 011426; Sebyan-kyuel', WMO
+St: 011427; 
+St: 011428; Bol'soj, WMO
+St: 011429; Krasnosel', WMO
+St: 011430; Achinsk, WMO
+St: 011431; Kanchalan, WMO
+St: 011432; Zerdevka, WMO
+St: 011433; Derbent, WMO
+St: 011434; Mezen', WMO
+St: 011435; Mahachkala, WMO
+St: 011436; El'ton, WMO
+St: 011437; Velikie, WMO
+St: 011438; Sofijskij, WMO
+St: 011439; Toropec, WMO
+St: 011440; Moseevo, WMO
+St: 011441; Hularin, WMO
+St: 011442; Joskar-ola, WMO
+St: 011443; Gorin, WMO
+St: 011444; Gari, WMO
+St: 011445; Novyj, WMO
+St: 011446; Tara, WMO
+St: 011447; Staritsa, WMO
+St: 011448; Tommot, WMO
+St: 011449; Bellingshausen, WMO
+St: 011450; Vjatskie, WMO
+St: 011451; Rucava.............., WMO
+St: 011452; Tulun, WMO
+St: 011453; Elabuga, WMO
+St: 011454; Gagarin, WMO
+St: 011455; Semyachik, WMO
+St: 011456; Tot'ma, WMO
+St: 011457; Blagovescetnsk, WMO
+St: 011458; Novo-jerusalim, WMO
+St: 011459; Novolazarevskaja, WMO
+St: 011460; Menzelinsk, WMO
+St: 011461; Ust'-sugor, WMO
+St: 011462; Kem', WMO
+St: 011463; Bratoljubovka, WMO
+St: 011464; Askino, WMO
+St: 011465; Pavlovskij, WMO
+St: 011466; Kreschenka, WMO
+St: 011467; Raznavolok, WMO
+St: 011468; Saran-paul', WMO
+St: 011469; Kolezma, WMO
+St: 011470; Nogliki, WMO
+St: 011471; Vladimir, WMO
+St: 011472; Sektagli, WMO
+St: 011473; Kamensk-sahtinskij, WMO
+St: 011474; Sutur, WMO
+St: 011475; Gus'-hrustal'nyj, WMO
+St: 011476; Mineral'nye, WMO
+St: 011477; Unskij, WMO
+St: 011478; Molodeznaja, WMO
+St: 011479; Daugavpils.........., WMO
+St: 011480; Morozovsk, WMO
+St: 011481; Severodvinsk, WMO
+St: 011482; Arhangel'sk, WMO
+St: 011483; Dagda..............., WMO
+St: 011484; Sadrinsk, WMO
+St: 011485; Bogotol, WMO
+St: 011486; Verhnedvinsk, WMO
+St: 011487; Nizhny-chir, WMO
+St: 011488; Sogo-haya, WMO
+St: 011489; Ggp, WMO
+St: 011490; Holmogory, WMO
+St: 011491; Rtishchevo, WMO
+St: 011492; Volgograd, WMO
+St: 011493; Komsomolsk-na-amure, WMO
+St: 011494; Bol', WMO
+St: 011495; Pinega, WMO
+St: 011496; Shumiha, WMO
+St: 011497; Minino, WMO
+St: 011498; Lesukonskoe, WMO
+St: 011499; Progress, WMO
+St: 011500; Druzhnaya-4, WMO
+St: 011501; Ujar, WMO
+St: 011502; Sergach, WMO
+St: 011503; Velizh, WMO
+St: 011504; Verhnij, WMO
+St: 011505; Antipajuta, WMO
+St: 011506; Solyanka, WMO
+St: 011507; Kansk, WMO
+St: 011508; Kojnas, WMO
+St: 011509; Belyj, WMO
+St: 011510; Pojarkovo, WMO
+St: 011511; Yurty, WMO
+St: 011512; Kingisepp, WMO
+St: 011513; Mirnyj, WMO
+St: 011514; Arsk, WMO
+St: 011515; Arhara, WMO
+St: 011516; Kazan', WMO
+St: 011517; Oazic, WMO
+St: 011518; Reboly, WMO
+St: 011519; Zima, WMO
+St: 011520; Tatarsk, WMO
+St: 011521; Uhta, WMO
+St: 011522; Anabar, WMO
+St: 011523; Budennovsk, WMO
+St: 011524; Naro-fominsk, WMO
+St: 011525; Moskva, WMO
+St: 011526; 
+St: 011527; Padany, WMO
+St: 011528; Yugorenok, WMO
+St: 011529; Segeza, WMO
+St: 011530; Kachug, WMO
+St: 011531; Urmi, WMO
+St: 011532; Sosva, WMO
+St: 011533; Kasira, WMO
+St: 011534; St.petersburg, WMO
+St: 011535; Kolyvan', WMO
+St: 011536; Kur, WMO
+St: 011537; Yuil', WMO
+St: 011538; Toguchin, WMO
+St: 011539; Novosibirsk, WMO
+St: 011540; Njurba, WMO
+St: 011541; Yajlju, WMO
+St: 011542; Onega, WMO
+St: 011543; Sharcovschina, WMO
+St: 011544; Konstantinovsk, WMO
+St: 011545; Lyntupy, WMO
+St: 011546; Tsimljansk, WMO
+St: 011547; Turcasovo, WMO
+St: 011548; Romanovka, WMO
+St: 011549; Sangary, WMO
+St: 011550; Polotsk, WMO
+St: 011551; Central'nyj, WMO
+St: 011552; Kotel'nikovo, WMO
+St: 011553; Emeck, WMO
+St: 011554; Noyabr', WMO
+St: 011555; Lepel, WMO
+St: 011556; Nikol'sk, WMO
+St: 011557; Kurgan, WMO
+St: 011558; Malye, WMO
+St: 011559; Akhty, WMO
+St: 011560; Tungokocen, WMO
+St: 011561; Lukojanov, WMO
+St: 011562; Vitebsk, WMO
+St: 011563; Im., WMO
+St: 011564; Verhoyanskij, WMO
+St: 011565; Karpogory, WMO
+St: 011566; Mogocha, WMO
+St: 011567; Ostrov, WMO
+St: 011568; Poretskoe, WMO
+St: 011569; Sura, WMO
+St: 011570; Verhneimbatsk, WMO
+St: 011571; Alatyr', WMO
+St: 011572; Nazimovo, WMO
+St: 011573; Tumnin, WMO
+St: 011574; Agayakan, WMO
+St: 011575; Vendinga, WMO
+St: 011576; Ojmjakon, WMO
+St: 011577; Belogorka, WMO
+St: 011578; Delyankir, WMO
+St: 011579; Vjaz'ma, WMO
+St: 011580; 
+St: 011581; Omsk, WMO
+St: 011582; Kerbo, WMO
+St: 011583; Pereljub, WMO
+St: 011584; El', WMO
+St: 011585; Vesljana, WMO
+St: 011586; Obluc'e, WMO
+St: 011587; Sejmchan, WMO
+St: 011588; Culpanovo, WMO
+St: 011589; Celno-versiny, WMO
+St: 011590; Kupino, WMO
+St: 011591; Suhinichi, WMO
+St: 011592; Lun', WMO
+St: 011593; Irkutsk, WMO
+St: 011594; Troicko-pecherskoe, WMO
+St: 011595; Zdvinsk, WMO
+St: 011596; Birobidzhan, WMO
+St: 011597; Omsukchan, WMO
+St: 011598; Suoyarvi, WMO
+St: 011599; Tula, WMO
+St: 011600; Shlissel'burg, WMO
+St: 011601; Taganrog, WMO
+St: 011602; Medvezegorsk, WMO
+St: 011603; Ufa-dioma, WMO
+St: 011604; Kochki, WMO
+St: 011605; Tuoj-haya, WMO
+St: 011606; Ordynskoe, WMO
+St: 011607; Kondopoga, WMO
+St: 011608; Ryazan', WMO
+St: 011609; Gorjacinsk, WMO
+St: 011610; Elabuga, WMO
+St: 011611; Oktjabr'skoe, WMO
+St: 011612; Habarovsk, WMO
+St: 011613; Masljanino, WMO
+St: 011614; Krestyah, WMO
+St: 011615; Suntar, WMO
+St: 011616; Gigant, WMO
+St: 011617; Nizhnesortymsk, WMO
+St: 011618; Zimovniki, WMO
+St: 011619; Malye, WMO
+St: 011620; Sasovo, WMO
+St: 011621; Troizk, WMO
+St: 011622; Konevo, WMO
+St: 011623; Temnikov, WMO
+St: 011624; Namtsy, WMO
+St: 011625; Tivjaku, WMO
+St: 011626; Krasnoslobodsk, WMO
+St: 011627; Raduzhnyj, WMO
+St: 011628; Borisov, WMO
+St: 011629; Dem'janskoe, WMO
+St: 011630; Saransk, WMO
+St: 011631; Dvinskij, WMO
+St: 011632; Orsha, WMO
+St: 011633; Usugli, WMO
+St: 011634; Idrinskoe, WMO
+St: 011635; Shenkursk, WMO
+St: 011636; 
+St: 011637; Teplyj, WMO
+St: 011638; Yusta, WMO
+St: 011639; Gorki, WMO
+St: 011640; Surskoe, WMO
+St: 011641; Sretensk, WMO
+St: 011642; Verhnjaja, WMO
+St: 011643; Ljuban', WMO
+St: 011644; Urjupino, WMO
+St: 011645; Pochinok, WMO
+St: 011646; Ul', WMO
+St: 011647; Poltavka, WMO
+St: 011648; Kuz'movka, WMO
+St: 011649; Verhnjaja, WMO
+St: 011650; Susuman, WMO
+St: 011651; Spas-demensk, WMO
+St: 011652; Odesskoe, WMO
+St: 011653; Jarensk, WMO
+St: 011654; Dimitrovgrad, WMO
+St: 011655; Brest, WMO
+St: 011656; Kirishi, WMO
+St: 011657; Gvasjugi, WMO
+St: 011658; Sortavala, WMO
+St: 011659; Ust'-kulom, WMO
+St: 011660; Syktyvkar, WMO
+St: 011661; Valaam, WMO
+St: 011662; Buguruslan, WMO
+St: 011663; Mutoraj, WMO
+St: 011664; Talaya, WMO
+St: 011665; Yaksha, WMO
+St: 011666; Tyumyati, WMO
+St: 011667; Karasuk, WMO
+St: 011668; Hamar-daban, WMO
+St: 011669; Mcensk, WMO
+St: 011670; Petrozavodsk, WMO
+St: 011671; Uzlovaja, WMO
+St: 011672; Babuskin, WMO
+St: 011673; Pavelec, WMO
+St: 011674; Primorsko-ahtarsk, WMO
+St: 011675; Sterlitamak, WMO
+St: 011676; Dorozhnyj, WMO
+St: 011677; Baevo, WMO
+St: 011678; Novoselenginsk, WMO
+St: 011679; Hvalynsk, WMO
+St: 011680; Pudoz, WMO
+St: 011681; Lida, WMO
+St: 011682; Ryazhsk, WMO
+St: 011683; Vytegra, WMO
+St: 011684; Tihoreck, WMO
+St: 011685; Tongulah, WMO
+St: 011686; Hilok, WMO
+St: 011687; Kargopol', WMO
+St: 011688; Ulety, WMO
+St: 011689; Sytomino, WMO
+St: 011690; 
+St: 011691; Surgut, WMO
+St: 011692; Kochubej, WMO
+St: 011693; Minsk, WMO
+St: 011694; Berezino, WMO
+St: 011695; Njandoma, WMO
+St: 011696; Mariyna, WMO
+St: 011697; Pokrovsk, WMO
+St: 011698; Zametchino, WMO
+St: 011699; Pachelma, WMO
+St: 011700; Aginskoe, WMO
+St: 011701; Elista, WMO
+St: 011702; Shilka, WMO
+St: 011703; Klichev, WMO
+St: 011704; Yashkul', WMO
+St: 011705; Vel'sk, WMO
+St: 011706; Iki-burul, WMO
+St: 011707; 
+St: 011708; Ul', WMO
+St: 011709; Utta, WMO
+St: 011710; Inza, WMO
+St: 011711; Dal'nerechensk, WMO
+St: 011712; Karatuzskoe, WMO
+St: 011713; Krasnoborsk, WMO
+St: 011714; Slavgorod, WMO
+St: 011715; Nerchinskij, WMO
+St: 011716; Ohotsk, WMO
+St: 011717; Astrahan', WMO
+St: 011718; Roslavl', WMO
+St: 011719; Bor, WMO
+St: 011720; Kostuckovichi, WMO
+St: 011721; Vilegodskoe, WMO
+St: 011722; Dzhikimda, WMO
+St: 011723; Bajkit, WMO
+St: 011724; Vyborg, WMO
+St: 011725; Zukovka, WMO
+St: 011726; Brjansk, WMO
+St: 011727; Kursk, WMO
+St: 011728; Hovu-aksy, WMO
+St: 011729; Samara, WMO
+St: 011730; Madaun, WMO
+St: 011731; Orel, WMO
+St: 011732; Avangard, WMO
+St: 011733; 
+St: 011734; Nizhneusinskoe, WMO
+St: 011735; Olonec, WMO
+St: 011736; Lodejnoe, WMO
+St: 011737; Cherdyn', WMO
+St: 011738; 
+St: 011739; Sarlyk, WMO
+St: 011740; Novaja, WMO
+St: 011741; Preobrazhenka, WMO
+St: 011742; Brat', WMO
+St: 011743; Turan, WMO
+St: 011744; Efremov, WMO
+St: 011745; Shelihova, WMO
+St: 011746; Lensk, WMO
+St: 011747; Chornomorske, WMO
+St: 011748; Vinnicy, WMO
+St: 011749; Brohovo, WMO
+St: 011750; Elec, WMO
+St: 011751; Saim, WMO
+St: 011752; Lipetsk, WMO
+St: 011753; Jubilejnaja, WMO
+St: 011754; 
+St: 011755; Micurinsk, WMO
+St: 011756; Alejskaja, WMO
+St: 011757; Belozersk, WMO
+St: 011758; Tihvin, WMO
+St: 011759; Baranovichi, WMO
+St: 011760; Olekminsk, WMO
+St: 011761; Im., WMO
+St: 011762; Tambov, WMO
+St: 011763; Stavropol', WMO
+St: 011764; Slutsk, WMO
+St: 011765; Vozega, WMO
+St: 011766; Belinskij, WMO
+St: 011767; Tastyp, WMO
+St: 011768; Kirsanov, WMO
+St: 011769; Blagodarnyj, WMO
+St: 011770; Jakutsk, WMO
+St: 011771; Spafar', WMO
+St: 011772; Vladivostok, WMO
+St: 011773; Bobruisk, WMO
+St: 011774; Penza, WMO
+St: 011775; Borzya, WMO
+St: 011776; Zhlobin, WMO
+St: 011777; Seyaha, WMO
+St: 011778; Pos'et, WMO
+St: 011779; Taurovo, WMO
+St: 011780; Radishchevo, WMO
+St: 011781; Vorogovo, WMO
+St: 011782; Nyuksenitsa, WMO
+St: 011783; Komsomol', WMO
+St: 011784; Krasnaja, WMO
+St: 011785; Karaul, WMO
+St: 011786; Pugacev, WMO
+St: 011787; Velikij, WMO
+St: 011788; Ostrov, WMO
+St: 011789; Syzran', WMO
+St: 011790; Lagan', WMO
+St: 011791; Severo-enisejsk, WMO
+St: 011792; Partizansk, WMO
+St: 011793; Arka, WMO
+St: 011794; Preobrazhenie, WMO
+St: 011795; Efimovskaja, WMO
+St: 011796; Samara, WMO
+St: 011797; 
+St: 011798; Trubchevsk, WMO
+St: 011799; Ai-Petri, WMO
+St: 011800; Kigali, WMO
+St: 011801; Castries George F L, WMO
+St: 011802; Hewanorra Intl., WMO
+St: 011803; San Joaquin - Sllp, WMO
+St: 011804; San Ramon - Sllp, WMO
+St: 011805; Magdalena - Sllp, WMO
+St: 011806; Santa Ana - Sllp, WMO
+St: 011807; 
+St: 011808; Reyes - Sllp, WMO
+St: 011809; Rurrenabaque - Sllp, WMO
+St: 011810; Apolo - Sllp, WMO
+St: 011811; San Borja - Sllp, WMO
+St: 011812; San Ignacio De Moxos, WMO
+St: 011813; Trinidad - Sllp, WMO
+St: 011814; Ascencion De Guarayo, WMO
+St: 011815; San Javier - Sllp, WMO
+St: 011816; Concepcion - Sllp, WMO
+St: 011817; La Paz/alto, WMO
+St: 011818; San Matias - Sllp, WMO
+St: 011819; Cochabamba - Sllp, WMO
+St: 011820; Oruro - Sllp, WMO
+St: 011821; Viru-viru - Sllp, WMO
+St: 011822; Santa Cruz/el Trompi, WMO
+St: 011823; San Jose De Chiquito, WMO
+St: 011824; Vallegrande - Sllp, WMO
+St: 011825; Robore - Sllp, WMO
+St: 011826; Sucre - Sllp, WMO
+St: 011827; Puerto Suarez - Sllp, WMO
+St: 011828; Potosi - Sllp, WMO
+St: 011829; Monteagudo - Sllp, WMO
+St: 011830; Camiri - Sllp, WMO
+St: 011831; Villamontes - Sllp, WMO
+St: 011832; Tarija - Sllp, WMO
+St: 011833; Yacuiba - Sllp, WMO
+St: 011834; Bermejo - Sllp, WMO
+St: 011835; Cobija - Sllp, WMO
+St: 011836; Riberalta - Sllp, WMO
+St: 011837; Abha, WMO
+St: 011838; Khamis Mushait, WMO
+St: 011839; Najran, WMO
+St: 011840; Sharorah, WMO
+St: 011841; Gizan, WMO
+St: 011842; Bahrain (int. Airpor, WMO
+St: 011843; Doha International A, WMO
+St: 011844; Umm Said, WMO
+St: 011845; Ras Al Khaimah Inter, WMO
+St: 011846; Dubai International, WMO
+St: 011847; Sharjah Inter. Airpo, WMO
+St: 011848; Fujairah, WMO
+St: 011849; Abu Dhabi Bateen Air, WMO
+St: 011850; Abu Dhabi Inter. Air, WMO
+St: 011851; Al Ain International, WMO
+St: 011852; Jeddah (king Abdul A, WMO
+St: 011853; Buraimi, WMO
+St: 011854; (sohar) Majis, WMO
+St: 011855; Saiq, WMO
+St: 011856; Seeb International, WMO
+St: 011857; Qaboos Port, WMO
+St: 011858; Sur, WMO
+St: 011859; Mina, WMO
+St: 011860; Thumrait, WMO
+St: 011861; Salalah, WMO
+St: 011862; Arafa, WMO
+St: 011863; Jijel Achouat, WMO
+St: 011864; Skikda, WMO
+St: 011865; Turaif, WMO
+St: 011866; Arar, WMO
+St: 011867; Al-taif, WMO
+St: 011868; Guriat, WMO
+St: 011869; Al-jouf, WMO
+St: 011870; Rafha, WMO
+St: 011871; El Kala, WMO
+St: 011872; Taref, WMO
+St: 011873; Alger-Port, WMO
+St: 011874; Kouba, WMO
+St: 011875; Oued Koriche, WMO
+St: 011876; Bouzareah, WMO
+St: 011877; Al-qaisumah, WMO
+St: 011878; S.ain Benian, WMO
+St: 011879; Tabuk, WMO
+St: 011880; Bordj El Bahri, WMO
+St: 011881; Bouharoun, WMO
+St: 011882; Reghaia, WMO
+St: 011883; Tessala Merdja, WMO
+St: 011884; El Harrach, WMO
+St: 011885; Dellys, WMO
+St: 011886; Houari Boumediene, WMO
+St: 011887; Red Sea Internationa, WMO
+St: 011888; Dar El Beida Ville, WMO
+St: 011889; Hail, WMO
+St: 011890; Tizi Ouzou, WMO
+St: 011891; Al-wejh, WMO
+St: 011892; Al-Ula, WMO
+St: 011893; Bejaia Aeroport, WMO
+St: 011894; Guelma, WMO
+St: 011895; Gassim, WMO
+St: 011896; Mila, WMO
+St: 011897; Tenes, WMO
+St: 011898; Ain Bessam, WMO
+St: 011899; K.f.i.a. (king Fahad, WMO
+St: 011900; Mohamed Boudiaf Intl, WMO
+St: 011901; Al-ahsa, WMO
+St: 011902; Oum El Bouaghi, WMO
+St: 011903; Souk Ahras, WMO
+St: 011904; Ech Cheliff, WMO
+St: 011905; Ain Defla, WMO
+St: 011906; Al-madinah, WMO
+St: 011907; Prince Salman Bin Ab, WMO
+St: 011908; King Khaled Int. Air, WMO
+St: 011909; Yenbo, WMO
+St: 011910; Bordj Bou Arreridj, WMO
+St: 011911; Setif, WMO
+St: 011912; Arzew, WMO
+St: 011913; Mostaganem, WMO
+St: 011914; Oran Port, WMO
+St: 011915; M'sila, WMO
+St: 011916; Batna, WMO
+St: 011917; Barika, WMO
+St: 011918; Cheikh Larbi Tebessi, WMO
+St: 011919; Khenchela, WMO
+St: 011920; Oran Tafaraoui, WMO
+St: 011921; Oran Es Senia, WMO
+St: 011922; Relizane, WMO
+St: 011923; Mascara Ghriss, WMO
+St: 011924; Bou Chekif, WMO
+St: 011925; Ksar Chellala, WMO
+St: 011926; Bou Saada, WMO
+St: 011927; Ghazaouet, WMO
+St: 011928; Beni Saf, WMO
+St: 011929; Sidi Bel Abbes, WMO
+St: 011930; Maghnia, WMO
+St: 011931; Biskra, WMO
+St: 011932; Tlemcen Zenata, WMO
+St: 011933; Djelfa, WMO
+St: 011934; Saida, WMO
+St: 011935; El Kheiter, WMO
+St: 011936; Laghouat, WMO
+St: 011937; Mecheria, WMO
+St: 011938; Al-baha, WMO
+St: 011939; El Bayadh, WMO
+St: 011940; Touggourt, WMO
+St: 011941; Naama, WMO
+St: 011942; El Oued, WMO
+St: 011943; Ain Sefra, WMO
+St: 011944; Hassir'mel, WMO
+St: 011945; Ghardaia, WMO
+St: 011946; Bechar, WMO
+St: 011947; Beni Ounif, WMO
+St: 011948; Ouargla, WMO
+St: 011949; Hassi Messaoud, WMO
+St: 011950; Kuwait International, WMO
+St: 011951; Krechba, WMO
+St: 011952; El Golea, WMO
+St: 011953; Hassi Khebbi, WMO
+St: 011954; S.talmine, WMO
+St: 011955; Beni Abbes, WMO
+St: 011956; Rhourd Nouss, WMO
+St: 011957; Tabelbala, WMO
+St: 011958; Timimoun, WMO
+St: 011959; Wadi Al-dawasser Air, WMO
+St: 011960; In Amenas, WMO
+St: 011961; Hassi Mseggem, WMO
+St: 011962; 
+St: 011963; Tamazguida, WMO
+St: 011964; Ain Hedjadj, WMO
+St: 011965; Touat Cheikh Sidi Mo, WMO
+St: 011966; Matriouene, WMO
+St: 011967; Adeb Lerrach, WMO
+St: 011968; Garadjebilet, WMO
+St: 011969; In Salah, WMO
+St: 011970; In Ziza, WMO
+St: 011971; Tinfouye, WMO
+St: 011972; S.tin Fouye, WMO
+St: 011973; Illizi Takhamalt, WMO
+St: 011974; Reggane, WMO
+St: 011975; Amguid, WMO
+St: 011976; Tindouf, WMO
+St: 011977; S.arak, WMO
+St: 011978; Abdennizi, WMO
+St: 011979; S.fadnoune, WMO
+St: 011980; Moulay Lahcen, WMO
+St: 011981; Bordj Haous, WMO
+St: 011982; Oued Arikine, WMO
+St: 011983; Djanet, WMO
+St: 011984; Mertkouk, WMO
+St: 011985; Tadante, WMO
+St: 011986; Taoundart, WMO
+St: 011987; Ouallen, WMO
+St: 011988; In Azzane, WMO
+St: 011989; Abankor, WMO
+St: 011990; Assekrem, WMO
+St: 011991; Tamanrasset Aguenna, WMO
+St: 011992; Tintarabine, WMO
+St: 011993; S.timgaouine, WMO
+St: 011994; Bidon-5, WMO
+St: 011995; Bordj Badj Mokhtar, WMO
+St: 011996; Tirek, WMO
+St: 011997; Timiaouini, WMO
+St: 011998; In Guezzam, WMO
+St: 011999; Hassi Tilemzi, WMO
+St: 012000; Anesbaraka, WMO
+St: 012001; In Atei, WMO
+St: 012002; In Azaoua, WMO
+St: 012003; Tin Zaouatene, WMO
+St: 012004; Bisha, WMO
+St: 012005; Malabo/Fernando Poo, WMO
+St: 012006; Bata, WMO
+St: 012007; So Tom Intl., WMO
+St: 012008; Principe, WMO
+St: 012009; Sombor, WMO
+St: 012010; Novi Sad Rimski Sanc, WMO
+St: 012011; Zrenjanin, WMO
+St: 012012; Kikinda, WMO
+St: 012013; Banatski Karlovac, WMO
+St: 012014; Vrsac, WMO
+St: 012015; Loznica, WMO
+St: 012016; Sremska Mitrovica, WMO
+St: 012017; Valjevo, WMO
+St: 012018; Beograd/surcin, WMO
+St: 012019; Beograd, WMO
+St: 012020; Kragujevac, WMO
+St: 012021; Smederevska Palanka, WMO
+St: 012022; Veliko Gradiste, WMO
+St: 012023; Crni Vrh, WMO
+St: 012024; Negotin, WMO
+St: 012025; Pljevlja, WMO
+St: 012026; Zlatibor, WMO
+St: 012027; Sjenica, WMO
+St: 012028; Pozega Uzicka, WMO
+St: 012029; Kraljevo, WMO
+St: 012030; Kopaonik, WMO
+St: 012031; Krusevac, WMO
+St: 012032; Cuprija, WMO
+St: 012033; Nis, WMO
+St: 012034; Leskovac, WMO
+St: 012035; Dimitrovgrad, WMO
+St: 012036; Tivat, WMO
+St: 012037; Niksic, WMO
+St: 012038; Bar, WMO
+St: 012039; Podgorica-golubovci, WMO
+St: 012040; Podgorica-grad, WMO
+St: 012041; Vranje, WMO
+St: 012042; Palic, WMO
+St: 012043; Seychelles Intl Airp, WMO
+St: 012044; Singapore Changi, WMO
+St: 012045; Maly Javornik, WMO
+St: 012046; Bratislava-koliba, WMO
+St: 012047; Bratislava-letisko, WMO
+St: 012048; Jaslovske Bohunice, WMO
+St: 012049; Piestany, WMO
+St: 012050; Zilina/hricov, WMO
+St: 012051; Nitra, WMO
+St: 012052; Mochovce, WMO
+St: 012053; Hurbanovo, WMO
+St: 012054; Prievidza, WMO
+St: 012055; Dudince, WMO
+St: 012056; Ziar Nad Hronom, WMO
+St: 012057; Sliac, WMO
+St: 012058; Chopok, WMO
+St: 012059; Liesek, WMO
+St: 012060; Lucenec, WMO
+St: 012061; Lomnicky Stit, WMO
+St: 012062; Strbske Pleso, WMO
+St: 012063; Poprad/tatry, WMO
+St: 012064; Telgart, WMO
+St: 012065; Poprad-ganovce, WMO
+St: 012066; Kojsovska Hola, WMO
+St: 012067; Kosice, WMO
+St: 012068; Stropkov Tisinec, WMO
+St: 012069; Milhostov, WMO
+St: 012070; Kamenica Nad Cirocho, WMO
+St: 012071; Sa Pa, WMO
+St: 012072; Lao Cai, WMO
+St: 012073; Son La, WMO
+St: 012074; Cao Bang, WMO
+St: 012075; Bac Can, WMO
+St: 012076; Nam Dinh, WMO
+St: 012077; Ha Dong, WMO
+St: 012078; Phu Lien, WMO
+St: 012079; Lang Son, WMO
+St: 012080; Thai Nguyen, WMO
+St: 012081; Mong Cai, WMO
+St: 012082; Bach Long Vy, WMO
+St: 012083; Thanh Hoa, WMO
+St: 012084; Vinh, WMO
+St: 012085; Ha Tinh, WMO
+St: 012086; Dong Hoi, WMO
+St: 012087; Hue, WMO
+St: 012088; Da Nang, WMO
+St: 012089; Quang Ngai, WMO
+St: 012090; Pleiku, WMO
+St: 012091; Quy Nhon, WMO
+St: 012092; Buon Ma Thuat, WMO
+St: 012093; Nha Trang, WMO
+St: 012094; Phan Thiet, WMO
+St: 012095; Song Tu Tay, WMO
+St: 012096; HO CHI MINH New, WMO
+St: 012097; Rach Gia, WMO
+St: 012098; Ca Mau, WMO
+St: 012099; Tho Chu, WMO
+St: 012100; Phu Quoc, WMO
+St: 012101; Con Dao, WMO
+St: 012102; Huyen Tran, WMO
+St: 012103; Truong Sa, WMO
+St: 012104; Lesce, WMO
+St: 012105; Portoroz/Secovlje, WMO
+St: 012106; Bilje, WMO
+St: 012107; Postojna, WMO
+St: 012108; Kocevje, WMO
+St: 012109; Katarina, WMO
+St: 012110; Crnomelj, WMO
+St: 012111; Novo mesto, WMO
+St: 012112; Cerklje ob Krki, WMO
+St: 012113; Ljubljana/Brnik, WMO
+St: 012114; Ljubljana/Bezigrad, WMO
+St: 012115; SlovenjGradec, WMO
+St: 012116; Rijeka/kozala, WMO
+St: 012117; Parg, WMO
+St: 012118; Celje, WMO
+St: 012119; Karlovac, WMO
+St: 012120; Krapina, WMO
+St: 012121; Puntijarka, WMO
+St: 012122; Zagreb/gric, WMO
+St: 012123; Lisca, WMO
+St: 012124; Zagreb/maksimir, WMO
+St: 012125; Zagreb/pleso, WMO
+St: 012126; Sisak, WMO
+St: 012127; Varazdin, WMO
+St: 012128; Krizevci, WMO
+St: 012129; Bjelovar, WMO
+St: 012130; Bilogora, WMO
+St: 012131; Daruvar, WMO
+St: 012132; Maribor/Slivnica, WMO
+St: 012133; Osijek-cepin, WMO
+St: 012134; Osijek/klisa, WMO
+St: 012135; Pula Aerodrome, WMO
+St: 012136; Pazin, WMO
+St: 012137; Murska Sobota, WMO
+St: 012138; Mali Losinj, WMO
+St: 012139; Rijeka/omisalj, WMO
+St: 012140; Rab, WMO
+St: 012141; Senj, WMO
+St: 012142; Zavizan, WMO
+St: 012143; Ogulin, WMO
+St: 012144; Gospic, WMO
+St: 012145; Slavonski Brod, WMO
+St: 012146; Gradiste, WMO
+St: 012147; Zadar/puntamika, WMO
+St: 012148; Zadar/zemunik, WMO
+St: 012149; Sibenik, WMO
+St: 012150; Komiza, WMO
+St: 012151; Knin, WMO
+St: 012152; Palagruza, WMO
+St: 012153; Split/resnik, WMO
+St: 012154; Split/marjan, WMO
+St: 012155; Hvar, WMO
+St: 012156; Lastovo, WMO
+St: 012157; Makarska, WMO
+St: 012158; Ploce, WMO
+St: 012159; Dubrovnik/gorica, WMO
+St: 012160; Dubrovnik/cilipi, WMO
+St: 012161; Vogel, WMO
+St: 012162; Ratece, WMO
+St: 012163; Kredarica, WMO
+St: 012164; Vojsko, WMO
+St: 012165; Lephalale, WMO
+St: 012166; 
+St: 012167; Polokwane, WMO
+St: 012168; Mara, WMO
+St: 012169; Thohoyandou, WMO
+St: 012170; Lydenburg, WMO
+St: 012171; Punda Maria, WMO
+St: 012172; Madikwe Game Reserve, WMO
+St: 012173; Mafikeng, WMO
+St: 012174; Thabazimbi, WMO
+St: 012175; Rustenburg, WMO
+St: 012176; Pretoria (irene), WMO
+St: 012177; Ermelo Weather Offic, WMO
+St: 012178; Warmbad Towoomba, WMO
+St: 012179; Potgietersrus/mokopa, WMO
+St: 012180; Oudestad/kopane Rsa, WMO
+St: 012181; Witbank, WMO
+St: 012182; Belfast, WMO
+St: 012183; Nelspruit, WMO
+St: 012184; Hoedspruit Aws, WMO
+St: 012185; Skukuza Rsa, WMO
+St: 012186; Komatidraai Aws, WMO
+St: 012187; Twee Rivieren, WMO
+St: 012188; Vanzylsrus Rsa, WMO
+St: 012189; Kathu, WMO
+St: 012190; Kuruman, WMO
+St: 012191; Taung, WMO
+St: 012192; Vryburg Rsa, WMO
+St: 012193; Lichtenburg Aws, WMO
+St: 012194; Ottosdal Rsa, WMO
+St: 012195; Bloemhof, WMO
+St: 012196; Welkom Ows Rsa, WMO
+St: 012197; Klerksdorp Rsa, WMO
+St: 012198; Ventersdorp, WMO
+St: 012199; Potchefstroom Agric., WMO
+St: 012200; Vereeniging, WMO
+St: 012201; Kroonstad Aws, WMO
+St: 012202; Frankfort-tnk, WMO
+St: 012203; Vrede Ows Rsa, WMO
+St: 012204; Newcastle Aws, WMO
+St: 012205; Vryheid Rsa, WMO
+St: 012206; Mbazwana Airfield, WMO
+St: 012207; Vesleskarver S.a.n.a, WMO
+St: 012208; Alexander Bay, WMO
+St: 012209; Port Nolloth Rsa, WMO
+St: 012210; Vioolsdrift Rsa, WMO
+St: 012211; Pofadder Rsa, WMO
+St: 012212; Upington Rsa, WMO
+St: 012213; Augrabies Falls Aws, WMO
+St: 012214; Postmasburg, WMO
+St: 012215; Kimberley Rsa, WMO
+St: 012216; Bloemfontein Airport, WMO
+St: 012217; Ficksburg Aws, WMO
+St: 012218; Bethlehem Air. Rsa, WMO
+St: 012219; Van Reenen Aws, WMO
+St: 012220; Royal National Park, WMO
+St: 012221; Estcourt Rsa, WMO
+St: 012222; Ladysmith, WMO
+St: 012223; Pongola Aws, WMO
+St: 012224; Greytown Aws, WMO
+St: 012225; Bananango Rsa, WMO
+St: 012226; Charters Creek Aws, WMO
+St: 012227; Mtunzini Aws, WMO
+St: 012228; Springbok Rsa, WMO
+St: 012229; Koingnaas Aws, WMO
+St: 012230; Brandvlei Aws, WMO
+St: 012231; Vanwyksvlei Rsa, WMO
+St: 012232; Prieska Aws, WMO
+St: 012233; De Aar Rsa, WMO
+St: 012234; Fauresmith Aws, WMO
+St: 012235; Gariep Dam Rsa, WMO
+St: 012236; Wepener Aws, WMO
+St: 012237; Barkly East (caerleo, WMO
+St: 012238; Shaleburn Rsa, WMO
+St: 012239; Ixopo Aws, WMO
+St: 012240; Kokstad, WMO
+St: 012241; Cedara Rsa, WMO
+St: 012242; Pennington South, WMO
+St: 012243; Port Edward Rsa, WMO
+St: 012244; Durban South, WMO
+St: 012245; King Shaka Intl Airp, WMO
+St: 012246; Vredendal Rsa, WMO
+St: 012247; Calvinia Rsa, WMO
+St: 012248; Nieuwoudtville Rsa, WMO
+St: 012249; Frasersburg Rsa, WMO
+St: 012250; Noupoort Aws, WMO
+St: 012251; Queenstown Airport, WMO
+St: 012252; Jamestown Rsa, WMO
+St: 012253; Elliot, WMO
+St: 012254; Umtata Wo, WMO
+St: 012255; Cape Hermes, WMO
+St: 012256; Coffee Bay, WMO
+St: 012257; Clanwilliam Aws, WMO
+St: 012258; Cape Columbine, WMO
+St: 012259; Porterville, WMO
+St: 012260; Sutherland Rsa, WMO
+St: 012261; Laingsburg, WMO
+St: 012262; Beaufort West Aws, WMO
+St: 012263; Graaff Reinet Aws, WMO
+St: 012264; Cradock-mun, WMO
+St: 012265; Fort Beaufort Rsa, WMO
+St: 012266; Bisho, WMO
+St: 012267; Dohne-agr, WMO
+St: 012268; Geelbek Aws, WMO
+St: 012269; Cape Town Intnl. Air, WMO
+St: 012270; Worcester, WMO
+St: 012271; Ladismith Aws, WMO
+St: 012272; Willowmore Rsa, WMO
+St: 012273; Joubertina Rsa, WMO
+St: 012274; Patensie Rsa, WMO
+St: 012275; Henrys Flats Rsa, WMO
+St: 012276; Port Elizabeth, WMO
+St: 012277; Port Alfred Aer Aws, WMO
+St: 012278; Gough Island Rsa, WMO
+St: 012279; Cape Point, WMO
+St: 012280; Hermanus, WMO
+St: 012281; Cape Agulhas Rsa, WMO
+St: 012282; Tygerhoek Rsa, WMO
+St: 012283; Stilbaai, WMO
+St: 012284; Plettenberg Bay, WMO
+St: 012285; 
+St: 012286; El Hierro, WMO
+St: 012287; 
+St: 012288; Kolobrzeg, WMO
+St: 012289; Bielsa, WMO
+St: 012290; Koszalin, WMO
+St: 012291; 
+St: 012292; Asturias, WMO
+St: 012293; Talarn, WMO
+St: 012294; La Seo D-urgell, WMO
+St: 012295; La Molina, WMO
+St: 012296; Ripoll, WMO
+St: 012297; Cabo Penas, WMO
+St: 012298; Porqueres, WMO
+St: 012299; Lagunas De Somoza, WMO
+St: 012300; Villardeciervos, WMO
+St: 012301; Vitigudino, WMO
+St: 012302; Zamora, WMO
+St: 012303; Hel, WMO
+St: 012304; Valladolid/villanubl, WMO
+St: 012305; Valladolid/observato, WMO
+St: 012306; La Pinilla Estacion, WMO
+St: 012307; Aranda De Duero, WMO
+St: 012308; Somosierra, WMO
+St: 012309; Buitrago, WMO
+St: 012310; Soria, WMO
+St: 012311; Palacios De La Sierr, WMO
+St: 012312; Tenerife Norte/ciuda, WMO
+St: 012313; Siguenza, WMO
+St: 012314; Gdansk-swibno, WMO
+St: 012315; Calatayud, WMO
+St: 012316; Daroca, WMO
+St: 012317; Zaragoza-valdesparte, WMO
+St: 012318; 
+St: 012319; Elblag Milejewo, WMO
+St: 012320; Alcaniz, WMO
+St: 012321; Caspe, WMO
+St: 012322; Calanda, WMO
+St: 012323; Vandellos, WMO
+St: 012324; San Vicente Faro, WMO
+St: 012325; Lleida/observatorio, WMO
+St: 012326; Igualada, WMO
+St: 012327; Tarrega, WMO
+St: 012328; Manresa, WMO
+St: 012329; Reus, WMO
+St: 012330; Tenerife-guimar, WMO
+St: 012331; Barcelona Cmt, WMO
+St: 012332; Barcelona/josep Tarr, WMO
+St: 012333; Girona, WMO
+St: 012334; Ketrzyn, WMO
+St: 012335; Arenys De Mar, WMO
+St: 012336; Santa Susana, WMO
+St: 012337; Saelices El Chico, WMO
+St: 012338; A Coruna, WMO
+St: 012339; Santa Cruz De Teneri, WMO
+St: 012340; Swinoujscie, WMO
+St: 012341; Salamanca Obs., WMO
+St: 012342; Salamanca/matacan, WMO
+St: 012343; La Covatilla Estaci, WMO
+St: 012344; Navarredonda De Gred, WMO
+St: 012345; Sotillo De La Adrada, WMO
+St: 012346; Santander/seve Balle, WMO
+St: 012347; Avila, WMO
+St: 012348; Robledo De Chavela, WMO
+St: 012349; Segovia, WMO
+St: 012350; Navacerrada, WMO
+St: 012351; 
+St: 012352; Colmenar Viejo/famet, WMO
+St: 012353; 
+St: 012354; Madrid/adolfo Suarez, WMO
+St: 012355; Madrid Retiro, WMO
+St: 012356; Madrid/cuatro Viento, WMO
+St: 012357; Madrid/getafe, WMO
+St: 012358; Guadalajara, WMO
+St: 012359; Aranjuez, WMO
+St: 012360; Santander/observator, WMO
+St: 012361; Canizares, WMO
+St: 012362; Cuenca, WMO
+St: 012363; Molina De Aragon, WMO
+St: 012364; Calamocha, WMO
+St: 012365; Teruel, WMO
+St: 012366; Castellfort, WMO
+St: 012367; Tortosa, WMO
+St: 012368; Vinaroz, WMO
+St: 012369; Sant Jaume, WMO
+St: 012370; Villafranca, WMO
+St: 012371; Bilbao, WMO
+St: 012372; Torun, WMO
+St: 012373; Coria, WMO
+St: 012374; Plasencia, WMO
+St: 012375; Navalmoral De La Mat, WMO
+St: 012376; San Clemente, WMO
+St: 012377; Zumaya Faro, WMO
+St: 012378; Valencia De Alcantar, WMO
+St: 012379; Caceres, WMO
+St: 012380; Trujillo, WMO
+St: 012381; Herrera Del Duque, WMO
+St: 012382; San Nicolas T, WMO
+St: 012383; San Pablo De Los Mon, WMO
+St: 012384; Puebla De Don Rodrig, WMO
+St: 012385; Toledo, WMO
+St: 012386; Madridejos, WMO
+St: 012387; Talavera De La Reina, WMO
+St: 012388; Quintanar De La Orde, WMO
+St: 012389; Tomelloso, WMO
+St: 012390; Tarancon, WMO
+St: 012391; Chinchilla/cenad, WMO
+St: 012392; Albacete Obs., WMO
+St: 012393; Mikolajki, WMO
+St: 012394; Utiel La Cubera, WMO
+St: 012395; Oliva, WMO
+St: 012396; Valencia, WMO
+St: 012397; Valencia Dt, WMO
+St: 012398; Castellon-almassora, WMO
+St: 012399; Polinya, WMO
+St: 012400; San Sebastian, WMO
+St: 012401; Xativa, WMO
+St: 012402; Bialystok, WMO
+St: 012403; 
+St: 012404; Gorzow Wlkp, WMO
+St: 012405; Palma-portopi, WMO
+St: 012406; Son Bonet Aeropuert, WMO
+St: 012407; Sierra De Alfabia, WMO
+St: 012408; Lluc, WMO
+St: 012409; Palma De Mallorca, WMO
+St: 012410; Porto Colom, WMO
+St: 012411; Pajares - Valgrande, WMO
+St: 012412; Porreres, WMO
+St: 012413; Capdepera-far0, WMO
+St: 012414; Sa Pobla-sa Canova, WMO
+St: 012415; Menorca, WMO
+St: 012416; Soller, WMO
+St: 012417; Nestares, WMO
+St: 012418; Ceuta/observatorio, WMO
+St: 012419; Polientes-casyc, WMO
+St: 012420; Poznan, WMO
+St: 012421; Merida, WMO
+St: 012422; Don Benito, WMO
+St: 012423; 
+St: 012424; 
+St: 012425; Jerez De Los Caballe, WMO
+St: 012426; Melilla, WMO
+St: 012427; Pajara Morro Jable, WMO
+St: 012428; Viso Del Marques, WMO
+St: 012429; Villanueva De Cordob, WMO
+St: 012430; Andujar, WMO
+St: 012431; Ciudad Real, WMO
+St: 012432; Fuerteventura, WMO
+St: 012433; Santa Elena, WMO
+St: 012434; Valdepenas, WMO
+St: 012435; Arroyo Del Ojanco, WMO
+St: 012436; Villarrodrigo, WMO
+St: 012437; Hellin, WMO
+St: 012438; Yecla, WMO
+St: 012439; Pinoso, WMO
+St: 012440; Alicante/observatori, WMO
+St: 012441; Elgoibar Iberdrola, WMO
+St: 012442; Plock, WMO
+St: 012443; Cieza Parque De Bom, WMO
+St: 012444; Caravaca Fuentes Del, WMO
+St: 012445; Zumarraga-urzabaleta, WMO
+St: 012446; Javea Ayuntamiento, WMO
+St: 012447; Ibiza, WMO
+St: 012448; Warszawa-okecie, WMO
+St: 012449; Tejeda Casco, WMO
+St: 012450; Ayamonte Isla Canel, WMO
+St: 012451; Huelva/observatorio, WMO
+St: 012452; El Arenosillo, WMO
+St: 012453; Siedlce, WMO
+St: 012454; Padron, WMO
+St: 012455; Sevilla, WMO
+St: 012456; Cazalla De La Sierra, WMO
+St: 012457; Ecija, WMO
+St: 012458; Sevilla/moron, WMO
+St: 012459; Roda De Andaluca, WMO
+St: 012460; Estaca De Bares, WMO
+St: 012461; Fisterra, WMO
+St: 012462; Zielona Gora, WMO
+St: 012463; Santiago De Composte, WMO
+St: 012464; Cordoba, WMO
+St: 012465; Doa Mencia, WMO
+St: 012466; Antequera-bobadilla, WMO
+St: 012467; Loja, WMO
+St: 012468; Legnica, WMO
+St: 012469; Jaen, WMO
+St: 012470; Leszno, WMO
+St: 012471; Granada/federico Gar, WMO
+St: 012472; Santiago/rosalia De, WMO
+St: 012473; Granada/base Aerea, WMO
+St: 012474; Baza Cruz Roja, WMO
+St: 012475; Lorca, WMO
+St: 012476; Abla, WMO
+St: 012477; Huercal Overa, WMO
+St: 012478; Murcia/alcantarilla, WMO
+St: 012479; Murcia/observatorio, WMO
+St: 012480; Aguilas, WMO
+St: 012481; Murcia/san Javier, WMO
+St: 012482; 
+St: 012483; Kalisz, WMO
+St: 012484; Pontevedra, WMO
+St: 012485; Teguise La Graciosa, WMO
+St: 012486; Jerez, WMO
+St: 012487; Cadiz Obs., WMO
+St: 012488; San Fernando, WMO
+St: 012489; Grazalema, WMO
+St: 012490; Vejer De La Frontera, WMO
+St: 012491; Tarifa, WMO
+St: 012492; Estepona, WMO
+St: 012493; Lodz, WMO
+St: 012494; Sulejow, WMO
+St: 012495; O Carballino, WMO
+St: 012496; Malaga Puerto, WMO
+St: 012497; Ourense, WMO
+St: 012498; Fuengirola, WMO
+St: 012499; Malaga Cmt, WMO
+St: 012500; Malaga/costa Del Sol, WMO
+St: 012501; Torrox Faro, WMO
+St: 012502; Motril Club Nautico, WMO
+St: 012503; 
+St: 012504; Almeria, WMO
+St: 012505; Carboneras C.termica, WMO
+St: 012506; 
+St: 012507; 
+St: 012508; Wlodawa, WMO
+St: 012509; Ferrol-la Grana, WMO
+St: 012510; Xinzo De Limia, WMO
+St: 012511; Jelenia Gora, WMO
+St: 012512; Pobra De Trives San, WMO
+St: 012513; Sniezka, WMO
+St: 012514; Puerto De Leitariego, WMO
+St: 012515; Klodzko, WMO
+St: 012516; Ponferrada, WMO
+St: 012517; Opole, WMO
+St: 012518; Raciborz, WMO
+St: 012519; Leon/virgen Delcamin, WMO
+St: 012520; Czestochowa, WMO
+St: 012521; Benavente, WMO
+St: 012522; Katowice, WMO
+St: 012523; 
+St: 012524; Puerto De San Isidro, WMO
+St: 012525; Kielce-sukow, WMO
+St: 012526; Tarnow, WMO
+St: 012527; Cervera De Pisuerga, WMO
+St: 012528; Rzeszow-jasionka, WMO
+St: 012529; 
+St: 012530; Punta Galea, WMO
+St: 012531; Zamosc, WMO
+St: 012532; Cabo Vilan, WMO
+St: 012533; Bielsko-biala, WMO
+St: 012534; Alto Campoo, WMO
+St: 012535; Zakopane, WMO
+St: 012536; Medina De Pomar, WMO
+St: 012537; Bae Juan Carlos I, WMO
+St: 012538; Gijon-campus, WMO
+St: 012539; Kasprowy Wierch, WMO
+St: 012540; Nowy Sacz, WMO
+St: 012541; 
+St: 012542; Carrion De Los Conde, WMO
+St: 012543; Lesko, WMO
+St: 012544; 
+St: 012545; La Gomera, WMO
+St: 012546; 
+St: 012547; Palencia-autilla Pin, WMO
+St: 012548; Burgos/villafria, WMO
+St: 012549; Belorado, WMO
+St: 012550; San Sebastian De La, WMO
+St: 012551; Vitoria, WMO
+St: 012552; Logrono/agoncillo, WMO
+St: 012553; Pamplona, WMO
+St: 012554; Bardenas Reales, WMO
+St: 012555; Ilundain, WMO
+St: 012556; Castropol, WMO
+St: 012557; Sos Del Rey Catolico, WMO
+St: 012558; Astun - La Raca, WMO
+St: 012559; Jaca, WMO
+St: 012560; Panticosa Petrosos, WMO
+St: 012561; Torla-ordesa El Ceb, WMO
+St: 012562; Cerler Cogulla, WMO
+St: 012563; Cap De Vaqueira, WMO
+St: 012564; Port Aine L-orri, WMO
+St: 012565; Huesca/pirineos, WMO
+St: 012566; Cap De Rec, WMO
+St: 012567; Aragues Del Puerto, WMO
+St: 012568; Formigal Sarrios, WMO
+St: 012569; Sierra Nevada, WMO
+St: 012570; Saint Laurent, WMO
+St: 012571; Cayenne-matoury, WMO
+St: 012572; Saint Georges, WMO
+St: 012573; Maripasoula, WMO
+St: 012574; Hemavan Flpl, WMO
+St: 012575; Stekenjokk, WMO
+St: 012576; Hemavan-gierevarto, WMO
+St: 012577; Gielas, WMO
+St: 012578; Kvikkjokk-arrenjarka, WMO
+St: 012579; Mierkenis, WMO
+St: 012580; Arjeplog, WMO
+St: 012581; Gunnarn, WMO
+St: 012582; Ritsem, WMO
+St: 012583; Buresjon, WMO
+St: 012584; Tjakaape, WMO
+St: 012585; Mala-brannan, WMO
+St: 012586; Arvidsjaur, WMO
+St: 012587; Jokkmokk, WMO
+St: 012588; Vidsel, WMO
+St: 012589; Nattavaara, WMO
+St: 012590; Boden, WMO
+St: 012591; Alvsbyn, WMO
+St: 012592; Lakatrask, WMO
+St: 012593; Pite-ronnskar, WMO
+St: 012594; Overkalix-svartbyn, WMO
+St: 012595; Lulea Sol, WMO
+St: 012596; Paharova, WMO
+St: 012597; Lulea Kallax Airport, WMO
+St: 012598; Rodkallen, WMO
+St: 012599; Katterjakk, WMO
+St: 012600; Storon, WMO
+St: 012601; Haparanda, WMO
+St: 012602; Ylinenjarvi, WMO
+St: 012603; Storlien-visjovalen, WMO
+St: 012604; Storlien-storvallen, WMO
+St: 012605; Sylarna, WMO
+St: 012606; 
+St: 012607; Gaddede, WMO
+St: 012608; Abisko, WMO
+St: 012609; Korsvattnet, WMO
+St: 012610; Ostersund Froson, WMO
+St: 012611; Ostersund Sol, WMO
+St: 012612; Gubbhogen, WMO
+St: 012613; Follinge, WMO
+St: 012614; Hallhaxasen, WMO
+St: 012615; Stora Sjofallet, WMO
+St: 012616; Hoting, WMO
+St: 012617; Junsele, WMO
+St: 012618; Vilhelmina, WMO
+St: 012619; 
+St: 012620; Asele, WMO
+St: 012621; Vastmarkum, WMO
+St: 012622; Lycksele, WMO
+St: 012623; Fredrika, WMO
+St: 012624; Hemling, WMO
+St: 012625; Ornskoldsvik flpl, WMO
+St: 012626; Skagsudde, WMO
+St: 012627; Norsjo, WMO
+St: 012628; Tarfala Sol, WMO
+St: 012629; Petistrask, WMO
+St: 012630; Umea Sol, WMO
+St: 012631; 
+St: 012632; Umea Flygplats, WMO
+St: 012633; Holmon, WMO
+St: 012634; Tarfala, WMO
+St: 012635; Skelleftea Airport, WMO
+St: 012636; Bjuroklubb, WMO
+St: 012637; Idre Fjall, WMO
+St: 012638; Tannas, WMO
+St: 012639; Rensjon, WMO
+St: 012640; Sarna, WMO
+St: 012641; Dravagen, WMO
+St: 012642; Bortnan, WMO
+St: 012643; Alvdalen, WMO
+St: 012644; Klovsjohojden, WMO
+St: 012645; Sveg, WMO
+St: 012646; Hamra, WMO
+St: 012647; Hunge, WMO
+St: 012648; Edsbyn, WMO
+St: 012649; Torpshammar, WMO
+St: 012650; Delsbo, WMO
+St: 012651; Kuggoren, WMO
+St: 012652; Nikkaluokta, WMO
+St: 012653; Sundsvall Harnosand, WMO
+St: 012654; Bramon, WMO
+St: 012655; Latnivaara, WMO
+St: 012656; Lungo, WMO
+St: 012657; Naven, WMO
+St: 012658; Malung, WMO
+St: 012659; Blomskog, WMO
+St: 012660; Arvika, WMO
+St: 012661; Palgrunden, WMO
+St: 012662; Karlstad flpl, WMO
+St: 012663; Karlstad Sol, WMO
+St: 012664; Sunne, WMO
+St: 012665; Gustavsfors, WMO
+St: 012666; Daglosen, WMO
+St: 012667; Kloten, WMO
+St: 012668; Orebro Private, WMO
+St: 012669; Borlange, WMO
+St: 012670; Borlange Sol, WMO
+St: 012671; Kiruna Airport, WMO
+St: 012672; Amot, WMO
+St: 012673; Siljan / Mora, WMO
+St: 012674; Enkoping, WMO
+St: 012675; Eskilstuna, WMO
+St: 012676; Kiruna Sol, WMO
+St: 012677; Eggegrund, WMO
+St: 012678; Kilsbergen-suttarbod, WMO
+St: 012679; Gavle, WMO
+St: 012680; Film, WMO
+St: 012681; Uppsala, WMO
+St: 012682; Stockholm Arlanda, WMO
+St: 012683; Uppsala Universitet, WMO
+St: 012684; Stockholm Bromma, WMO
+St: 012685; Stora Spansberget, WMO
+St: 012686; Tullinge, WMO
+St: 012687; Floda, WMO
+St: 012688; Sala, WMO
+St: 012689; Kerstinbo, WMO
+St: 012690; Stockholm Sol, WMO
+St: 012691; Stockholm-observator, WMO
+St: 012692; Adelso, WMO
+St: 012693; Skarpo, WMO
+St: 012694; Orskar, WMO
+St: 012695; Berga, WMO
+St: 012696; Gallivare, WMO
+St: 012697; Svanberga, WMO
+St: 012698; Svenska Hogarna Sol, WMO
+St: 012699; Soderarm, WMO
+St: 012700; Svenska Hogarna A, WMO
+St: 012701; 
+St: 012702; Vaderoarna, WMO
+St: 012703; Nordkoster Sol, WMO
+St: 012704; Maseskar, WMO
+St: 012705; Goteborg, WMO
+St: 012706; Vinga, WMO
+St: 012707; Nidingen, WMO
+St: 012708; Satenas, WMO
+St: 012709; Goteborg Landvetter, WMO
+St: 012710; Goteborg Sol, WMO
+St: 012711; Rangedala, WMO
+St: 012712; Ullared, WMO
+St: 012713; Kroppefjall-granan, WMO
+St: 012714; Hallum, WMO
+St: 012715; Karlsborg, WMO
+St: 012716; Axstal, WMO
+St: 012717; Gardsjo, WMO
+St: 012718; Visingso, WMO
+St: 012719; Tomtabacken, WMO
+St: 012720; Naimakka, WMO
+St: 012721; Jonkoping Flygplats, WMO
+St: 012722; Malexander, WMO
+St: 012723; Kettstaka, WMO
+St: 012724; Hagshult, WMO
+St: 012725; Horn, WMO
+St: 012726; Kolmarden-stromsfors, WMO
+St: 012727; Gladhammar, WMO
+St: 012728; Kvarn, WMO
+St: 012729; Linkoping Malmen, WMO
+St: 012730; Harstena, WMO
+St: 012731; Malilla, WMO
+St: 012732; Landsort, WMO
+St: 012733; Olands Norra Udde So, WMO
+St: 012734; Norrkoping, WMO
+St: 012735; Olands Norra Udde, WMO
+St: 012736; Farosund-ar, WMO
+St: 012737; Gotska Sandon, WMO
+St: 012738; Visby Flygplats, WMO
+St: 012739; Ostergarnsholm, WMO
+St: 012740; Hallands Vadero, WMO
+St: 012741; Angelholm-Barkakra, WMO
+St: 012742; Helsingborg, WMO
+St: 012743; Falsterbo A, WMO
+St: 012744; Torup, WMO
+St: 012745; Ljungby, WMO
+St: 012746; Horby, WMO
+St: 012747; 
+St: 012748; Hano, WMO
+St: 012749; Hastveda, WMO
+St: 012750; Utklippan, WMO
+St: 012751; 
+St: 012752; Malmo, WMO
+St: 012753; MalmoSturup, WMO
+St: 012754; Saittarova, WMO
+St: 012755; Vaxjo Sol, WMO
+St: 012756; Olands Sodra Udde, WMO
+St: 012757; Vaxjo, WMO
+St: 012758; Kosta, WMO
+St: 012759; Ronneby, WMO
+St: 012760; Karlskrona Sol, WMO
+St: 012761; Karlskrona-Soderstje, WMO
+St: 012762; Kalmar Flpl, WMO
+St: 012763; Hoburg Sol, WMO
+St: 012764; Hoburg, WMO
+St: 012765; Norrkoping Sol, WMO
+St: 012766; Parkalompolo, WMO
+St: 012767; Karesuando, WMO
+St: 012768; Visby Sol, WMO
+St: 012769; Pajala, WMO
+St: 012770; Basel / Binningen, WMO
+St: 012771; Delemont, WMO
+St: 012772; Vevey, WMO
+St: 012773; Neuchatel, WMO
+St: 012774; Chasseral, WMO
+St: 012775; Cressier, WMO
+St: 012776; Chaumont, WMO
+St: 012777; Le Moleson, WMO
+St: 012778; Payerne (6610-0), WMO
+St: 012779; La Chaux-de-fonds, WMO
+St: 012780; Frutigen, WMO
+St: 012781; Les Marecottes, WMO
+St: 012782; Montagnier Bagnes, WMO
+St: 012783; Fahy, WMO
+St: 012784; La Brevine, WMO
+St: 012785; Mathod, WMO
+St: 012786; Bullet / La Fretaz, WMO
+St: 012787; Schaffhausen, WMO
+St: 012788; Guettingen, WMO
+St: 012789; Salen-reutenen, WMO
+St: 012790; Hallau, WMO
+St: 012791; Fribourg / Posieux, WMO
+St: 012792; Goesgen, WMO
+St: 012793; Chateau-d'oex, WMO
+St: 012794; Plaffeien, WMO
+St: 012795; Bern / Zollikofen, WMO
+St: 012796; Grenchen, WMO
+St: 012797; Buchs / Aarau, WMO
+St: 012798; Koppigen, WMO
+St: 012799; Muehleberg, WMO
+St: 012800; Meiringen, WMO
+St: 012801; Langnau I.e., WMO
+St: 012802; Napf, WMO
+St: 012803; Marsens, WMO
+St: 012804; Moehlin, WMO
+St: 012805; Berguen / Latsch, WMO
+St: 012806; Wynau, WMO
+St: 012807; Mosen, WMO
+St: 012808; Ruenenberg, WMO
+St: 012809; Beznau, WMO
+St: 012810; Wuerenlingen / Psi, WMO
+St: 012811; Egolzwil, WMO
+St: 012812; Oberriet / Kriessern, WMO
+St: 012813; Luzern, WMO
+St: 012814; Schuepfheim, WMO
+St: 012815; Fluehli, WMO
+St: 012816; Gersau, WMO
+St: 012817; Simplon-dorf, WMO
+St: 012818; Engelberg, WMO
+St: 012819; Brienz, WMO
+St: 012820; Giswil, WMO
+St: 012821; Pilatus, WMO
+St: 012822; Zuerich / Fluntern, WMO
+St: 012823; Sattel Sz, WMO
+St: 012824; Vals, WMO
+St: 012825; Zuerich / Affoltern, WMO
+St: 012826; Lachen / Galgenen, WMO
+St: 012827; Leibstadt, WMO
+St: 012828; Goeschenen, WMO
+St: 012829; Laegern, WMO
+St: 012830; Zuerich / Kloten, WMO
+St: 012831; Steckborn, WMO
+St: 012832; Altdorf, WMO
+St: 012833; Waedenswil, WMO
+St: 012834; Cham, WMO
+St: 012835; Einsiedeln, WMO
+St: 012836; Oberaegeri, WMO
+St: 012837; Bischofszell, WMO
+St: 012838; Aadorf / Taenikon, WMO
+St: 012839; Saentis, WMO
+St: 012840; St. Gallen, WMO
+St: 012841; Elm, WMO
+St: 012842; Schmerikon, WMO
+St: 012843; Glarus, WMO
+St: 012844; Bad Ragaz, WMO
+St: 012845; Quinten, WMO
+St: 012846; Crap Masegn, WMO
+St: 012847; Hoernli, WMO
+St: 012848; Altenrhein, WMO
+St: 012849; Ebnat-kappel, WMO
+St: 012850; Andermatt, WMO
+St: 012851; Geneve / Cointrin, WMO
+St: 012852; La Dole (6702-0), WMO
+St: 012853; Les Charbonnieres, WMO
+St: 012854; Biere, WMO
+St: 012855; Nyon / Changins, WMO
+St: 012856; St-prex, WMO
+St: 012857; Villars-tiercelin, WMO
+St: 012858; Oron, WMO
+St: 012859; Bouveret, WMO
+St: 012860; Courtelary, WMO
+St: 012861; Pully, WMO
+St: 012862; Aigle, WMO
+St: 012863; Col Des Mosses, WMO
+St: 012864; Les Diablerets, WMO
+St: 012865; Evionnaz, WMO
+St: 012866; Mottec, WMO
+St: 012867; Col Du Grand St-bern, WMO
+St: 012868; Sion (6720-0), WMO
+St: 012869; Binn, WMO
+St: 012870; Evolene / Villa, WMO
+St: 012871; Les Attelas, WMO
+St: 012872; Montana, WMO
+St: 012873; Blatten Loetschenta, WMO
+St: 012874; Visp, WMO
+St: 012875; Graechen, WMO
+St: 012876; Jungfraujoch, WMO
+St: 012877; Thun, WMO
+St: 012878; Boltigen, WMO
+St: 012879; Interlaken, WMO
+St: 012880; Adelboden, WMO
+St: 012881; Eggishorn, WMO
+St: 012882; Titlis, WMO
+St: 012883; Grimsel Hospiz, WMO
+St: 012884; 
+St: 012885; Zermatt, WMO
+St: 012886; Gornergrat, WMO
+St: 012887; Guetsch Andermatt, WMO
+St: 012888; Robiei, WMO
+St: 012889; Cevio, WMO
+St: 012890; Piotta, WMO
+St: 012891; Matro, WMO
+St: 012892; 
+St: 012893; Grono, WMO
+St: 012894; Cimetta, WMO
+St: 012895; Locarno / Monti, WMO
+St: 012896; Magadino / Cadenazzo, WMO
+St: 012897; Lugano, WMO
+St: 012898; Stabio, WMO
+St: 012899; Bivio, WMO
+St: 012900; Monte Generoso, WMO
+St: 012901; Buffalora, WMO
+St: 012902; Segl-maria, WMO
+St: 012903; Weissfluhjoch, WMO
+St: 012904; Disentis, WMO
+St: 012905; S. Bernardino, WMO
+St: 012906; Davos, WMO
+St: 012907; Arosa, WMO
+St: 012908; Chur, WMO
+St: 012909; Andeer, WMO
+St: 012910; Vicosoprano, WMO
+St: 012911; Ilanz, WMO
+St: 012912; Schiers, WMO
+St: 012913; Piz Corvatsch, WMO
+St: 012914; Samedan, WMO
+St: 012915; Valbella, WMO
+St: 012916; Poschiavo / Robbia, WMO
+St: 012917; Piz Martegnas, WMO
+St: 012918; Sta. Maria Val Mues, WMO
+St: 012919; Passo Del Bernina, WMO
+St: 012920; Scuol, WMO
+St: 012921; Naluns / Schlivera, WMO
+St: 012922; Scalottas, WMO
+St: 012923; St. Margretenberg, WMO
+St: 012924; Vaduz, WMO
+St: 012925; Biasca, WMO
+St: 012926; Goms / Chummehorn, WMO
+St: 012927; Val d'Illiez / Pointe des Mosset, WMO
+St: 012928; Belalp, WMO
+St: 012929; Frasco / Capanna Efra, WMO
+St: 012930; Samnaun / Ravaischer Salaas, WMO
+St: 012931; Bernina / Lagalb, WMO
+St: 012932; Wildhaus / Hinterrugg, WMO
+St: 012933; Klosters / Sant Jaggem, WMO
+St: 012934; Arolla / La Cassorte, WMO
+St: 012935; Kesch / Piz Val Mura, WMO
+St: 012936; Disentis / Lumpegna, WMO
+St: 012937; Lauenen / Lauenehore, WMO
+St: 012938; 
+St: 012939; Ofenpass / Piz Dora, WMO
+St: 012940; Conthey / Etang de Trente Pas, WMO
+St: 012941; St. Niklaus / Oberer Stelliglets, WMO
+St: 012942; La Fouly / Le Portalet, WMO
+St: 012943; Brienz / Brienzer Rothorn, WMO
+St: 012944; Simplon / Bortelsee, WMO
+St: 012945; Piz Lagrev / Lagrev, WMO
+St: 012946; Jaun / Chorblispitz, WMO
+St: 012947; Guttannen / Banzlauistock, WMO
+St: 012948; Sieben Hengste, WMO
+St: 012949; Fluela / Hospiz, WMO
+St: 012950; Oberwald / Sidelhorn, WMO
+St: 012951; Nara / Motto Crostel, WMO
+St: 012952; Lungern / Schonbuel, WMO
+St: 012953; Zermatt / Platthorn, WMO
+St: 012954; Farmel / Albristhorn, WMO
+St: 012955; Wassen / Rienzenstock, WMO
+St: 012956; Mund / Garsthorn, WMO
+St: 012957; Taminatal / Wildseehorn, WMO
+St: 012958; Bever / Cho d'Valetta, WMO
+St: 012959; Airolo / Poncione di Loita, WMO
+St: 012960; Bedretto / Lucendro, WMO
+St: 012961; Ela / Piz Salteras, WMO
+St: 012962; Vinadi / Piz Alpetta, WMO
+St: 012963; Nendaz / Creppon Blanc, WMO
+St: 012964; Laucherenalp / Sackhorn, WMO
+St: 012965; Saas / Platthorn, WMO
+St: 012966; Muotathal / Wasserbergfirst, WMO
+St: 012967; Hinterrhein / Chilchalphorn, WMO
+St: 012968; Zernez / Sarsura Pitschen, WMO
+St: 012969; Leukerbad / Schwarzhorn, WMO
+St: 012970; Ybrig / Wanne, WMO
+St: 012971; Davos / Parsenn, WMO
+St: 012972; Bosco Gurin / Martschenspitz, WMO
+St: 012973; Fusio / Alpe di Rod, WMO
+St: 012974; Glarnisch / Schwander Grat, WMO
+St: 012975; Amden / Mattstock, WMO
+St: 012976; Frutigen / Elsighorn, WMO
+St: 012977; Fully / Grand Chavalard, WMO
+St: 012978; Vals / Piz Aul, WMO
+St: 012979; Schilthorn / Gipfel, WMO
+St: 012980; Campolungo / Tremorgio, WMO
+St: 012981; Stockhorn / Gipfel, WMO
+St: 012982; Breil Tumpiv / Piz Tumpiv, WMO
+St: 012983; Arbaz Val. Sionne / Creta Besse, WMO
+St: 012984; Puzzetta Medel / La Muota, WMO
+St: 012985; Allieres / Vanil des Artses, WMO
+St: 012986; Liddes / Pointe de Boveire, WMO
+St: 012987; Elm / Mittler Blistock, WMO
+St: 012988; Grammont / Jumelles, WMO
+St: 012989; Gadmen / Gschletteregg, WMO
+St: 012990; Davos / Chrachenhorn, WMO
+St: 012991; Dotra / Costa, WMO
+St: 012992; Simplon / Chesselhorn, WMO
+St: 012993; Meiental / Laucheren, WMO
+St: 012994; Kandersteg / Fisi, WMO
+St: 012995; Acquarossa / Cima del Simano, WMO
+St: 012996; Grindelwald / First, WMO
+St: 012997; Lukmanier / Piz Gannaretsch, WMO
+St: 012998; Frutigen / Ottere, WMO
+St: 012999; Anniviers / Corne de Sorebois, WMO
+St: 013000; Muttsee / Ruchi, WMO
