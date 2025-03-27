@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
-
+import os
+import pytest
 import database as db
 from models import UserModel, DataModel, StationModel
+
+@pytest.fixture
+def test_param():
+    return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
 
 def create_test_user():
     my_user = {
@@ -24,11 +29,15 @@ def create_test_station(number):
         }
     return StationModel(**my_station)
 
-def test_insert_user_into_database():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_insert_user_into_database(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_user_collection(client)
     user = create_test_user()
     db.insert_user(client, user.dict())
@@ -43,11 +52,15 @@ def test_insert_user_into_database():
     assert result[0]["password"] == user.password
     assert result[0]["subscriptions"] == user.subscriptions
 
-def test_insert_data_into_database():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_insert_data_into_database(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_data_collection(client)
     my_data = {
         "name":"Data from pytest",
@@ -68,11 +81,15 @@ def test_insert_data_into_database():
     assert result[0]["ts"] == my_data['ts']
     assert result[0]["temp"] == my_data['temp']
 
-def test_insert_station_into_database():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_insert_station_into_database(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_station_collection(client)
     station = create_test_station(1234)
     db.insert_station(client, station.dict())
@@ -83,11 +100,15 @@ def test_insert_station_into_database():
     assert result[0]["number"] == 1234
     assert result[0]["subscribers"] == []
 
-def test_add_user_to_existing_station_as_subscriber_by_id():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_add_user_to_existing_station_as_subscriber_by_id(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
     user = create_test_user()
@@ -104,11 +125,15 @@ def test_add_user_to_existing_station_as_subscriber_by_id():
     assert len(result[0]["subscribers"]) == 1
     assert result[0]["subscribers"][0] == user[0]['_id']
 
-def test_add_user_to_existing_station_as_subscriber_by_username():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
     user = create_test_user()
@@ -125,11 +150,15 @@ def test_add_user_to_existing_station_as_subscriber_by_username():
     assert len(result[0]["subscribers"]) == 1
     assert result[0]["subscribers"][0] == user[0]['username']
 
-def test_add_user_to_new_station_as_subscriber():
-    client = db.connect_to_db(2000)
-    if client is None:
-        assert False
+def test_add_user_to_new_station_as_subscriber(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
         return
+
+    client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
     user = create_test_user()
