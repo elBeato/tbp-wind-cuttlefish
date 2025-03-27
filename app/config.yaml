@@ -8,6 +8,7 @@ timesAboveLimit: 90
 databaseName: "Windseeker"
 userCollection: "Users"
 dataCollection: "Data"
+stationCollection: "Stations"
 
 mongohost: "localhost"
 mongoport: 27017

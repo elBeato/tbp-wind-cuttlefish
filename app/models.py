@@ -30,3 +30,9 @@ class DataModel(BaseModel):
     direction: int
     ts: str
     temp: float
+
+class StationModel(BaseModel):
+    """Station model with users"""
+    name: str
+    number: int
+    subscribers: list
