@@ -21,7 +21,7 @@ def check_response_contains_param(response, station_id):
         if response['wind_avg'] is not None and response['wind_direction'] is not None:
             return True
     except Exception:
-        wl.logger.warning(f'[{time.strftime('%H:%M:%S')}]: ' +
+        wl.logger.warning(f'[{time.strftime("%H:%M:%S")}]: ' +
                           f'Station = [{station_id}] response doesnt contains AVG and DIRECTION')
     return False
 
@@ -57,7 +57,7 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
                     continue
 
                 speed, direction = response['wind_avg'], response['wind_direction']
-                wl.logger.info(f'[{time.strftime('%H:%M:%S')}]: Station [{station_id}] = ' +
+                wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
                                f'Wind: {speed:.1f} m/s, {direction}°')
                 wind_trigger = float(config.get_config_value("windspeedTrigger"))
                 if speed > wind_trigger:
