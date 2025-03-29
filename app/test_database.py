@@ -2,18 +2,19 @@
 import os
 import pytest
 import database as db
-from models import UserModel, DataModel, StationModel
+from bson.objectid import ObjectId
+from models import UserModel, DataModel, StationModel, ThresholdModel
 
 @pytest.fixture
 def test_param():
     return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
 
-def create_test_user():
+def create_test_user(username: str):
     my_user = {
-        "username": "Jonny B from pytest",
+        "username": username,
         "name": "John",
         "address": "Highway 37", 
-        "email": "john@bluewin.ch", 
+        "email": f"{username}@bluewin.ch", 
         "mobile": "+41 79 123 45 99",
         "birthday": "1986-11-21",
         "password": "123_Forever",
@@ -29,6 +30,14 @@ def create_test_station(number):
         }
     return StationModel(**my_station)
 
+def create_test_threshold(username, station, threshold):
+    my_threshold = {
+        "username": username,
+        "station": station,
+        "threshold": threshold
+        }
+    return ThresholdModel(**my_threshold)
+
 def test_insert_user_into_database(test_param):
     print(f"Running test with param: {test_param}")
     assert test_param in ["local", "github"]
@@ -39,7 +48,7 @@ def test_insert_user_into_database(test_param):
 
     client = db.connect_to_db(2000)
     db.clear_user_collection(client)
-    user = create_test_user()
+    user = create_test_user("Anna_Nalani")
     db.insert_user(client, user.dict())
     result = list(db.find_all_users(client))
     print(result)
@@ -111,7 +120,7 @@ def test_add_user_to_existing_station_as_subscriber_by_id(test_param):
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
-    user = create_test_user()
+    user = create_test_user("Jonny_test")
     user_id = db.insert_user(client, user.dict())
     station = create_test_station(1234)
     db.insert_station(client, station.dict())
@@ -123,7 +132,7 @@ def test_add_user_to_existing_station_as_subscriber_by_id(test_param):
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1
-    assert result[0]["subscribers"][0] == user[0]['_id']
+    assert result[0]["subscribers"][0] == ObjectId(user_id)
 
 def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
     print(f"Running test with param: {test_param}")
@@ -136,7 +145,7 @@ def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
-    user = create_test_user()
+    user = create_test_user("Ramon_by_pytest")
     db.insert_user(client, user.dict())
     station = create_test_station(1234)
     db.insert_station(client, station.dict())
@@ -148,7 +157,9 @@ def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1
-    assert result[0]["subscribers"][0] == user[0]['username']
+    assert result[0]["subscribers"][0] == user.username
+
+test_add_user_to_existing_station_as_subscriber_by_username('local')
 
 def test_add_user_to_new_station_as_subscriber(test_param):
     print(f"Running test with param: {test_param}")
@@ -161,7 +172,7 @@ def test_add_user_to_new_station_as_subscriber(test_param):
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
 
-    user = create_test_user()
+    user = create_test_user("Baba_Test")
     db.insert_user(client, user.dict())
 
     user = db.find_user_by_username(client, user.username)
@@ -170,4 +181,55 @@ def test_add_user_to_new_station_as_subscriber(test_param):
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1
-    assert result[0]["subscribers"][0] == user[0]['username']
+    assert result[0]["subscribers"][0] == user.username
+
+def test_threshold_usernames_per_station(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
+        return
+    # Arrange
+    # Connect to threshold collection
+    client = db.connect_to_db(2000)
+    db.clear_threshold_collection(client)
+    # insert first document
+    threshold = create_test_threshold("Baba_Test", 1234, 11.4)
+    db.insert_threshold(client, threshold.dict())
+    # insert second document
+    threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
+    db.insert_threshold(client, threshold.dict())
+
+    # Act
+    result = db.find_all_usernames_for_threshold_station(client, 1234, 9.0)
+
+    print(result)
+    assert len(result) == 2
+    assert result[0][0] == "Baba_Test"
+    assert result[1][0] == "Jonny_Test"
+
+def test_threshold_usernames_per_station_greater(test_param):
+    print(f"Running test with param: {test_param}")
+    assert test_param in ["local", "github"]
+
+    if test_param == "github":
+        assert True
+        return
+    # Arrange
+    # Connect to threshold collection
+    client = db.connect_to_db(2000)
+    db.clear_threshold_collection(client)
+    # insert first document
+    threshold = create_test_threshold("Baba_Test", 1234, 11.4)
+    db.insert_threshold(client, threshold.dict())
+    # insert second document
+    threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
+    db.insert_threshold(client, threshold.dict())
+
+    # Act
+    result = db.find_all_usernames_for_threshold_station(client, 1234, 9.1)
+
+    print(result)
+    assert len(result) == 1
+    assert result[0][0] == "Baba_Test"
