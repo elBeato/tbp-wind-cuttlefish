@@ -87,6 +87,7 @@ def post_new_users():
         client = db.connect_to_db()
         db.insert_user(client, user.dict())
         inserted_user = db.find_user_by_username(client, user.username)
+        # add user to station, create a new station if not exits already
         db.add_user_to_station_by_username(client, inserted_user)
         return jsonify({
             "message": "User data received successfully",

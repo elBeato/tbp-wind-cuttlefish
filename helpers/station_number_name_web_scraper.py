@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 25 22:47:54 2025
-
-@author: beatu
-"""
 from datetime import datetime
 import time
 from selenium import webdriver

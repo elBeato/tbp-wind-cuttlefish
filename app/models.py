@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from pydantic import BaseModel, EmailStr, Field
+from bson.objectid import ObjectId
 
 example = {
     "address":"Hellgasse 500",
@@ -13,6 +14,7 @@ example = {
 
 class UserModel(BaseModel):
     """User Model class"""
+    _id: ObjectId
     username: str = Field(..., min_length=1, max_length=50)
     password: str
     name: str = Field(..., min_length=1, max_length=100)
@@ -36,3 +38,9 @@ class StationModel(BaseModel):
     name: str
     number: int
     subscribers: list
+
+class ThresholdModel(BaseModel):
+    """Threshold per station and user"""
+    username: str
+    station: int
+    threshold: float
