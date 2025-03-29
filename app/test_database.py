@@ -7,7 +7,7 @@ from models import UserModel, DataModel, StationModel, ThresholdModel
 
 @pytest.fixture
 def test_param():
-    return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
+    return "locally" if "GITHUB_ACTIONS" not in os.environ else "github"
 
 def create_test_user(username: str):
     my_user = {
@@ -39,8 +39,8 @@ def create_test_threshold(username, station, threshold):
     return ThresholdModel(**my_threshold)
 
 def test_insert_user_into_database(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -63,7 +63,7 @@ def test_insert_user_into_database(test_param):
 
 def test_insert_data_into_database(test_param):
     print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -91,8 +91,8 @@ def test_insert_data_into_database(test_param):
     assert result[0]["temp"] == my_data['temp']
 
 def test_insert_station_into_database(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -110,8 +110,8 @@ def test_insert_station_into_database(test_param):
     assert result[0]["subscribers"] == []
 
 def test_add_user_to_existing_station_as_subscriber_by_id(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -135,8 +135,8 @@ def test_add_user_to_existing_station_as_subscriber_by_id(test_param):
     assert result[0]["subscribers"][0] == ObjectId(user_id)
 
 def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -159,11 +159,9 @@ def test_add_user_to_existing_station_as_subscriber_by_username(test_param):
     assert len(result[0]["subscribers"]) == 1
     assert result[0]["subscribers"][0] == user.username
 
-test_add_user_to_existing_station_as_subscriber_by_username('local')
-
 def test_add_user_to_new_station_as_subscriber(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -184,8 +182,8 @@ def test_add_user_to_new_station_as_subscriber(test_param):
     assert result[0]["subscribers"][0] == user.username
 
 def test_threshold_usernames_per_station(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
@@ -210,8 +208,8 @@ def test_threshold_usernames_per_station(test_param):
     assert result[1][0] == "Jonny_Test"
 
 def test_threshold_usernames_per_station_greater(test_param):
-    print(f"Running test with param: {test_param}")
-    assert test_param in ["local", "github"]
+    print(f"Test with param: {test_param}")
+    assert test_param in ["locally", "github"]
 
     if test_param == "github":
         assert True
