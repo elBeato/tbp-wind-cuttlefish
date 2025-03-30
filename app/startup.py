@@ -83,7 +83,7 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
 
                     if counter_value <= 1 and BELOW_MIN_WINDSPEED == 0:
                         send_email(
-                            "Windguru Alert", "Wind speed has exceeded 2.0 m/s.", 
+                            "Windguru Alert", "Wind speed has exceeded threshold", 
                             station_id,
                             speed
                             )

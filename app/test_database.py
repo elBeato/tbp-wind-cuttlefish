@@ -9,16 +9,6 @@ from models import UserModel, DataModel, StationModel, ThresholdModel
 def test_db_param():
     return "locally" if "GITHUB_ACTIONS" not in os.environ else "github"
 
-@pytest.fixture(autouse=True)
-def cleanup_db(test_db_param):
-    # This allows the test to run first
-    yield
-    if test_db_param == "github":
-        return
-    client = db.connect_to_db(2000)
-    db.clear_all_collections(client)
-    print("\n✅ Cleanup after all test!")
-
 def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678):
     my_user = {
         "username": username,
