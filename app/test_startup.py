@@ -13,8 +13,6 @@ import database as db
 
 @pytest.fixture
 def test_param():
-    client = db.connect_to_db(2000)
-    db.clear_all_collections(client)
     return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
 
 def test_call_windguru_api():
@@ -187,7 +185,8 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
         return
 
     client = db.connect_to_db(2000)
-
+    db.clear_all_collections(client)
+    
     # Arrange
     user1 = builder.create_test_user("Jonny_startup_test")
     user2 = builder.create_test_user("Rene_startup_test")
@@ -237,7 +236,7 @@ def test_fetch_all_emails_current_wind_speed(test_param):
         return
 
     client = db.connect_to_db(2000)
-
+    db.clear_all_collections(client)
     # Arrange
     user1 = builder.create_test_user("Jonny_startup_test")
     user2 = builder.create_test_user("Rene_startup_test")
@@ -279,3 +278,4 @@ def test_fetch_all_emails_current_wind_speed(test_param):
 
     assert (user1.email in email_list3) is True
     assert (user2.email in email_list3) is True
+    db.clear_all_collections(client)
