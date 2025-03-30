@@ -173,4 +173,6 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
+    # restore current mongo situation after program start
+    store_daily_mongo()
     scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

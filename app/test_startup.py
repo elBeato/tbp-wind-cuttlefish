@@ -18,8 +18,10 @@ def test_param():
     return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
 
 @pytest.fixture(autouse=True)
-def cleanup():
+def cleanup(test_param):
     yield  # This allows the test to run first
+    if test_param == "github":
+        return
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
     print("\n✅ Cleanup after test!")  # Runs after each test
