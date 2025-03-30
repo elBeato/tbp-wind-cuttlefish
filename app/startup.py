@@ -162,4 +162,4 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
-    scheduler.run(windguru_api_call, wl.logger)
+    scheduler.run(wl.logger, windguru_api_call)

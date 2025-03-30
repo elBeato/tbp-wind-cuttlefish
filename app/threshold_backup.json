@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "67e9ab24f3ff0c308bb08768",
+        "username": "Anna_username",
+        "station": 123,
+        "threshold": 1.5
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08769",
+        "username": "Anna_username",
+        "station": 456,
+        "threshold": 10.6
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876a",
+        "username": "Nerea_username",
+        "station": 123,
+        "threshold": 2.5
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876b",
+        "username": "Nerea_username",
+        "station": 789,
+        "threshold": 11.6
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876c",
+        "username": "Rene_username",
+        "station": 456,
+        "threshold": 3.5
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876d",
+        "username": "Rene_username",
+        "station": 789,
+        "threshold": 12.6
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876e",
+        "username": "Kevin_username",
+        "station": 55,
+        "threshold": 4.5
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb0876f",
+        "username": "Kevin_username",
+        "station": 66,
+        "threshold": 13.6
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "67e9ab24f3ff0c308bb08763",
+        "name": "dummy pytest station",
+        "number": 123,
+        "subscribers": []
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08764",
+        "name": "dummy pytest station",
+        "number": 456,
+        "subscribers": []
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08765",
+        "name": "dummy pytest station",
+        "number": 789,
+        "subscribers": []
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08766",
+        "name": "dummy pytest station",
+        "number": 55,
+        "subscribers": []
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08767",
+        "name": "dummy pytest station",
+        "number": 66,
+        "subscribers": []
+    }
+]
