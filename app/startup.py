@@ -4,6 +4,7 @@ import smtplib
 import ssl
 import threading
 import time
+from helper import store_collections_local_on_host
 import requests
 import scheduler
 import database as db
@@ -15,6 +16,16 @@ BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
 
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
+
+def store_daily_mongo():
+    with task_lock:
+        try:
+            wl.logger.info('@@@@@@@@@ Store collections on local host @@@@@@@@@')
+            result = store_collections_local_on_host
+        except Exception as ex:
+            wl.logger.critical('[{time.strftime("%H:%M:%S")}]: ' +
+                               f'error while store collection on local host = {ex}')
+        return result
 
 def check_response_contains_param(response, station_id):
     try:
@@ -162,4 +173,4 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
-    scheduler.run(wl.logger, windguru_api_call)
+    scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

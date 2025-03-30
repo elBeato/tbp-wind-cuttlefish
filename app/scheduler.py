@@ -5,7 +5,7 @@ import schedule
 import helper as hp
 import configuration as config
 
-def run(logger, windguru_api_call):
+def run(logger, windguru_api_call, store_collections_local_on_host):
     try:
         # Get values from environment variables or config.yaml
         url1 = config.get_config_value("url1")
@@ -30,7 +30,7 @@ def run(logger, windguru_api_call):
                                         times_below_limit=times_below_limit,
                                         count_func=count_func)
 
-    schedule.every(1).day.do(hp.store_collections_local_on_host)
+    schedule.every(1).day.do(store_collections_local_on_host)
 
     logger.info("Scheduler started.")
 
