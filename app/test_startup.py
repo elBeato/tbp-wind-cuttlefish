@@ -186,7 +186,7 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
 
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
-    
+
     # Arrange
     user1 = builder.create_test_user("Jonny_startup_test")
     user2 = builder.create_test_user("Rene_startup_test")
