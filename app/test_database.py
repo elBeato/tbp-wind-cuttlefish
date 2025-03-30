@@ -12,7 +12,7 @@ def test_db_param():
 @pytest.fixture(autouse=True)
 def cleanup_db():
     # This allows the test to run first
-    yield  
+    yield
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
     print("\n✅ Cleanup after all test!")
@@ -26,7 +26,7 @@ def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678
         "mobile": "+41 79 123 45 99",
         "birthday": "1986-11-21",
         "password": "123_Forever",
-        "subscriptions": [1234, 5678]
+        "subscriptions": [station_1, station_2]
         }
     return UserModel(**my_user)
 
