@@ -9,7 +9,7 @@ from models import UserModel, DataModel, StationModel, ThresholdModel
 def test_db_param():
     return "locally" if "GITHUB_ACTIONS" not in os.environ else "github"
 
-def create_test_user(username: str):
+def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678):
     my_user = {
         "username": username,
         "name": "John",
@@ -18,7 +18,7 @@ def create_test_user(username: str):
         "mobile": "+41 79 123 45 99",
         "birthday": "1986-11-21",
         "password": "123_Forever",
-        "subscriptions": [1234, 5678]
+        "subscriptions": [station_1, station_2]
         }
     return UserModel(**my_user)
 

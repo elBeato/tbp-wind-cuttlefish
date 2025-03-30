@@ -4,6 +4,7 @@ import smtplib
 import ssl
 import threading
 import time
+from helper import store_collections_local_on_host
 import requests
 import scheduler
 import database as db
@@ -15,6 +16,16 @@ BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
 
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
+
+def store_daily_mongo():
+    with task_lock:
+        try:
+            wl.logger.info('@@@@@@@@@ Store collections on local host @@@@@@@@@')
+            result = store_collections_local_on_host
+        except Exception as ex:
+            wl.logger.critical('[{time.strftime("%H:%M:%S")}]: ' +
+                               f'error while store collection on local host = {ex}')
+        return result
 
 def check_response_contains_param(response, station_id):
     try:
@@ -72,7 +83,7 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
 
                     if counter_value <= 1 and BELOW_MIN_WINDSPEED == 0:
                         send_email(
-                            "Windguru Alert", "Wind speed has exceeded 2.0 m/s.", 
+                            "Windguru Alert", "Wind speed has exceeded threshold", 
                             station_id,
                             speed
                             )
@@ -162,4 +173,6 @@ def serialize_user(user):
     return user
 
 if __name__ == '__main__':
-    scheduler.run(windguru_api_call, wl.logger)
+    # restore current mongo situation after program start
+    store_daily_mongo()
+    scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "67e9ab24f3ff0c308bb0875f",
+        "username": "Anna_username",
+        "password": "123_Forever",
+        "name": "John",
+        "address": "Highway 37",
+        "email": "Anna_username@bluewin.ch",
+        "mobile": "+41 79 123 45 99",
+        "birthday": "1986-11-21",
+        "subscriptions": [
+            1234,
+            5678
+        ]
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08760",
+        "username": "Nerea_username",
+        "password": "123_Forever",
+        "name": "John",
+        "address": "Highway 37",
+        "email": "Nerea_username@bluewin.ch",
+        "mobile": "+41 79 123 45 99",
+        "birthday": "1986-11-21",
+        "subscriptions": [
+            1234,
+            5678
+        ]
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08761",
+        "username": "Rene_username",
+        "password": "123_Forever",
+        "name": "John",
+        "address": "Highway 37",
+        "email": "Rene_username@bluewin.ch",
+        "mobile": "+41 79 123 45 99",
+        "birthday": "1986-11-21",
+        "subscriptions": [
+            1234,
+            5678
+        ]
+    },
+    {
+        "_id": "67e9ab24f3ff0c308bb08762",
+        "username": "Kevin_username",
+        "password": "123_Forever",
+        "name": "John",
+        "address": "Highway 37",
+        "email": "Kevin_username@bluewin.ch",
+        "mobile": "+41 79 123 45 99",
+        "birthday": "1986-11-21",
+        "subscriptions": [
+            1234,
+            5678
+        ]
+    }
+]

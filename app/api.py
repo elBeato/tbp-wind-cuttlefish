@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flasgger import Swagger
 from pydantic import ValidationError
-from models import UserModel
+from models import UserModel, ThresholdModel
 import database as db
 
 app = Flask(__name__)
@@ -46,6 +46,26 @@ def get_data_all():
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(data_list)
+
+@app.route('/thresholds', methods=['POST'])
+def post_new_threshold_list():
+    try:
+        data = request.get_json()
+        validated_thresholds = [ThresholdModel(**item) for item in data]
+        client = db.connect_to_db()
+        list_thresholds = []
+        for threshold in validated_thresholds:
+            db.insert_threshold(client, threshold.dict())
+            list_thresholds.append(threshold.dict())
+        return jsonify({
+            "message": "Threshold data received successfully",
+            "Thresholds": list_thresholds
+            }), 201
+    except ValidationError as e:
+        return jsonify({"error": str(e)}), 400
+    user = request.get_json()  # Get JSON data from request
+    if not user:
+        return jsonify({"error": "No JSON data received"}), 400
 
 @app.route('/users', methods=['POST'])
 def post_new_users():
