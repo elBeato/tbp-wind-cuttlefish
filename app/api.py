@@ -86,8 +86,8 @@ def post_new_threshold_list():
             }), 201
     except ValidationError as e:
         return jsonify({"error": str(e)}), 400
-    user = request.get_json()  # Get JSON data from request
-    if not user:
+    threshold = request.get_json()  # Get JSON data from request
+    if not threshold:
         return jsonify({"error": "No JSON data received"}), 400
 
 @app.route('/api/users', methods=['POST'])
@@ -127,7 +127,7 @@ def post_new_users():
     try:
         data = request.get_json()
         user = UserModel(**data)  # Validate input using Pydantic
-       
+
         client = db.connect_to_db()
         db.insert_user(client, user)
         inserted_user = db.find_user_by_username(client, user.username)

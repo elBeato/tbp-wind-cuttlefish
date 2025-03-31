@@ -28,7 +28,7 @@ class UserModel(BaseModel):
     mobile: str
     birthday: str
     subscriptions: list
-    
+
     def hash_user_password(self):
         """Hash the password before storing the user."""
         self.password = hash_password(self.password)
