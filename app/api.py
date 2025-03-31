@@ -36,6 +36,25 @@ def get_users_all():
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(users_list)
 
+@app.route('/users/<username>', methods=['GET'])
+def get_users_username_exists(username):
+    try:
+        client = db.connect_to_db()
+        user = db.find_user_by_username(client, username)
+        if user is None:
+            return jsonify({
+                "message": "Username is free to use",
+                "status": 'True',
+                "user": ''
+            }), 201
+        return jsonify({
+            "message": "Username is occupied",
+            "status": 'False',
+            "user": user.dict()
+        }), 201
+    except ValidationError as e:
+        return jsonify({"error": str(e)}), 400
+
 @app.route('/data', methods=['GET'])
 def get_data_all():
     try:
