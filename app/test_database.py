@@ -49,7 +49,7 @@ def test_insert_user_into_database(test_db_param):
     client = db.connect_to_db(2000)
     db.clear_user_collection(client)
     user = create_test_user("Anna_Nalani")
-    db.insert_user(client, user.dict())
+    db.insert_user(client, user)
     result = list(db.find_all_users(client))
     print(result)
     assert len(result) == 1
@@ -80,7 +80,7 @@ def test_insert_data_into_database(test_db_param):
         "temp": 3.5
         }
     data = DataModel(**my_data)
-    db.insert_data(client, data.dict())
+    db.insert_data(client, data)
     result = list(db.find_all_data(client))
     print(result)
     assert len(result) == 1
@@ -101,7 +101,7 @@ def test_insert_station_into_database(test_db_param):
     client = db.connect_to_db(2000)
     db.clear_station_collection(client)
     station = create_test_station(1234)
-    db.insert_station(client, station.dict())
+    db.insert_station(client, station)
     result = list(db.find_all_stations(client))
     print(result)
     assert len(result) == 1
@@ -121,11 +121,11 @@ def test_add_user_to_existing_station_as_subscriber_by_id(test_db_param):
     db.clear_all_collections(client)
 
     user = create_test_user("Jonny_test")
-    user_id = db.insert_user(client, user.dict())
+    user_id = db.insert_user(client, user)
     station = create_test_station(1234)
-    db.insert_station(client, station.dict())
+    db.insert_station(client, station)
     station = create_test_station(5678)
-    db.insert_station(client, station.dict())
+    db.insert_station(client, station)
     user = db.find_user_by_id(client, user_id)
     db.add_user_to_station_by_id(client, user)
     result = db.find_station_number(client, 1234)
@@ -146,11 +146,11 @@ def test_add_user_to_existing_station_as_subscriber_by_username(test_db_param):
     db.clear_all_collections(client)
 
     user = create_test_user("Ramon_by_pytest")
-    db.insert_user(client, user.dict())
+    db.insert_user(client, user)
     station = create_test_station(1234)
-    db.insert_station(client, station.dict())
+    db.insert_station(client, station)
     station = create_test_station(5678)
-    db.insert_station(client, station.dict())
+    db.insert_station(client, station)
     user = db.find_user_by_username(client, user.username)
     db.add_user_to_station_by_username(client, user)
     result = db.find_station_number(client, 1234)
@@ -171,7 +171,7 @@ def test_add_user_to_new_station_as_subscriber(test_db_param):
     db.clear_all_collections(client)
 
     user = create_test_user("Baba_Test")
-    db.insert_user(client, user.dict())
+    db.insert_user(client, user)
 
     user = db.find_user_by_username(client, user.username)
     db.add_user_to_station_by_username(client, user)
@@ -194,10 +194,10 @@ def test_threshold_usernames_per_station(test_db_param):
     db.clear_threshold_collection(client)
     # insert first document
     threshold = create_test_threshold("Baba_Test", 1234, 11.4)
-    db.insert_threshold(client, threshold.dict())
+    db.insert_threshold(client, threshold)
     # insert second document
     threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
-    db.insert_threshold(client, threshold.dict())
+    db.insert_threshold(client, threshold)
 
     # Act
     result = db.find_all_usernames_for_threshold_station(client, 1234, 9.0)
@@ -220,10 +220,10 @@ def test_threshold_usernames_per_station_greater(test_db_param):
     db.clear_threshold_collection(client)
     # insert first document
     threshold = create_test_threshold("Baba_Test", 1234, 11.4)
-    db.insert_threshold(client, threshold.dict())
+    db.insert_threshold(client, threshold)
     # insert second document
     threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
-    db.insert_threshold(client, threshold.dict())
+    db.insert_threshold(client, threshold)
 
     # Act
     result = db.find_all_usernames_for_threshold_station(client, 1234, 9.1)

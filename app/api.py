@@ -21,11 +21,15 @@ def serialize_data(data):
     data["_id"] = str(data["_id"])  # Convert ObjectId to string
     return data
 
+@app.route('/api', methods=['GET'])
+def index_api():
+    return "<p>Hello from windseeker app api - more information inside docs<p>"
+
 @app.route('/', methods=['GET'])
 def index():
     return "<p>Hello from windseeker app - made with flusk and love <3<p>"
 
-@app.route('/users', methods=['GET'])
+@app.route('/api/users', methods=['GET'])
 def get_users_all():
     try:
         client = db.connect_to_db()
@@ -36,7 +40,7 @@ def get_users_all():
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(users_list)
 
-@app.route('/users/<username>', methods=['GET'])
+@app.route('/api/users/<username>', methods=['GET'])
 def get_users_username_exists(username):
     try:
         client = db.connect_to_db()
@@ -55,7 +59,7 @@ def get_users_username_exists(username):
     except ValidationError as e:
         return jsonify({"error": str(e)}), 400
 
-@app.route('/data', methods=['GET'])
+@app.route('/api/data', methods=['GET'])
 def get_data_all():
     try:
         client = db.connect_to_db()
@@ -66,7 +70,7 @@ def get_data_all():
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(data_list)
 
-@app.route('/thresholds', methods=['POST'])
+@app.route('/api/thresholds', methods=['POST'])
 def post_new_threshold_list():
     try:
         data = request.get_json()
@@ -74,8 +78,8 @@ def post_new_threshold_list():
         client = db.connect_to_db()
         list_thresholds = []
         for threshold in validated_thresholds:
-            db.insert_threshold(client, threshold.dict())
-            list_thresholds.append(threshold.dict())
+            db.insert_threshold(client, threshold)
+            list_thresholds.append(threshold)
         return jsonify({
             "message": "Threshold data received successfully",
             "Thresholds": list_thresholds
@@ -86,7 +90,7 @@ def post_new_threshold_list():
     if not user:
         return jsonify({"error": "No JSON data received"}), 400
 
-@app.route('/users', methods=['POST'])
+@app.route('/api/users', methods=['POST'])
 def post_new_users():
     """
     Create a new user
@@ -123,8 +127,9 @@ def post_new_users():
     try:
         data = request.get_json()
         user = UserModel(**data)  # Validate input using Pydantic
+       
         client = db.connect_to_db()
-        db.insert_user(client, user.dict())
+        db.insert_user(client, user)
         inserted_user = db.find_user_by_username(client, user.username)
         # add user to station, create a new station if not exits already
         db.add_user_to_station_by_username(client, inserted_user)
