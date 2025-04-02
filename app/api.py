@@ -79,7 +79,7 @@ def post_new_threshold_list():
         list_thresholds = []
         for threshold in validated_thresholds:
             db.insert_threshold(client, threshold)
-            list_thresholds.append(threshold)
+            list_thresholds.append(threshold.dict())
         return jsonify({
             "message": "Threshold data received successfully",
             "Thresholds": list_thresholds
