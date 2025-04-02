@@ -19,7 +19,7 @@ COPY app/config.yaml /app/config.yaml
 RUN pip install pydantic[email]
 
 # Install required Python packages
-RUN pip install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest pydantic
+RUN pip install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest bcrypt pydantic
 
 # Install CA certificates for SSL
 RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*

@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 from pydantic import BaseModel, EmailStr, Field
 from bson.objectid import ObjectId
+import bcrypt
+
+def hash_password(password: str) -> str:
+    salt = bcrypt.gensalt()
+    return bcrypt.hashpw(password.encode("utf-8"), salt).decode("utf-8")
 
 example = {
     "address":"Hellgasse 500",
@@ -9,7 +14,7 @@ example = {
     "username":"elBeato",
     "email":"beatus.furrer@gmail.com",
     "password":"123",
-    "subscriptions":["Station A","Main Station"]
+    "subscriptions":[1234, 5678]
     }
 
 class UserModel(BaseModel):
@@ -23,6 +28,10 @@ class UserModel(BaseModel):
     mobile: str
     birthday: str
     subscriptions: list
+
+    def hash_user_password(self):
+        """Hash the password before storing the user."""
+        self.password = hash_password(self.password)
 
 class DataModel(BaseModel):
     """Data Model class"""

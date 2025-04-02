@@ -67,7 +67,7 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
                 if not check_response_contains_param(response, station_id):
                     continue
 
-                speed, direction = response['wind_avg'], response['wind_direction']
+                speed, direction = float(response['wind_avg']), float(response['wind_direction'])
                 wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
                                f'Wind: {speed:.1f} m/s, {direction}°')
                 wind_trigger = float(config.get_config_value("windspeedTrigger"))

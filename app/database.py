@@ -21,7 +21,7 @@ def add_user_to_station(client: MongoClient, user: UserModel, identification):
                 "subscribers": my_list
                 }
             station = StationModel(**my_station)
-            insert_station(client, station.dict())
+            insert_station(client, station)
         else:
             connect_to_station_collection(client).update_one(
                 {"number": station_number},
@@ -85,20 +85,21 @@ def connect_to_threshold_collection(client: MongoClient):
 
 def insert_user(client: MongoClient, user: UserModel):
     try:
-        result = connect_to_user_collection(client).insert_one(user)
+        user.hash_user_password()
+        result = connect_to_user_collection(client).insert_one(user.dict())
         return str(result.inserted_id)
     except Exception as ex:
         logger.logging.error(f'Method: insert_user(client, user): {ex}')
     return None
 
 def insert_data(client: MongoClient, data: DataModel):
-    connect_to_data_collection(client).insert_one(data)
+    connect_to_data_collection(client).insert_one(data.dict())
 
 def insert_station(client: MongoClient, station: StationModel):
-    connect_to_station_collection(client).insert_one(station)
+    connect_to_station_collection(client).insert_one(station.dict())
 
 def insert_threshold(client: MongoClient, threshold: ThresholdModel):
-    connect_to_threshold_collection(client).insert_one(threshold)
+    connect_to_threshold_collection(client).insert_one(threshold.dict())
 
 def add_user_to_station_by_id(client: MongoClient, user):
     identification = user['_id']

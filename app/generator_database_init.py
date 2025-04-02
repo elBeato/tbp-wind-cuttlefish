@@ -36,8 +36,8 @@ def basic_database_init(client):
         create_test_threshold('Kevin_username', 66, 13.6),
     ]
 
-    _ = [db.insert_user(client, user.dict()) for user in users]
-    _ = [db.insert_station(client, station.dict()) for station in stations]
-    _ = [db.insert_threshold(client, ts.dict()) for ts in thresholds]
+    _ = [db.insert_user(client, user) for user in users]
+    _ = [db.insert_station(client, station) for station in stations]
+    _ = [db.insert_threshold(client, ts) for ts in thresholds]
 
 init()
