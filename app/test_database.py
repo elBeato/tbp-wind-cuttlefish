@@ -3,11 +3,15 @@ import os
 import pytest
 import database as db
 from bson.objectid import ObjectId
-from models import UserModel, DataModel, StationModel, ThresholdModel
+from models import UserModel, DataModel, StationModel, ThresholdModel, SubscriptionModel
 
 @pytest.fixture
 def test_db_param():
     return "locally" if "GITHUB_ACTIONS" not in os.environ else "github"
+
+def create_test_subscription(station_id: int, station_name: str):
+    my_sub = {"id": station_id, "name": station_name}
+    return SubscriptionModel(**my_sub)
 
 def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678):
     my_user = {
@@ -18,13 +22,16 @@ def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678
         "mobile": "+41 79 123 45 99",
         "birthday": "1986-11-21",
         "password": "123_Forever",
-        "subscriptions": [station_1, station_2]
+        "subscriptions": [ 
+            create_test_subscription(station_1, "dummy station 1"),
+            create_test_subscription(station_2, "dummy station 2")
+            ]
         }
     return UserModel(**my_user)
 
 def create_test_station(number):
     my_station = {
-        "name": "dummy pytest station",
+        "name": f'dummy pytest station_{number}',
         "number": number,
         "subscribers": []
         }
@@ -59,7 +66,10 @@ def test_insert_user_into_database(test_db_param):
     assert result[0]["mobile"] == user.mobile
     assert result[0]["birthday"] == user.birthday
     assert result[0]["password"] == user.password
-    assert result[0]["subscriptions"] == user.subscriptions
+    assert result[0]["subscriptions"][0]['name'] == user.subscriptions[0].name
+    assert result[0]["subscriptions"][1]['name'] == user.subscriptions[1].name
+    assert result[0]["subscriptions"][0]['id'] == user.subscriptions[0].id
+    assert result[0]["subscriptions"][1]['id'] == user.subscriptions[1].id
 
 def test_insert_data_into_database(test_db_param):
     print(f"Running test with param: {test_db_param}")
@@ -105,7 +115,7 @@ def test_insert_station_into_database(test_db_param):
     result = list(db.find_all_stations(client))
     print(result)
     assert len(result) == 1
-    assert result[0]["name"] == "dummy pytest station"
+    assert result[0]["name"] == f"dummy pytest station_{1234}"
     assert result[0]["number"] == 1234
     assert result[0]["subscribers"] == []
 

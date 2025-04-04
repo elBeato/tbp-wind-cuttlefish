@@ -10,6 +10,7 @@ import scheduler
 import database as db
 import windlogger as wl
 import configuration as config
+from models import DataModel
 
 # Global variable to track last email sent time
 BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
@@ -49,7 +50,13 @@ def fetch_data_from_windguru(url1, url2, station_id):
     req = requests.get(f"{url2}{station_id}", headers=headers, timeout=5)
     return req
 
-def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, times_above_limit):
+def windguru_api_call(
+        url1: str, 
+        url2: str, 
+        station_ids: list, 
+        count_func, 
+        times_below_limit: int, 
+        times_above_limit: int):
     with task_lock:  # Only one task can run at a time
         req_tests = None
         wl.logger.debug("Starting windguru_api_call...")
@@ -72,18 +79,19 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
                                f'Wind: {speed:.1f} m/s, {direction}°')
                 wind_trigger = float(config.get_config_value("windspeedTrigger"))
                 if speed > wind_trigger:
-                    store_wind_data({
+                    wind_data = {
                         "name": "windguru-data",
                         "station": int(station_id), 
                         "speed": float(speed), 
                         "direction": int(direction), 
                         "ts": response['datetime'],
                         "temp": response['temperature']
-                    })
-
+                    }
+                    data = DataModel(**wind_data)
+                    store_wind_data(data)
                     if counter_value <= 1 and BELOW_MIN_WINDSPEED == 0:
                         send_email(
-                            "Windguru Alert", "Wind speed has exceeded threshold", 
+                            "Windguru Alert for station: ", 
                             station_id,
                             speed
                             )
@@ -109,7 +117,7 @@ def windguru_api_call(url1, url2, station_ids, count_func, times_below_limit, ti
                 wl.logger.debug("Finished windguru_api_call")
         return req_tests
 
-def store_wind_data(data):
+def store_wind_data(data: DataModel):
     wl.logger.debug("Starting data insertion into MongoDB...")
     try:
         client = db.connect_to_db()
@@ -141,7 +149,7 @@ def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float
         wl.logger.debug("Finished fetching email addresses")
     return email_list
 
-def send_email(subject: str, body: str, station_id: int, current_wind_speed: float):
+def send_email(subject: str, station_id: int, current_wind_speed: float):
     mail_list = fetch_email_addresses_for_station(station_id, current_wind_speed)
     sender_email = "elbeato.furrer@gmail.com"
     app_password = "uqzvthsdfbucolnp"  # Replace with environment variable!
@@ -149,11 +157,14 @@ def send_email(subject: str, body: str, station_id: int, current_wind_speed: flo
     if not mail_list:
         wl.logger.warning(f'⚠️ No email addresses found for station {station_id}')
         return
+    client = db.connect_to_db()
+    station = db.find_station_number(client, station_id)
+    body = f'The wind speed of the station {station[0]["name"]} is above its limit value. '
 
     msg = MIMEMultipart()
     msg["From"] = sender_email
     msg["To"] = ", ".join(mail_list)
-    msg["Subject"] = subject
+    msg["Subject"] = f'{station[0]["name"]}: ' + subject
     msg.attach(MIMEText(body, "plain"))
 
     #context = ssl.create_default_context()

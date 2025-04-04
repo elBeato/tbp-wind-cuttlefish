@@ -11,20 +11,20 @@ import configuration as config
 import windlogger as logger
 
 def add_user_to_station(client: MongoClient, user: UserModel, identification):
-    for station_number in user.subscriptions:
-        if find_station_number(client, station_number) is None:
+    for station in user.subscriptions:
+        if find_station_number(client, station['id']) is None:
             my_list = []
             my_list.append(identification)
             my_station = {
-                "name": "placeholder",
-                "number": station_number,
+                "name": station['name'],
+                "number": station['id'],
                 "subscribers": my_list
                 }
             station = StationModel(**my_station)
             insert_station(client, station)
         else:
             connect_to_station_collection(client).update_one(
-                {"number": station_number},
+                {"number": station['id']},
                 {"$push": {"subscribers": identification}}
             )
 
