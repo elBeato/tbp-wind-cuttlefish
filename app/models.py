@@ -17,6 +17,10 @@ example = {
     "subscriptions":[1234, 5678]
     }
 
+class SubscriptionModel(BaseModel):
+    id: int
+    name: str
+
 class UserModel(BaseModel):
     """User Model class"""
     _id: ObjectId

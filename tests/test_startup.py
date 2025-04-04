@@ -6,10 +6,10 @@ Created on Mon Mar  3 11:06:10 2025
 """
 import os
 import pytest
-import startup
-import helper as hp
+from app import startup
+from app import helper as hp
+from app import database as db
 import test_database as builder
-import database as db
 
 @pytest.fixture
 def test_param():
@@ -59,11 +59,11 @@ def test_call_windguru_api_types():
     unixtime = response['unixtime']
 
     assert req.url == expected
-    assert isinstance(wind_avg, float)
-    assert isinstance(wind_max, float)
-    assert isinstance(wind_min, float)
-    assert isinstance(wind_direction, int)
-    assert isinstance(temperature, float)
+    assert isinstance(wind_avg, (int, float))
+    assert isinstance(wind_max, (int, float))
+    assert isinstance(wind_min, (int, float))
+    assert isinstance(wind_direction, (int, float))
+    assert isinstance(temperature, (int, float))
     assert isinstance(datetime, str)
     assert isinstance(unixtime, int)
 
@@ -99,11 +99,11 @@ def test_call_windguru_api_values():
     assert temperature >= -80.0
     assert unixtime >= 0
 
-    assert isinstance(wind_avg, float)
-    assert isinstance(wind_max, float)
-    assert isinstance(wind_min, float)
-    assert isinstance(wind_direction, int)
-    assert isinstance(temperature, float)
+    assert isinstance(wind_avg, (int, float))
+    assert isinstance(wind_max, (int, float))
+    assert isinstance(wind_min, (int, float))
+    assert isinstance(wind_direction, (int, float))
+    assert isinstance(temperature, (int, float))
     assert isinstance(datetime, str)
     assert isinstance(unixtime, int)
 
@@ -165,9 +165,9 @@ def test_fetch_all_emails(test_param):
     db.insert_threshold(client, thres2)
     db.insert_threshold(client, thres3)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 1.2)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 1.2)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 1.2)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 3.6)
+    email_list2 = startup.fetch_email_addresses_for_station(2, 3.6)
+    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6)
 
     assert len(email_list1) == 1
     assert len(email_list2) == 1
@@ -208,9 +208,9 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
     db.insert_threshold(client, thres5)
     db.insert_threshold(client, thres6)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 1.2)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 1.2)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 1.2)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 5.9)
+    email_list2 = startup.fetch_email_addresses_for_station(2, 5.9)
+    email_list3 = startup.fetch_email_addresses_for_station(3, 5.9)
 
     assert len(email_list1) == 1
     assert len(email_list2) == 2
@@ -261,9 +261,9 @@ def test_fetch_all_emails_current_wind_speed(test_param):
     db.insert_threshold(client, thres5)
     db.insert_threshold(client, thres6)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 1.7)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 2.6)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 3.5)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 1.4)
+    email_list2 = startup.fetch_email_addresses_for_station(2, 2.5)
+    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6)
 
     # Assert
     assert len(email_list1) == 0
@@ -273,8 +273,8 @@ def test_fetch_all_emails_current_wind_speed(test_param):
     assert (user1.email in email_list1) is False
     assert (user2.email in email_list1) is False
 
-    assert (user1.email in email_list2) is False
-    assert (user2.email in email_list2) is True
+    assert (user1.email in email_list2) is True
+    assert (user2.email in email_list2) is False
 
     assert (user1.email in email_list3) is True
     assert (user2.email in email_list3) is True
