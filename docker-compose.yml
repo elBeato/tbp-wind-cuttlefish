@@ -9,7 +9,7 @@ services:
       - interval=15
       - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
       - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
-      - mongohost=host.docker.internal
+      - mongohost=mongo-ws
       - mongoport=27017
       - logLevel=20
     command: python /app/startup.py
@@ -21,7 +21,7 @@ services:
       - 5050:5050
     command: python /app/api.py
     environment:
-      - mongohost=host.docker.internal
+      - mongohost=mongo-ws
       - mongoport=27017
     restart: always
 
