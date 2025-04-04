@@ -4,50 +4,72 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
+
 import logging
 import sys
 import io
+import colorlog
 import configuration as config
 
 # Force UTF-8 output
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-# Set up logging with both console and file handlers
+# Set up the main logger
 logger = logging.getLogger()
 log_level = config.get_config_value("logLevel")
 
-# Check if handlers are already added to prevent duplicates
-# DEBUG (lowest severity) = 10
-# INFO = 20
-# WARNING = 30
-# ERROR
-# CRITICAL (highest severity)
-
 if not logger.hasHandlers():
-    logger.setLevel(int(log_level))  # Log level for both handlers
-    # Suppress MongoDB Connection Details Specifically
-    logging.getLogger("pymongo").setLevel(logging.ERROR)  # Show only critical issues
-    logging.getLogger("urllib3").setLevel(logging.WARNING)  # Suppress HTTP connection logs
-    logging.getLogger("asyncio").setLevel(logging.WARNING)  # Reduce asyncio noise
-    logging.getLogger("schedule").setLevel(logging.INFO)
-    # Suppress DEBUG logs from the `schedule` library
+    logger.setLevel(int(log_level))
+
+    # Suppress noisy logs
+    logging.getLogger("pymongo").setLevel(logging.ERROR)
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("asyncio").setLevel(logging.WARNING)
     logging.getLogger("schedule").setLevel(logging.WARNING)
 
-    # Console handler - logs to the console
+    # 🎨 Custom log format with short time
+    log_format = "%(log_color)s%(asctime)s - %(levelname)-8s %(emoji)s %(message)s%(reset)s"
+    date_format = "%H:%M:%S"  # ⏰ Only Hours:Minutes:Seconds
+
+    # 🔥 Log level colors
+    log_colors = {
+        'DEBUG': 'cyan',
+        'INFO': 'green',
+        'WARNING': 'yellow',
+        'ERROR': 'red',
+        'CRITICAL': 'bold_red',
+    }
+
+    # 🎭 Emojis for log levels
+    emoji_map = {
+        'DEBUG': '🐛',
+        'INFO': 'ℹ️',
+        'WARNING': '⚠️',
+        'ERROR': '❌',
+        'CRITICAL': '🔥',
+    }
+
+    class EmojiFormatter(colorlog.ColoredFormatter):
+        """Custom formatter to add emojis dynamically and pad level names."""
+        def format(self, record):
+            record.emoji = emoji_map.get(record.levelname, '')
+            return super().format(record)
+
+    # 🎨 Console handler (colored logs)
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(int(log_level))
+    console_formatter = EmojiFormatter(log_format, log_colors=log_colors, datefmt=date_format)
+    console_handler.setFormatter(console_formatter)
 
-    # File handler - logs to a file inside the container
-    file_handler = logging.FileHandler('./app.log')
+    # 📜 File handler (no colors, short time format)
+    file_handler = logging.FileHandler('./app.log', encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s', datefmt=date_format)
+    file_handler.setFormatter(file_formatter)
 
-    # Define a log format
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    console_handler.setFormatter(formatter)
-
-    file_handler.setFormatter(formatter)
-
-    # Add both handlers to the logger
+    # Add handlers
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-    logger.info("LOGGER: Container=INFO, File- and console=DEBUG")
+
+    # ✅ Initial log message
+    logger.info("LOGGER: Console & file now have short timestamps! 🚀")

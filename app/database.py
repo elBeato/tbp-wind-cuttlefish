@@ -39,11 +39,11 @@ def connect_to_db(timeout_ms = 5000):
         # Ping the database
         client.admin.command("ping")
 
-        logger.logger.info("✅ MongoDB connection is healthy.")
+        logger.logger.info("MongoDB connection is healthy.")
         return client  # Return the client if connection is successful
 
     except errors.ConnectionFailure as ex:
-        logger.logger.error(f"❌ MongoDB connection failed: {ex}")
+        logger.logger.error(f"MongoDB connection failed: {ex}")
         return None  # Return None if connection fails
 
 def get_database_name():

@@ -13,10 +13,10 @@ COPY app/helper.py /app/helper.py
 COPY app/scheduler.py /app/scheduler.py
 COPY app/windlogger.py /app/windlogger.py
 COPY app/api.py /app/api.py
-COPY app/config.yaml /app/config.yaml
+COPY config.yaml /config.yaml
 
 # Install cert for SSL
-RUN pip3 install pydantic[email]
+RUN pip3 install pydantic[email] dotenv
 
 # Install required Python packages
 RUN pip3 install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest bcrypt pydantic

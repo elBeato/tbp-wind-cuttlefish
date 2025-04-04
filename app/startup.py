@@ -68,7 +68,7 @@ def windguru_api_call(
 
         for station_id in station_ids:
             try:
-                wl.logger.info(f"Station[{station_id}] - ℹ️ Starting windguru_api_call... ")
+                wl.logger.info(f"Station[{station_id}] - Starting windguru_api_call... ")
                 req = fetch_data_from_windguru(url1, url2, station_id)
                 req_tests = req
                 response = req.json()
@@ -86,7 +86,7 @@ def windguru_api_call(
                                     f'Data fetched successfully from {url2}{station_id} at {time.strftime("%H:%M:%S")}')
                 wl.logger.info(f"Counter: {counters[station_id]}, times below min speed: {BELOW_MIN_WINDSPEED[station_id]}")
             except Exception as ex:
-                wl.logger.critical(f'Station[{station_id}] - ☢️ Unexpected error in windguru_api_call: {ex}')
+                wl.logger.critical(f'Station[{station_id}] - Unexpected error in windguru_api_call: {ex}')
         return req_tests
     
 def wind_speed_excess(
@@ -126,7 +126,7 @@ def wind_speed_excess(
                 speed
                 )
         else:
-            wl.logger.debug(f'Station[{station_id}] - 🔍 Email blocked because of counter={station_counter}')
+            wl.logger.debug(f'Station[{station_id}] - Email blocked because of counter={station_counter}')
             if station_counter >= times_above_limit:
                 counters[station_id] = 0
             else:
@@ -134,7 +134,7 @@ def wind_speed_excess(
         BELOW_MIN_WINDSPEED[station_id] = times_below_limit
         return True
     else:
-        wl.logger.debug(f'Station[{station_id}]- 🔍 Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
+        wl.logger.debug(f'Station[{station_id}]- Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
         if BELOW_MIN_WINDSPEED[station_id] > 0:
             BELOW_MIN_WINDSPEED[station_id] -= 1
         counters[station_id] = 0
@@ -145,11 +145,11 @@ def store_wind_data(data: DataModel):
         client = db.connect_to_db()
         db.insert_data(client, data)
     except Exception as ex:
-        wl.logger.error(f"Station[{data.station}] - ❌ Error storing data in MongoDB: {ex}")
+        wl.logger.error(f"Station[{data.station}] - Error storing data in MongoDB: {ex}")
 
 def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float) -> list:
     email_list = []
-    wl.logger.debug(f'Station[{station_id}] - 🔍 Fetching email addresses...')
+    wl.logger.debug(f'Station[{station_id}] - Fetching email addresses...')
     try:
         client = db.connect_to_db()
         username_list = db.find_all_usernames_for_threshold_station(
@@ -160,11 +160,11 @@ def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float
         for username in username_list:
             user = db.find_user_by_username(client, username[0])
             if not user:
-                wl.logger.debug(f'Station[{station_id}] - 🔍 User [{username}] not found')
+                wl.logger.debug(f'Station[{station_id}] - User [{username}] not found')
             else:
                 email_list.append(user.email)
     except Exception as ex:
-        wl.logger.error("Station[{station_id}] - ❌ Error fetching email addresses: %s", ex, exc_info=True)
+        wl.logger.error("Station[{station_id}] - Error fetching email addresses: %s", ex, exc_info=True)
     return email_list
 
 def send_email(subject: str, station_id: int, current_wind_speed: float):
@@ -173,7 +173,7 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
     app_password = config.get_config_value("GOOGLE_APP_PASSWORD")  # Replace with environment variable!
 
     if not mail_list:
-        wl.logger.warning(f'Station[{station_id}] - ⚠️ No email addresses found for station {station_id}')
+        wl.logger.warning(f'Station[{station_id}] - No email addresses found for station {station_id}')
         return
     client = db.connect_to_db()
     station = db.find_station_number(client, station_id)
@@ -192,9 +192,9 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(sender_email, app_password)
             server.sendmail(sender_email, ", ".join(mail_list), msg.as_string())
-            wl.logger.info(f'Station[{station_id}] - ✅ Email sent successfully to [{", ".join(mail_list)}]')
+            wl.logger.info(f'Station[{station_id}] - Email sent successfully to [{", ".join(mail_list)}]')
     except Exception as ex:
-        wl.logger.error(f"Station[{station_id}] - ❌ Failed to send email: {ex}")
+        wl.logger.error(f"Station[{station_id}] - Failed to send email: {ex}")
 
 def serialize_user(user):
     """Convert MongoDB ObjectId to string and prepare other fields."""
