@@ -13,7 +13,7 @@ import configuration as config
 from models import DataModel
 
 # Global variable to track last email sent time
-BELOW_MIN_WINDSPEED = {station: 0 for station in range(15500)}  # Initialize as 0 (meaning no email sent yet)
+BELOW_MIN_WIND_SPEED = {station: 0 for station in range(15500)}  # Initialize as 0 (meaning no email sent yet)
 
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
@@ -60,7 +60,6 @@ def windguru_api_call(
     with task_lock:  # Only one task can run at a time
         req_tests = None
         wl.logger.debug("----------------------- Starting new windspeed check -----------------------")
-        global BELOW_MIN_WINDSPEED
         
         # Fetch all station_ids
         if station_ids is None:
@@ -84,7 +83,7 @@ def windguru_api_call(
                 if result:
                     wl.logger.debug(f'Station[{station_id}] - '+
                                     f'Data fetched successfully from {url2}{station_id} at {time.strftime("%H:%M:%S")}')
-                wl.logger.info(f"Counter: {counters[station_id]}, times below min speed: {BELOW_MIN_WINDSPEED[station_id]}")
+                wl.logger.info(f"Counter: {counters[station_id]}, times below min speed: {BELOW_MIN_WIND_SPEED[station_id]}")
             except Exception as ex:
                 wl.logger.critical(f'Station[{station_id}] - Unexpected error in windguru_api_call: {ex}')
         return req_tests
@@ -96,7 +95,7 @@ def wind_speed_excess(
         times_below_limit: int,
         times_above_limit: int,
         ) -> bool:
-    global BELOW_MIN_WINDSPEED
+
     station_counter = counters[station_id]
     speed, direction = float(response['wind_avg']), float(response['wind_direction'])
     timestamp, temperature = response['datetime'], float(response['temperature'])
@@ -119,7 +118,7 @@ def wind_speed_excess(
         }
         data = DataModel(**wind_data)
         store_wind_data(data)
-        if station_counter <= 0 and BELOW_MIN_WINDSPEED[station_id] == 0:
+        if station_counter <= 0 and BELOW_MIN_WIND_SPEED[station_id] == 0:
             send_email(
                 "Windguru Alert for station: ", 
                 station_id,
@@ -131,12 +130,12 @@ def wind_speed_excess(
                 counters[station_id] = 0
             else:
                 counters[station_id] += 1
-        BELOW_MIN_WINDSPEED[station_id] = times_below_limit
+        BELOW_MIN_WIND_SPEED[station_id] = times_below_limit
         return True
     else:
         wl.logger.debug(f'Station[{station_id}]- Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
-        if BELOW_MIN_WINDSPEED[station_id] > 0:
-            BELOW_MIN_WINDSPEED[station_id] -= 1
+        if BELOW_MIN_WIND_SPEED[station_id] > 0:
+            BELOW_MIN_WIND_SPEED[station_id] -= 1
         counters[station_id] = 0
         return False
 
