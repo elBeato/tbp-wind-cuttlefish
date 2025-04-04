@@ -43,5 +43,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Debug - List files
       run: ls -la app/
-    - name: Test with pytest
-      run: pytest tests/
+    - name: Run tests
+      run: PYTHONPATH=. pytest tests/
