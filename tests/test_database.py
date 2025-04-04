@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
 import pytest
-import database as db
+from app import database as db
 from bson.objectid import ObjectId
-from models import UserModel, DataModel, StationModel, ThresholdModel, SubscriptionModel
+from app.models import UserModel, DataModel, StationModel, ThresholdModel, SubscriptionModel
 
 @pytest.fixture
 def test_db_param():
@@ -203,14 +203,14 @@ def test_threshold_usernames_per_station(test_db_param):
     client = db.connect_to_db(2000)
     db.clear_threshold_collection(client)
     # insert first document
-    threshold = create_test_threshold("Baba_Test", 1234, 11.4)
+    threshold = create_test_threshold("Baba_Test", 1234, 11.0)
     db.insert_threshold(client, threshold)
     # insert second document
-    threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
+    threshold = create_test_threshold("Jonny_Test", 1234, 13.6)
     db.insert_threshold(client, threshold)
 
     # Act
-    result = db.find_all_usernames_for_threshold_station(client, 1234, 9.0)
+    result = db.find_all_usernames_for_threshold_station(client, 1234, 13.6)
 
     print(result)
     assert len(result) == 2
@@ -229,14 +229,14 @@ def test_threshold_usernames_per_station_greater(test_db_param):
     client = db.connect_to_db(2000)
     db.clear_threshold_collection(client)
     # insert first document
-    threshold = create_test_threshold("Baba_Test", 1234, 11.4)
+    threshold = create_test_threshold("Baba_Test", 1234, 9.9)
     db.insert_threshold(client, threshold)
     # insert second document
-    threshold = create_test_threshold("Jonny_Test", 1234, 9.0)
+    threshold = create_test_threshold("Jonny_Test", 1234, 10.1)
     db.insert_threshold(client, threshold)
 
     # Act
-    result = db.find_all_usernames_for_threshold_station(client, 1234, 9.1)
+    result = db.find_all_usernames_for_threshold_station(client, 1234, 10.0)
 
     print(result)
     assert len(result) == 1

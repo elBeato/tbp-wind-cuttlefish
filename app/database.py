@@ -39,11 +39,11 @@ def connect_to_db(timeout_ms = 5000):
         # Ping the database
         client.admin.command("ping")
 
-        print("✅ MongoDB connection is healthy.")
+        logger.logger.info("✅ MongoDB connection is healthy.")
         return client  # Return the client if connection is successful
 
     except errors.ConnectionFailure as ex:
-        print(f"❌ MongoDB connection failed: {ex}")
+        logger.logger.error(f"❌ MongoDB connection failed: {ex}")
         return None  # Return None if connection fails
 
 def get_database_name():
@@ -145,9 +145,18 @@ def find_all_usernames_for_threshold_station(
         station_id: int,
         curr_wind_speed: float
         ):
-    query = {"station": station_id, "threshold": {"$gte": curr_wind_speed}}
+    query = {"station": station_id, "threshold": {"$lte": curr_wind_speed}}
     result = list(connect_to_threshold_collection(client).find(query))
     return [(user['username'], user['threshold']) for user in result]
+
+def find_lowest_threshold_for_station(client: MongoClient, station_id: int):
+    pipeline = [
+        {"$match": {"station": station_id}},  # Filter by station_id
+        {"$group": {"_id": None, "min_threshold": {"$min": "$threshold"}}}
+    ]
+
+    result = list(connect_to_threshold_collection(client).aggregate(pipeline))
+    return result[0]['min_threshold']  #lowest threshold for specific station id
 
 def clear_user_collection(client: MongoClient):
     x = connect_to_user_collection(client).delete_many({})

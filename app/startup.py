@@ -13,7 +13,7 @@ import configuration as config
 from models import DataModel
 
 # Global variable to track last email sent time
-BELOW_MIN_WINDSPEED = 0  # Initialize as 0 (meaning no email sent yet)
+BELOW_MIN_WINDSPEED = {station: 0 for station in range(15500)}  # Initialize as 0 (meaning no email sent yet)
 
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
@@ -21,7 +21,7 @@ task_lock = threading.Lock()
 def store_daily_mongo():
     with task_lock:
         try:
-            wl.logger.info('@@@@@@@@@ Store collections on local host @@@@@@@@@')
+            wl.logger.info('@@@@@@@@@@@@@@@@@@  Store collections on local host @@@@@@@@@@@@@@@@@@')
             result = store_collections_local_on_host
         except Exception as ex:
             wl.logger.critical('[{time.strftime("%H:%M:%S")}]: ' +
@@ -54,82 +54,102 @@ def windguru_api_call(
         url1: str, 
         url2: str, 
         station_ids: list, 
-        count_func, 
+        counters: dict, 
         times_below_limit: int, 
         times_above_limit: int):
     with task_lock:  # Only one task can run at a time
         req_tests = None
-        wl.logger.debug("Starting windguru_api_call...")
+        wl.logger.debug("----------------------- Starting new windspeed check -----------------------")
         global BELOW_MIN_WINDSPEED
-        counter_value = count_func()
+        
         # Fetch all station_ids
         if station_ids is None:
             station_ids = get_next_station_ids()
 
         for station_id in station_ids:
             try:
+                wl.logger.info(f"Station[{station_id}] - ℹ️ Starting windguru_api_call... ")
                 req = fetch_data_from_windguru(url1, url2, station_id)
                 req_tests = req
                 response = req.json()
                 if not check_response_contains_param(response, station_id):
                     continue
-
-                speed, direction = float(response['wind_avg']), float(response['wind_direction'])
-                wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
-                               f'Wind: {speed:.1f} m/s, {direction}°')
-                wind_trigger = float(config.get_config_value("windspeedTrigger"))
-                if speed > wind_trigger:
-                    wind_data = {
-                        "name": "windguru-data",
-                        "station": int(station_id), 
-                        "speed": float(speed), 
-                        "direction": int(direction), 
-                        "ts": response['datetime'],
-                        "temp": response['temperature']
-                    }
-                    data = DataModel(**wind_data)
-                    store_wind_data(data)
-                    if counter_value <= 1 and BELOW_MIN_WINDSPEED == 0:
-                        send_email(
-                            "Windguru Alert for station: ", 
-                            station_id,
-                            speed
-                            )
-                    else:
-                        wl.logger.info("Email blocked - Counter: %d", counter_value)
-                        if counter_value >= times_above_limit:
-                            count_func(reset=True)
-                    BELOW_MIN_WINDSPEED = times_below_limit
-                else:
-                    if BELOW_MIN_WINDSPEED > 0:
-                        BELOW_MIN_WINDSPEED -= 1
-                    count_func(reset=True)
-
-                wl.logger.debug("Data fetched successfully from %s at %s", f"{url2}{station_id}",
-                                time.strftime('%H:%M:%S'))
-                wl.logger.info("Counter: %d, Below Min Wind Speed Remaining: %d",
-                               counter_value,
-                               BELOW_MIN_WINDSPEED
-                               )
+                result = wind_speed_excess(
+                    response, 
+                    station_id, 
+                    counters,
+                    times_below_limit,
+                    times_above_limit
+                    )
+                if result:
+                    wl.logger.debug(f'Station[{station_id}] - '+
+                                    f'Data fetched successfully from {url2}{station_id} at {time.strftime("%H:%M:%S")}')
+                wl.logger.info(f"Counter: {counters[station_id]}, times below min speed: {BELOW_MIN_WINDSPEED[station_id]}")
             except Exception as ex:
-                wl.logger.critical("Unexpected error in windguru_api_call: %s", ex, exc_info=True)
-            finally:
-                wl.logger.debug("Finished windguru_api_call")
+                wl.logger.critical(f'Station[{station_id}] - ☢️ Unexpected error in windguru_api_call: {ex}')
         return req_tests
+    
+def wind_speed_excess(
+        response: str,
+        station_id: int,
+        counters: dict,
+        times_below_limit: int,
+        times_above_limit: int,
+        ) -> bool:
+    global BELOW_MIN_WINDSPEED
+    station_counter = counters[station_id]
+    speed, direction = float(response['wind_avg']), float(response['wind_direction'])
+    timestamp, temperature = response['datetime'], float(response['temperature'])
+
+    # Connect to threshold collection and find the lowest threshold
+    client = db.connect_to_db()
+    wind_trigger = db.find_lowest_threshold_for_station(client, station_id)
+    
+    wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
+                   f'Wind: {speed:.1f} m/s, {direction}° and min wind_trigger: {wind_trigger} m/s')
+        
+    if speed > wind_trigger:
+        wind_data = {
+            "name": "Windguru-data",
+            "station": int(station_id), 
+            "speed": float(speed), 
+            "direction": int(direction), 
+            "ts": timestamp,
+            "temp": temperature
+        }
+        data = DataModel(**wind_data)
+        store_wind_data(data)
+        if station_counter <= 0 and BELOW_MIN_WINDSPEED[station_id] == 0:
+            send_email(
+                "Windguru Alert for station: ", 
+                station_id,
+                speed
+                )
+        else:
+            wl.logger.debug(f'Station[{station_id}] - 🔍 Email blocked because of counter={station_counter}')
+            if station_counter >= times_above_limit:
+                counters[station_id] = 0
+            else:
+                counters[station_id] += 1
+        BELOW_MIN_WINDSPEED[station_id] = times_below_limit
+        return True
+    else:
+        wl.logger.debug(f'Station[{station_id}]- 🔍 Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
+        if BELOW_MIN_WINDSPEED[station_id] > 0:
+            BELOW_MIN_WINDSPEED[station_id] -= 1
+        counters[station_id] = 0
+        return False
 
 def store_wind_data(data: DataModel):
-    wl.logger.debug("Starting data insertion into MongoDB...")
     try:
         client = db.connect_to_db()
         db.insert_data(client, data)
     except Exception as ex:
-        wl.logger.error("Error storing data in MongoDB: %s", ex, exc_info=True)
-    finally:
-        wl.logger.debug("Finished data insertion into MongoDB")
+        wl.logger.error(f"Station[{data.station}] - ❌ Error storing data in MongoDB: {ex}")
 
 def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float) -> list:
     email_list = []
-    wl.logger.debug("Fetching email addresses...")
+    wl.logger.debug(f'Station[{station_id}] - 🔍 Fetching email addresses...')
     try:
         client = db.connect_to_db()
         username_list = db.find_all_usernames_for_threshold_station(
@@ -139,23 +159,21 @@ def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float
             )
         for username in username_list:
             user = db.find_user_by_username(client, username[0])
-            if user == []:
-                wl.logger.debug(f'User [{username}] not found')
+            if not user:
+                wl.logger.debug(f'Station[{station_id}] - 🔍 User [{username}] not found')
             else:
                 email_list.append(user.email)
     except Exception as ex:
-        wl.logger.error("Error fetching email addresses: %s", ex, exc_info=True)
-    finally:
-        wl.logger.debug("Finished fetching email addresses")
+        wl.logger.error("Station[{station_id}] - ❌ Error fetching email addresses: %s", ex, exc_info=True)
     return email_list
 
 def send_email(subject: str, station_id: int, current_wind_speed: float):
     mail_list = fetch_email_addresses_for_station(station_id, current_wind_speed)
     sender_email = "elbeato.furrer@gmail.com"
-    app_password = "uqzvthsdfbucolnp"  # Replace with environment variable!
+    app_password = config.get_config_value("GOOGLE_APP_PASSWORD")  # Replace with environment variable!
 
     if not mail_list:
-        wl.logger.warning(f'⚠️ No email addresses found for station {station_id}')
+        wl.logger.warning(f'Station[{station_id}] - ⚠️ No email addresses found for station {station_id}')
         return
     client = db.connect_to_db()
     station = db.find_station_number(client, station_id)
@@ -174,9 +192,9 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(sender_email, app_password)
             server.sendmail(sender_email, ", ".join(mail_list), msg.as_string())
-            wl.logger.info(f'✅ Email sent successfully to [{", ".join(mail_list)}]')
+            wl.logger.info(f'Station[{station_id}] - ✅ Email sent successfully to [{", ".join(mail_list)}]')
     except Exception as ex:
-        wl.logger.error("❌ Failed to send email: %s", ex, exc_info=True)
+        wl.logger.error(f"Station[{station_id}] - ❌ Failed to send email: {ex}")
 
 def serialize_user(user):
     """Convert MongoDB ObjectId to string and prepare other fields."""

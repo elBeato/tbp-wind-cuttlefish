@@ -5,7 +5,12 @@ Created on Mon Mar  3 11:06:10 2025
 @author: fub
 """
 import logging
+import sys
+import io
 import configuration as config
+
+# Force UTF-8 output
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Set up logging with both console and file handlers
 logger = logging.getLogger()
@@ -24,9 +29,12 @@ if not logger.hasHandlers():
     logging.getLogger("pymongo").setLevel(logging.ERROR)  # Show only critical issues
     logging.getLogger("urllib3").setLevel(logging.WARNING)  # Suppress HTTP connection logs
     logging.getLogger("asyncio").setLevel(logging.WARNING)  # Reduce asyncio noise
+    logging.getLogger("schedule").setLevel(logging.INFO)
+    # Suppress DEBUG logs from the `schedule` library
+    logging.getLogger("schedule").setLevel(logging.WARNING)
 
     # Console handler - logs to the console
-    console_handler = logging.StreamHandler()
+    console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(int(log_level))
 
     # File handler - logs to a file inside the container
@@ -35,9 +43,8 @@ if not logger.hasHandlers():
 
     # Define a log format
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-
-    # Apply the formatter to both handlers
     console_handler.setFormatter(formatter)
+
     file_handler.setFormatter(formatter)
 
     # Add both handlers to the logger

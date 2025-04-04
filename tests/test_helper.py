@@ -4,7 +4,7 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
-import helper as hp
+import app.helper as hp
 
 def test_counter():
     count_func = hp.counter()
