@@ -25,7 +25,7 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: |
-        python -m pip3 install --upgrade pip3
+        python -m pip install --upgrade pip
         pip3 install requests pymongo pyyaml pydantic
         pip3 install pydantic[email] dotenv
         pip3 install Flask flask_cors jsonify flasgger # for web app
