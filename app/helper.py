@@ -44,7 +44,7 @@ def store_collections_local_on_host() -> bool:
     with open("threshold_backup.json", "w", encoding="utf-8") as file:
         json.dump(threshold, file, indent=4)
 
-    wl.logger.info("✅ Collection exported to user_backup.json")
-    wl.logger.info("✅ Collection exported to station_backup.json")
-    wl.logger.info("✅ Collection exported to threshold_backup.json")
+    wl.logger.info("Collection exported to user_backup.json")
+    wl.logger.info("Collection exported to station_backup.json")
+    wl.logger.info("Collection exported to threshold_backup.json")
     return True

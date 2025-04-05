@@ -1,16 +1,10 @@
 url1: "https://www.windguru.cz/station/"
 url2: "https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station="
-windspeedTrigger: 4.0
-interval: 5
-timesBelowLimit: 30
-timesAboveLimit: 90
+INTERVAL: 5
 databaseName: "Windseeker"
 userCollection: "Users"
 dataCollection: "Data"
 stationCollection: "Stations"
 thresholdCollection: "Thresholds"
-
-mongohost: "localhost"
-mongoport: 27017
 
 logLevel: 10

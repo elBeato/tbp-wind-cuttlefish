@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from api import app
+from app.api import app
 import pytest
 
 @pytest.fixture
