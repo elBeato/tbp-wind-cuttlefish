@@ -18,6 +18,7 @@ venv/
 # Ignore system files
 .DS_Store
 Thumbs.db
+.env
 
 # Ignore logs and cache
 logs/
