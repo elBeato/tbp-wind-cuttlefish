@@ -132,12 +132,12 @@ def wind_speed_excess(
                 counters[station_id] += 1
         BELOW_MIN_WIND_SPEED[station_id] = times_below_limit
         return True
-    else:
-        wl.logger.debug(f'Station[{station_id}]- Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
-        if BELOW_MIN_WIND_SPEED[station_id] > 0:
-            BELOW_MIN_WIND_SPEED[station_id] -= 1
-        counters[station_id] = 0
-        return False
+    
+    wl.logger.debug(f'Station[{station_id}]- Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
+    if BELOW_MIN_WIND_SPEED[station_id] > 0:
+        BELOW_MIN_WIND_SPEED[station_id] -= 1
+    counters[station_id] = 0
+    return False
 
 def store_wind_data(data: DataModel):
     try:

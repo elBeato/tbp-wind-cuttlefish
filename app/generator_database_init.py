@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from pymongo import MongoClient
-from tests.test_database import create_test_user, create_test_station, create_test_threshold
 import database as db
+from tests.test_database import create_test_user, create_test_station, create_test_threshold
 
 def init() -> MongoClient:
     client = db.connect_to_db()

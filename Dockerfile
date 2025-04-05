@@ -19,7 +19,9 @@ COPY config.yaml /config.yaml
 RUN pip3 install pydantic[email] dotenv
 
 # Install required Python packages
-RUN pip3 install --no-cache-dir flask flasgger flask_cors requests schedule pyyaml pymongo pytest bcrypt pydantic
+RUN pip3 install --no-cache-dir flask flasgger flask_cors  \
+    requests schedule pyyaml pymongo pytest bcrypt pydantic \
+    colorlog
 
 # Install CA certificates for SSL
 RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*

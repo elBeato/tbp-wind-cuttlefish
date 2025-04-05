@@ -19,7 +19,7 @@ def add_user_to_station(client: MongoClient, user: UserModel, identification):
                 "name": station['name'],
                 "number": station['id'],
                 "subscribers": my_list
-                }
+            }
             station = StationModel(**my_station)
             insert_station(client, station)
         else:
@@ -28,14 +28,16 @@ def add_user_to_station(client: MongoClient, user: UserModel, identification):
                 {"$push": {"subscribers": identification}}
             )
 
-def connect_to_db(timeout_ms = 5000):
+
+def connect_to_db(timeout_ms=5000):
     """Connects to MongoDB and checks if the connection is healthy."""
     try:
-        host = config.get_config_value("mongohost")
-        port = config.get_config_value("mongoport")
-        client = MongoClient(f"mongodb://root:supersecurepassword@{host}:{port}/",
-                                     timeoutMS=timeout_ms)
-
+        host = config.get_config_value("MONGO_HOST")
+        port = config.get_config_value("MONGO_PORT")
+        user = config.get_config_value("MONGO_USERNAME")
+        password = config.get_config_value("MONGO_PASSWORD")
+        client = MongoClient(f"mongodb://{user}:{password}@{host}:{port}/",
+                             timeoutMS=timeout_ms)
         # Ping the database
         client.admin.command("ping")
 
@@ -46,28 +48,36 @@ def connect_to_db(timeout_ms = 5000):
         logger.logger.error(f"MongoDB connection failed: {ex}")
         return None  # Return None if connection fails
 
+
 def get_database_name():
     return config.get_config_value('databaseName')
+
 
 def get_user_collection():
     return config.get_config_value('userCollection')
 
+
 def get_data_collection():
     return config.get_config_value('dataCollection')
+
 
 def get_station_collection():
     return config.get_config_value('stationCollection')
 
+
 def get_threshold_collection():
     return config.get_config_value('thresholdCollection')
+
 
 def connect_to_user_collection(client: MongoClient):
     database = client[get_database_name()]
     return database[get_user_collection()]
 
+
 def connect_to_data_collection(client: MongoClient):
     database = client[get_database_name()]
     return database[get_data_collection()]
+
 
 def connect_to_station_collection(client: MongoClient):
     database = client[get_database_name()]
@@ -76,12 +86,14 @@ def connect_to_station_collection(client: MongoClient):
     collection.create_index("number", unique=True)
     return collection
 
+
 def connect_to_threshold_collection(client: MongoClient):
     database = client[get_database_name()]
     collection = database[get_threshold_collection()]
     # Create the compound unique index on 'username' and 'station'
     collection.create_index(["username", "station"], unique=True)
     return collection
+
 
 def insert_user(client: MongoClient, user: UserModel):
     try:
@@ -92,25 +104,32 @@ def insert_user(client: MongoClient, user: UserModel):
         logger.logging.error(f'Method: insert_user(client, user): {ex}')
     return None
 
+
 def insert_data(client: MongoClient, data: DataModel):
     connect_to_data_collection(client).insert_one(data.dict())
+
 
 def insert_station(client: MongoClient, station: StationModel):
     connect_to_station_collection(client).insert_one(station.dict())
 
+
 def insert_threshold(client: MongoClient, threshold: ThresholdModel):
     connect_to_threshold_collection(client).insert_one(threshold.dict())
+
 
 def add_user_to_station_by_id(client: MongoClient, user):
     identification = user['_id']
     add_user_to_station(client, UserModel(**user), identification)
 
+
 def add_user_to_station_by_username(client: MongoClient, user: UserModel):
     identification = user.username
     add_user_to_station(client, user, identification)
 
+
 def find_all_users(client: MongoClient):
     return list(connect_to_user_collection(client).find())
+
 
 def find_user_by_id(client: MongoClient, user_id):
     user_data = connect_to_user_collection(client).find_one({"_id": ObjectId(user_id)})
@@ -118,17 +137,21 @@ def find_user_by_id(client: MongoClient, user_id):
         return None  # Or raise an exception if a user must exist
     return user_data
 
+
 def find_user_by_username(client: MongoClient, username: str) -> UserModel:
     user_data = connect_to_user_collection(client).find_one({"username": username})
     if user_data is None:
         return None  # Or raise an exception if a user must exist
     return UserModel(**user_data)
 
+
 def find_all_data(client: MongoClient):
     return list(connect_to_data_collection(client).find())
 
+
 def find_all_stations(client: MongoClient):
     return list(connect_to_station_collection(client).find())
+
 
 def find_station_number(client: MongoClient, number: int):
     result = list(connect_to_station_collection(client).find({"number": number}))
@@ -140,14 +163,16 @@ def find_station_number(client: MongoClient, number: int):
             return result
     return None
 
+
 def find_all_usernames_for_threshold_station(
         client: MongoClient,
         station_id: int,
         curr_wind_speed: float
-        ):
+):
     query = {"station": station_id, "threshold": {"$lte": curr_wind_speed}}
     result = list(connect_to_threshold_collection(client).find(query))
     return [(user['username'], user['threshold']) for user in result]
+
 
 def find_lowest_threshold_for_station(client: MongoClient, station_id: int):
     pipeline = [
@@ -158,21 +183,26 @@ def find_lowest_threshold_for_station(client: MongoClient, station_id: int):
     result = list(connect_to_threshold_collection(client).aggregate(pipeline))
     return result[0]['min_threshold']  #lowest threshold for specific station id
 
+
 def clear_user_collection(client: MongoClient):
     x = connect_to_user_collection(client).delete_many({})
     return x.deleted_count
+
 
 def clear_data_collection(client: MongoClient):
     x = connect_to_data_collection(client).delete_many({})
     return x.deleted_count
 
+
 def clear_station_collection(client: MongoClient):
     x = connect_to_station_collection(client).delete_many({})
     return x.deleted_count
 
+
 def clear_threshold_collection(client: MongoClient):
     x = connect_to_threshold_collection(client).delete_many({})
     return x.deleted_count
+
 
 def clear_all_collections(client: MongoClient):
     count = clear_user_collection(client)

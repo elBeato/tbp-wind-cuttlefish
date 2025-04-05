@@ -5,12 +5,14 @@ services:
       - ./logs:/app/logs  # Mount the logs directory as before
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
     environment:
-      - windspeedTrigger=5.0
-      - interval=15
-      - timesBelowLimit=10 # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
-      - timesAboveLimit=90 # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
-      - mongohost=mongo-ws
-      - mongoport=27017
+      - INTERVAL=${INTERVAL}
+      - TIMES_BELOW_LIMIT=${TIMES_BELOW_LIMIT} # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
+      - TIMES_ABOVE_LIMIT=${TIMES_ABOVE_LIMIT} # = value * interval [sec], e.g.: (120sec * 90) / 3600 = 3h
+      - MONGO_HOST=${MONGO_HOST}
+      - MONGO_PORT=${MONGO_PORT}
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
       - logLevel=20
     command: python /app/startup.py
     restart: always
@@ -18,11 +20,14 @@ services:
   flask-api:
     build: .
     ports: 
-      - 5050:5050
+      - "5050:5050"
     command: python /app/api.py
     environment:
-      - mongohost=mongo-ws
-      - mongoport=27017
+      - MONGO_HOST=mongo-ws
+      - MONGO_PORT=27017
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
     restart: always
 
   mongo:
@@ -31,7 +36,7 @@ services:
     container_name: mongo-ws
     command: ["mongod", "--auth"]  # Enforce authentication
     ports:
-      - 27017:27017
+      - "27017:27017"
     healthcheck:
       test: ["CMD", "mongosh", "--eval", "db.runCommand('ping').ok"]
       interval: 10s    # Check every 10 seconds
@@ -39,11 +44,11 @@ services:
       retries: 5       # Retry 5 times before marking as unhealthy
       start_period: 30s  # Give MongoDB 30s to start before health checks begin
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
       MONGO_INITDB_DATABASE: Windseeker   
     volumes:
-      - /d/Docker/windseeker/mongo-data:/data/db:rw
+      - /c/Docker/windseeker/mongo-data:/data/db:rw
 
 volumes:
   mongo-data:

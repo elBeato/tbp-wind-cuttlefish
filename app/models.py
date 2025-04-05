@@ -18,11 +18,12 @@ example = {
     }
 
 class SubscriptionModel(BaseModel):
+    """Subscription model class"""
     id: int
     name: str
 
 class UserModel(BaseModel):
-    """User Model class"""
+    """User model class"""
     _id: ObjectId
     username: str = Field(..., min_length=1, max_length=50)
     password: str

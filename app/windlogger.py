@@ -4,7 +4,6 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
-
 import logging
 import sys
 import io
@@ -28,8 +27,8 @@ if not logger.hasHandlers():
     logging.getLogger("schedule").setLevel(logging.WARNING)
 
     # 🎨 Custom log format with short time
-    log_format = "%(log_color)s%(asctime)s - %(levelname)-8s %(emoji)s %(message)s%(reset)s"
-    date_format = "%H:%M:%S"  # ⏰ Only Hours:Minutes:Seconds
+    LOG_FORMAT = "%(log_color)s%(asctime)s - %(levelname)-8s %(emoji)s %(message)s%(reset)s"
+    DATA_FORMAT = "%H:%M:%S"  # ⏰ Only Hours:Minutes:Seconds
 
     # 🔥 Log level colors
     log_colors = {
@@ -58,18 +57,15 @@ if not logger.hasHandlers():
     # 🎨 Console handler (colored logs)
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(int(log_level))
-    console_formatter = EmojiFormatter(log_format, log_colors=log_colors, datefmt=date_format)
+    console_formatter = EmojiFormatter(LOG_FORMAT, log_colors=log_colors, datefmt=DATA_FORMAT)
     console_handler.setFormatter(console_formatter)
 
     # 📜 File handler (no colors, short time format)
     file_handler = logging.FileHandler('./app.log', encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
-    file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s', datefmt=date_format)
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s', datefmt=DATA_FORMAT)
     file_handler.setFormatter(file_formatter)
 
     # Add handlers
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
-
-    # ✅ Initial log message
-    logger.info("LOGGER: Console & file now have short timestamps! 🚀")
