@@ -8,7 +8,7 @@ import logging
 import sys
 import io
 import colorlog
-import configuration as config
+from app import configuration as config
 
 # Force UTF-8 output
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -63,7 +63,8 @@ if not logger.hasHandlers():
     # 📜 File handler (no colors, short time format)
     file_handler = logging.FileHandler('./app.log', encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
-    file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s', datefmt=DATA_FORMAT)
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s',
+                                       datefmt=DATA_FORMAT)
     file_handler.setFormatter(file_formatter)
 
     # Add handlers

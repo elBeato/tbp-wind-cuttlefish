@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from pymongo import MongoClient
-import database as db
+import app.database as db
 from tests.test_database import create_test_user, create_test_station, create_test_threshold
 
 def init() -> MongoClient:

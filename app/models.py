@@ -53,6 +53,7 @@ class BasicStationModel(BaseModel):
     id: int = Field(alias='id')  # 'id' in input, 'id' in code
 
 class WindguruStationModel(BasicStationModel):
+    """Windguru imported station"""
     online: bool = False
 
 class StationModel(BasicStationModel):

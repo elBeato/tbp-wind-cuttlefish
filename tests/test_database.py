@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 import os
 import pytest
-from app import database as db
 from bson.objectid import ObjectId
-from app.models import UserModel, DataModel, StationModel, ThresholdModel, SubscriptionModel
+from app import database as db
+from app.models import (
+    DataModel,
+    StationModel,
+    SubscriptionModel,
+    ThresholdModel,
+    UserModel,
+)
 
 @pytest.fixture
 def test_db_param():
@@ -29,10 +35,10 @@ def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678
         }
     return UserModel(**my_user)
 
-def create_test_station(id):
+def create_test_station(station_id):
     my_station = {
-        "name": f'dummy pytest station_{id}',
-        "id": id,
+        "name": f'dummy pytest station_{station_id}',
+        "id": station_id,
         "subscribers": []
         }
     return StationModel(**my_station)

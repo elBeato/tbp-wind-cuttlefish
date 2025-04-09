@@ -3,8 +3,8 @@ import json
 import time
 
 import requests
-import database as db
-import windlogger as wl
+from app import database as db
+from app import windlogger as wl
 
 # Using a closure function with enclosed state
 def counter():
@@ -27,7 +27,8 @@ def check_response_contains_param(response, station_id, log_result = True):
     except Exception as ex:
         if log_result:
             wl.logger.warning(f'[{time.strftime("%H:%M:%S")}]: ' +
-                              f'Station = [{station_id}] response doesnt contains AVG and DIRECTION - {ex}')
+                              f'Station = [{station_id}] response doesnt contains '+
+                              f'average windspeed and wind direction - {ex}')
     return False
 
 def get_next_station_ids():

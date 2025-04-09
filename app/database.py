@@ -4,11 +4,11 @@ Created on Mon Feb 24 10:45:13 2025
 
 @author: fub
 """
-from models import UserModel, DataModel, StationModel, ThresholdModel, WindguruStationModel
 from pymongo import MongoClient, errors
 from bson.objectid import ObjectId
-import configuration as config
-import windlogger as logger
+from app import configuration as config
+from app import windlogger as wl
+from app.models import UserModel, DataModel, StationModel, ThresholdModel, WindguruStationModel
 
 def add_user_to_station(client: MongoClient, user: UserModel, identification):
     for station in user.subscriptions:
@@ -40,11 +40,12 @@ def connect_to_db(timeout_ms=5000):
         # Ping the database
         client.admin.command("ping")
 
-        logger.logger.info("MongoDB connection is healthy.")
+        wl.logger.info("MongoDB connection is healthy.")
         return client  # Return the client if connection is successful
 
     except errors.ConnectionFailure as ex:
-        logger.logger.error(f"MongoDB connection failed: {ex}")
+        string = 'MongoDB connection failed: %s', str(ex)
+        wl.logger.error(string)
         return None  # Return None if connection fails
 
 
@@ -111,7 +112,7 @@ def insert_user(client: MongoClient, user: UserModel):
         result = connect_to_user_collection(client).insert_one(user.model_dump())
         return str(result.inserted_id)
     except Exception as ex:
-        logger.logging.error(f'Method: insert_user(client, user): {ex}')
+        wl.logging.error(f'Method: insert_user(client, user): {ex}')
     return None
 
 
@@ -170,10 +171,10 @@ def find_all_stations(client: MongoClient):
     return list(connect_to_station_collection(client).find())
 
 
-def find_station_id(client: MongoClient, id: int):
-    result = list(connect_to_station_collection(client).find({"id": id}))
+def find_station_id(client: MongoClient, station_id: int):
+    result = list(connect_to_station_collection(client).find({"id": station_id}))
     if len(result) > 1:
-        logger.logging.critical('Method: find_station_id(client, id): ' +
+        wl.logging.critical('Method: find_station_id(client, id): ' +
                                 f'More then one occurrence of the station {id}')
     else:
         if len(result) == 1:

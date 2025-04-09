@@ -4,8 +4,8 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flasgger import Swagger
 from pydantic import ValidationError
-from models import UserModel, ThresholdModel
-import database as db
+from app.models import UserModel, ThresholdModel
+from app import database as db
 
 app = Flask(__name__)
 swagger = Swagger(app) # Initialize Swagger

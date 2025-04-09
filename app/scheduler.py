@@ -2,7 +2,7 @@
 import time
 import sys
 import schedule
-import configuration as config
+from app import configuration as config
 
 def run(logger, windguru_api_call, store_collections_local_on_host):
     try:

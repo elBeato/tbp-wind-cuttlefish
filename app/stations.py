@@ -1,19 +1,21 @@
-import configuration as config
-import windlogger as wl
-from helper import fetch_data_from_windguru, check_response_contains_param
-import database as db
-import json
-from models import WindguruStationModel
-import schedule
 import time
+import json
+import schedule
+from app import configuration as config
+from app import windlogger as wl
+from app import database as db
+from app.models import WindguruStationModel
+from app.helper import fetch_data_from_windguru, check_response_contains_param
 
 def find_live_stations(response, n):
     if check_response_contains_param(response, n, False):
         return True
+    return False
 
 def find_offline_stations(response, n):
     if not check_response_contains_param(response, n, False):
         return True
+    return False
 
 def find_stations(station_types = find_live_stations):
     url_1 = config.get_config_value('url1')
@@ -26,7 +28,8 @@ def find_stations(station_types = find_live_stations):
             if station_types(response, n):
                 stations_ids.append(n)
         except Exception as ex:
-            wl.logger.info(f'[find_stations]: {ex} - Error station[{n}] while fetching data from: {url_2}')
+            wl.logger.info(f'[find_stations]: {ex} - Error station[{n}] ' +
+                           'while fetching data from: {url_2}')
     return stations_ids
 
 def write_json_file_into_db():
@@ -40,7 +43,8 @@ def write_json_file_into_db():
         online_stations[i] = curr_station
     cleared_docs = db.clear_windguru_station_collection(client)
     inserted_docs = db.insert_windguru_station(client, online_stations)
-    wl.logger.info(f'[write_json_file_into_db]: {cleared_docs} stations deleted, {inserted_docs} stations inserted'
+    wl.logger.info(f'[write_json_file_into_db]: {cleared_docs} stations deleted, ' +
+                   '{inserted_docs} stations inserted' +
                    f'Difference: {inserted_docs - cleared_docs} new stations')
 
 def merge_station_list_with_online_stations(live_stations: list[int]):
