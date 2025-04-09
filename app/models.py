@@ -32,7 +32,7 @@ class UserModel(BaseModel):
     email: EmailStr
     mobile: str
     birthday: str
-    subscriptions: list
+    subscriptions: list[SubscriptionModel]
 
     def hash_user_password(self):
         """Hash the password before storing the user."""
@@ -47,11 +47,18 @@ class DataModel(BaseModel):
     ts: str
     temp: float
 
-class StationModel(BaseModel):
-    """Station model with users"""
+class BasicStationModel(BaseModel):
+    """Basic station model"""
     name: str
-    number: int
+    id: int = Field(alias='id')  # 'id' in input, 'id' in code
+
+class WindguruStationModel(BasicStationModel):
+    online: bool = False
+
+class StationModel(BasicStationModel):
+    """Station model with users"""
     subscribers: list
+
 
 class ThresholdModel(BaseModel):
     """Threshold per station and user"""

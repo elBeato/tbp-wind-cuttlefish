@@ -4,12 +4,12 @@ import smtplib
 import ssl
 import threading
 import time
-from helper import store_collections_local_on_host
-import requests
+from helper import store_collections_local_on_host, fetch_data_from_windguru, get_next_station_ids, check_response_contains_param
 import scheduler
 import database as db
 import windlogger as wl
 import configuration as config
+import stations
 from models import DataModel
 
 # Global variable to track last email sent time
@@ -18,7 +18,7 @@ BELOW_MIN_WIND_SPEED = {station: 0 for station in range(15500)}  # Initialize as
 # Create a lock to prevent overlap of tasks
 task_lock = threading.Lock()
 
-def store_daily_mongo():
+def daily_store_mongo():
     with task_lock:
         try:
             wl.logger.info('@@@@@@@@@@@@@@@@@@  Store collections on local host @@@@@@@@@@@@@@@@@@')
@@ -27,28 +27,6 @@ def store_daily_mongo():
             wl.logger.critical('[{time.strftime("%H:%M:%S")}]: ' +
                                f'error while store collection on local host = {ex}')
         return result
-
-def check_response_contains_param(response, station_id):
-    try:
-        if response['wind_avg'] is not None and response['wind_direction'] is not None:
-            return True
-    except Exception:
-        wl.logger.warning(f'[{time.strftime("%H:%M:%S")}]: ' +
-                          f'Station = [{station_id}] response doesnt contains AVG and DIRECTION')
-    return False
-
-def get_next_station_ids():
-    client = db.connect_to_db(2000)
-    station_entries = db.find_all_stations(client)
-    station_ids = []
-    for station in station_entries:
-        station_ids.append(station['number'])
-    return station_ids
-
-def fetch_data_from_windguru(url1, url2, station_id):
-    headers = {'Referer': f"{url1}{station_id}"}
-    req = requests.get(f"{url2}{station_id}", headers=headers, timeout=5)
-    return req
 
 def windguru_api_call(
         url1: str, 
@@ -175,7 +153,7 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
         wl.logger.warning(f'Station[{station_id}] - No email addresses found for station {station_id}')
         return
     client = db.connect_to_db()
-    station = db.find_station_number(client, station_id)
+    station = db.find_station_id(client, station_id)
     body = f'The wind speed of the station {station[0]["name"]} is above its limit value. '
 
     msg = MIMEMultipart()
@@ -202,5 +180,5 @@ def serialize_user(user):
 
 if __name__ == '__main__':
     # restore current mongo situation after program start
-    store_daily_mongo()
+    daily_store_mongo()
     scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

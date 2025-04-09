@@ -6,6 +6,7 @@
 venv/
 .env/
 *.app/app.log
+*.env.*
 
 # Ignore Jupyter Notebook checkpoints (Spyder uses Jupyter internally)
 .ipynb_checkpoints/

@@ -4,6 +4,7 @@ services:
     volumes:
       - ./logs:/app/logs  # Mount the logs directory as before
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
+    command: python /app/startup.py
     environment:
       - INTERVAL=${INTERVAL}
       - TIMES_BELOW_LIMIT=${TIMES_BELOW_LIMIT} # = value * interval [sec], e.g.: (120sec * 10) / 60 = 20min
@@ -14,7 +15,6 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
       - logLevel=20
-    command: python /app/startup.py
     restart: always
 
   flask-api:
@@ -28,6 +28,16 @@ services:
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
+    restart: always
+
+  windguru-online-stations:
+    build: .
+    command: python /app/stations.py
+    environment:
+      - MONGO_HOST=mongo-ws
+      - MONGO_PORT=27017
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
     restart: always
 
   mongo:
