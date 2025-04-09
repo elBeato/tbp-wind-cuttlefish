@@ -9,7 +9,7 @@ import pytest
 from app import startup
 from app import helper as hp
 from app import database as db
-import test_database as builder
+from tests.test_database import create_test_user, create_test_threshold
 
 @pytest.fixture
 def test_param():
@@ -151,16 +151,16 @@ def test_fetch_all_emails(test_param):
     client = db.connect_to_db(2000)
 
     # Arrange
-    user1 = builder.create_test_user("Jonny_startup_test")
-    user2 = builder.create_test_user("Rene_startup_test")
-    user3 = builder.create_test_user("Bubu_startup_test")
+    user1 = create_test_user("Jonny_startup_test")
+    user2 = create_test_user("Rene_startup_test")
+    user3 = create_test_user("Bubu_startup_test")
     db.insert_user(client, user1)
     db.insert_user(client, user2)
     db.insert_user(client, user3)
 
-    thres1 = builder.create_test_threshold(user1.username, 1, 1.2)
-    thres2 = builder.create_test_threshold(user2.username, 2, 2.4)
-    thres3 = builder.create_test_threshold(user3.username, 3, 3.6)
+    thres1 = create_test_threshold(user1.username, 1, 1.2)
+    thres2 = create_test_threshold(user2.username, 2, 2.4)
+    thres3 = create_test_threshold(user3.username, 3, 3.6)
     db.insert_threshold(client, thres1)
     db.insert_threshold(client, thres2)
     db.insert_threshold(client, thres3)
@@ -188,19 +188,19 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
     db.clear_all_collections(client)
 
     # Arrange
-    user1 = builder.create_test_user("Jonny_startup_test")
-    user2 = builder.create_test_user("Rene_startup_test")
-    user3 = builder.create_test_user("Bubu_startup_test")
+    user1 = create_test_user("Jonny_startup_test")
+    user2 = create_test_user("Rene_startup_test")
+    user3 = create_test_user("Bubu_startup_test")
     db.insert_user(client, user1)
     db.insert_user(client, user2)
     db.insert_user(client, user3)
 
-    thres1 = builder.create_test_threshold(user1.username, 1, 1.2)
-    thres2 = builder.create_test_threshold(user1.username, 2, 2.4)
-    thres3 = builder.create_test_threshold(user2.username, 2, 3.6)
-    thres4 = builder.create_test_threshold(user1.username, 3, 4.8)
-    thres5 = builder.create_test_threshold(user2.username, 3, 5.9)
-    thres6 = builder.create_test_threshold(user3.username, 3, 5.9)
+    thres1 = create_test_threshold(user1.username, 1, 1.2)
+    thres2 = create_test_threshold(user1.username, 2, 2.4)
+    thres3 = create_test_threshold(user2.username, 2, 3.6)
+    thres4 = create_test_threshold(user1.username, 3, 4.8)
+    thres5 = create_test_threshold(user2.username, 3, 5.9)
+    thres6 = create_test_threshold(user3.username, 3, 5.9)
     db.insert_threshold(client, thres1)
     db.insert_threshold(client, thres2)
     db.insert_threshold(client, thres3)
@@ -238,20 +238,20 @@ def test_fetch_all_emails_current_wind_speed(test_param):
     client = db.connect_to_db(2000)
     db.clear_all_collections(client)
     # Arrange
-    user1 = builder.create_test_user("Jonny_startup_test")
-    user2 = builder.create_test_user("Rene_startup_test")
+    user1 = create_test_user("Jonny_startup_test")
+    user2 = create_test_user("Rene_startup_test")
     db.insert_user(client, user1)
     db.insert_user(client, user2)
 
     # Station 1
-    thres1 = builder.create_test_threshold(user1.username, 1, 1.5)
-    thres2 = builder.create_test_threshold(user2.username, 1, 1.6)
+    thres1 = create_test_threshold(user1.username, 1, 1.5)
+    thres2 = create_test_threshold(user2.username, 1, 1.6)
     # Station 2
-    thres3 = builder.create_test_threshold(user1.username, 2, 2.5)
-    thres4 = builder.create_test_threshold(user2.username, 2, 2.6)
+    thres3 = create_test_threshold(user1.username, 2, 2.5)
+    thres4 = create_test_threshold(user2.username, 2, 2.6)
     # Station 3
-    thres5 = builder.create_test_threshold(user1.username, 3, 3.5)
-    thres6 = builder.create_test_threshold(user2.username, 3, 3.6)
+    thres5 = create_test_threshold(user1.username, 3, 3.5)
+    thres6 = create_test_threshold(user2.username, 3, 3.6)
 
     # Act
     db.insert_threshold(client, thres1)

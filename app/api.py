@@ -4,8 +4,8 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flasgger import Swagger
 from pydantic import ValidationError
-from models import UserModel, ThresholdModel
-import database as db
+from app.models import UserModel, ThresholdModel
+from app import database as db
 
 app = Flask(__name__)
 swagger = Swagger(app) # Initialize Swagger
@@ -28,6 +28,23 @@ def index_api():
 @app.route('/', methods=['GET'])
 def index():
     return "<p>Hello from windseeker app - made with flusk and love <3<p>"
+
+@app.route('/api/windguru/stations', methods=['GET'])
+def get_windguru_stations_all():
+    try:
+        client = db.connect_to_db()
+        stations = db.find_all_windguru_stations(client)
+        # Convert each user document (cursor) to a list and serialize the ObjectId
+        station_list = [serialize_user(station) for station in stations]
+    except Exception as ex:
+        return f"<p>Error in Database connection: {ex}<p>"
+    return jsonify(
+        {
+            "length": len(station_list),
+            "additionalInfo": "balbla",
+            "stations": station_list
+        }
+    )
 
 @app.route('/api/users', methods=['GET'])
 def get_users_all():
@@ -135,7 +152,7 @@ def post_new_users():
         db.add_user_to_station_by_username(client, inserted_user)
         return jsonify({
             "message": "User data received successfully",
-            "user": user.dict()
+            "user": user.model_dump()
         }), 201
     except ValidationError as e:
         return jsonify({"error": str(e)}), 400

@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 import json
-import database as db
-import windlogger as wl
+import time
+
+import requests
+from app import database as db
+from app import windlogger as wl
 
 # Using a closure function with enclosed state
 def counter():
@@ -16,6 +19,30 @@ def counter():
         return count
 
     return increment
+
+def check_response_contains_param(response, station_id, log_result = True):
+    try:
+        if response['wind_avg'] is not None and response['wind_direction'] is not None:
+            return True
+    except Exception as ex:
+        if log_result:
+            wl.logger.warning(f'[{time.strftime("%H:%M:%S")}]: ' +
+                              f'Station = [{station_id}] response doesnt contains '+
+                              f'average windspeed and wind direction - {ex}')
+    return False
+
+def get_next_station_ids():
+    client = db.connect_to_db(2000)
+    station_entries = db.find_all_stations(client)
+    station_ids = []
+    for station in station_entries:
+        station_ids.append(station['id'])
+    return station_ids
+
+def fetch_data_from_windguru(url1, url2, station_id):
+    headers = {'Referer': f"{url1}{station_id}"}
+    req = requests.get(f"{url2}{station_id}", headers=headers, timeout=5)
+    return req
 
 def store_collections_local_on_host() -> bool:
     # Connect to MongoDB

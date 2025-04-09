@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 import os
 import pytest
-from app import database as db
 from bson.objectid import ObjectId
-from app.models import UserModel, DataModel, StationModel, ThresholdModel, SubscriptionModel
+from app import database as db
+from app.models import (
+    DataModel,
+    StationModel,
+    SubscriptionModel,
+    ThresholdModel,
+    UserModel,
+)
 
 @pytest.fixture
 def test_db_param():
@@ -29,10 +35,10 @@ def create_test_user(username: str, station_1: int = 1234, station_2: int = 5678
         }
     return UserModel(**my_user)
 
-def create_test_station(number):
+def create_test_station(station_id):
     my_station = {
-        "name": f'dummy pytest station_{number}',
-        "number": number,
+        "name": f'dummy pytest station_{station_id}',
+        "id": station_id,
         "subscribers": []
         }
     return StationModel(**my_station)
@@ -116,7 +122,7 @@ def test_insert_station_into_database(test_db_param):
     print(result)
     assert len(result) == 1
     assert result[0]["name"] == f"dummy pytest station_{1234}"
-    assert result[0]["number"] == 1234
+    assert result[0]["id"] == 1234
     assert result[0]["subscribers"] == []
 
 def test_add_user_to_existing_station_as_subscriber_by_id(test_db_param):
@@ -138,7 +144,7 @@ def test_add_user_to_existing_station_as_subscriber_by_id(test_db_param):
     db.insert_station(client, station)
     user = db.find_user_by_id(client, user_id)
     db.add_user_to_station_by_id(client, user)
-    result = db.find_station_number(client, 1234)
+    result = db.find_station_id(client, 1234)
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1
@@ -163,7 +169,7 @@ def test_add_user_to_existing_station_as_subscriber_by_username(test_db_param):
     db.insert_station(client, station)
     user = db.find_user_by_username(client, user.username)
     db.add_user_to_station_by_username(client, user)
-    result = db.find_station_number(client, 1234)
+    result = db.find_station_id(client, 1234)
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1
@@ -185,7 +191,7 @@ def test_add_user_to_new_station_as_subscriber(test_db_param):
 
     user = db.find_user_by_username(client, user.username)
     db.add_user_to_station_by_username(client, user)
-    result = db.find_station_number(client, 1234)
+    result = db.find_station_id(client, 1234)
     print(result)
     assert len(result) == 1
     assert len(result[0]["subscribers"]) == 1

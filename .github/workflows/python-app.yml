@@ -29,7 +29,7 @@ jobs:
         pip3 install requests pymongo pyyaml pydantic
         pip3 install pydantic[email] dotenv
         pip3 install Flask flask_cors jsonify flasgger # for web app
-        pip3 install schedule
+        pip3 install schedule colorlog
         pip3 install flake8 pytest bcrypt
         pip3 install -U selenium webdriver-manager
         if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
