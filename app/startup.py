@@ -171,6 +171,7 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
     msg.attach(MIMEText(body, "plain"))
 
     #context = ssl.create_default_context()
+    # pylint: disable=W0212
     context = ssl._create_unverified_context()
 
     try:
