@@ -36,13 +36,14 @@ def get_windguru_stations_all():
         stations = db.find_all_windguru_stations(client)
         # Convert each user document (cursor) to a list and serialize the ObjectId
         station_list = [serialize_user(station) for station in stations]
+        filtered_docs = [{'id': doc['id'], 'name': doc['name']} for doc in station_list]
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(
         {
-            "length": len(station_list),
+            "length": len(filtered_docs),
             "additionalInfo": "balbla",
-            "stations": station_list
+            "stations": filtered_docs
         }
     )
 
