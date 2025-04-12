@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import time
-
 import requests
+from requests import exceptions
 from app import database as db
 from app import windlogger as wl
 
@@ -40,8 +40,15 @@ def get_next_station_ids():
     return station_ids
 
 def fetch_data_from_windguru(url1, url2, station_id):
-    headers = {'Referer': f"{url1}{station_id}"}
-    req = requests.get(f"{url2}{station_id}", headers=headers, timeout=5)
+    try:
+        headers = {'Referer': f"{url1}{station_id}"}
+        req = requests.get(f"{url2}{station_id}", headers=headers, timeout=10)
+    except exceptions.Timeout as con_ex:
+        time.sleep(30) # sleep for 30 seconds
+        wl.logger.info(f'[helper.py]: Fetch data from station[{station_id}] '
+                       f'again with timeout=20sec - Error:{con_ex}')
+        headers = {'Referer': f"{url1}{station_id}"}
+        req = requests.get(f"{url2}{station_id}", headers=headers, timeout=20)
     return req
 
 def store_collections_local_on_host() -> bool:
@@ -64,11 +71,11 @@ def store_collections_local_on_host() -> bool:
         doc["_id"] = str(doc["_id"])
 
     # Save to a JSON file
-    with open("user_backup.json", "w", encoding="utf-8") as file:
+    with open("backup/user_backup.json", "w", encoding="utf-8") as file:
         json.dump(user, file, indent=4)
-    with open("station_backup.json", "w", encoding="utf-8") as file:
+    with open("backup/station_backup.json", "w", encoding="utf-8") as file:
         json.dump(station, file, indent=4)
-    with open("threshold_backup.json", "w", encoding="utf-8") as file:
+    with open("backup/threshold_backup.json", "w", encoding="utf-8") as file:
         json.dump(threshold, file, indent=4)
 
     wl.logger.info("Collection exported to user_backup.json")

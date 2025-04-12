@@ -2,32 +2,27 @@
 FROM python:3.12-slim
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /project-root
 
-# Copy the Python script and config.yaml from the 'app' folder into the container
-COPY app/configuration.py /app/configuration.py
-COPY app/models.py /app/models.py
-COPY app/startup.py /app/startup.py
-COPY app/database.py /app/database.py
-COPY app/helper.py /app/helper.py
-COPY app/scheduler.py /app/scheduler.py
-COPY app/windlogger.py /app/windlogger.py
-COPY app/api.py /app/api.py
-COPY app/stations.py /app/stations.py
+# Set PYTHONPATH to allow absolute imports
+ENV PYTHONPATH=/project-root
+
+# Copy the source backup
+COPY app/ /project-root/app/
 COPY config.yaml /config.yaml
-
-# Install cert for SSL
-RUN pip3 install pydantic[email] dotenv
-
-# Install required Python packages
-RUN pip3 install --no-cache-dir flask flasgger flask_cors  \
-    requests schedule pyyaml pymongo pytest bcrypt pydantic colorlog
 
 # Install CA certificates for SSL
 RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*
 
+# Install required Python packages
+RUN pip3 install --no-cache-dir \
+    flask flasgger flask_cors \
+    requests schedule pyyaml pymongo pytest bcrypt \
+    pydantic[email] \
+    python-dotenv colorlog
+
 # Expose the API port
 EXPOSE 5050
 
-# Start both scripts using a shell process
-CMD ["sh", "-c", "python startup.py & python api.py"]
+# Start the app
+CMD ["sh", "-c", "python app/startup.py && python app/api.py"]
