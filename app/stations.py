@@ -1,7 +1,7 @@
+import os
 import time
 import json
 import schedule
-import os
 from app import configuration as config
 from app import windlogger as wl
 from app import database as db

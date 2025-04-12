@@ -45,7 +45,8 @@ def fetch_data_from_windguru(url1, url2, station_id):
         req = requests.get(f"{url2}{station_id}", headers=headers, timeout=10)
     except exceptions.Timeout as con_ex:
         time.sleep(30) # sleep for 30 seconds
-        wl.logger.info(f'[helper.py]: Fetch data from station[{station_id}] again with timeout=20sec')
+        wl.logger.info(f'[helper.py]: Fetch data from station[{station_id}] '
+                       f'again with timeout=20sec - Error:{con_ex}')
         headers = {'Referer': f"{url1}{station_id}"}
         req = requests.get(f"{url2}{station_id}", headers=headers, timeout=20)
     return req
