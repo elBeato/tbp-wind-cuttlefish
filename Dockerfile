@@ -7,7 +7,7 @@ WORKDIR /project-root
 # Set PYTHONPATH to allow absolute imports
 ENV PYTHONPATH=/project-root
 
-# Copy the source files
+# Copy the source backup
 COPY app/ /project-root/app/
 COPY config.yaml /config.yaml
 

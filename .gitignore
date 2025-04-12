@@ -1,4 +1,4 @@
-# Ignore Python compiled files
+# Ignore Python compiled backup
 **/__pycache__
 *.py[cod]
 
@@ -11,12 +11,12 @@ venv/
 # Ignore Jupyter Notebook checkpoints (Spyder uses Jupyter internally)
 .ipynb_checkpoints/
 
-# Ignore Spyder project files
+# Ignore Spyder project backup
 .spyproject/
 *.spydata
 *.pkl
 
-# Ignore system files
+# Ignore system backup
 .DS_Store
 Thumbs.db
 .env

@@ -38,6 +38,7 @@ services:
       - MONGO_PORT=27017
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - MAX_STATION_NUMBER=15500
     restart: always
 
   mongo:
