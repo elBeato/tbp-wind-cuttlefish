@@ -88,7 +88,7 @@ def job():
 
 if __name__ == '__main__':
     os.makedirs('backup', exist_ok=True)
-    job()
+
     # Schedule it once daily at 00:30 AM
     schedule.every().day.at("00:30").do(job)
 
