@@ -45,9 +45,24 @@ MongoDB (likely accessed by multiple containers, probably by the Subscriber and 
 
 
 # ⚙️ Configuration
-- Interval: Number of times in seconds when the API will called
-- TimesAboveLimit: How many interval must be above limit until another email get triggered
-- WindLimit: Value for receiving an email 
+## Principal
+There is the `docker-compose.yml`, `.env.prod`/`.env` and `config.yaml`. The environment
+has to be defined in at least one of those files. In the `docker-compose.yml` the variables
+from the `.env.prod` can be used with `${VARABLE_NAME}` or just set the value. The structure
+of the `.env`-Files are: 
+```
+TIMES_BELOW_LIMIT=x     # x = number
+TIMES_ABOVE_LIMIT=x
+INTERVAL=x              #seconds, 5min = 300,
+MIN_STATION_NUMBER=x
+MONGO_HOST=y            # y = string
+MONGO_PORT=x
+MONGO_USERNAME=y
+MONGO_PASSWORD=y
+GOOGLE_APP_PASSWORD=y
+
+LOG_LEVEL=x
+```
 
 # 🧑‍💻 Contribution
 Warmly wellcome ... 
