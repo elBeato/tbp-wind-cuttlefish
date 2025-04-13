@@ -15,7 +15,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Set up the main logger
 logger = logging.getLogger()
-log_level = config.get_config_value("logLevel")
+log_level = config.get_config_value("LOG_LEVEL")
 
 if not logger.hasHandlers():
     logger.setLevel(int(log_level))

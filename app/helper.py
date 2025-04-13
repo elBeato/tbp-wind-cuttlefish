@@ -2,7 +2,7 @@
 import json
 import time
 import requests
-from requests import exceptions
+from requests import ConnectTimeout
 from app import database as db
 from app import windlogger as wl
 
@@ -43,7 +43,7 @@ def fetch_data_from_windguru(url1, url2, station_id):
     try:
         headers = {'Referer': f"{url1}{station_id}"}
         req = requests.get(f"{url2}{station_id}", headers=headers, timeout=10)
-    except exceptions.Timeout as con_ex:
+    except ConnectTimeout as con_ex:
         time.sleep(30) # sleep for 30 seconds
         wl.logger.info(f'[helper.py]: Fetch data from station[{station_id}] '
                        f'again with timeout=20sec - Error:{con_ex}')

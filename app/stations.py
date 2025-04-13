@@ -28,6 +28,8 @@ def find_stations(station_types = find_live_stations):
     url_2 = config.get_config_value('url2')
     min_station = int(config.get_config_value('MIN_STATION_NUMBER'))
     max_station = int(config.get_config_value('MAX_STATION_NUMBER'))
+    wl.logger.info(f'[find_stations]: Fetch from station[{min_station}], '
+                   f'till station[{max_station}]')
     stations_ids = []
     for n in range(min_station, max_station):
         try:
@@ -86,7 +88,7 @@ def job():
 
 if __name__ == '__main__':
     os.makedirs('backup', exist_ok=True)
-
+    job()
     # Schedule it once daily at 00:30 AM
     schedule.every().day.at("00:30").do(job)
 

@@ -6,5 +6,3 @@ dataCollection: "Data"
 stationCollection: "Stations"
 thresholdCollection: "Thresholds"
 windguruStationCollection: "WindguruStations"
-
-logLevel: 10

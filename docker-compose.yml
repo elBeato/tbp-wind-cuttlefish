@@ -14,7 +14,7 @@ services:
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
-      - logLevel=20
+      - LOG_LEVEL=20
     restart: always
 
   flask-api:
@@ -28,6 +28,7 @@ services:
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
+      - LOG_LEVEL=20
     restart: always
 
   windguru-online-stations:
@@ -38,7 +39,9 @@ services:
       - MONGO_PORT=27017
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
-      - MAX_STATION_NUMBER=15500
+      - MIN_STATION_NUMBER=1200
+      - MAX_STATION_NUMBER=2000
+      - LOG_LEVEL=20
     restart: always
 
   mongo:
