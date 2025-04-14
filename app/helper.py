@@ -32,11 +32,12 @@ def check_response_contains_param(response, station_id, log_result = True):
     return False
 
 def get_next_station_ids():
-    client = db.connect_to_db(2000)
-    station_entries = db.find_all_stations(client)
+    client, db_instance = db.connect_to_db(2000)
+    station_entries = db.find_all_stations(db_instance)
     station_ids = []
     for station in station_entries:
         station_ids.append(station['id'])
+    client.close()
     return station_ids
 
 def fetch_data_from_windguru(url1, url2, station_id):
@@ -53,12 +54,13 @@ def fetch_data_from_windguru(url1, url2, station_id):
 
 def store_collections_local_on_host() -> bool:
     # Connect to MongoDB
-    client = db.connect_to_db()
+    client, db_instance = db.connect_to_db()
 
     # Fetch all documents
-    user = list(db.connect_to_user_collection(client).find())
-    station = list(db.connect_to_station_collection(client).find())
-    threshold = list(db.connect_to_threshold_collection(client).find())
+    user = list(db.connect_to_user_collection(db_instance).find())
+    station = list(db.connect_to_station_collection(db_instance).find())
+    threshold = list(db.connect_to_threshold_collection(db_instance).find())
+    client.close()
 
     # Convert ObjectId to string (if needed)
     for doc in user:
