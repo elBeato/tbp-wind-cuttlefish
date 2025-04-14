@@ -23,46 +23,152 @@ def serialize_data(data):
 
 @app.route('/api', methods=['GET'])
 def index_api():
+    """
+    API root endpoint
+    ---
+    tags:
+      - Info
+    responses:
+      200:
+        description: Basic API greeting
+        content:
+          text/html:
+            example: "<p>Hello from windseeker app api - more information inside docs<p>"
+    """
     return "<p>Hello from windseeker app api - more information inside docs<p>"
 
 @app.route('/', methods=['GET'])
 def index():
-    return "<p>Hello from windseeker app - made with flusk and love <3<p>"
+    """
+    Home endpoint
+    ---
+    tags:
+     - Info
+    responses:
+     200:
+       description: Basic homepage message
+       content:
+         text/html:
+           example: "<p>Hello from windseeker app - made with flask and love <3<p>"
+    """
+    return "<p>Hello from windseeker app - made with flask and love <3<p>"
 
 @app.route('/api/windguru/stations', methods=['GET'])
 def get_windguru_stations_all():
+    """
+    Get all Windguru station IDs and names
+    ---
+    tags:
+     - Windguru
+    responses:
+     200:
+       description: A list of all available Windguru stations
+       schema:
+         type: object
+         properties:
+           length:
+             type: integer
+             example: 23
+           additionalInfo:
+             type: string
+             example: "bla-bla"
+           stations:
+             type: array
+             items:
+               type: object
+               properties:
+                 id:
+                   type: string
+                   example: "1234"
+                 name:
+                   type: string
+                   example: "Zurichsee"
+    """
     try:
-        client = db.connect_to_db()
-        stations = db.find_all_windguru_stations(client)
+        client, db_instance = db.connect_to_db()
+        stations = db.find_all_windguru_stations(db_instance)
         # Convert each user document (cursor) to a list and serialize the ObjectId
         station_list = [serialize_user(station) for station in stations]
         filtered_docs = [{'id': doc['id'], 'name': doc['name']} for doc in station_list]
+        client.close()
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(
         {
             "length": len(filtered_docs),
-            "additionalInfo": "balbla",
+            "additionalInfo": "bla-bla",
             "stations": filtered_docs
         }
     )
 
 @app.route('/api/users', methods=['GET'])
 def get_users_all():
+    """
+    Get all users
+    ---
+    tags:
+      - Users
+    responses:
+      200:
+        description: A list of all users
+        schema:
+          type: array
+          items:
+            type: object
+            properties:
+              _id:
+                type: string
+                example: "643d2b66c96cfb2fca0a5555"
+              name:
+                type: string
+              email:
+                type: string
+              mobile:
+                type: string
+    """
     try:
-        client = db.connect_to_db()
-        users = db.find_all_users(client)
+        client, db_instance = db.connect_to_db()
+        users = db.find_all_users(db_instance)
         # Convert each user document (cursor) to a list and serialize the ObjectId
         users_list = [serialize_user(user) for user in users]
+        client.close()
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(users_list)
 
 @app.route('/api/users/<username>', methods=['GET'])
 def get_users_username_exists(username):
+    """
+    Check if a username exists
+    ---
+    tags:
+      - Users
+    parameters:
+      - name: username
+        in: path
+        type: string
+        required: true
+        description: The username to check
+    responses:
+      201:
+        description: Username availability result
+        schema:
+          type: object
+          properties:
+            message:
+              type: string
+              example: "Username is free to use"
+            status:
+              type: string
+              example: "True"
+            user:
+              type: object
+              nullable: true
+    """
     try:
-        client = db.connect_to_db()
-        user = db.find_user_by_username(client, username)
+        client, db_instance = db.connect_to_db()
+        user = db.find_user_by_username(db_instance, username)
+        client.close()
         if user is None:
             return jsonify({
                 "message": "Username is free to use",
@@ -79,25 +185,73 @@ def get_users_username_exists(username):
 
 @app.route('/api/data', methods=['GET'])
 def get_data_all():
+    """
+    Get all data entries
+    ---
+    tags:
+      - Data
+    responses:
+      200:
+        description: A list of all data entries
+        schema:
+          type: array
+          items:
+            type: object
+            properties:
+              _id:
+                type: string
+              ...
+    """
     try:
-        client = db.connect_to_db()
-        data = db.find_all_data(client)
+        client, db_instance = db.connect_to_db()
+        data = db.find_all_data(db_instance)
         # Convert each user document (cursor) to a list and serialize the ObjectId
         data_list = [serialize_data(entry) for entry in data]
+        client.close()
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(data_list)
 
 @app.route('/api/thresholds', methods=['POST'])
 def post_new_threshold_list():
+    """
+    Submit a list of threshold configurations
+    ---
+    tags:
+      - Thresholds
+    parameters:
+      - in: body
+        name: thresholds
+        required: true
+        schema:
+          type: array
+          items:
+            type: object
+            properties:
+              parameter:
+                type: string
+                example: "wind_speed"
+              min:
+                type: number
+                example: 5.0
+              max:
+                type: number
+                example: 30.0
+    responses:
+      201:
+        description: Threshold data saved
+      400:
+        description: Invalid data format
+    """
     try:
         data = request.get_json()
         validated_thresholds = [ThresholdModel(**item) for item in data]
-        client = db.connect_to_db()
+        client, db_instance = db.connect_to_db()
         list_thresholds = []
         for threshold in validated_thresholds:
-            db.insert_threshold(client, threshold)
-            list_thresholds.append(threshold.dict())
+            db.insert_threshold(db_instance, threshold)
+            list_thresholds.append(threshold.model_dump())
+        client.close()
         return jsonify({
             "message": "Threshold data received successfully",
             "Thresholds": list_thresholds
@@ -118,39 +272,60 @@ def post_new_users():
     parameters:
       - in: body
         name: user
-        description: User information
+        description: User registration data
         required: true
         schema:
           type: object
           properties:
+            username:
+              type: string
+              example: surfer42
+            password:
+              type: string
+              example: SuperSecret123!
             name:
               type: string
               example: John Doe
             address:
               type: string
-              example: Highway 37
+              example: 123 Ocean Drive
             email:
               type: string
               format: email
-              example: john@bluewin.ch
+              example: john.doe@example.com
             mobile:
               type: string
               example: "+41 79 123 45 99"
+            birthday:
+              type: string
+              example: "1990-07-15"
+            subscriptions:
+              type: array
+              items:
+                type: object
+                properties:
+                  station_id:
+                    type: string
+                    example: "windguru-123"
+                  alerts_enabled:
+                    type: boolean
+                    example: true
     responses:
       201:
         description: User created successfully
       400:
-        description: Invalid JSON format
+        description: Invalid input or JSON format
     """
     try:
         data = request.get_json()
         user = UserModel(**data)  # Validate input using Pydantic
 
-        client = db.connect_to_db()
-        db.insert_user(client, user)
-        inserted_user = db.find_user_by_username(client, user.username)
+        client, db_instance = db.connect_to_db()
+        db.insert_user(db_instance, user)
+        inserted_user = db.find_user_by_username(db_instance, user.username)
         # add user to station, create a new station if not exits already
-        db.add_user_to_station_by_username(client, inserted_user)
+        db.add_user_to_station_by_username(db_instance, inserted_user)
+        client.close()
         return jsonify({
             "message": "User data received successfully",
             "user": user.model_dump()

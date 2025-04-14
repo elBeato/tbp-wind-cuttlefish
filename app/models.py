@@ -7,16 +7,6 @@ def hash_password(password: str) -> str:
     salt = bcrypt.gensalt()
     return bcrypt.hashpw(password.encode("utf-8"), salt).decode("utf-8")
 
-example = {
-    "address":"Hellgasse 500",
-    "mobile":"012",
-    "birthday":"1986-11-20",
-    "username":"elBeato",
-    "email":"beatus.furrer@gmail.com",
-    "password":"123",
-    "subscriptions":[1234, 5678]
-    }
-
 class SubscriptionModel(BaseModel):
     """Subscription model class"""
     id: int
@@ -27,7 +17,7 @@ class UserModel(BaseModel):
     _id: ObjectId
     username: str = Field(..., min_length=1, max_length=50)
     password: str
-    name: str = Field(..., min_length=1, max_length=100)
+    name: str
     address: str
     email: EmailStr
     mobile: str

@@ -19,10 +19,12 @@ RUN pip3 install --no-cache-dir \
     flask flasgger flask_cors \
     requests schedule pyyaml pymongo pytest bcrypt \
     pydantic[email] \
-    python-dotenv colorlog
+    python-dotenv colorlog \
+    gunicorn
 
 # Expose the API port
 EXPOSE 5050
 
-# Start the app
-CMD ["sh", "-c", "python app/startup.py && python app/api.py"]
+# Start the app using Gunicorn
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5050", "app.api:app"]
+

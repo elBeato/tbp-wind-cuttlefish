@@ -1,3 +1,4 @@
+import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
@@ -80,13 +81,27 @@ def wind_speed_excess(
         ) -> bool:
 
     station_counter = counters[station_id]
-    speed, direction = float(response['wind_avg']), float(response['wind_direction'])
-    timestamp, temperature = response['datetime'], float(response['temperature'])
+
+    speed = float(response.get('wind_avg') or 0.0)
+    if response.get('wind_avg') is None:
+        wl.logger.info(f'Station[{station_id}]: Station has no speed parameter!')
+
+    direction = float(response.get('wind_direction') or 0.0)
+    if response.get('wind_direction') is None:
+        wl.logger.info(f'Station[{station_id}]: Station has no direction parameter!')
+
+    temperature = float(response.get('temperature') or 0.0)
+    if response.get('temperature') is None:
+        wl.logger.info(f'Station[{station_id}]: Station has no temperature parameter!')
+
+    timestamp = response.get('datetime') or datetime.time()
+    if response.get('datetime') is None:
+        wl.logger.info(f'Station[{station_id}]: Station has no timestamp parameter!')
 
     # Connect to threshold collection and find the lowest threshold
-    client = db.connect_to_db()
-    wind_trigger = db.find_lowest_threshold_for_station(client, station_id)
-
+    client, db_instance = db.connect_to_db()
+    wind_trigger = db.find_lowest_threshold_for_station(db_instance, station_id)
+    client.close()
     wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
                    f'Wind: {speed:.1f} m/s, {direction}° and min wind_trigger: {wind_trigger} m/s')
 
@@ -126,29 +141,34 @@ def wind_speed_excess(
 
 def store_wind_data(data: DataModel):
     try:
-        client = db.connect_to_db()
-        db.insert_data(client, data)
+        client, db_instance = db.connect_to_db()
+        db.insert_data(db_instance, data)
+        client.close()
     except Exception as ex:
         wl.logger.error(f'Station[{data.station}] - Error storing data in MongoDB: {ex}')
 
-def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float) -> list:
+def fetch_email_addresses_for_station(
+        station_id: int,
+        current_wind_speed: float,
+        db_name="Windseeker") -> list:
     email_list = []
     wl.logger.debug(f'Station[{station_id}] - Fetching email addresses...')
     try:
-        client = db.connect_to_db()
+        client, db_instance = db.connect_to_db(db_name=db_name)
         username_list = db.find_all_usernames_for_threshold_station(
-            client,
+            db_instance,
             station_id,
             current_wind_speed
             )
         for username in username_list:
-            user = db.find_user_by_username(client, username[0])
+            user = db.find_user_by_username(db_instance, username[0])
             if not user:
                 wl.logger.debug(f'Station[{station_id}] - User [{username}] not found')
             else:
                 email_list.append(user.email)
     except Exception as ex:
         wl.logger.error(f'Station[{station_id}] - Error fetching email addresses: {ex}')
+    client.close()
     return email_list
 
 def send_email(subject: str, station_id: int, current_wind_speed: float):
@@ -160,8 +180,9 @@ def send_email(subject: str, station_id: int, current_wind_speed: float):
         wl.logger.warning(f'Station[{station_id}] - '+
                           f'No email addresses found for station {station_id}')
         return
-    client = db.connect_to_db()
-    station = db.find_station_id(client, station_id)
+    client, db_instance = db.connect_to_db()
+    station = db.find_station_id(db_instance, station_id)
+    client.close()
     body = f'The wind speed of the station {station[0]["name"]} is above its limit value. '
 
     msg = MIMEMultipart()
@@ -188,7 +209,13 @@ def serialize_user(user):
     user["_id"] = str(user["_id"])  # Convert ObjectId to string
     return user
 
+def add_indexes_to_collections():
+    client, db_instance = db.connect_to_db()
+    db.create_indexes_all_collections(db_instance)
+    client.close()
+
 if __name__ == '__main__':
     # restore current mongo situation after program start
     daily_store_mongo()
+    add_indexes_to_collections()
     scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

@@ -4,10 +4,11 @@ import app.database as db
 from tests.test_database import create_test_user, create_test_station, create_test_threshold
 
 def init() -> MongoClient:
-    client = db.connect_to_db(1000)
-    db.clear_all_collections(client)
-    basic_database_init(client)
-    return client
+    client, db_instance = db.connect_to_db(1000)
+    db.clear_all_collections(db_instance)
+    basic_database_init(db_instance)
+    client.close()
+    return db_instance
 
 def basic_database_init(client):
     users = [

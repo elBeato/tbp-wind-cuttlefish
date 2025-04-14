@@ -14,20 +14,21 @@ services:
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
-      - logLevel=20
+      - LOG_LEVEL=20
     restart: always
 
   flask-api:
     build: .
     ports: 
       - "5050:5050"
-    command: python /project-root/app/api.py
+    command: gunicorn -w 4 --threads 2 -b 0.0.0.0:5050 app.api:app
     environment:
       - MONGO_HOST=mongo-ws
       - MONGO_PORT=27017
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
+      - LOG_LEVEL=20
     restart: always
 
   windguru-online-stations:
@@ -38,7 +39,9 @@ services:
       - MONGO_PORT=27017
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
-      - MAX_STATION_NUMBER=15500
+      - MIN_STATION_NUMBER=${MIN_STATION_NUMBER}
+      - MAX_STATION_NUMBER=${MAX_STATION_NUMBER}
+      - LOG_LEVEL=20
     restart: always
 
   mongo:

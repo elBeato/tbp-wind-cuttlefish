@@ -28,6 +28,8 @@ def find_stations(station_types = find_live_stations):
     url_2 = config.get_config_value('url2')
     min_station = int(config.get_config_value('MIN_STATION_NUMBER'))
     max_station = int(config.get_config_value('MAX_STATION_NUMBER'))
+    wl.logger.info(f'[find_stations]: Fetch from station[{min_station}], '
+                   f'till station[{max_station}]')
     stations_ids = []
     for n in range(min_station, max_station):
         try:
@@ -40,8 +42,8 @@ def find_stations(station_types = find_live_stations):
                            f'while fetching data from: {url_2} - {ex}')
     return stations_ids
 
-def write_json_file_into_db():
-    client = db.connect_to_db()
+def write_json_file_into_db(db_name='Windseeker'):
+    client, db_instance = db.connect_to_db(db_name=db_name)
     # Get the current directory of the running file
     file = 'online_stations.json'
     file_path = get_file_path(file)
@@ -51,11 +53,12 @@ def write_json_file_into_db():
         curr_station = WindguruStationModel(**station)
         curr_station.online = True
         online_stations[i] = curr_station
-    cleared_docs = db.clear_windguru_station_collection(client)
-    inserted_docs = db.insert_windguru_station(client, online_stations)
+    cleared_docs = db.clear_windguru_station_collection(db_instance)
+    inserted_docs = db.insert_windguru_station(db_instance, online_stations)
     wl.logger.info(f'[write_json_file_into_db]: {cleared_docs} stations deleted, ' +
                    '{inserted_docs} stations inserted' +
                    f'Difference: {inserted_docs - cleared_docs} new stations')
+    client.close()
 
 def merge_station_list_with_online_stations(live_stations: list[int]):
     # Get the current directory of the running file

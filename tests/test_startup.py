@@ -9,7 +9,7 @@ import pytest
 from app import startup
 from app import helper as hp
 from app import database as db
-from tests.test_database import create_test_user, create_test_threshold
+from tests.test_database import create_test_user, create_test_threshold, test_db
 
 @pytest.fixture
 def test_param():
@@ -140,7 +140,7 @@ def test_call_windguru_api_print_values():
     print(f'datetime: {datetime}')
     print(f'unixtime: {unixtime}')
 
-def test_fetch_all_emails(test_param):
+def test_fetch_all_emails(test_param, test_db):
     print(f"Running test with param: {test_param}")
     assert test_param in ["local", "github"]
 
@@ -148,26 +148,24 @@ def test_fetch_all_emails(test_param):
         assert True
         return
 
-    client = db.connect_to_db(2000)
-
     # Arrange
     user1 = create_test_user("Jonny_startup_test")
     user2 = create_test_user("Rene_startup_test")
     user3 = create_test_user("Bubu_startup_test")
-    db.insert_user(client, user1)
-    db.insert_user(client, user2)
-    db.insert_user(client, user3)
+    db.insert_user(test_db, user1)
+    db.insert_user(test_db, user2)
+    db.insert_user(test_db, user3)
 
     thres1 = create_test_threshold(user1.username, 1, 1.2)
     thres2 = create_test_threshold(user2.username, 2, 2.4)
     thres3 = create_test_threshold(user3.username, 3, 3.6)
-    db.insert_threshold(client, thres1)
-    db.insert_threshold(client, thres2)
-    db.insert_threshold(client, thres3)
+    db.insert_threshold(test_db, thres1)
+    db.insert_threshold(test_db, thres2)
+    db.insert_threshold(test_db, thres3)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 3.6)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 3.6)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 3.6, "windseeker_test")
+    email_list2 = startup.fetch_email_addresses_for_station(2, 3.6, "windseeker_test")
+    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6, "windseeker_test")
 
     assert len(email_list1) == 1
     assert len(email_list2) == 1
@@ -184,16 +182,16 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
         assert True
         return
 
-    client = db.connect_to_db(2000)
-    db.clear_all_collections(client)
+    client, db_instance = db.connect_to_db(timeout_ms=2000, db_name='windseeker_test')
+    db.clear_all_collections(db_instance)
 
     # Arrange
     user1 = create_test_user("Jonny_startup_test")
     user2 = create_test_user("Rene_startup_test")
     user3 = create_test_user("Bubu_startup_test")
-    db.insert_user(client, user1)
-    db.insert_user(client, user2)
-    db.insert_user(client, user3)
+    db.insert_user(db_instance, user1)
+    db.insert_user(db_instance, user2)
+    db.insert_user(db_instance, user3)
 
     thres1 = create_test_threshold(user1.username, 1, 1.2)
     thres2 = create_test_threshold(user1.username, 2, 2.4)
@@ -201,16 +199,16 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
     thres4 = create_test_threshold(user1.username, 3, 4.8)
     thres5 = create_test_threshold(user2.username, 3, 5.9)
     thres6 = create_test_threshold(user3.username, 3, 5.9)
-    db.insert_threshold(client, thres1)
-    db.insert_threshold(client, thres2)
-    db.insert_threshold(client, thres3)
-    db.insert_threshold(client, thres4)
-    db.insert_threshold(client, thres5)
-    db.insert_threshold(client, thres6)
+    db.insert_threshold(db_instance, thres1)
+    db.insert_threshold(db_instance, thres2)
+    db.insert_threshold(db_instance, thres3)
+    db.insert_threshold(db_instance, thres4)
+    db.insert_threshold(db_instance, thres5)
+    db.insert_threshold(db_instance, thres6)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 5.9)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 5.9)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 5.9)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 5.9, "windseeker_test")
+    email_list2 = startup.fetch_email_addresses_for_station(2, 5.9, "windseeker_test")
+    email_list3 = startup.fetch_email_addresses_for_station(3, 5.9, "windseeker_test")
 
     assert len(email_list1) == 1
     assert len(email_list2) == 2
@@ -226,6 +224,7 @@ def test_fetch_all_emails_complex_subscriptions(test_param):
     assert (user3.email in email_list1) is False
     assert (user3.email in email_list2) is False
     assert (user3.email in email_list3) is True
+    client.close()
 
 def test_fetch_all_emails_current_wind_speed(test_param):
     print(f"Running test with param: {test_param}")
@@ -235,13 +234,13 @@ def test_fetch_all_emails_current_wind_speed(test_param):
         assert True
         return
 
-    client = db.connect_to_db(2000)
-    db.clear_all_collections(client)
+    client, db_instance = db.connect_to_db(timeout_ms=2000, db_name='windseeker_test')
+    db.clear_all_collections(db_instance)
     # Arrange
     user1 = create_test_user("Jonny_startup_test")
     user2 = create_test_user("Rene_startup_test")
-    db.insert_user(client, user1)
-    db.insert_user(client, user2)
+    db.insert_user(db_instance, user1)
+    db.insert_user(db_instance, user2)
 
     # Station 1
     thres1 = create_test_threshold(user1.username, 1, 1.5)
@@ -254,16 +253,16 @@ def test_fetch_all_emails_current_wind_speed(test_param):
     thres6 = create_test_threshold(user2.username, 3, 3.6)
 
     # Act
-    db.insert_threshold(client, thres1)
-    db.insert_threshold(client, thres2)
-    db.insert_threshold(client, thres3)
-    db.insert_threshold(client, thres4)
-    db.insert_threshold(client, thres5)
-    db.insert_threshold(client, thres6)
+    db.insert_threshold(db_instance, thres1)
+    db.insert_threshold(db_instance, thres2)
+    db.insert_threshold(db_instance, thres3)
+    db.insert_threshold(db_instance, thres4)
+    db.insert_threshold(db_instance, thres5)
+    db.insert_threshold(db_instance, thres6)
 
-    email_list1 = startup.fetch_email_addresses_for_station(1, 1.4)
-    email_list2 = startup.fetch_email_addresses_for_station(2, 2.5)
-    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6)
+    email_list1 = startup.fetch_email_addresses_for_station(1, 1.4, "windseeker_test")
+    email_list2 = startup.fetch_email_addresses_for_station(2, 2.5, "windseeker_test")
+    email_list3 = startup.fetch_email_addresses_for_station(3, 3.6, "windseeker_test")
 
     # Assert
     assert len(email_list1) == 0
@@ -278,4 +277,5 @@ def test_fetch_all_emails_current_wind_speed(test_param):
 
     assert (user1.email in email_list3) is True
     assert (user2.email in email_list3) is True
-    db.clear_all_collections(client)
+    db.clear_all_collections(db_instance)
+    client.close()
