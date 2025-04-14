@@ -1,8 +1,3 @@
 url1: "https://www.windguru.cz/station/"
 url2: "https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station="
 databaseName: "Windseeker"
-userCollection: "Users"
-dataCollection: "Data"
-stationCollection: "Stations"
-thresholdCollection: "Thresholds"
-windguruStationCollection: "WindguruStations"

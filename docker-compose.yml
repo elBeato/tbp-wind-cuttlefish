@@ -21,7 +21,7 @@ services:
     build: .
     ports: 
       - "5050:5050"
-    command: python /project-root/app/api.py
+    command: gunicorn -w 4 --threads 2 -b 0.0.0.0:5050 app.api:app
     environment:
       - MONGO_HOST=mongo-ws
       - MONGO_PORT=27017
@@ -39,8 +39,8 @@ services:
       - MONGO_PORT=27017
       - MONGO_USERNAME=${MONGO_USERNAME}
       - MONGO_PASSWORD=${MONGO_PASSWORD}
-      - MIN_STATION_NUMBER=1200
-      - MAX_STATION_NUMBER=2000
+      - MIN_STATION_NUMBER=${MIN_STATION_NUMBER}
+      - MAX_STATION_NUMBER=${MAX_STATION_NUMBER}
       - LOG_LEVEL=20
     restart: always
 
