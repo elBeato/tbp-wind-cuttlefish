@@ -11,6 +11,7 @@ A microservices architecture with a Python-based containerized backend (Flask, s
 - Call windguru api for data (on request)
 - Check for online data on all windguru stations (daily)
 - Send mail to subscribers depending on wind speed threshold
+- API swagger documentation: ```http://{host}:5050/apidocs```
 
 # Architecture
 It is Microservices-Based architecture, where in the frontend
@@ -73,7 +74,8 @@ Working with Spyder 6.0 via anaconda
 ## Install tests
 Install Run unit test: conda install -c spyder-ide spyder-unittest
 In the Run menu, select Run unit tests. If you do not see this menu item, then the plugin is not installed.
-Install pytest: conda install pytest
+Install pytest: conda install pytest.
+Test are using a separate database "windseeker-test"
 
 # Run docker
 Run the docker containers with the following commands
