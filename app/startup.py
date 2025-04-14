@@ -217,5 +217,5 @@ def add_indexes_to_collections():
 if __name__ == '__main__':
     # restore current mongo situation after program start
     daily_store_mongo()
-    add_indexes_to_collections
+    add_indexes_to_collections()
     scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

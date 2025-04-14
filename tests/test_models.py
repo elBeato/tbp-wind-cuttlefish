@@ -1,5 +1,5 @@
-from bson import ObjectId
 import re
+from bson import ObjectId
 import pytest
 from app.models import (
     UserModel, DataModel,
