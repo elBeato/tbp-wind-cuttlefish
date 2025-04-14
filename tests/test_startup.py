@@ -9,19 +9,11 @@ import pytest
 from app import startup
 from app import helper as hp
 from app import database as db
-from tests.test_database import create_test_user, create_test_threshold
+from tests.test_database import create_test_user, create_test_threshold, test_db
 
 @pytest.fixture
 def test_param():
     return "local" if "GITHUB_ACTIONS" not in os.environ else "github"
-
-@pytest.fixture(scope="function")
-def test_db():
-    client, db_instance = db.connect_to_db(2000, db_name="windseeker_test")
-    db.clear_all_collections(db_instance)
-    yield db_instance
-    db.clear_all_collections(db_instance)
-    client.close()
 
 def test_call_windguru_api():
     station_ids = [2736, 5931]

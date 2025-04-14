@@ -1,5 +1,5 @@
-import pytest
 from unittest.mock import patch, MagicMock
+import pytest
 from app.api import app
 
 @pytest.fixture
@@ -23,12 +23,6 @@ valid_windguru_station = {
   "id": 1228,
   "online": True
 }
-
-@pytest.fixture
-def client():
-    app.config['TESTING'] = True
-    with app.test_client() as client:
-        yield client
 
 def test_main_root_api(client):
     response = client.get('/api')

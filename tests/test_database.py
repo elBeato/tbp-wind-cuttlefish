@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
 import pytest
 from bson.objectid import ObjectId
 from app import database as db

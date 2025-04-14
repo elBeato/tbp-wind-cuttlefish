@@ -81,25 +81,21 @@ def wind_speed_excess(
         ) -> bool:
 
     station_counter = counters[station_id]
-    if response['wind_avg'] is not None:
-        speed = float(response['wind_avg'])
-    else:
-        speed = 0.0
+
+    speed = float(response.get('wind_avg') or 0.0)
+    if response.get('wind_avg') is None:
         wl.logger.info(f'Station[{station_id}]: Station has no speed parameter!')
-    if response['wind_direction'] is not None:
-        direction = float(response['wind_direction'])
-    else:
-        direction = 0.0
+
+    direction = float(response.get('wind_direction') or 0.0)
+    if response.get('wind_direction') is None:
         wl.logger.info(f'Station[{station_id}]: Station has no direction parameter!')
-    if response['temperature'] is not None:
-        temperature = float(response['temperature'])
-    else:
-        temperature = 0.0
+
+    temperature = float(response.get('temperature') or 0.0)
+    if response.get('temperature') is None:
         wl.logger.info(f'Station[{station_id}]: Station has no temperature parameter!')
-    if response['datetime'] is not None:
-        timestamp = response['datetime']
-    else:
-        timestamp = datetime.time()
+
+    timestamp = response.get('datetime') or datetime.time()
+    if response.get('datetime') is None:
         wl.logger.info(f'Station[{station_id}]: Station has no timestamp parameter!')
 
     # Connect to threshold collection and find the lowest threshold
@@ -151,7 +147,10 @@ def store_wind_data(data: DataModel):
     except Exception as ex:
         wl.logger.error(f'Station[{data.station}] - Error storing data in MongoDB: {ex}')
 
-def fetch_email_addresses_for_station(station_id: int, current_wind_speed: float, db_name="Windseeker") -> list:
+def fetch_email_addresses_for_station(
+        station_id: int,
+        current_wind_speed: float,
+        db_name="Windseeker") -> list:
     email_list = []
     wl.logger.debug(f'Station[{station_id}] - Fetching email addresses...')
     try:
@@ -210,7 +209,13 @@ def serialize_user(user):
     user["_id"] = str(user["_id"])  # Convert ObjectId to string
     return user
 
+def add_indexes_to_collections():
+    client, db_instance = db.connect_to_db()
+    db.create_indexes_all_collections(db_instance)
+    client.close()
+
 if __name__ == '__main__':
     # restore current mongo situation after program start
     daily_store_mongo()
+    add_indexes_to_collections
     scheduler.run(wl.logger, windguru_api_call, store_collections_local_on_host)

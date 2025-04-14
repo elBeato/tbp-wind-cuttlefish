@@ -1,11 +1,11 @@
-import pytest
-from app.models import (
-    UserModel, SubscriptionModel, DataModel,
-    BasicStationModel, WindguruStationModel, StationModel,
-    ThresholdModel, hash_password
-)
 from bson import ObjectId
 import re
+import pytest
+from app.models import (
+    UserModel, DataModel,
+    WindguruStationModel,
+    ThresholdModel, hash_password
+)
 
 
 def test_hash_password_generates_hash():

@@ -48,30 +48,31 @@ def connect_to_db(timeout_ms=5000, db_name='Windseeker'):
         wl.logger.error(string)
         return None  # Return None if connection fails
 
+def create_indexes_all_collections(database):
+    create_user_collection(database)
+    create_station_collection(database)
+    create_threshold_collection(database)
+    create_windguru_station_collection(database)
+
 def create_windguru_station_collection(database: MongoClient):
     collection = database.WindguruStations
     # Ensure uniqueness of the 'id' field
     collection.create_index("id", unique=True)
-    return database.WindguruStations
 
 def create_user_collection(database: MongoClient):
     collection = database.Users
     # Ensure uniqueness of the 'id' field
     collection.create_index("username", unique=True)
-    return database.Users
 
 def create_station_collection(database: MongoClient):
     collection = database.Stations
     # Ensure uniqueness of the 'id' field
     collection.create_index("id", unique=True)
-    return collection
-
 
 def create_threshold_collection(database: MongoClient):
     collection = database.Thresholds
     # Create the compound unique index on 'username' and 'station'
     collection.create_index(["username", "station"], unique=True)
-    return collection
 
 
 def insert_user(database: MongoClient, user: UserModel):

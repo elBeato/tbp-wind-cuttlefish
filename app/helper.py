@@ -57,9 +57,9 @@ def store_collections_local_on_host() -> bool:
     client, db_instance = db.connect_to_db()
 
     # Fetch all documents
-    user = list(db.connect_to_user_collection(db_instance).find())
-    station = list(db.connect_to_station_collection(db_instance).find())
-    threshold = list(db.connect_to_threshold_collection(db_instance).find())
+    user = list(db.db_instance.Users.find())
+    station = list(db.db_instance.Stations.find())
+    threshold = list(db.db_instance.Thresholds.find())
     client.close()
 
     # Convert ObjectId to string (if needed)
