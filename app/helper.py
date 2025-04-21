@@ -6,20 +6,6 @@ from requests import ConnectTimeout
 from app import database as db
 from app import windlogger as wl
 
-# Using a closure function with enclosed state
-def counter():
-    count = 0  # Initial counter value
-
-    def increment(reset=False):
-        nonlocal count  # Use nonlocal to modify the outer variable
-        if reset:
-            count = 0
-        else:
-            count += 1
-        return count
-
-    return increment
-
 def check_response_contains_param(response, station_id, log_result = True):
     try:
         if response['wind_avg'] is not None and response['wind_direction'] is not None:
