@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
@@ -20,7 +20,7 @@ def daily_store_mongo():
     with task_lock:
         try:
             wl.logger.info('@@@@@@@@@@@@@@@@@@  Store collections on local host @@@@@@@@@@@@@@@@@@')
-            result = store_collections_local_on_host
+            result = store_collections_local_on_host()
         except Exception as ex:
             wl.logger.critical(f'[{time.strftime("%H:%M:%S")}]: ' +
                                f'error while store collection on local host = {ex}')
@@ -123,7 +123,8 @@ def wind_speed_excess(
             "speed": float(speed), 
             "direction": int(direction), 
             "ts": timestamp,
-            "temp": temperature
+            "temp": temperature,
+            "createdAt": datetime.now()
         }
         data = DataModel(**wind_data)
         store_wind_data(data)

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from datetime import datetime
 from pydantic import BaseModel, EmailStr, Field
 from bson.objectid import ObjectId
 import bcrypt
@@ -36,6 +37,7 @@ class DataModel(BaseModel):
     direction: int
     ts: str
     temp: float
+    createdAt: datetime
 
 class BasicStationModel(BaseModel):
     """Basic station model"""
