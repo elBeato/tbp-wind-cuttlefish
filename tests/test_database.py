@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import pytest
 import datetime
+import pytest
 from bson.objectid import ObjectId
 from app import database as db
 from app.models import (
