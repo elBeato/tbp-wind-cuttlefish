@@ -4,6 +4,7 @@ Created on Mon Mar  3 11:06:10 2025
 
 @author: fub
 """
+import os
 import logging
 import sys
 import io
@@ -16,6 +17,15 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 # Set up the main logger
 logger = logging.getLogger()
 log_level = config.get_config_value("LOG_LEVEL")
+
+def get_backup_dir() -> str:
+    """
+    Check for Docker environment by presence of a known env var or file
+    """
+    if os.path.exists("/.dockerenv") or os.environ.get("IN_DOCKER") == "1":
+        return '/app/logs/app.log'
+    else:
+        return './logs/app.log'
 
 if not logger.hasHandlers():
     logger.setLevel(int(log_level))
@@ -61,7 +71,7 @@ if not logger.hasHandlers():
     console_handler.setFormatter(console_formatter)
 
     # 📜 File handler (no colors, short time format)
-    file_handler = logging.FileHandler('./app.log', encoding='utf-8')
+    file_handler = logging.FileHandler(get_backup_dir(), encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
     file_formatter = logging.Formatter('%(asctime)s - %(levelname)-8s - %(message)s',
                                        datefmt=DATA_FORMAT)

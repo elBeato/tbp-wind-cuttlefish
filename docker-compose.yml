@@ -2,8 +2,9 @@ services:
   subscriber:
     build: .
     volumes:
-      - ./logs:/app/logs  # Mount the logs directory as before
+      - ./logs/subscriber:/app/logs  # Mount the logs directory as before
       - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
+      - ./backup:/app/backup  # host:container
     command: python /project-root/app/startup.py # project-root/app/... doesn't work, /project-root/app/... is correct
     environment:
       - INTERVAL=${INTERVAL}
@@ -15,10 +16,13 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
       - LOG_LEVEL=20
+      - IN_DOCKER=1
     restart: always
 
   flask-api:
     build: .
+    volumes:
+      - ./logs/flask-api:/app/logs  # Mount the logs directory as before
     ports: 
       - "5050:5050"
     command: gunicorn -w 4 --threads 2 -b 0.0.0.0:5050 app.api:app
@@ -29,10 +33,13 @@ services:
       - MONGO_PASSWORD=${MONGO_PASSWORD}
       - GOOGLE_APP_PASSWORD=${GOOGLE_APP_PASSWORD}
       - LOG_LEVEL=20
+      - IN_DOCKER=1
     restart: always
 
   windguru-online-stations:
     build: .
+    volumes:
+      - ./logs/windguru-online-stations:/app/logs  # Mount the logs directory as before
     command: python /project-root/app/stations.py
     environment:
       - MONGO_HOST=mongo-ws
@@ -42,6 +49,7 @@ services:
       - MIN_STATION_NUMBER=${MIN_STATION_NUMBER}
       - MAX_STATION_NUMBER=${MAX_STATION_NUMBER}
       - LOG_LEVEL=20
+      - IN_DOCKER=1
     restart: always
 
   mongo:

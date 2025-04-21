@@ -1,10 +1,20 @@
 # -*- coding: utf-8 -*-
-import json
+import os
 import time
 import requests
+from bson import json_util
 from requests import ConnectTimeout
 from app import database as db
 from app import windlogger as wl
+
+def get_backup_dir() -> str:
+    """
+    Check for Docker environment by presence of a known env var or file
+    """
+    if os.path.exists("/.dockerenv") or os.environ.get("IN_DOCKER") == "1":
+        return "/app/backup"
+    else:
+        return "../backup"
 
 def check_response_contains_param(response, station_id, log_result = True):
     try:
@@ -39,34 +49,33 @@ def fetch_data_from_windguru(url1, url2, station_id):
     return req
 
 def store_collections_local_on_host() -> bool:
+    # Ensure backup directory exists
+    os.makedirs("backup", exist_ok=True)
+
     # Connect to MongoDB
     client, db_instance = db.connect_to_db()
 
     # Fetch all documents
-    user = list(db_instance.Users.find())
-    station = list(db_instance.Stations.find())
-    threshold = list(db_instance.Thresholds.find())
+    users = list(db_instance.Users.find())
+    stations = list(db_instance.Stations.find())
+    thresholds = list(db_instance.Thresholds.find())
+    windguru_stations = list(db_instance.WindguruStations.find())
     client.close()
 
-    # Convert ObjectId to string (if needed)
-    for doc in user:
-        doc["_id"] = str(doc["_id"])
-
-    for doc in station:
-        doc["_id"] = str(doc["_id"])
-
-    for doc in threshold:
-        doc["_id"] = str(doc["_id"])
-
     # Save to a JSON file
-    with open("backup/user_backup.json", "w", encoding="utf-8") as file:
-        json.dump(user, file, indent=4)
-    with open("backup/station_backup.json", "w", encoding="utf-8") as file:
-        json.dump(station, file, indent=4)
-    with open("backup/threshold_backup.json", "w", encoding="utf-8") as file:
-        json.dump(threshold, file, indent=4)
+    backup_dir = get_backup_dir()
+    os.makedirs(backup_dir, exist_ok=True)
+    with open(os.path.join(backup_dir, "users_backup.json"), "w", encoding="utf-8") as file:
+        file.write(json_util.dumps(users, indent=4))
+    with open(os.path.join(backup_dir, "stations_backup.json"), "w", encoding="utf-8") as file:
+        file.write(json_util.dumps(stations, indent=4))
+    with open(os.path.join(backup_dir, "thresholds_backup.json"), "w", encoding="utf-8") as file:
+        file.write(json_util.dumps(thresholds, indent=4))
+    with open(os.path.join(backup_dir, "windguru_stations_backup.json"), "w", encoding="utf-8") as file:
+        file.write(json_util.dumps(windguru_stations, indent=4))
 
-    wl.logger.info("Collection exported to user_backup.json")
-    wl.logger.info("Collection exported to station_backup.json")
-    wl.logger.info("Collection exported to threshold_backup.json")
+    wl.logger.info("Collection exported to \\backup\\users_backup.json")
+    wl.logger.info("Collection exported to \\backup\\stations_backup.json")
+    wl.logger.info("Collection exported to \\backup\\thresholds_backup.json")
+    wl.logger.info("Collection exported to \\backup\\windguru_stations_backup.json")
     return True
