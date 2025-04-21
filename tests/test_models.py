@@ -1,3 +1,4 @@
+import datetime
 import re
 from bson import ObjectId
 import pytest
@@ -42,7 +43,8 @@ def test_data_model_validation():
         speed=12.5,
         direction=270,
         ts="2024-04-01T12:00:00Z",
-        temp=18.0
+        temp=18.0,
+        createdAt=datetime.datetime.now()
     )
     assert data.station == 101
     assert isinstance(data.speed, float)

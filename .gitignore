@@ -35,3 +35,5 @@ logs/
 # Ignore IDE settings
 .vscode/
 .idea/
+
+backup/*

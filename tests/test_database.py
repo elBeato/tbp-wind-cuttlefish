@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import datetime
 import pytest
 from bson.objectid import ObjectId
 from app import database as db
@@ -65,6 +66,7 @@ def test_insert_data_into_database(test_db):
         "direction": 360,
         "ts": "xxx",
         "temp": 3.5,
+        "createdAt": datetime.datetime.now()
     }
     data = DataModel(**my_data)
     db.insert_data(test_db, data)

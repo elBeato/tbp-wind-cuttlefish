@@ -56,7 +56,7 @@ def write_json_file_into_db(db_name='Windseeker'):
     cleared_docs = db.clear_windguru_station_collection(db_instance)
     inserted_docs = db.insert_windguru_station(db_instance, online_stations)
     wl.logger.info(f'[write_json_file_into_db]: {cleared_docs} stations deleted, ' +
-                   '{inserted_docs} stations inserted' +
+                   f'{inserted_docs} stations inserted' +
                    f'Difference: {inserted_docs - cleared_docs} new stations')
     client.close()
 

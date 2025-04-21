@@ -4,7 +4,7 @@ Created on Mon Feb 24 10:45:13 2025
 
 @author: fub
 """
-from pymongo import MongoClient, errors
+from pymongo import MongoClient, errors, ASCENDING
 from bson.objectid import ObjectId
 from app import configuration as config
 from app import windlogger as wl
@@ -48,11 +48,21 @@ def connect_to_db(timeout_ms=5000, db_name='Windseeker'):
         wl.logger.error(string)
         return None  # Return None if connection fails
 
+
+def create_data_collection(database):
+    collection = database.Data
+    collection.create_index(
+        [("createdAt", ASCENDING)],
+        expireAfterSeconds=1209600 # 14 days in seconds
+    )
+
+
 def create_indexes_all_collections(database):
     create_user_collection(database)
     create_station_collection(database)
     create_threshold_collection(database)
     create_windguru_station_collection(database)
+    create_data_collection(database)
 
 def create_windguru_station_collection(database: MongoClient):
     collection = database.WindguruStations
