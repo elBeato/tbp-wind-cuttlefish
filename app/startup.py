@@ -64,7 +64,8 @@ def windguru_api_call(
                     wl.logger.debug(f'Station[{station_id}] - '+
                                     f'Data fetched successfully from {url2}{station_id} '+
                                     f'at {time.strftime("%H:%M:%S")}')
-                wl.logger.info(f'Counters[{station_id}]: {counters_above[station_id]} times above min speed, '
+                wl.logger.info(f'Counters[{station_id}]: '
+                               f'{counters_above[station_id]} times above min speed, '
                                f'{counters_below[station_id]} times below min speed')
                 wl.logger.info(f'Feedback wind speed calculator: {feedback}')
             except Exception as ex:
@@ -72,7 +73,7 @@ def windguru_api_call(
                                    f'Unexpected error in windguru_api_call: {ex}')
         return req_tests
 
-""" 
+"""
 Compare current wind speed with lowest threshold for each station
 Conditions for a second email are: 
  x times above threshold limit (counter++ each time the wind is higher) has be reached

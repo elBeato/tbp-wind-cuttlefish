@@ -308,7 +308,7 @@ def test_fetch_all_emails_current_wind_speed(test_param):
 
 @patch('app.startup.db.find_lowest_threshold_for_station')
 @patch('app.startup.db.connect_to_db')
-def test_wind_speed_excess_1(mock_connect, mock_find_threshold, test_param, test_db):
+def test_wind_speed_excess_1(mock_connect, mock_find_threshold):
     """
     Cycle: Wind speed > Threshold
     """
@@ -324,32 +324,32 @@ def test_wind_speed_excess_1(mock_connect, mock_find_threshold, test_param, test
     counters_below= {station: 0 for station in range(1, 20)}
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below,2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
 @patch('app.startup.db.find_lowest_threshold_for_station')
 @patch('app.startup.db.connect_to_db')
-def test_wind_speed_excess_2(mock_connect, mock_find_threshold, test_param, test_db):
+def test_wind_speed_excess_2(mock_connect, mock_find_threshold):
     # Arrange
     mock_client = MagicMock()
     mock_db = MagicMock()
@@ -362,34 +362,34 @@ def test_wind_speed_excess_2(mock_connect, mock_find_threshold, test_param, test
     counters_below = {station: 0 for station in range(1, 20)}
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1
 
     response = create_response_json(avg=4.99)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == False
+    assert result is False
     assert feedback == 3
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == False
+    assert result is False
     assert feedback == 3
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == False
+    assert result is False
     assert feedback == 4
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == False
+    assert result is False
     assert feedback == 4
 
     response = create_response_json(avg=5.01)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 2, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1
 
 @patch('app.startup.db.find_lowest_threshold_for_station')
 @patch('app.startup.db.connect_to_db')
-def test_wind_speed_excess_3(mock_connect, mock_find_threshold, test_param, test_db):
+def test_wind_speed_excess_3(mock_connect, mock_find_threshold):
     # Arrange
     mock_client = MagicMock()
     mock_db = MagicMock()
@@ -402,38 +402,38 @@ def test_wind_speed_excess_3(mock_connect, mock_find_threshold, test_param, test
     counters_below = {station: 0 for station in range(1, 20)}
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1
 
     response = create_response_json(avg=4.99)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == False
+    assert result is False
     assert feedback == 3
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == False
+    assert result is False
     assert feedback == 3
 
     response = create_response_json(avg=5.01)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == True
+    assert result is True
     assert feedback == 2
 
     response = create_response_json(avg=4.99)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == False
+    assert result is False
     assert feedback == 3
 
     response = create_response_json(avg=4.99)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == False
+    assert result is False
     assert feedback == 4
 
     response = create_response_json(avg=5.01)
     result, feedback = startup.wind_speed_excess(response, 11, counters_above, counters_below, 3, 3)
-    assert result == True
+    assert result is True
     assert feedback == 1

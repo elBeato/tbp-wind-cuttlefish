@@ -11,14 +11,6 @@ import app.helper as hp
 from app import database as db
 from helper import fetch_data_from_windguru  # replace with actual module
 
-@pytest.fixture(scope="function")
-def test_db():
-    client, db_instance = db.connect_to_db(2000, db_name="windseeker_test")
-    db.clear_all_collections(db_instance)
-    yield db_instance
-    db.clear_all_collections(db_instance)
-    client.close()
-
 @patch("app.windlogger.logger.warning")
 def test_response_data_valid_from_db_1(test_db):
     # Insert test data
