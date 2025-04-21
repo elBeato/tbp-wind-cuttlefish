@@ -73,19 +73,6 @@ def windguru_api_call(
                                    f'Unexpected error in windguru_api_call: {ex}')
         return req_tests
 
-"""
-Compare current wind speed with lowest threshold for each station
-Conditions for a second email are: 
- x times above threshold limit (counter++ each time the wind is higher) has be reached
- y times below threshold limit (blew_min_wind_speed) has to be at zero
-Return values:
-Feedback
-1 = wind alarm, send email to user
-2 = wind alarm, above user defined limit, counter above decreasing 
-3 = no wind alarm, blow user defined limit, counter below decreasing
-4 = no wind alarm, blow user defined limit, counter == 0   
-"""
-
 def wind_speed_excess(
         response: str,
         station_id: int,
@@ -94,7 +81,18 @@ def wind_speed_excess(
         times_below_limit: int,
         times_above_limit: int,
         ) -> (bool, int):
-
+    """
+    Compare current wind speed with the lowest threshold for each station
+    Conditions for a second email are:
+     x times above threshold limit (counter++ each time the wind is higher) has be reached
+     y times below threshold limit (blew_min_wind_speed) has to be at zero
+    Return values:
+    Feedback
+    1 = wind alarm, send email to user
+    2 = wind alarm, above user defined limit, counter above decreasing
+    3 = no wind alarm, blow user defined limit, counter below decreasing
+    4 = no wind alarm, blow user defined limit, counter == 0
+    """
     speed = float(response.get('wind_avg') or 0.0)
     if response.get('wind_avg') is None:
         wl.logger.info(f'Station[{station_id}]: Station has no speed parameter!')
