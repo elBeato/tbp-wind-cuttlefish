@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'  # or whatever version you're using
+          python-version: '3.10'  # or whatever version you're using
 
       - name: Install dependencies
         run: |
@@ -36,4 +36,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests -v --maxfail=1 --disable-warnings
+          pytest tests -v --maxfail=1 --disable-warnings -s
