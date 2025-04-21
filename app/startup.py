@@ -124,7 +124,7 @@ def wind_speed_excess(
             "direction": int(direction), 
             "ts": timestamp,
             "temp": temperature,
-            "createdAt": datetime.now()
+            "createdAt": datetime.datetime.now()
         }
         data = DataModel(**wind_data)
         store_wind_data(data)

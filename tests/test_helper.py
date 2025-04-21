@@ -8,7 +8,6 @@ from unittest.mock import patch, MagicMock
 from requests import ConnectTimeout
 import app.helper as hp
 
-@patch("app.windlogger.logger.warning")
 def test_response_data_valid_from_db_1():
     # Insert test data
     response =  {
@@ -20,7 +19,6 @@ def test_response_data_valid_from_db_1():
     result = hp.check_response_contains_param(response, "test123")
     assert result is True
 
-@patch("app.windlogger.logger.warning")
 def test_response_data_valid_from_db_2():
     # Insert test data
     response =  {
@@ -32,7 +30,6 @@ def test_response_data_valid_from_db_2():
     result = hp.check_response_contains_param(response, "test123")
     assert result is False
 
-@patch("app.windlogger.logger.warning")
 def test_response_data_valid_from_db_3():
     # Insert test data
     response =  {
@@ -44,7 +41,6 @@ def test_response_data_valid_from_db_3():
     result = hp.check_response_contains_param(response, "test123")
     assert result is False
 
-@patch("app.windlogger.logger.warning")
 def test_response_data_valid_from_db_4():
     # Insert test data
     response =  {
