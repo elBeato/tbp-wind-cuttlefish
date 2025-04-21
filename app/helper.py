@@ -13,8 +13,7 @@ def get_backup_dir() -> str:
     """
     if os.path.exists("/.dockerenv") or os.environ.get("IN_DOCKER") == "1":
         return "/app/backup"
-    else:
-        return "../backup"
+    return "../backup"
 
 def check_response_contains_param(response, station_id, log_result = True):
     try:
@@ -71,7 +70,11 @@ def store_collections_local_on_host() -> bool:
         file.write(json_util.dumps(stations, indent=4))
     with open(os.path.join(backup_dir, "thresholds_backup.json"), "w", encoding="utf-8") as file:
         file.write(json_util.dumps(thresholds, indent=4))
-    with open(os.path.join(backup_dir, "windguru_stations_backup.json"), "w", encoding="utf-8") as file:
+    with open(
+            os.path.join(backup_dir, "windguru_stations_backup.json"),
+            "w",
+            encoding="utf-8"
+    ) as file:
         file.write(json_util.dumps(windguru_stations, indent=4))
 
     wl.logger.info("Collection exported to \\backup\\users_backup.json")

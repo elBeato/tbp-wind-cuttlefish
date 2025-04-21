@@ -24,8 +24,7 @@ def get_backup_dir() -> str:
     """
     if os.path.exists("/.dockerenv") or os.environ.get("IN_DOCKER") == "1":
         return '/app/logs/app.log'
-    else:
-        return './logs/app.log'
+    return './logs/app.log'
 
 if not logger.hasHandlers():
     logger.setLevel(int(log_level))
