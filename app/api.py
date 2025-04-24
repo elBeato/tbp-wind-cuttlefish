@@ -1,15 +1,42 @@
 # -*- coding: utf-8 -*-
-
+import datetime
+from functools import wraps
+import jwt
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flasgger import Swagger
+import bcrypt
 from pydantic import ValidationError
-from app.models import UserModel, ThresholdModel
+from app.models import UserModel, ThresholdModel, LoginRequest
 from app import database as db
-
 app = Flask(__name__)
 swagger = Swagger(app) # Initialize Swagger
 CORS(app, origins="*") # Allow CORS from the frontend (localhost:3000)
+
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = None
+        auth_header = request.headers.get('Authorization')
+
+        if auth_header and auth_header.startswith("Bearer "):
+            token = auth_header.split(" ")[1]
+
+        if not token:
+            return jsonify({"error": "Token is missing!"}), 401
+
+        try:
+            payload = jwt.decode(token, 'secret', algorithms=['HS256'])
+            request.user_id = payload["user_id"]  # optionally attach to request context
+        except jwt.ExpiredSignatureError:
+            return jsonify({"error": "Token has expired!"}), 401
+        except jwt.InvalidTokenError:
+            return jsonify({"error": "Invalid token!"}), 401
+
+        return f(*args, **kwargs)
+
+    return decorated
+
 
 def serialize_user(user):
     """Convert MongoDB ObjectId to string and prepare other fields."""
@@ -135,6 +162,21 @@ def get_users_all():
     except Exception as ex:
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(users_list)
+
+@app.route('/api/auth/me', methods=['GET'])
+@token_required
+def get_current_user():
+    _, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    # Return user data (omit sensitive fields like password)
+    return jsonify({
+        "username": user["username"],
+        "email": user["email"],
+        "name": user["name"],
+    })
 
 @app.route('/api/users/<username>', methods=['GET'])
 def get_users_username_exists(username):
@@ -332,9 +374,31 @@ def post_new_users():
         }), 201
     except ValidationError as e:
         return jsonify({"error": str(e)}), 400
-    user = request.get_json()  # Get JSON data from request
+
+    user = request.get_json()
     if not user:
         return jsonify({"error": "No JSON data received"}), 400
+
+@app.route('/api/auth/login', methods=['POST'])
+def login():
+    try:
+        data = LoginRequest(**request.json)
+        _, db_instance = db.connect_to_db()
+        user = db.find_user_by_credentials(db_instance, data)
+
+        if not user or not bcrypt.checkpw(data.password.encode(), user['password'].encode()):
+            return jsonify({"error": "Invalid credentials"}), 401
+
+        payload = {
+            "user_id": str(user["_id"]),
+            "exp": datetime.datetime.now()
+        }
+        token = jwt.encode(payload, 'secret', algorithm='HS256')
+
+        return jsonify({"token": token})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5050)

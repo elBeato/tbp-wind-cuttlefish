@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['app\\startup.py', 'app\\scheduler.py', 'app\\api.py', 'app\\generator_database_init.py', 'app\\test_database.py', 'app\\test_windseekerapi.py', 'app\\test_startup.py', 'app\\init_test.py']
+recent_files = ['app\\startup.py', 'app\\scheduler.py', 'app\\helper.py', 'app\\configuration.py', 'app\\api.py', 'app\\models.py', 'tests\\test_startup.py']
 
 [main]
 version = 0.2.0
