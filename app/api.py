@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import datetime
 from functools import wraps
 import jwt

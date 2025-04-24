@@ -20,7 +20,7 @@ RUN pip3 install --no-cache-dir \
     requests schedule pyyaml pymongo pytest bcrypt \
     pydantic[email] \
     python-dotenv colorlog \
-    gunicorn
+    gunicorn PyJWT
 
 # Expose the API port
 EXPOSE 5050
