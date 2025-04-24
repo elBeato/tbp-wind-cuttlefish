@@ -61,5 +61,6 @@ class ThresholdModel(BaseModel):
 
 # Pydantic model for login request
 class LoginRequest(BaseModel):
+    """Login request model"""
     identifier: str  # username or email
     password: str

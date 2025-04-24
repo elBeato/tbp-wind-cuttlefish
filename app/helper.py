@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import os
 import time
-import requests
 from functools import wraps
-from flask import request, jsonify
-import jwt
+import requests
 from bson import json_util
 from requests import ConnectTimeout
+from flask import request, jsonify
+import jwt
 from app import database as db
 from app import windlogger as wl
 
@@ -31,7 +31,7 @@ def token_required(f):
             return jsonify({"error": "Token is missing!"}), 401
 
         try:
-            payload = jwt.decode(token, app.config['SECRET_KEY'], algorithms=['HS256'])
+            payload = jwt.decode(token, 'secret', algorithms=['HS256'])
             request.user_id = payload["user_id"]  # optionally attach to request context
         except jwt.ExpiredSignatureError:
             return jsonify({"error": "Token has expired!"}), 401

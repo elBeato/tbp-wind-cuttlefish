@@ -87,5 +87,15 @@ def job():
     read_live_stations_and_store_into_db()
     wl.logger.info("[Scheduler]: Finished station scraping job.")
 
-job()
+if __name__ == '__main__':
+    os.makedirs('backup', exist_ok=True)
 
+    # Schedule it once daily at 00:30 AM
+    schedule.every().day.at("00:30").do(job)
+
+    wl.logger.info("[Scheduler]: Job scheduled for 00:30 daily.")
+
+    # Run the scheduler loop
+    while True:
+        schedule.run_pending()
+        time.sleep(60)  # check every minute

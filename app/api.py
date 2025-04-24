@@ -1,22 +1,20 @@
 # -*- coding: utf-8 -*-
 
+import datetime
+from functools import wraps
+import jwt
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-import datetime
 from flasgger import Swagger
-from bson import ObjectId
 import bcrypt
 from pydantic import ValidationError
 from app.models import UserModel, ThresholdModel, LoginRequest
 from app import database as db
-
 app = Flask(__name__)
 swagger = Swagger(app) # Initialize Swagger
 CORS(app, origins="*") # Allow CORS from the frontend (localhost:3000)
 
-from functools import wraps
-from flask import request, jsonify
-import jwt
+
 
 def token_required(f):
     @wraps(f)
@@ -171,7 +169,7 @@ def get_users_all():
 @app.route('/api/auth/me', methods=['GET'])
 @token_required
 def get_current_user():
-    client, db_instance = db.connect_to_db()
+    _, db_instance = db.connect_to_db()
     user = db.find_user_by_id(db_instance, request.user_id)
     if not user:
         return jsonify({"error": "User not found"}), 404
@@ -388,7 +386,7 @@ def post_new_users():
 def login():
     try:
         data = LoginRequest(**request.json)
-        client, db_instance = db.connect_to_db()
+        _, db_instance = db.connect_to_db()
         user = db.find_user_by_credentials(db_instance, data)
 
         if not user or not bcrypt.checkpw(data.password.encode(), user['password'].encode()):

@@ -166,7 +166,7 @@ def test_call_windguru_api_print_values():
     print(f'datetime: {datetime}')
     print(f'unixtime: {unixtime}')
 
-def test_fetch_all_emails(test_param, test_db):
+def test_fetch_all_emails(test_param):
     print(f"Running test with param: {test_param}")
     assert test_param in ["local", "github"]
 
