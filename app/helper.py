@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
 import time
-from functools import wraps
 import requests
 from bson import json_util
 from requests import ConnectTimeout
-from flask import request, jsonify
-import jwt
 from app import database as db
 from app import windlogger as wl
 
@@ -17,31 +14,6 @@ def get_backup_dir() -> str:
     if os.path.exists("/.dockerenv") or os.environ.get("IN_DOCKER") == "1":
         return "/app/backup"
     return "../backup"
-
-def token_required(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-        token = None
-        auth_header = request.headers.get('Authorization')
-
-        if auth_header and auth_header.startswith("Bearer "):
-            token = auth_header.split(" ")[1]
-
-        if not token:
-            return jsonify({"error": "Token is missing!"}), 401
-
-        try:
-            payload = jwt.decode(token, 'secret', algorithms=['HS256'])
-            request.user_id = payload["user_id"]  # optionally attach to request context
-        except jwt.ExpiredSignatureError:
-            return jsonify({"error": "Token has expired!"}), 401
-        except jwt.InvalidTokenError:
-            return jsonify({"error": "Invalid token!"}), 401
-
-        return f(*args, **kwargs)
-
-    return decorated
-
 
 def check_response_contains_param(response, station_id, log_result = True):
     try:

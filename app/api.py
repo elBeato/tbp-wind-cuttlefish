@@ -14,8 +14,6 @@ app = Flask(__name__)
 swagger = Swagger(app) # Initialize Swagger
 CORS(app, origins="*") # Allow CORS from the frontend (localhost:3000)
 
-
-
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
