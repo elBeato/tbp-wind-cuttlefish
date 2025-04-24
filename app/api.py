@@ -391,7 +391,7 @@ def login():
 
         payload = {
             "user_id": str(user["_id"]),
-            "exp": datetime.datetime.now()
+            "exp": datetime.datetime.now() + datetime.timedelta(days=1)
         }
         token = jwt.encode(payload, 'secret', algorithm='HS256')
 
