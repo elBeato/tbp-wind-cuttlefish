@@ -31,7 +31,7 @@ def find_stations(station_types = find_live_stations):
     wl.logger.info(f'[find_stations]: Fetch from station[{min_station}], '
                    f'till station[{max_station}]')
     stations_ids = []
-    for n in range(min_station, max_station):
+    for n in range(2000, 6000):
         try:
             req = fetch_data_from_windguru(url_1, url_2, n)
             response = req.json()
@@ -87,15 +87,5 @@ def job():
     read_live_stations_and_store_into_db()
     wl.logger.info("[Scheduler]: Finished station scraping job.")
 
-if __name__ == '__main__':
-    os.makedirs('backup', exist_ok=True)
+job()
 
-    # Schedule it once daily at 00:30 AM
-    schedule.every().day.at("00:30").do(job)
-
-    wl.logger.info("[Scheduler]: Job scheduled for 00:30 daily.")
-
-    # Run the scheduler loop
-    while True:
-        schedule.run_pending()
-        time.sleep(60)  # check every minute

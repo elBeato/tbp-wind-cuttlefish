@@ -124,6 +124,15 @@ def add_user_to_station_by_username(database: MongoClient, user: UserModel):
 def find_all_users(database: MongoClient):
     return list(database.Users.find())
 
+def find_user_by_credentials(database: MongoClient, data) -> UserModel:
+    # Search by either username or email
+    user = database.Users.find_one({
+        "$or": [
+            {"username": data.identifier},
+            {"email": data.identifier}
+        ]
+    })
+    return user
 
 def find_all_windguru_stations(database: MongoClient):
     return list(database.WindguruStations.find())
