@@ -31,7 +31,7 @@ def find_stations(station_types = find_live_stations):
     wl.logger.info(f'[find_stations]: Fetch from station[{min_station}], '
                    f'till station[{max_station}]')
     stations_ids = []
-    for n in range(2000, 6000):
+    for n in range(min_station, max_station):
         try:
             req = fetch_data_from_windguru(url_1, url_2, n)
             response = req.json()
