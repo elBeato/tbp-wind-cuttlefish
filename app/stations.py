@@ -90,10 +90,11 @@ def job():
 if __name__ == '__main__':
     os.makedirs('backup', exist_ok=True)
 
-    # Schedule it once daily at 00:30 AM
-    schedule.every().day.at("00:30").do(job)
+    # Schedule it once daily at certain time, e.g., at 00:30
+    timer = "14:38"
+    schedule.every().day.at(timer).do(job)
 
-    wl.logger.info("[Scheduler]: Job scheduled for 00:30 daily.")
+    wl.logger.info(f"[Scheduler]: Job scheduled for {timer} daily.")
 
     # Run the scheduler loop
     while True:

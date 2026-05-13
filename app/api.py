@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 from functools import wraps
+from http import client
 import jwt
 from flask import Flask, jsonify, request
 from flask_cors import CORS
@@ -16,6 +17,9 @@ CORS(app, origins="*") # Allow CORS from the frontend (localhost:3000)
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
+        if request.method == 'OPTIONS':
+            return f(*args, **kwargs)
+        
         token = None
         auth_header = request.headers.get('Authorization')
 
@@ -163,20 +167,244 @@ def get_users_all():
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(users_list)
 
+
 @app.route('/api/auth/me', methods=['GET'])
 @token_required
 def get_current_user():
-    _, db_instance = db.connect_to_db()
+    client, db_instance = db.connect_to_db()
     user = db.find_user_by_id(db_instance, request.user_id)
     if not user:
         return jsonify({"error": "User not found"}), 404
-
+    client.close()
     # Return user data (omit sensitive fields like password)
-    return jsonify({
-        "username": user["username"],
-        "email": user["email"],
-        "name": user["name"],
-    })
+    return return_user_details(user)
+
+
+@app.route('/api/auth/me', methods=['PUT'])
+@token_required
+def update_current_user():
+    data = request.get_json()
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404  
+    
+    # Update user fields (except password and username)
+    update_fields = ["name", "address", "email", "mobile", "birthday"]
+    for field in update_fields:
+        if field in data:
+            user[field] = data[field]
+    db.update_user_by_id(db_instance, user["username"], user)
+    updated_user = db.find_user_by_id(db_instance, request.user_id)   
+    client.close()
+    # Return user data (omit sensitive fields like password)
+    return return_user_details(updated_user)
+
+
+@app.route('/api/auth/me/password', methods=['PUT'])
+@token_required
+def change_user_password():
+    data = request.get_json()
+    current_password = data.get("current_password")
+    new_password = data.get("new_password")
+    if not current_password or not new_password:
+        return jsonify({"error": "Current password and new password are required"}), 400
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+    if not user or not bcrypt.checkpw(current_password.encode(), user['password'].encode()):
+        client.close()
+        return jsonify({"error": "Current password is incorrect"}), 401
+
+    db.update_user_password_by_id(db_instance, request.user_id, new_password)
+    updated_user = db.find_user_by_id(db_instance, request.user_id)
+    client.close()
+    return return_user_details(updated_user)
+
+
+@app.route('/api/auth/me', methods=['DELETE'])
+@token_required
+def delete_current_user():
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+    # Archive the user data before deletion and then delete the user
+    db.archive_user(db_instance, request.user_id)
+    client.close()
+
+    return jsonify({"message": "User deleted successfully"}), 200
+
+
+@app.route('/api/auth/me/subscription', methods=['POST'])
+@token_required
+def add_subscription():
+    data = request.get_json()
+    station_id = data.get("station_id")
+    threshold = data.get("threshold", 0.0)
+
+    if not station_id:
+        return jsonify({"error": "No station ID provided"}), 400
+
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+
+    
+    if db.find_station_id(db_instance, station_id) is None:
+        station = db_instance.WindguruStations.find_one({"id": station_id})
+        if not station:
+            client.close()
+            return jsonify({"error": "Station not found"}), 404
+        
+        db.add_station(db_instance, station, user["username"])
+    else:
+        db.update_station_subscribers(db_instance, station_id, user["username"])
+
+    db.add_subscription_to_user(db_instance, user["username"], station_id, threshold)
+    updated_user = db.find_user_by_id(db_instance, request.user_id)
+    client.close()
+
+    return return_user_details(updated_user), 200
+
+
+@app.route('/api/auth/me/subscription', methods=['DELETE'])
+@token_required
+def delete_subscription():
+    data = request.get_json()
+    station_id = data.get("station_id")
+
+    if not station_id:
+        return jsonify({"error": "No station ID provided"}), 400
+    print(f"Received request to remove subscription for station: {station_id}")
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+    print(f"Removing subscription for user: {user['username']} from station: {station_id}")
+    db.remove_subscription_from_user(db_instance, user["username"], station_id, user)
+    updated_user = db.find_user_by_id(db_instance, request.user_id)
+    client.close()
+
+    return return_user_details(updated_user), 200
+
+
+@app.route('/api/auth/me/subscription', methods=['GET'])
+def unsubscribe_via_link():
+    token = request.args.get('unsubscribe_token')
+
+    if not token:
+        return jsonify({"error": "Missing unsubscribe token"}), 400
+
+    client, db_instance = db.connect_to_db()
+    token_doc = db.get_valid_unsubscribe_token(db_instance, token)
+
+    if not token_doc:
+        client.close()
+        return jsonify({"error": "Invalid or expired token"}), 400
+
+    user_id = token_doc['user_id']
+    station_id = token_doc['station_id']
+
+    user = db.find_user_by_id(db_instance, user_id)
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+
+    db.remove_subscription_from_user(db_instance, user["username"], station_id, user)
+
+    db.mark_token_used(db_instance, token)
+    client.close()
+
+    return jsonify({"message": "Successfully unsubscribed from station alerts"}), 200
+
+
+@app.route('/api/auth/me/notification', methods=['PUT', 'OPTIONS'])
+@token_required
+def update_notification_channel():
+    if request.method == 'OPTIONS':
+        return '', 200, {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'PUT',
+            'Access-Control-Allow-Headers': 'Authorization, Content-Type'
+        }
+
+    data = request.get_json()
+    new_channel = data.get("notification_channel")
+
+    if not new_channel:
+        return jsonify({"error": "No notification channel provided"}), 400
+
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+
+    db.update_user_notification_channel(db_instance, user["username"], new_channel)
+    updated_user = db.find_user_by_id(db_instance, request.user_id)
+    client.close()
+
+    return return_user_details(updated_user), 200
+
+
+@app.route('/api/auth/me/thresholds', methods=['GET'])
+@token_required
+def get_thresholds_by_username():
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+    thresholds = db.find_all_thresholds_by_username(db_instance, user["username"])
+    client.close()
+    return jsonify([
+      {
+          "username": el["username"],
+          "station": el["station"],
+          "threshold": el["threshold"]
+      }
+      for el in thresholds
+    ])  
+
+
+@app.route('/api/auth/me/threshold', methods=['PUT'])
+@token_required
+def update_threshold():
+    data = request.get_json()
+    station_id = data.get("station_id")
+    new_threshold = data.get("new_threshold")
+     
+    client, db_instance = db.connect_to_db()
+    user = db.find_user_by_id(db_instance, request.user_id)
+
+    if not user:
+        client.close()
+        return jsonify({"error": "User not found"}), 404
+
+    db.update_user_threshold(db_instance, user["username"], station_id, new_threshold)
+    updated_thresholds = db.find_all_thresholds_by_username(db_instance, user["username"])
+    client.close()
+
+    return jsonify([
+      {
+          "username": el["username"],
+          "station": el["station"],
+          "threshold": el["threshold"]
+      }
+      for el in updated_thresholds
+    ]), 200
+
 
 @app.route('/api/users/<username>', methods=['GET'])
 def get_users_username_exists(username):
@@ -223,7 +451,9 @@ def get_users_username_exists(username):
             "user": user.dict()
         }), 201
     except ValidationError as e:
+        client.close()
         return jsonify({"error": str(e)}), 400
+
 
 @app.route('/api/data', methods=['GET'])
 def get_data_all():
@@ -251,8 +481,10 @@ def get_data_all():
         data_list = [serialize_data(entry) for entry in data]
         client.close()
     except Exception as ex:
+        client.close()
         return f"<p>Error in Database connection: {ex}<p>"
     return jsonify(data_list)
+
 
 @app.route('/api/thresholds', methods=['POST'])
 def post_new_threshold_list():
@@ -299,10 +531,9 @@ def post_new_threshold_list():
             "Thresholds": list_thresholds
             }), 201
     except ValidationError as e:
+        client.close()
         return jsonify({"error": str(e)}), 400
-    threshold = request.get_json()  # Get JSON data from request
-    if not threshold:
-        return jsonify({"error": "No JSON data received"}), 400
+
 
 @app.route('/api/users', methods=['POST'])
 def post_new_users():
@@ -319,6 +550,9 @@ def post_new_users():
         schema:
           type: object
           properties:
+            notification_channel:
+              type: string
+              example: "email"
             username:
               type: string
               example: surfer42
@@ -361,7 +595,7 @@ def post_new_users():
     try:
         data = request.get_json()
         user = UserModel(**data)  # Validate input using Pydantic
-
+        
         client, db_instance = db.connect_to_db()
         db.insert_user(db_instance, user)
         inserted_user = db.find_user_by_username(db_instance, user.username)
@@ -373,32 +607,62 @@ def post_new_users():
             "user": user.model_dump()
         }), 201
     except ValidationError as e:
+        client.close()
         return jsonify({"error": str(e)}), 400
 
-    user = request.get_json()
-    if not user:
-        return jsonify({"error": "No JSON data received"}), 400
 
 @app.route('/api/auth/login', methods=['POST'])
 def login():
     try:
         data = LoginRequest(**request.json)
-        _, db_instance = db.connect_to_db()
+        client, db_instance = db.connect_to_db()
         user = db.find_user_by_credentials(db_instance, data)
-
+        client.close()
         if not user or not bcrypt.checkpw(data.password.encode(), user['password'].encode()):
+            client.close()
             return jsonify({"error": "Invalid credentials"}), 401
 
         payload = {
             "user_id": str(user["_id"]),
             "exp": datetime.datetime.now() + datetime.timedelta(days=1)
         }
+        # Install PyJWT with 'pip3 install PyJWT' if you haven't already. Not: JWT library.")
         token = jwt.encode(payload, 'secret', algorithm='HS256')
-
         return jsonify({"token": token})
 
     except Exception as e:
+        client.close()
+        print(f"Login error: {e}")
         return jsonify({"error": str(e)}), 400
+
+
+# Helper function to return user details without sensitive information
+def return_user_details(user):
+    client, db_instance = db.connect_to_db()
+    
+    subscriptions_with_names = []
+    for sub in user.get("subscriptions", []):
+        station_id = sub.get("id") or sub.get("station")
+        station = db_instance.WindguruStations.find_one({"id": station_id})
+        station_name = station["name"] if station else "Unknown"
+        subscriptions_with_names.append({
+            "id": station_id,
+            "name": station_name
+        })
+    
+    client.close()
+    
+    return jsonify({
+        "notification_channel": user["notification_channel"],
+        "username": user["username"],
+        "email": user["email"],
+        "name": user["name"],
+        "address": user["address"],
+        "mobile": user["mobile"],
+        "birthday": user["birthday"],
+        "subscriptions": subscriptions_with_names
+    })
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5050)

@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load configuration from YAML file
 def load_config():
     try:
-        with open('../config.yaml', 'r', encoding="utf-8") as file:
+        with open('config.yaml', 'r', encoding="utf-8") as file:
             config = yaml.safe_load(file)
         return config
     except yaml.YAMLError as e:

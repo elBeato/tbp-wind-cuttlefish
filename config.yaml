@@ -1,3 +1,5 @@
 url1: "https://www.windguru.cz/station/"
 url2: "https://www.windguru.cz/int/iapi.php?q=station_data_current&id_station="
 databaseName: "Windseeker"
+LOG_LEVEL: 4
+API_HOST: "http://192.168.1.100:5050"

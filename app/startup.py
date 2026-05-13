@@ -19,10 +19,11 @@ task_lock = threading.Lock()
 def daily_store_mongo():
     with task_lock:
         try:
-            wl.logger.info('@@@@@@@@@@@@@@@@@@  Store collections on local host @@@@@@@@@@@@@@@@@@')
+            wl.logger.info('[daily_store_mongo] '
+            '@@@@@@@@@@@@@@@@@@  Store collections on local host @@@@@@@@@@@@@@@@@@')
             result = store_collections_local_on_host()
         except Exception as ex:
-            wl.logger.critical(f'[{time.strftime("%H:%M:%S")}]: ' +
+            wl.logger.critical(f'[daily_store_mongo] [{time.strftime("%H:%M:%S")}]: ' +
                                f'error while store collection on local host = {ex}')
         return result
 
@@ -37,6 +38,7 @@ def windguru_api_call(
     with task_lock:  # Only one task can run at a time
         req_tests = None
         wl.logger.debug(
+            "[windguru_api_call] "
             "----------------------- Starting new windspeed check -----------------------"
             )
 
@@ -46,7 +48,8 @@ def windguru_api_call(
 
         for station_id in station_ids:
             try:
-                wl.logger.info(f'Station[{station_id}] - Starting windguru_api_call... ')
+                wl.logger.info(f'[windguru_api_call]'
+                               f' Station[{station_id}] - Starting windguru_api_call... ')
                 req = fetch_data_from_windguru(url1, url2, station_id)
                 req_tests = req
                 response = req.json()
@@ -61,15 +64,15 @@ def windguru_api_call(
                     times_above_limit
                     )
                 if result:
-                    wl.logger.debug(f'Station[{station_id}] - '+
+                    wl.logger.debug(f'[windguru_api_call] Station[{station_id}] - '+
                                     f'Data fetched successfully from {url2}{station_id} '+
                                     f'at {time.strftime("%H:%M:%S")}')
-                wl.logger.info(f'Counters[{station_id}]: '
+                wl.logger.info(f'[windguru_api_call] Counters[{station_id}]: '
                                f'{counters_above[station_id]} times above min speed, '
                                f'{counters_below[station_id]} times below min speed')
-                wl.logger.info(f'Feedback wind speed calculator: {feedback}')
+                wl.logger.info(f'[windguru_api_call] Feedback wind speed calculator: {feedback}')
             except Exception as ex:
-                wl.logger.critical(f'Station[{station_id}] - '+
+                wl.logger.critical(f'[windguru_api_call] Station[{station_id}] - '+
                                    f'Unexpected error in windguru_api_call: {ex}')
         return req_tests
 
@@ -95,25 +98,26 @@ def wind_speed_excess(
     """
     speed = float(response.get('wind_avg') or 0.0)
     if response.get('wind_avg') is None:
-        wl.logger.info(f'Station[{station_id}]: Station has no speed parameter!')
+        wl.logger.info(f'[wind_speed_excess]'
+                        f' Station[{station_id}]: Station has no speed parameter!')
 
     direction = float(response.get('wind_direction') or 0.0)
     if response.get('wind_direction') is None:
-        wl.logger.info(f'Station[{station_id}]: Station has no direction parameter!')
+        wl.logger.info(f'[wind_speed_excess] Station[{station_id}]: Station has no direction parameter!')
 
     temperature = float(response.get('temperature') or 0.0)
     if response.get('temperature') is None:
-        wl.logger.info(f'Station[{station_id}]: Station has no temperature parameter!')
+        wl.logger.info(f'[wind_speed_excess] Station[{station_id}]: Station has no temperature parameter!')
 
     timestamp = response.get('datetime') or datetime.time()
     if response.get('datetime') is None:
-        wl.logger.info(f'Station[{station_id}]: Station has no timestamp parameter!')
+        wl.logger.info(f'[wind_speed_excess] Station[{station_id}]: Station has no timestamp parameter!')
 
     # Connect to threshold collection and find the lowest threshold
     client, db_instance = db.connect_to_db()
     wind_trigger = db.find_lowest_threshold_for_station(db_instance, station_id)
     client.close()
-    wl.logger.info(f'[{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
+    wl.logger.info(f'[wind_speed_excess] [{time.strftime("%H:%M:%S")}]: Station [{station_id}] = ' +
                    f'Wind: {speed:.1f} m/s, {direction}° and min wind_trigger: {wind_trigger} m/s')
 
     if speed > wind_trigger:
@@ -139,13 +143,13 @@ def wind_speed_excess(
                 )
             return True, 1
 
-        wl.logger.debug(f'Station[{station_id}] - '+
+        wl.logger.debug(f'[wind_speed_excess] Station[{station_id}] - '+
                         f'Email blocked because of counter = {counters_above[station_id]}')
         counters_above[station_id] -= 1
         return True, 2
 
 
-    wl.logger.debug(f'Station[{station_id}]- '+
+    wl.logger.debug(f'[wind_speed_excess] Station[{station_id}]- '+
                     f'Email blocked because of speed < wind_trigger: {speed} < {wind_trigger}')
     if counters_below[station_id] > 0:
         counters_below[station_id] -= 1
@@ -158,14 +162,14 @@ def store_wind_data(data: DataModel):
         db.insert_data(db_instance, data)
         client.close()
     except Exception as ex:
-        wl.logger.error(f'Station[{data.station}] - Error storing data in MongoDB: {ex}')
+        wl.logger.error(f'[store_wind_data] Station[{data.station}] - Error storing data in MongoDB: {ex}')
 
 def fetch_email_addresses_for_station(
         station_id: int,
         current_wind_speed: float,
         db_name="Windseeker") -> list:
     email_list = []
-    wl.logger.debug(f'Station[{station_id}] - Fetching email addresses...')
+    wl.logger.debug(f'[fetch_email_addresses_for_station] Station[{station_id}] - Fetching email addresses...')
     try:
         client, db_instance = db.connect_to_db(db_name=db_name)
         username_list = db.find_all_usernames_for_threshold_station(
@@ -176,46 +180,50 @@ def fetch_email_addresses_for_station(
         for username in username_list:
             user = db.find_user_by_username(db_instance, username[0])
             if not user:
-                wl.logger.debug(f'Station[{station_id}] - User [{username}] not found')
+                wl.logger.debug(f'[fetch_email_addresses_for_station] Station[{station_id}] - User [{username}] not found')
             else:
-                email_list.append(user.email)
+                email_list.append((str(user.id), user.email))
     except Exception as ex:
-        wl.logger.error(f'Station[{station_id}] - Error fetching email addresses: {ex}')
+        wl.logger.error(f'[fetch_email_addresses_for_station] Station[{station_id}] - Error fetching email addresses: {ex}')
     client.close()
     return email_list
 
 def send_email(subject: str, station_id: int, current_wind_speed: float):
-    mail_list = fetch_email_addresses_for_station(station_id, current_wind_speed)
+    recipient_list = fetch_email_addresses_for_station(station_id, current_wind_speed)
     sender_email = "elbeato.furrer@gmail.com"
     app_password = config.get_config_value("GOOGLE_APP_PASSWORD")
+    api_host = config.get_config_value("API_HOST")
 
-    if not mail_list:
-        wl.logger.warning(f'Station[{station_id}] - '+
+    if not recipient_list:
+        wl.logger.warning(f'[send_email] Station[{station_id}] - '+
                           f'No email addresses found for station {station_id}')
         return
     client, db_instance = db.connect_to_db()
     station = db.find_station_id(db_instance, station_id)
-    client.close()
-    body = f'The wind speed of the station {station[0]["name"]} is above its limit value. '
+    base_body = f'The wind speed of the station {station[0]["name"]} is above its limit value. '
 
-    msg = MIMEMultipart()
-    msg["From"] = sender_email
-    msg["To"] = ", ".join(mail_list)
-    msg["Subject"] = f'{station[0]["name"]}: ' + subject
-    msg.attach(MIMEText(body, "plain"))
-
-    #context = ssl.create_default_context()
-    # pylint: disable=W0212
     context = ssl._create_unverified_context()
 
-    try:
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-            server.login(sender_email, app_password)
-            server.sendmail(sender_email, ", ".join(mail_list), msg.as_string())
-            wl.logger.info(f'Station[{station_id}] - '+
-                           f'Email sent successfully to [{", ".join(mail_list)}]')
-    except Exception as ex:
-        wl.logger.error(f'Station[{station_id}] - Failed to send email: {ex}')
+    for user_id, email in recipient_list:
+        token = db.create_unsubscribe_token(db_instance, user_id, station_id)
+        unsubscribe_link = f"{api_host}/api/auth/me/subscription?unsubscribe_token={token}"
+        body = f"{base_body}\n\n---\nUnsubscribe from these alerts: {unsubscribe_link}"
+
+        msg = MIMEMultipart()
+        msg["From"] = sender_email
+        msg["To"] = email
+        msg["Subject"] = f'{station[0]["name"]}: ' + subject
+        msg.attach(MIMEText(body, "plain"))
+
+        try:
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+                server.login(sender_email, app_password)
+                server.sendmail(sender_email, email, msg.as_string())
+                wl.logger.info(f'[send_email] Station[{station_id}] - Email sent successfully to [{email}]')
+        except Exception as ex:
+            wl.logger.error(f'[send_email] Station[{station_id}] - Failed to send email to [{email}]: {ex}')
+
+    client.close()
 
 def serialize_user(user):
     """Convert MongoDB ObjectId to string and prepare other fields."""

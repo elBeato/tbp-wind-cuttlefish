@@ -50,11 +50,11 @@ if not logger.hasHandlers():
 
     # 🎭 Emojis for log levels
     emoji_map = {
-        'DEBUG': '🐛',
-        'INFO': 'ℹ️',
-        'WARNING': '⚠️',
-        'ERROR': '❌',
-        'CRITICAL': '🔥',
+        'DEBUG': '🐛 ',
+        'INFO': 'ℹ️ ',
+        'WARNING': '⚠️ ',
+        'ERROR': '❌ ',
+        'CRITICAL': '🔥 ',
     }
 
     class EmojiFormatter(colorlog.ColoredFormatter):

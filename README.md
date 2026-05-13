@@ -70,6 +70,25 @@ Warmly wellcome ...
 
 ## Install IDE
 Working with Spyder 6.0 via anaconda
+Working with Visual Studio Code in Terminal (in the main folder tbp-wind-cuttlefish): 
+  - python3 -m app.startup
+  - python3 -m app.api
+
+Import some stations:
+  - python3 -m generators.generator_stations
+
+Hint: Install packages with:
+  - pip3 install xxx
+
+## Connect to mongodb via mongosh
+For test cases and local setup: 
+MongoDb is running inside a docker container without credentials, only name as mongo-ws. 
+```
+  - docker exec -it mongodb mongosh
+  - use Windseeker  // change database
+  - db.Users.drop() // remove a collection
+  - show collections
+  ```
 
 ## Install tests
 Install Run unit test: conda install -c spyder-ide spyder-unittest

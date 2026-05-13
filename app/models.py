@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
-from pydantic import BaseModel, EmailStr, Field
+from typing import Optional
+from pydantic import BaseModel, ConfigDict, EmailStr, Field
 from bson.objectid import ObjectId
 import bcrypt
 
@@ -11,11 +12,14 @@ def hash_password(password: str) -> str:
 class SubscriptionModel(BaseModel):
     """Subscription model class"""
     id: int
-    name: str
+    name: str = ""
 
 class UserModel(BaseModel):
     """User model class"""
-    _id: ObjectId
+    model_config = ConfigDict(populate_by_name=True, arbitrary_types_allowed=True)
+
+    id: Optional[ObjectId] = Field(default=None, alias="_id")
+    notification_channel: Optional[str] = None
     username: str = Field(..., min_length=1, max_length=50)
     password: str
     name: str
@@ -64,3 +68,12 @@ class LoginRequest(BaseModel):
     """Login request model"""
     identifier: str  # username or email
     password: str
+
+
+class UnsubscribeToken(BaseModel):
+    """Unsubscribe token model"""
+    token: str
+    user_id: str
+    station_id: int
+    created_at: datetime
+    used: bool = False
