@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import datetime
 from functools import wraps
-from http import client
 import jwt
 from flask import Flask, jsonify, request
 from flask_cors import CORS

@@ -4,11 +4,10 @@ Created on Mon Feb 24 10:45:13 2025
 
 @author: fub
 """
-from pymongo import MongoClient, errors, ASCENDING
-from bson.objectid import ObjectId
-from rpds import List
 import uuid
 import datetime
+from pymongo import MongoClient, errors, ASCENDING
+from bson.objectid import ObjectId
 from app import configuration as config
 from app import windlogger as wl
 from app.models import UserModel, DataModel, StationModel, ThresholdModel, WindguruStationModel, hash_password
@@ -368,7 +367,6 @@ def update_station_subscribers(database: MongoClient, station_id, identification
             )
     except Exception as ex:
         wl.logging.error(f'Method: update_station_subscribers(client, station, identification): {ex}')
-        return False
 
 
 def create_unsubscribe_token_collection(database: MongoClient):
