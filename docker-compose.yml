@@ -1,9 +1,10 @@
 services:
   subscriber:
     build: .
+    working_dir: /app
     volumes:
       - ./logs/subscriber:/app/logs  # Mount the logs directory as before
-      - ./app/config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
+      - ./config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
       - ./backup:/app/backup  # host:container
     command: python /project-root/app/startup.py # project-root/app/... doesn't work, /project-root/app/... is correct
     environment:

@@ -84,7 +84,8 @@ Hint: Install packages with:
 For test cases and local setup: 
 MongoDb is running inside a docker container without credentials, only name as mongo-ws. 
 ```
-  - docker exec -it mongodb mongosh
+  - docker exec -it mongodb mongosh (ODER)
+  - docker exec -it mongo-ws mongosh -u root -p '<MONGOPASSWORD>' --authenticationDatabase admin 
   - use Windseeker  // change database
   - db.Users.drop() // remove a collection
   - show collections
@@ -97,10 +98,15 @@ Install pytest: conda install pytest.
 Test are using a separate database "windseeker-test"
 
 # Run docker
+.env or .env.prod has to be in the same directory as the docker-compose.yaml
+Project on your Raspberry is stored under home --> user --> project, 
+
+Pull latest status from github repository '/project/tbp-wind-cuttlefish': ``git pull``
+
 Run the docker containers with the following commands
-
 Build: ``docker compose build``
-
 Start: ``docker compose --env-file .env.prod up -d``
-
 Check if all containers are running: ``docker ps``
+
+# Docker YACHT
+Login: admin@yacht.local and my standard PW

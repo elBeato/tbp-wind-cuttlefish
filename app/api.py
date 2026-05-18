@@ -40,7 +40,6 @@ def token_required(f):
 
     return decorated
 
-
 def serialize_user(user):
     """Convert MongoDB ObjectId to string and prepare other fields."""
     user["_id"] = str(user["_id"])  # Convert ObjectId to string
