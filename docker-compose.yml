@@ -41,6 +41,8 @@ services:
     build: .
     volumes:
       - ./logs/windguru-online-stations:/app/logs  # Mount the logs directory as before
+      - ./config.yaml:/app/config.yaml  # Mount config.yaml as a file, not a directory
+      - ./backup:/app/backup  # host:container
     command: python /project-root/app/stations.py
     environment:
       - MONGO_HOST=mongo-ws
